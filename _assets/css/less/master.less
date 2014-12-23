@@ -1,36 +1,45 @@
 @charset "UTF-8";
-@import 'molecules/common_resetCss.less';
-@import 'molecules/less-functions.less';
 
-/*==================================================*/
-/*=============== MOLECULAR STYLES ================*/
+/*=================================================*/
+/*=============== MOLECULAR STYLES ===============*/
 /*===============================================*/
-/* (Common Elements that make up bigger groups elements.) */
 
+@import 'molecules/common.less';
+@import 'molecules/functions.less';
 @import 'molecules/fonts.less';
 @import 'molecules/molecules.less';
 
 /*=================================================*/
 /*================ ORGANIC STYLES ================*/
 /*===============================================*/
-/* (Groups of elements that are used throughout the site.) */
 
 @import 'organisms/header.less';
-@import 'organisms/block-name.less';
 @import 'organisms/footer.less';
+@import 'organisms/chosen.less';
+@import 'organisms/fancybox.less';
+@import 'organisms/flexslider.less';
+@import 'organisms/isotope.less';
+@import 'organisms/video.less';
 
 /*================================================*/
 /*================  PAGE STYLES  ================*/
 /*==============================================*/
-/* (Styles for pages with elements occuring in ways specific to the page.) */
 
-@import 'pages/home-page.less';
-@import 'pages/secondary-page.less';
-@import 'pages/tertiary-pages.less';
+@import 'pages/activities.less';
+@import 'pages/contact.less';
+@import 'pages/faq.less';
+@import 'pages/fleet.less';
+@import 'pages/index.less';
+@import 'pages/legacy.less';
+@import 'pages/lodges.less';
+@import 'pages/media.less';
+@import 'pages/plan.less';
+@import 'pages/prepare.less';
+@import 'pages/rates.less';
+@import 'pages/staff.less';
 
 /*======================================================*/
 /*================  RESPONSIVE STYLES  ================*/
 /*====================================================*/
-/*Contains ALL responsive code. Must be imported last so that it is the last css read.*/
 
 @import 'responsive.less';

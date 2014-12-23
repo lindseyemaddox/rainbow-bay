@@ -8,8 +8,8 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title><?= IDESIGN_TITLE; ?></title>
-	<meta name="description" content="<?= IDESIGN_DESC; ?>">
+	<title>Alaska's Rainbow Bay Resort</title>
+	<meta name="description" content="Alaska's premiere fishing resort, Rainbow Bay.">
 	
 	<!--[if lt IE 8]>
 	    <p class="browsehappy">You are using an outdated browser. Please <a href="http://browsehappy.com/" target="_blank">upgrade your browser</a> to improve your experience.</p>
@@ -22,6 +22,9 @@
 
 	<!-- Stylesheets -->
 	<link rel="stylesheet" href="/_assets/css/styles.css" media="screen">
+
+	<!-- Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Passion+One:700|Condiment|Source+Sans+Pro:400,300,400italic,600,700' rel='stylesheet' type='text/css'>
 
 	<!-- JavaScript -->
 	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
