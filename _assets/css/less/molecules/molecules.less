@@ -12,28 +12,75 @@ body {
 @white:	#f2f3e4;
 @brown:	#504e3c;
 @green:	#b4aa5e;
+@mint:	#b8c6bc;
 
 
 h1 {
 	.passion;
+	text-transform: uppercase;
+	font-size: 2.6666666666666665em;
+	color: @brown;
+	text-align: center;
+	padding: 62px 0 15px;
 }
 h2 {
 	.passion;
+	text-align: center;
+	font-size: 2.6666666666666665em;
+	text-transform: uppercase;
+	color: @brown;
+	padding-bottom: 17px;
+	&.alt {
+		color: #fff;
+	}
+	&.multiple {
+		padding-top: 55px;
+	}
 }
 h3 {
-
+	.ssp-light;
+	font-size: 1.3333333333333333em;
+	line-height: 1.25em;
+	color: @brown;
+	padding-bottom: 65px;
+	&.alt {
+		line-height: 5em;
+		color: #fff;
+		text-align: center;
+		padding-bottom: 0;
+	}
 }
 h4 {
-
+	color: #fff;
+	.passion;
+	font-size: 2em;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 0.6944444444444444em;
+	padding: 20px 0 26px;
+	border-bottom: 1px solid #fff;
 }
 h5 {
-
+	.passion;
+	font-size: 3em;
+	color: @brown;
+	text-align: center;
+	padding-top: 26px;
+	text-transform: uppercase;
+	line-height: .8em;
 }
 h6 {
-
+	.ssp-semibold;
+	font-size: 1.3333333333333333em;
+	color: @brown;
+	text-transform: uppercase;
 }
 p {
 	padding-bottom: 20px;
+	.ssp-light;
+	font-size: 1em;
+	color: @brown;
+	line-height: 1.3em;
 }
 a {
 	&:hover {
@@ -46,7 +93,48 @@ ul {
 	}
 }
 
-button {
-
+button.print {
+	font-size: 0.7777777777777777em;
+	color: @brown;
+	float: right;
 }
+
+table {
+	width: 100%;
+	margin-bottom: 10px;
+	tr {
+		td {
+			.ssp-semibold;
+			font-size: 1.1111111111111112em;
+			color: @brown;
+			line-height: 1.3em;
+			text-transform: uppercase;
+			padding: 10px 20px;
+			border: 1px solid @brown;
+			text-align: center;
+			a {
+				color: @brown;
+				text-decoration: none;
+				&:hover {
+					color: @green;
+				}
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

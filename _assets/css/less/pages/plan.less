@@ -1,0 +1,67 @@
+.left {
+	display: inline-block;
+	width: 45%;
+	margin: 0 5% 0 0;
+	vertical-align: middle;
+	img {
+		width: 100%;
+	}
+}
+.right {
+	display: inline-block;
+	width: 49%;
+	vertical-align: middle;
+}
+
+ul.itinerary {
+	li {
+		border: 1px solid @mint;
+		background: url(/_assets/img/pattern.png) repeat left top transparent;
+		div.desc {
+			vertical-align: middle;
+			width: 81%;
+			display: inline-block;
+			div.fish-icon {
+				width: 26%;
+				display: inline-block;
+				padding: 5%;
+				vertical-align: middle;
+				.icon-fish {
+					font-size: 5em;
+				}
+			}
+			div.schedule {
+				width: 67%;
+				margin-left: 3%;
+				display: inline-block;
+				vertical-align: middle;
+				h6 {
+					padding: 68px 0 10px;
+				}
+				p {
+					font-size: 1.3333333333333333em;
+					color: @brown!important;
+					padding-bottom: 72px;
+				}
+			}
+		}
+		div.icons {
+			border-left: 1px solid @mint;
+			width: 18.5%;
+			display: inline-block;
+			vertical-align: top;
+			div.clock-icon {
+				border-bottom: 1px solid @mint;
+				font-size: 5em;
+				padding: 33px 25% 13px;
+			}
+			div.day-icon {
+				font-size: 5em;
+				padding: 40px 25% 30px;
+			}
+		}
+	}
+	[class^="icon-"], [class*=" icon-"] {
+		color: @mint;
+	}
+}

@@ -1,0 +1,214 @@
+//////////////////// INDEX PAGE STYLES ////////////////////
+
+section.pattern {
+	background: url(/_assets/img/pattern.png) repeat left top transparent;
+	&.headerComp {
+		margin-top: -107px;
+	}
+}
+
+section#bgFixed {
+	background-attachment: fixed;
+	width: 100%;
+	height: 900px;
+	&.subpage {
+		height: auto;
+		padding: 77px 0 65px;
+		p {
+			color: #fff;
+		}
+	}
+	&.mountains {
+		background-image: url(/_assets/img/mountains.jpg);
+	}
+	&.bears {
+		background-image: url(/_assets/img/fixed-bears.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+	&.fish {
+		background-image: url(/_assets/img/fixed-fish.jpg);
+	}
+}
+
+section#testimonials {
+	padding: 100px 0 60px;
+	div.testimonial {
+		display: inline-block;
+		width: 43%;
+		margin: 0 3% 60px;
+		img {
+			display: inline-block;
+			width: 25%;
+			margin-right: 2%;
+			vertical-align: top;
+		}
+		p {
+			.ssp-normal;
+			font-size: 0.7777777777777777em;
+			line-height: 1.2em;
+			color: @brown;
+			display: inline-block;
+			width: 71%;
+		}
+		h6 {
+			.passion;
+			font-size: 1em;
+			color: @green;
+			display: block;
+			width: 100%;
+			text-align: right;
+		}
+	}
+}
+
+section#social {
+	background: url(/_assets/img/pink-salmon.jpg) no-repeat center center transparent;
+	background-size: cover;
+	padding: 180px 0 148px;
+	div.facebook {
+		background-color: @white;
+		padding: 40px 30px 30px;
+		position: relative;
+		&:after {
+			width: 0;
+			height: 0;
+			border-left: 30px solid transparent;
+			border-right: 30px solid transparent;
+			border-top: 20px solid @white;
+			content: "";
+			position: absolute;
+			bottom: -20px;
+			left: 100px;
+		}
+	}
+	div.bottom {
+		margin-top: 40px;
+		a img {
+			display: inline-block;
+			margin: 0 40px;
+			vertical-align: top;
+			&:hover {
+				opacity: .6;
+				.transition;
+			}
+		}
+	}
+}
+
+section#media-section {
+	padding: 124px 0 170px;
+	article.media-item {
+		width: 30%;
+		margin: 0 1%;
+		background-color: @brown;
+		padding: 22px 2%;
+		display: inline-block;
+		vertical-align: top;
+		max-height: 391px;
+		overflow: hidden;
+		span {
+			display: block;
+			margin: 0 auto;
+			color: #fff;
+			width: 36px;
+			font-size: 1.5em;
+			&.icon-play {
+				position: absolute;
+				top: 40%;
+				margin-top: -18px;
+				left: 50%;
+				margin-left: -18px;
+				font-size: 2em;
+			}
+		}
+		p {
+			.ssp-light;
+			font-size: 0.7777777777777777em;
+			line-height: 1.2857142857142856em;
+			color: #fff;
+			text-align: center;
+			padding: 20px 0 0;
+		}
+		a.video-link {
+			position: relative;
+			&:hover {
+				img {
+					opacity: .8;
+				}
+				span {
+					color: @white;
+					.transition;
+				}
+			}
+		}
+		img {
+			width: 100%;
+			margin-top: 20px;
+		}
+		&.article {
+			img {
+				float: left;
+				width: 42%;
+				padding-right: 5%;
+			}
+			p {
+				text-align: left;
+				padding-top: 0;
+				&.author {
+					.ssp-italic;
+					padding-top: 20px;
+				}
+			}
+			a.readmore {
+				display: block;
+				font-size: 1em;
+				line-height: 2.3em;
+				color: #fff;
+				text-decoration: none;
+				text-align: right;
+				.condiment;
+				&:hover {
+					color: @green;
+					.transition;
+				}
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

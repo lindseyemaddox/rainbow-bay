@@ -1,0 +1,6 @@
+.printThis {
+	display: block;
+}
+.dontPrintThis {
+	display: none;
+}
