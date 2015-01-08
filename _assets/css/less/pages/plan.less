@@ -21,13 +21,24 @@ ul.itinerary {
 			vertical-align: middle;
 			width: 81%;
 			display: inline-block;
-			div.fish-icon {
+			div.icon {
 				width: 26%;
 				display: inline-block;
 				padding: 5%;
 				vertical-align: middle;
-				.icon-fish {
+				&.fish {
 					font-size: 5em;
+				}
+				&.plane-arrive, &.plane-depart {
+					font-size: 7.5em;
+					margin-top: 62px;
+				}
+				&.cab {
+					font-size: 6em;
+					margin-top: 70px;
+				}
+				&.lake {
+					font-size: 6em;
 				}
 			}
 			div.schedule {

@@ -2039,14 +2039,26 @@ ul.itinerary li div.desc {
   width: 81%;
   display: inline-block;
 }
-ul.itinerary li div.desc div.fish-icon {
+ul.itinerary li div.desc div.icon {
   width: 26%;
   display: inline-block;
   padding: 5%;
   vertical-align: middle;
 }
-ul.itinerary li div.desc div.fish-icon .icon-fish {
+ul.itinerary li div.desc div.icon.fish {
   font-size: 5em;
+}
+ul.itinerary li div.desc div.icon.plane-arrive,
+ul.itinerary li div.desc div.icon.plane-depart {
+  font-size: 7.5em;
+  margin-top: 62px;
+}
+ul.itinerary li div.desc div.icon.cab {
+  font-size: 6em;
+  margin-top: 70px;
+}
+ul.itinerary li div.desc div.icon.lake {
+  font-size: 6em;
 }
 ul.itinerary li div.desc div.schedule {
   width: 67%;

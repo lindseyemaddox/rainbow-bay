@@ -35,7 +35,87 @@
 
             <li>
               <div class="desc">
-                <div class="fish-icon">
+                <div class="plane-arrive icon">
+                  <span class="icon-plane-arrive"></span>
+                </div><!--fish-icon-->
+                <div class="schedule">
+                  <h6>Friday Night</h6>
+                  <p>Arrive at Anchorage International Airport and take a cab to your hotel for the night. </p>
+                </div><!--schedule-->
+              </div><!--desc-->
+              <div class="icons">
+                <div class="clock-icon">
+                  <span class="icon-clock-5"></span>
+                </div><!--clock-icon-->
+                <div class="day-icon">
+                  <span class="icon-friday"></span>
+                </div><!--day-icon-->
+              </div><!--icons-->
+            </li>
+
+            <li>
+              <div class="desc">
+                <div class="cab icon">
+                  <span class="icon-cab"></span>
+                </div><!--fish-icon-->
+                <div class="schedule">
+                  <h6>Saturday 7:30am</h6>
+                  <p>Take a cab to Merrill Field arriving at the Lake Clark Air office. </p>
+                </div><!--schedule-->
+              </div><!--desc-->
+              <div class="icons">
+                <div class="clock-icon">
+                  <span class="icon-clock-730"></span>
+                </div><!--clock-icon-->
+                <div class="day-icon">
+                  <span class="icon-saturday"></span>
+                </div><!--day-icon-->
+              </div><!--icons-->
+            </li>
+
+            <li>
+              <div class="desc">
+                <div class="plane-depart icon">
+                  <span class="icon-plane-depart"></span>
+                </div><!--fish-icon-->
+                <div class="schedule">
+                  <h6>Saturday 8:30am</h6>
+                  <p>Depart Merrill Field on Lake Clark Air charter.</p>
+                </div><!--schedule-->
+              </div><!--desc-->
+              <div class="icons">
+                <div class="clock-icon">
+                  <span class="icon-clock-830"></span>
+                </div><!--clock-icon-->
+                <div class="day-icon">
+                  <span class="icon-saturday"></span>
+                </div><!--day-icon-->
+              </div><!--icons-->
+            </li>
+
+            <li>
+              <div class="desc">
+                <div class="lake icon">
+                  <span class="icon-lake"></span>
+                </div><!--fish-icon-->
+                <div class="schedule">
+                  <h6>Saturday 9:30am</h6>
+                  <p>Arrive at Pedro Bay on Lake Iliamna where the personnel of Rainbow Bay Resort will meet you, transporting you and your gear to the lodge located just 10 minutes from the airstrip. You will then get settled into your room at the lodge and relax.</p>
+                </div><!--schedule-->
+              </div><!--desc-->
+              <div class="icons">
+                <div class="clock-icon">
+                  <span class="icon-clock-930"></span>
+                </div><!--clock-icon-->
+                <div class="day-icon">
+                  <span class="icon-saturday"></span>
+                </div><!--day-icon-->
+              </div><!--icons-->
+            </li>
+
+            <li>
+              <div class="desc">
+                <div class="fish icon">
                   <span class="icon-fish"></span>
                 </div><!--fish-icon-->
                 <div class="schedule">
@@ -55,17 +135,177 @@
 
             <li>
               <div class="desc">
-                <div class="fish-icon">
+                <div class="fish icon">
                   <span class="icon-fish"></span>
                 </div><!--fish-icon-->
                 <div class="schedule">
-                  <h6>Sunday 8:00am - 6:00pm</h6>
+                  <h6>Monday 8:00am - 6:00pm</h6>
                   <p>Depart on our Something plane to the banks of Somewhere where the Something fish are beautiful and plentiful. Spend the day some kind of fishing off our Something boat only interrupted once by your belly, whilst it digests a shore lunch cooked by your guide.</p>
                 </div><!--schedule-->
               </div><!--desc-->
               <div class="icons">
                 <div class="clock-icon">
                   <span class="icon-clock-8"></span>
+                </div><!--clock-icon-->
+                <div class="day-icon">
+                  <span class="icon-monday"></span>
+                </div><!--day-icon-->
+              </div><!--icons-->
+            </li>
+
+            <li>
+              <div class="desc">
+                <div class="fish icon">
+                  <span class="icon-fish"></span>
+                </div><!--fish-icon-->
+                <div class="schedule">
+                  <h6>Tuesday 8:00am - 6:00pm</h6>
+                  <p>Depart on our Something plane to the banks of Somewhere where the Something fish are beautiful and plentiful. Spend the day some kind of fishing off our Something boat only interrupted once by your belly, whilst it digests a shore lunch cooked by your guide.</p>
+                </div><!--schedule-->
+              </div><!--desc-->
+              <div class="icons">
+                <div class="clock-icon">
+                  <span class="icon-clock-8"></span>
+                </div><!--clock-icon-->
+                <div class="day-icon">
+                  <span class="icon-tuesday"></span>
+                </div><!--day-icon-->
+              </div><!--icons-->
+            </li>
+
+            <li>
+              <div class="desc">
+                <div class="fish icon">
+                  <span class="icon-fish"></span>
+                </div><!--fish-icon-->
+                <div class="schedule">
+                  <h6>Wednesday 8:00am - 6:00pm</h6>
+                  <p>Depart on our Something plane to the banks of Somewhere where the Something fish are beautiful and plentiful. Spend the day some kind of fishing off our Something boat only interrupted once by your belly, whilst it digests a shore lunch cooked by your guide.</p>
+                </div><!--schedule-->
+              </div><!--desc-->
+              <div class="icons">
+                <div class="clock-icon">
+                  <span class="icon-clock-8"></span>
+                </div><!--clock-icon-->
+                <div class="day-icon">
+                  <span class="icon-wednesday"></span>
+                </div><!--day-icon-->
+              </div><!--icons-->
+            </li>
+
+            <li>
+              <div class="desc">
+                <div class="fish icon">
+                  <span class="icon-fish"></span>
+                </div><!--fish-icon-->
+                <div class="schedule">
+                  <h6>Thursday 8:00am - 6:00pm</h6>
+                  <p>Depart on our Something plane to the banks of Somewhere where the Something fish are beautiful and plentiful. Spend the day some kind of fishing off our Something boat only interrupted once by your belly, whilst it digests a shore lunch cooked by your guide.</p>
+                </div><!--schedule-->
+              </div><!--desc-->
+              <div class="icons">
+                <div class="clock-icon">
+                  <span class="icon-clock-8"></span>
+                </div><!--clock-icon-->
+                <div class="day-icon">
+                  <span class="icon-thursday"></span>
+                </div><!--day-icon-->
+              </div><!--icons-->
+            </li>
+
+            <li>
+              <div class="desc">
+                <div class="fish icon">
+                  <span class="icon-fish"></span>
+                </div><!--fish-icon-->
+                <div class="schedule">
+                  <h6>Friday 8:00am - 6:00pm</h6>
+                  <p>Depart on our Something plane to the banks of Somewhere where the Something fish are beautiful and plentiful. Spend the day some kind of fishing off our Something boat only interrupted once by your belly, whilst it digests a shore lunch cooked by your guide.</p>
+                </div><!--schedule-->
+              </div><!--desc-->
+              <div class="icons">
+                <div class="clock-icon">
+                  <span class="icon-clock-8"></span>
+                </div><!--clock-icon-->
+                <div class="day-icon">
+                  <span class="icon-friday"></span>
+                </div><!--day-icon-->
+              </div><!--icons-->
+            </li>
+
+            <li>
+              <div class="desc">
+                <div class="fish icon">
+                  <span class="icon-fish"></span>
+                </div><!--fish-icon-->
+                <div class="schedule">
+                  <h6>Saturday 8:00am - 6:00pm</h6>
+                  <p>Depart on our Something plane to the banks of Somewhere where the Something fish are beautiful and plentiful. Spend the day some kind of fishing off our Something boat only interrupted once by your belly, whilst it digests a shore lunch cooked by your guide.</p>
+                </div><!--schedule-->
+              </div><!--desc-->
+              <div class="icons">
+                <div class="clock-icon">
+                  <span class="icon-clock-8"></span>
+                </div><!--clock-icon-->
+                <div class="day-icon">
+                  <span class="icon-saturday"></span>
+                </div><!--day-icon-->
+              </div><!--icons-->
+            </li>
+
+            <li>
+              <div class="desc">
+                <div class="cab icon">
+                  <span class="icon-cab"></span>
+                </div><!--fish-icon-->
+                <div class="schedule">
+                  <h6>Sunday 7:30am</h6>
+                  <p>Take a cab to Merrill Field arriving at the Lake Clark Air office. </p>
+                </div><!--schedule-->
+              </div><!--desc-->
+              <div class="icons">
+                <div class="clock-icon">
+                  <span class="icon-clock-730"></span>
+                </div><!--clock-icon-->
+                <div class="day-icon">
+                  <span class="icon-sunday"></span>
+                </div><!--day-icon-->
+              </div><!--icons-->
+            </li>
+
+            <li>
+              <div class="desc">
+                <div class="plane-depart icon">
+                  <span class="icon-plane-depart"></span>
+                </div><!--fish-icon-->
+                <div class="schedule">
+                  <h6>Sunday 8:30am</h6>
+                  <p>Depart Merrill Field on Lake Clark Air charter.</p>
+                </div><!--schedule-->
+              </div><!--desc-->
+              <div class="icons">
+                <div class="clock-icon">
+                  <span class="icon-clock-830"></span>
+                </div><!--clock-icon-->
+                <div class="day-icon">
+                  <span class="icon-sunday"></span>
+                </div><!--day-icon-->
+              </div><!--icons-->
+            </li>
+
+            <li>
+              <div class="desc">
+                <div class="plane-arrive icon">
+                  <span class="icon-plane-arrive"></span>
+                </div><!--fish-icon-->
+                <div class="schedule">
+                  <h6>Sunday Night</h6>
+                  <p>Arrive at Anchorage International Airport and take a cab to your hotel for the night. </p>
+                </div><!--schedule-->
+              </div><!--desc-->
+              <div class="icons">
+                <div class="clock-icon">
+                  <span class="icon-clock-5"></span>
                 </div><!--clock-icon-->
                 <div class="day-icon">
                   <span class="icon-sunday"></span>
@@ -154,7 +394,9 @@ function printTable() {
       $('.flexslider').flexslider({
         animation: "slide",
         directionNav: true,
+        controlNav: true,
         pauseOnHover: true,
+        animationLoop: false,
         start: function(slider){
           $('body').removeClass('loading');
         }
