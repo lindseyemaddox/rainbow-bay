@@ -82,6 +82,10 @@ p {
 	color: @brown;
 	line-height: 1.3em;
 }
+.italic {
+	.ssp-italic;
+}
+
 a {
 	&:hover {
 		.transition;
@@ -112,6 +116,7 @@ table {
 			padding: 10px 20px;
 			border: 1px solid @brown;
 			text-align: center;
+			vertical-align: middle;
 			a {
 				color: @brown;
 				text-decoration: none;
@@ -119,10 +124,48 @@ table {
 					color: @green;
 				}
 			}
+			&.no-padding {
+				padding: 0;
+			}
+			&.table-left {
+				width: 43%;
+				padding: 10px 50px;
+			}
+		}
+	}
+	&.dark {
+		background-color: @white;
+	}
+	&.pad {
+		margin-top: 30px;
+		clear: right;
+		&.pad-more {
+			margin-top: 70px;
+		}
+	}
+	table {
+		tr {
+			font-size: 0.8888888888888888em;
+			.ssp-semibold;
+			td {
+				text-transform: none;
+				padding: 5px 10px;
+			}
+			&:first-child td {
+				border-top: none;
+			}
+			&:last-child td {
+				border-bottom: none;
+			}
+			td:first-child {
+				border-left: none;
+			}
+			td:last-child {
+				border-right: none;
+			}
 		}
 	}
 }
-
 
 
 

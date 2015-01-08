@@ -585,6 +585,11 @@ p {
   color: #504e3c;
   line-height: 1.3em;
 }
+.italic {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
 a:hover {
   -webkit-transition: all 400ms ease;
   -moz-transition: all 400ms ease;
@@ -611,6 +616,7 @@ table tr td {
   padding: 10px 20px;
   border: 1px solid #504e3c;
   text-align: center;
+  vertical-align: middle;
 }
 table tr td a {
   color: #504e3c;
@@ -618,6 +624,44 @@ table tr td a {
 }
 table tr td a:hover {
   color: #b4aa5e;
+}
+table tr td.no-padding {
+  padding: 0;
+}
+table tr td.table-left {
+  width: 43%;
+  padding: 10px 50px;
+}
+table.dark {
+  background-color: #f2f3e4;
+}
+table.pad {
+  margin-top: 30px;
+  clear: right;
+}
+table.pad.pad-more {
+  margin-top: 70px;
+}
+table table tr {
+  font-size: 0.8888888888888888em;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+}
+table table tr td {
+  text-transform: none;
+  padding: 5px 10px;
+}
+table table tr:first-child td {
+  border-top: none;
+}
+table table tr:last-child td {
+  border-bottom: none;
+}
+table table tr td:first-child {
+  border-left: none;
+}
+table table tr td:last-child {
+  border-right: none;
 }
 /*=================================================*/
 /*================ ORGANIC STYLES ================*/
@@ -1861,6 +1905,9 @@ section#bgFixed.bears {
 section#bgFixed.fish {
   background-image: url(/_assets/img/fixed-fish.jpg);
 }
+section#bgFixed.plane {
+  background-image: url(/_assets/img/fixed-plane.jpg);
+}
 section#testimonials {
   padding: 100px 0 60px;
 }
@@ -2025,6 +2072,10 @@ section#media-section article.media-item.article a.readmore:hover {
 .left img {
   width: 100%;
 }
+.left.fisherman {
+  width: 25%;
+  margin: 0 15% 0 10%;
+}
 .right {
   display: inline-block;
   width: 49%;
@@ -2092,6 +2143,17 @@ ul.itinerary li div.icons div.day-icon {
 ul.itinerary [class^="icon-"],
 ul.itinerary [class*=" icon-"] {
   color: #b8c6bc;
+}
+p.table-header {
+  text-transform: uppercase;
+  font-size: 1.3333333333333333em;
+  color: #504e3c;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+}
+p.table-body {
+  text-transform: none;
 }
 /*======================================================*/
 /*================  RESPONSIVE STYLES  ================*/
