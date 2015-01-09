@@ -1,0 +1,35 @@
+section#faq {
+	padding: 100px 0 60px;
+	p.faquestion {
+		cursor: pointer;
+		.ssp-bold;
+		font-size: 1.2em;
+		text-transform: uppercase;
+		line-height: 1em;
+		span {
+			color: @green;
+			font-size: 1.5em;
+			vertical-align: middle;
+		}
+		&:hover {
+			color: @green;
+			.transition;
+		}
+	}
+	p.faqanswer {
+		display: none;
+		padding: 0 0 40px 40px;
+		&.show {
+			display: block;
+			.transition();
+		}
+		a {
+			color: @green;
+			text-decoration: none;
+			&:hover {
+				color: @mint;
+				.transition;
+			}
+		}
+	}
+}

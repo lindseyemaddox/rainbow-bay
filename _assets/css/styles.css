@@ -509,8 +509,6 @@ html {
 }
 body {
   -webkit-font-smoothing: antialiased;
-  min-width: 1300px;
-  margin: 0 auto;
 }
 .inner {
   max-width: 1000px;
@@ -1896,6 +1894,54 @@ section#species article div.description p {
   padding: 0.5em;
   margin: 10px 0;
 }
+section#faq {
+  padding: 100px 0 60px;
+}
+section#faq p.faquestion {
+  cursor: pointer;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  line-height: 1em;
+}
+section#faq p.faquestion span {
+  color: #b4aa5e;
+  font-size: 1.5em;
+  vertical-align: middle;
+}
+section#faq p.faquestion:hover {
+  color: #b4aa5e;
+  -webkit-transition: all 400ms ease;
+  -moz-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+  -ms-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+section#faq p.faqanswer {
+  display: none;
+  padding: 0 0 40px 40px;
+}
+section#faq p.faqanswer.show {
+  display: block;
+  -webkit-transition: all 400ms ease;
+  -moz-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+  -ms-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+section#faq p.faqanswer a {
+  color: #b4aa5e;
+  text-decoration: none;
+}
+section#faq p.faqanswer a:hover {
+  color: #b8c6bc;
+  -webkit-transition: all 400ms ease;
+  -moz-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+  -ms-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
 section.pattern {
   background: url(/_assets/img/pattern.png) repeat left top transparent;
 }
@@ -2077,10 +2123,10 @@ img.lodge-logo {
 img.lodge-logo.second-logo {
   margin-top: 100px;
 }
-ul.slides li img {
+.lodge ul.slides li img {
   border: 4px solid #fff;
 }
-ul.slides li h3 {
+.lodge ul.slides li h3 {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 400;
   font-size: 0.7777777777777777em;
@@ -2088,6 +2134,43 @@ ul.slides li h3 {
   color: #fff;
   text-align: center;
   padding: 10px 20px;
+}
+.lodge .flex-direction-nav a {
+  top: 25%;
+}
+#rates {
+  background: url(/_assets/img/rates.jpg) no-repeat center center transparent;
+  background-size: cover;
+  padding-bottom: 30px;
+}
+#rates h1 {
+  color: #fff;
+  letter-spacing: 10px;
+}
+#rates h3 {
+  color: #fff;
+  font-size: 2em;
+  text-align: center;
+}
+#rates h6 {
+  color: #fff;
+  text-align: center;
+  text-decoration: underline;
+  padding-bottom: 15px;
+}
+#rates p {
+  color: #fff;
+  text-align: center;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: .8em;
+}
+#rates article.column {
+  display: inline-block;
+  vertical-align: top;
+  width: 40%;
+  margin: 0 4.5%;
 }
 .left {
   display: inline-block;

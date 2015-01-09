@@ -26,7 +26,7 @@
 
     <img class="lodge-logo" src="/_assets/img/logo-eagles-peak.png" alt="Eagle's Peak lodge logo">
 
-    <p>Rainbow Bay Resort Lodge is one of the most luxurious, yet rustic, lodges in Alaska. Situated on the remote shores of Lake Iliamna, we offer a quiet serenity and fantastic fishing seldom found anywhere.  Each bedroom is spaciously furnished with two queen size beds and a private bath for your comfort and convenience.  The Lodge is constructed with logs and the interior is covered with cedar. You will spend your evenings in the spacious lounging area and while you re-live your days fishing adventures, you will enjoy your favorite beverage and hors d'oeuvres before setting down to a sumptuously prepared meal. <a href="/rates" class="fancybox fancybox.iframe readmore">View rates</a></p>
+    <p>Rainbow Bay Resort Lodge is one of the most luxurious, yet rustic, lodges in Alaska. Situated on the remote shores of Lake Iliamna, we offer a quiet serenity and fantastic fishing seldom found anywhere.  Each bedroom is spaciously furnished with two queen size beds and a private bath for your comfort and convenience.  The Lodge is constructed with logs and the interior is covered with cedar. You will spend your evenings in the spacious lounging area and while you re-live your days fishing adventures, you will enjoy your favorite beverage and hors d'oeuvres before setting down to a sumptuously prepared meal. <a href="/lightboxes/rates" class="fancybox fancybox.iframe readmore">View rates</a></p>
 
     <div class="slider">
     
@@ -72,7 +72,7 @@
 
     <img class="lodge-logo second-logo" src="/_assets/img/logo-angry-eagle.png" alt="Angry Eagle lodge logo">
 
-    <p>Rainbow Bay Resort Lodge is one of the most luxurious, yet rustic, lodges in Alaska. Situated on the remote shores of Lake Iliamna, we offer a quiet serenity and fantastic fishing seldom found anywhere.  Each bedroom is spaciously furnished with two queen size beds and a private bath for your comfort and convenience.  The Lodge is constructed with logs and the interior is covered with cedar. <a href="/rates" class="fancybox fancybox.iframe readmore">View rates</a></p>
+    <p>Rainbow Bay Resort Lodge is one of the most luxurious, yet rustic, lodges in Alaska. Situated on the remote shores of Lake Iliamna, we offer a quiet serenity and fantastic fishing seldom found anywhere.  Each bedroom is spaciously furnished with two queen size beds and a private bath for your comfort and convenience.  The Lodge is constructed with logs and the interior is covered with cedar. <a href="/lightboxes/rates" class="fancybox fancybox.iframe readmore">View rates</a></p>
 
     <div class="slider">
     
