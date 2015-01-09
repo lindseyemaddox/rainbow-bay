@@ -641,6 +641,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_assets\/img\/fixed-lodge.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 894879,
+		"inputAbbreviatedPath": "\/_assets\/img\/fixed-lodge.jpg",
+		"outputAbbreviatedPath": "\/_assets\/img\/fixed-lodge.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_assets\/img\/fixed-plane.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -681,6 +692,61 @@
 		"initialSize": 49486,
 		"inputAbbreviatedPath": "\/_assets\/img\/inset-moose.jpg",
 		"outputAbbreviatedPath": "\/_assets\/img\/inset-moose.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/lodges-bedroom.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 282151,
+		"inputAbbreviatedPath": "\/_assets\/img\/lodges-bedroom.jpg",
+		"outputAbbreviatedPath": "\/_assets\/img\/lodges-bedroom.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/lodges-dining.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 134427,
+		"inputAbbreviatedPath": "\/_assets\/img\/lodges-dining.jpg",
+		"outputAbbreviatedPath": "\/_assets\/img\/lodges-dining.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/lodges-overhead.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 346375,
+		"inputAbbreviatedPath": "\/_assets\/img\/lodges-overhead.jpg",
+		"outputAbbreviatedPath": "\/_assets\/img\/lodges-overhead.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/logo-angry-eagle.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28183,
+		"inputAbbreviatedPath": "\/_assets\/img\/logo-angry-eagle.png",
+		"outputAbbreviatedPath": "\/_assets\/img\/logo-angry-eagle.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/logo-eagles-peak.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14024,
+		"inputAbbreviatedPath": "\/_assets\/img\/logo-eagles-peak.png",
+		"outputAbbreviatedPath": "\/_assets\/img\/logo-eagles-peak.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1139,6 +1205,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/lodges.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/lodges.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
