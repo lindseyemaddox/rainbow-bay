@@ -1,8 +1,5 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/common.php'); //php framework and meta?>
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/head.php'); // HTTP head?>
-<script type="text/javascript" src="/_assets/js/jquery.isotope.min.js"></script>
-<script type="text/javascript" src="/_assets/js/media.js"></script>
-<link rel="stylesheet" type="text/css" media="print" href="/_assets/css/print.css" />
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/navigation.php'); //navigation?>
 
 <header>
@@ -15,7 +12,7 @@
 
     <div class="inner">
 
-        <h2>Media</h2>
+        <h2>Our Fleet</h2>
 
         <p>The weather during the summer in the Bristol Bay area of southwest Alaska can vary from a warm sunny 75 degrees to a cool rainy 45 degree day. This area is not far from the Bering Sea and Cook Inlet and as the old saying goes, “if you don’t like the weather just wait a few minutes.” Layer your clothes so that you can add or subtract layers as the weather changes. You will want to bring a light backpack with you daily with your rain gear and possibly a wool sweater to ensure your comfort while in the field. Drag the slider to the left to reveal the packing list.</p>
 
@@ -23,91 +20,71 @@
 
 </section><!--pattern-->
 
-<section id="bgFixed" class="subpage media">
+<section id="bgFixed" class="subpage fleet">
 
 	<div class="inner">
 
-        <aside>
+    <article class="fleet-item">
+      
+      <span class="icon-net"></span>
 
-            <div class="aside-inner">
+      <h4>DeHavilland Beaver</h4>
 
-                <div id="options" class="clearfix">
-                
-                    <ul id="filters" class="option-set clearfix" data-option-key="filter">
-                        <li><a href="#filter" data-option-value="*" class="selected showall">Show All</a></li>
-                        <li class="heading">Filter By</li>
-                        <li><a href="#filter" data-option-value=".news">News</a></li>
-                        <li><a href="#filter" data-option-value=".article">Articles</a></li>
-                        <li><a href="#filter" data-option-value=".story">Stories</a></li>
-                        <li><a href="#filter" data-option-value=".video">Videos</a></li>
-                        <li><a href="#filter" data-option-value=".printable">Printables</a></li>
-                        <li><a href="#filter" data-option-value=".photo">Photos</a></li>
-                        <li class="heading">Photo Topic</li>
-                        <li><a href="#filter" data-option-value=".wildlife">Wildlife</a></li>
-                        <li><a href="#filter" data-option-value=".fish">Fish</a></li>
-                        <li><a href="#filter" data-option-value=".scenery">Scenery</a></li>
-                        <li><a href="#filter" data-option-value=".hiking">Hiking</a></li>
-                    </ul>
-                
-                </div>
+      <p>We also do tours to Brooks Falls in Katmai National Park for bear viewing and to Twin Lakes in Lake Clark National Park to visit Richard Proenneke’s famous homestead featured in PBS’ “One Man’s Wilderness.” television show.</p>
 
-            </div><!--aside-inner-->
+    </article><!--fleet-item-->
 
-        </aside>
+    <article class="fleet-item">
+      
+      <span class="icon-net"></span>
 
-        <div id="container" class="clearfix">
-                
-            <article class="media-item video">
-              
-              <span class="icon-video"></span>
+      <h4>Cessna <br />185</h4>
 
-              <h4>trout in the something bay</h4>
+      <p>We also do tours to Brooks Falls in Katmai National Park for bear viewing and to Twin Lakes in Lake Clark National Park to visit Richard Proenneke’s famous homestead featured in PBS’ “One Man’s Wilderness.” television show.</p>
 
-              <p>Video description slkdfj sodijfeowih aklsdnf as;ldf oweif a;sd kfawpoe a;sfn s;ofa awoeihfa</p>
+    </article><!--fleet-item-->
 
-              <a href="/media/video-trout" class="video-link fancybox fancybox.iframe"><span class="icon-play"></span><img src="/_assets/img/video-trout.jpg" alt="Trout video"></a>
+    <article class="fleet-item">
+      
+      <span class="icon-net"></span>
 
-            </article><!--media-item-->
+      <h4>Kingfisher Habercraft</h4>
 
-            <article class="media-item photo fish">
-              
-              <span class="icon-photo"></span>
+      <p>We also do tours to Brooks Falls in Katmai National Park for bear viewing and to Twin Lakes in Lake Clark National Park to visit Richard Proenneke’s famous homestead featured in PBS’ “One Man’s Wilderness.” television show.</p>
 
-              <h4>casting on a <br />warm day</h4>
+    </article><!--fleet-item-->
 
-              <a href="/media/photo-casting" class="link fancybox fancybox.iframe"><img src="/_assets/img/photo-casting.jpg" alt="Woman casting fishing line on the Illiamna River on a warm day"></a>
+    <article class="fleet-item">
+      
+      <span class="icon-net"></span>
 
-            </article><!--media-item-->
+      <h4>G-3 <br />jet boat</h4>
 
-            <article class="media-item article">
-              
-              <span class="icon-article"></span>
+      <p>We also do tours to Brooks Falls in Katmai National Park for bear viewing and to Twin Lakes in Lake Clark National Park to visit Richard Proenneke’s famous homestead featured in PBS’ “One Man’s Wilderness.” television show.</p>
 
-              <h4>a long trip up-river</h4>
+    </article><!--fleet-item-->
 
-              <a href="/media/article-up-river" class="fancybox fancybox.iframe"><img src="/_assets/img/article-bear.jpg" alt="close-up of bear on Illiamna Lake"></a>
+    <article class="fleet-item">
+      
+      <span class="icon-net"></span>
 
-              <p class="author">by Jim Kern, GM</p>
+      <h4>John Deere Gator</h4>
 
-              <p>Article doiafoa efoaiehf a sdlfoaieh fanf aoeifh a dslvaoief sldkn aowiehf a lsdkcn faoeishr ldknfaoweia sdlknf aoseir alsdkfn aoeifha lsdknfaoweif sldknf a Article doiafoa efoaiehf asdlfoaieh fanf aoeifh adslvaoief sldkn aowiehf alsdkcn faoeishr asldknfaoweia sdlknf aoseir alsdkfn aoeifha lsdknfaoweif sldknf a Article doiafoa efoaiehf asdlfoaieh fanf aoeifh adslvaoief sldkn aowiehf alsdkcn faoeishr asldknfaoweia sdlknf aoseir alsdkfn aoeifha lsdknfaoweif</p>
+      <p>We also do tours to Brooks Falls in Katmai National Park for bear viewing and to Twin Lakes in Lake Clark National Park to visit Richard Proenneke’s famous homestead featured in PBS’ “One Man’s Wilderness.” television show.</p>
 
-              <a href="/media/article-bear" class="fancybox fancybox.iframe readmore">read more</a>
+    </article><!--fleet-item-->
 
-            </article><!--media-item-->
+    <article class="fleet-item">
+      
+      <span class="icon-net"></span>
 
-            <article class="media-item printable">
-              
-              <span class="icon-news"></span>
+      <h4>Kubota <br />1140</h4>
 
-              <h4>2015 <br/>Brochure</h4>
+      <p>We also do tours to Brooks Falls in Katmai National Park for bear viewing and to Twin Lakes in Lake Clark National Park to visit Richard Proenneke’s famous homestead featured in PBS’ “One Man’s Wilderness.” television show.</p>
 
-              <a href="/lightboxes/brochure" class="fancybox fancybox.iframe"><img src="/_assets/img/brochure.jpg" alt="2015 Rainbow Bay printable brochure"></a>
+    </article><!--fleet-item-->
 
-            </article><!--media-item-->
-
-        </div><!--container-->
-
-        <div class="clearfix"></div>
+    <div class="clearfix"></div>
 
 	</div><!--inner-->
 

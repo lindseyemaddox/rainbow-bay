@@ -1942,6 +1942,81 @@ section#faq p.faqanswer a:hover {
   -ms-transition: all 400ms ease;
   transition: all 400ms ease;
 }
+section.fleet {
+  padding: 124px 0 170px;
+}
+section.fleet article.fleet-item {
+  width: 30%;
+  margin: 0 1% 20px;
+  background: url(/_assets/img/pattern.png) repeat left top transparent;
+  padding: 35px 2%;
+  display: inline-block;
+  vertical-align: top;
+  max-height: 391px;
+  min-height: 391px;
+  overflow: hidden;
+}
+section.fleet article.fleet-item span {
+  display: block;
+  margin: 0 auto;
+  color: #504e3c !important;
+  width: 70%;
+  font-size: 5em;
+}
+section.fleet article.fleet-item span.icon-play {
+  position: absolute;
+  top: 40%;
+  margin-top: -18px;
+  left: 50%;
+  margin-left: -18px;
+  font-size: 2em;
+}
+section.fleet article.fleet-item h4 {
+  color: #504e3c;
+  border-bottom-color: #504e3c;
+}
+section.fleet article.fleet-item p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  font-size: 0.7777777777777777em;
+  line-height: 1.2857142857142856em;
+  color: #504e3c !important;
+  text-align: center;
+  padding: 30px 0 0;
+}
+section.fleet article.fleet-item a.video-link {
+  position: relative;
+}
+section.fleet article.fleet-item a.video-link:hover img {
+  opacity: .8;
+}
+section.fleet article.fleet-item a.video-link:hover span {
+  color: #f2f3e4;
+  -webkit-transition: all 400ms ease;
+  -moz-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+  -ms-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+section.fleet article.fleet-item img {
+  width: 100%;
+  margin-top: 20px;
+}
+section.fleet article.fleet-item.article img {
+  float: left;
+  width: 42%;
+  padding-right: 5%;
+}
+section.fleet article.fleet-item.article p {
+  text-align: left;
+  padding-top: 0;
+}
+section.fleet article.fleet-item.article p.author {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  padding-top: 20px;
+}
 section.pattern {
   background: url(/_assets/img/pattern.png) repeat left top transparent;
 }
@@ -1978,6 +2053,9 @@ section#bgFixed.plane {
 section#bgFixed.lodge {
   background-image: url(/_assets/img/fixed-lodge.jpg);
   background-position: center;
+}
+section#bgFixed.fleet {
+  background-image: url(/_assets/img/fixed-fleet.jpg);
 }
 section#testimonials {
   padding: 100px 0 60px;
@@ -2140,40 +2218,6 @@ img.lodge-logo.second-logo {
 .lodge .flex-direction-nav a {
   top: 25%;
 }
-#rates {
-  background: url(/_assets/img/rates.jpg) no-repeat center center transparent;
-  background-size: cover;
-  padding-bottom: 30px;
-}
-#rates h1 {
-  color: #fff;
-  letter-spacing: 10px;
-}
-#rates h3 {
-  color: #fff;
-  font-size: 2em;
-  text-align: center;
-}
-#rates h6 {
-  color: #fff;
-  text-align: center;
-  text-decoration: underline;
-  padding-bottom: 15px;
-}
-#rates p {
-  color: #fff;
-  text-align: center;
-  padding-bottom: 10px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-size: .8em;
-}
-#rates article.column {
-  display: inline-block;
-  vertical-align: top;
-  width: 40%;
-  margin: 0 4.5%;
-}
 section.media aside {
   background: url(/_assets/img/pattern.png) repeat left top transparent;
   width: 213px;
@@ -2181,6 +2225,9 @@ section.media aside {
   padding: 20px;
   display: inline-block;
   position: relative;
+}
+section.media aside #options {
+  width: 213px;
 }
 section.media aside ul {
   padding-top: 10px;
@@ -2387,6 +2434,44 @@ p.table-header {
 }
 p.table-body {
   text-transform: none;
+}
+#rates {
+  background: url(/_assets/img/rates.jpg) no-repeat center center transparent;
+  background-size: cover;
+  padding-bottom: 30px;
+}
+#rates h1 {
+  color: #fff;
+  letter-spacing: 10px;
+}
+#rates h3 {
+  color: #fff;
+  font-size: 2em;
+  text-align: center;
+}
+#rates h6 {
+  color: #fff;
+  text-align: center;
+  text-decoration: underline;
+  padding-bottom: 15px;
+}
+#rates p {
+  color: #fff;
+  text-align: center;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: .8em;
+}
+#rates article.column {
+  display: inline-block;
+  vertical-align: top;
+  width: 40%;
+  margin: 0 4.5%;
+}
+#safety-information {
+  background: url(/_assets/img/pattern.png) repeat left top transparent;
+  padding: 0px 60px 60px;
 }
 /*======================================================*/
 /*================  RESPONSIVE STYLES  ================*/

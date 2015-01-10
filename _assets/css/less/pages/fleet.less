@@ -1,0 +1,72 @@
+section.fleet {
+	padding: 124px 0 170px;
+	article.fleet-item {
+		width: 30%;
+		margin: 0 1% 20px;
+		background: url(/_assets/img/pattern.png) repeat left top transparent;
+		padding: 35px 2%;
+		display: inline-block;
+		vertical-align: top;
+		max-height: 391px;
+		min-height: 391px;
+		overflow: hidden;
+		span {
+			display: block;
+			margin: 0 auto;
+			color: @brown!important;
+			width: 70%;
+			font-size: 5em;
+			&.icon-play {
+				position: absolute;
+				top: 40%;
+				margin-top: -18px;
+				left: 50%;
+				margin-left: -18px;
+				font-size: 2em;
+			}
+		}
+		h4 {
+			color: @brown;
+			border-bottom-color: @brown;
+		}
+		p {
+			.ssp-light;
+			font-size: 0.7777777777777777em;
+			line-height: 1.2857142857142856em;
+			color: @brown!important;
+			text-align: center;
+			padding: 30px 0 0;
+		}
+		a.video-link {
+			position: relative;
+			&:hover {
+				img {
+					opacity: .8;
+				}
+				span {
+					color: @white;
+					.transition;
+				}
+			}
+		}
+		img {
+			width: 100%;
+			margin-top: 20px;
+		}
+		&.article {
+			img {
+				float: left;
+				width: 42%;
+				padding-right: 5%;
+			}
+			p {
+				text-align: left;
+				padding-top: 0;
+				&.author {
+					.ssp-italic;
+					padding-top: 20px;
+				}
+			}
+		}
+	}
+}

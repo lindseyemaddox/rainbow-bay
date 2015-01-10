@@ -203,11 +203,4 @@ function printTable() {
 }
 </script>
 
-<script type="text/javascript">
-  $(document).ready(function() {
-    $('.fancybox').fancybox();
-  });
-</script>
-<script src="/_assets/js/jquery.fancybox.js"></script>
-
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/footer.php'); // footer, close body and html?>
