@@ -2057,6 +2057,9 @@ section#bgFixed.lodge {
 section#bgFixed.fleet {
   background-image: url(/_assets/img/fixed-fleet.jpg);
 }
+section#bgFixed.staff {
+  background-image: url(/_assets/img/fixed-fish2.jpg);
+}
 section#testimonials {
   padding: 100px 0 60px;
 }
@@ -2472,6 +2475,58 @@ p.table-body {
 #safety-information {
   background: url(/_assets/img/pattern.png) repeat left top transparent;
   padding: 0px 60px 60px;
+}
+section.staff {
+  padding: 124px 0 170px;
+}
+section.staff a.staff-item {
+  width: 30%;
+  margin: 0 1% 20px;
+  background: url(/_assets/img/pattern.png) repeat left top transparent;
+  padding: 35px 2%;
+  display: inline-block;
+  vertical-align: top;
+  max-height: 425px;
+  min-height: 425px;
+  overflow: hidden;
+  text-decoration: none;
+}
+section.staff a.staff-item span {
+  display: block;
+  margin: 0 auto;
+  color: #b8c6bc;
+  width: 30px;
+  font-size: 2em;
+}
+section.staff a.staff-item h4 {
+  color: #504e3c;
+  border-bottom-color: #b8c6bc;
+}
+section.staff a.staff-item img {
+  width: 100%;
+  margin-top: 20px;
+}
+#bio {
+  background: url(/_assets/img/pattern-dark.png) repeat left top transparent;
+  padding: 0 30px 30px;
+}
+#bio h1 {
+  color: #fff;
+}
+#bio h2 {
+  color: #fff;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  letter-spacing: 2px;
+  font-size: 1.3em;
+}
+#bio p {
+  color: #fff;
+}
+#bio img {
+  width: 29%;
+  float: left;
+  padding: 5px 20px 10px 0;
 }
 /*======================================================*/
 /*================  RESPONSIVE STYLES  ================*/
