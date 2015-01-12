@@ -198,11 +198,6 @@ textarea {
   vertical-align: top;
   resize: vertical;
 }
-/* Colors for form validity */
-input:invalid,
-textarea:invalid {
-  background-color: #f0dddd;
-}
 /*
  * Correct overflow not hidden in IE9
  */
@@ -724,12 +719,16 @@ nav ul li:last-child {
 nav ul li.logo {
   margin-top: -20px;
 }
+nav ul li.logo a:hover {
+  border-bottom: none;
+}
 nav ul li a {
   text-decoration: none;
   color: #fff;
 }
 nav ul li a:hover {
   border-bottom: 1px solid #fff;
+  text-decoration: none;
 }
 header {
   top: -107px;
@@ -1894,6 +1893,108 @@ section#species article div.description p {
   padding: 0.5em;
   margin: 10px 0;
 }
+section#contact {
+  padding: 77px 0px 65px;
+}
+section#contact h2 {
+  color: #fff;
+}
+div.form {
+  width: 40%;
+  margin-right: 9%;
+  display: inline-block;
+}
+div.contact {
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+}
+div.contact p {
+  font-family: 'Passion One', sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1em;
+  padding: 0px 0 26px;
+  color: #fff;
+}
+div.contact p a {
+  color: #fff;
+  text-decoration: none;
+}
+div.contact p a:hover {
+  color: #b8c6bc;
+}
+label {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+  color: #fff;
+  font-size: 1.3em;
+  line-height: 1.3em;
+  display: block;
+  text-transform: uppercase;
+}
+input {
+  width: 96%;
+  margin-bottom: 20px;
+  height: 20px;
+  border: none;
+  background-color: #fff;
+  padding: 10px 2%;
+  font-size: 18px;
+  color: #504e3c;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+}
+textarea {
+  width: 96%;
+  background-color: #fff;
+  color: #504e3c;
+  padding: 2%;
+  margin-bottom: 20px;
+  font-size: 18px;
+  border: none;
+  resize: none;
+  height: 150px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+}
+.left {
+  display: inline-block;
+  vertical-align: top;
+  width: 45%;
+  margin-right: 5%;
+}
+.right {
+  display: inline-block;
+  vertical-align: top;
+  width: 45%;
+  margin-left: 4%;
+}
+button {
+  width: 100%;
+  background-color: #cadfaa;
+  color: #fff;
+  font-family: 'Passion One', sans-serif;
+  text-transform: uppercase;
+  font-size: 2em;
+  text-align: center;
+  border: none;
+  padding: 3px 0 0;
+  display: block;
+  float: right;
+  -webkit-box-shadow: '' 0 1px 2px 0 rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: '' 0 1px 2px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: '' 0 1px 2px 0 rgba(0, 0, 0, 0.25);
+}
+button:hover {
+  background-color: #b4aa5e;
+  -webkit-transition: all 400ms ease;
+  -moz-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+  -ms-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
 section#faq {
   padding: 100px 0 60px;
 }
@@ -2023,6 +2124,9 @@ section.pattern {
 section.pattern.headerComp {
   margin-top: -107px;
 }
+section.pattern.dark {
+  background: url(/_assets/img/pattern-dark.png) repeat left top transparent;
+}
 section#bgFixed {
   background-attachment: fixed;
   width: 100%;
@@ -2059,6 +2163,9 @@ section#bgFixed.fleet {
 }
 section#bgFixed.staff {
   background-image: url(/_assets/img/fixed-fish2.jpg);
+}
+section#bgFixed.legacy {
+  background-image: url(/_assets/img/fixed-legacy.jpg);
 }
 section#testimonials {
   padding: 100px 0 60px;
@@ -2197,6 +2304,40 @@ section#media-section article.media-item.article p.author {
   font-weight: 400;
   font-style: italic;
   padding-top: 20px;
+}
+section.legacy {
+  padding: 124px 0 170px;
+}
+section.legacy a.legacy-item {
+  width: 30%;
+  margin: 0 1% 20px;
+  background: url(/_assets/img/pattern.png) repeat left top transparent;
+  padding: 35px 2%;
+  display: inline-block;
+  vertical-align: top;
+  max-height: 425px;
+  min-height: 425px;
+  overflow: hidden;
+  text-decoration: none;
+}
+section.legacy a.legacy-item span {
+  display: block;
+  margin: 0 auto;
+  color: #b8c6bc;
+  width: 30px;
+  font-size: 2em;
+}
+section.legacy a.legacy-item h4 {
+  color: #504e3c;
+  border-bottom-color: #b8c6bc;
+  font-size: 1.8em;
+}
+section.legacy a.legacy-item img {
+  width: 100%;
+  margin-top: 20px;
+}
+section#legacy {
+  padding: 77px 0px 65px;
 }
 img.lodge-logo {
   width: 30%;
@@ -2512,6 +2653,7 @@ section.staff a.staff-item img {
 }
 #bio h1 {
   color: #fff;
+  letter-spacing: 4px;
 }
 #bio h2 {
   color: #fff;

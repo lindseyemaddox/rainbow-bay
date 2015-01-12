@@ -14,157 +14,90 @@
 
         <h2>Our Legacy</h2>
 
-        <p>The weather during the summer in the Bristol Bay area of southwest Alaska can vary from a warm sunny 75 degrees to a cool rainy 45 degree day. This area is not far from the Bering Sea and Cook Inlet and as the old saying goes, “if you don’t like the weather just wait a few minutes.” Layer your clothes so that you can add or subtract layers as the weather changes. You will want to bring a light backpack with you daily with your rain gear and possibly a wool sweater to ensure your comfort while in the field. Drag the slider to the left to reveal the packing list.</p>
+        <p>Bacon ipsum dolor amet alcatra rump jerky pancetta. Sausage kielbasa swine ham jerky pork loin meatloaf alcatra drumstick leberkas kevin tail flank tenderloin. Biltong shoulder meatloaf tail kielbasa. Pancetta tail strip steak meatball landjaeger, ham rump picanha ham hock tongue. Chuck ball tip andouille bacon landjaeger short ribs rump short loin ribeye brisket turducken. Picanha pork belly short ribs chuck meatloaf boudin t-bone pig bresaola leberkas spare ribs. Biltong corned beef ham t-bone pastrami swine pork belly alcatra, turkey meatball ground round. Bacon ipsum dolor amet alcatra rump jerky pancetta. Sausage kielbasa swine ham jerky pork loin meatloaf alcatra drumstick leberkas kevin tail flank tenderloin. Biltong shoulder meatloaf tail kielbasa. Pancetta tail strip steak meatball landjaeger, ham rump picanha ham hock tongue. Chuck ball tip andouille bacon landjaeger short ribs rump short loin ribeye brisket turducken. Picanha pork belly short ribs chuck meatloaf boudin t-bone pig bresaola leberkas spare ribs. Biltong corned beef ham t-bone pastrami swine pork belly alcatra, turkey meatball ground round.</p>
+
+        <p>Bacon ipsum dolor amet alcatra rump jerky pancetta. Sausage kielbasa swine ham jerky pork loin meatloaf alcatra drumstick leberkas kevin tail flank tenderloin. Biltong shoulder meatloaf tail kielbasa. Pancetta tail strip steak meatball landjaeger, ham rump picanha ham hock tongue. Chuck ball tip andouille bacon landjaeger short ribs rump short loin ribeye brisket turducken. Picanha pork belly short ribs chuck meatloaf boudin t-bone pig bresaola leberkas spare ribs. Biltong corned beef ham t-bone pastrami swine pork belly alcatra, turkey meatball ground round.</p>
 
     </div><!--inner-->
 
 </section><!--pattern-->
 
-<section id="bgFixed" class="subpage staff">
+<section id="bgFixed" class="subpage legacy">
 
 	<div class="inner">
 
-    <a href="/lightboxes/staff/kern" class="staff-item fancybox fancybox.iframe">
+    <a href="/lightboxes/staff/pippen-j" class="legacy-item fancybox fancybox.iframe">
+      
+      <span class="icon-bio"></span>
+
+      <h4>Jerry Pippen <br />Owner</h4>
+
+      <img src="/_assets/img/staff-pippen-j.jpg" alt="Rainbow Bay owner Jerry Pippen">
+
+    </a><!--legacy-item-->
+
+    <a href="/lightboxes/staff/pippen-k" class="legacy-item fancybox fancybox.iframe">
+      
+      <span class="icon-bio"></span>
+
+      <h4>Karen Pippen <br />Owner</h4>
+
+      <img src="/_assets/img/staff-pippen-k.jpg" alt="Rainbow Bay owner Karen Pippen">
+
+    </a><!--legacy-item-->
+
+    <a href="/lightboxes/staff/kern" class="legacy-item fancybox fancybox.iframe">
       
       <span class="icon-bio"></span>
 
       <h4>Jim Kern <br />General Manager</h4>
 
-      <img src="/_assets/img/staff-kern.jpg" alt="Rainbow Bay staff member Jim Kern">
+      <img src="/_assets/img/staff-kern.jpg" alt="Rainbow Bay general manager Jim Kern">
 
-    </a><!--staff-item-->
-
-    <a href="/lightboxes/staff/kern" class="staff-item fancybox fancybox.iframe">
-      
-      <span class="icon-bio"></span>
-
-      <h4>Jim Kern <br />General Manager</h4>
-
-      <img src="/_assets/img/staff-kern.jpg" alt="Rainbow Bay staff member Jim Kern">
-
-    </a><!--staff-item-->
-
-    <a href="/lightboxes/staff/kern" class="staff-item fancybox fancybox.iframe">
-      
-      <span class="icon-bio"></span>
-
-      <h4>Jim Kern <br />General Manager</h4>
-
-      <img src="/_assets/img/staff-kern.jpg" alt="Rainbow Bay staff member Jim Kern">
-
-    </a><!--staff-item-->
+    </a><!--legacy-item-->
 
     <div class="clearfix"></div>
 
 	</div><!--inner-->
 
+</section><!--bgFixed-->
+
+<section class="pattern" id="legacy">
+
+    <div class="inner">
+
+        <h2>Our Natural History</h2>
+
+        <img class="inset" src="/_assets/img/inset-moose.jpg" alt="Moose in Alaska's Bristol Bay">
+
+        <p>Bacon ipsum dolor amet alcatra rump jerky pancetta. Sausage kielbasa swine ham jerky pork loin meatloaf alcatra drumstick leberkas kevin tail flank tenderloin. Biltong shoulder meatloaf tail kielbasa. Pancetta tail strip steak meatball landjaeger, ham rump picanha ham hock tongue. Chuck ball tip andouille bacon landjaeger short ribs rump short loin ribeye brisket turducken. Picanha pork belly short ribs chuck meatloaf boudin t-bone pig bresaola leberkas spare ribs. Biltong corned beef ham t-bone pastrami swine pork belly alcatra, turkey meatball ground round.</p>
+
+        <p>Brisket tongue sausage venison, porchetta landjaeger picanha kevin. Pastrami ham pork prosciutto rump landjaeger. Salami corned beef kevin picanha pork tenderloin beef andouille capicola tongue tri-tip. Jowl corned beef jerky biltong alcatra tenderloin pork ham ball tip cupim. T-bone landjaeger cupim ball tip andouille pancetta fatback boudin kevin drumstick. Capicola pancetta prosciutto brisket short ribs shoulder pork loin porchetta jowl hamburger bacon rump strip steak pork belly cow. Jerky bacon tri-tip tongue, shoulder pork loin pancetta ribeye.</p>
+
+        <p>Ham hock venison boudin kevin chuck swine pastrami salami ground round jerky shankle. Corned beef capicola tri-tip, alcatra sausage bacon tail spare ribs meatball jerky salami bresaola kevin. Strip steak jowl landjaeger ball tip, pancetta meatball tongue prosciutto chicken pork loin t-bone. Short loin beef ribs shoulder, tri-tip jerky bresaola jowl venison kevin ground round bacon cow. Brisket landjaeger venison, bresaola prosciutto pork chop beef short loin chuck strip steak fatback tail.</p>
+
+        <p>Kielbasa hamburger brisket swine cow salami bacon pork. Turkey rump kevin bresaola kielbasa leberkas, prosciutto flank pancetta ham short ribs doner tongue. Kevin fatback swine, beef ribs pork chop filet mignon porchetta drumstick short ribs short loin pork belly corned beef chicken ground round flank. Cow cupim leberkas ribeye biltong. Brisket turkey landjaeger strip steak meatball filet mignon cow tongue prosciutto venison capicola pork belly tail. Jowl shankle kielbasa, swine strip steak kevin beef ribs andouille prosciutto shank porchetta flank chuck. Tongue spare ribs jowl beef ribs.</p>
+
+        <p>Biltong pastrami salami shoulder kielbasa kevin strip steak tri-tip. Jerky kielbasa doner, brisket t-bone picanha hamburger biltong sirloin capicola drumstick chicken. Tail salami kevin fatback. Picanha tail prosciutto strip steak pancetta meatball turkey alcatra short ribs shank. Pork ribeye hamburger, biltong flank salami jerky meatloaf cow venison porchetta boudin t-bone landjaeger. Cupim drumstick spare ribs, venison chuck boudin brisket short loin ham. Porchetta strip steak ball tip hamburger meatball turducken venison rump flank pork chop sausage.</p>
+
+        <h2 class="multiple">Lake Illiamna</h2>
+
+        <p>Bacon ipsum dolor amet alcatra rump jerky pancetta. Sausage kielbasa swine ham jerky pork loin meatloaf alcatra drumstick leberkas kevin tail flank tenderloin. Biltong shoulder meatloaf tail kielbasa. Pancetta tail strip steak meatball landjaeger, ham rump picanha ham hock tongue. Chuck ball tip andouille bacon landjaeger short ribs rump short loin ribeye brisket turducken. Picanha pork belly short ribs chuck meatloaf boudin t-bone pig bresaola leberkas spare ribs. Biltong corned beef ham t-bone pastrami swine pork belly alcatra, turkey meatball ground round.</p>
+
+        <p>Brisket tongue sausage venison, porchetta landjaeger picanha kevin. Pastrami ham pork prosciutto rump landjaeger. Salami corned beef kevin picanha pork tenderloin beef andouille capicola tongue tri-tip. Jowl corned beef jerky biltong alcatra tenderloin pork ham ball tip cupim. T-bone landjaeger cupim ball tip andouille pancetta fatback boudin kevin drumstick. Capicola pancetta prosciutto brisket short ribs shoulder pork loin porchetta jowl hamburger bacon rump strip steak pork belly cow. Jerky bacon tri-tip tongue, shoulder pork loin pancetta ribeye.</p>
+
+        <p>Ham hock venison boudin kevin chuck swine pastrami salami ground round jerky shankle. Corned beef capicola tri-tip, alcatra sausage bacon tail spare ribs meatball jerky salami bresaola kevin. Strip steak jowl landjaeger ball tip, pancetta meatball tongue prosciutto chicken pork loin t-bone. Short loin beef ribs shoulder, tri-tip jerky bresaola jowl venison kevin ground round bacon cow. Brisket landjaeger venison, bresaola prosciutto pork chop beef short loin chuck strip steak fatback tail.</p>
+
+        <h2 class="multiple">Bristol Bay</h2>
+
+        <p>Bacon ipsum dolor amet alcatra rump jerky pancetta. Sausage kielbasa swine ham jerky pork loin meatloaf alcatra drumstick leberkas kevin tail flank tenderloin. Biltong shoulder meatloaf tail kielbasa. Pancetta tail strip steak meatball landjaeger, ham rump picanha ham hock tongue. Chuck ball tip andouille bacon landjaeger short ribs rump short loin ribeye brisket turducken. Picanha pork belly short ribs chuck meatloaf boudin t-bone pig bresaola leberkas spare ribs. Biltong corned beef ham t-bone pastrami swine pork belly alcatra, turkey meatball ground round.</p>
+
+        <p>Brisket tongue sausage venison, porchetta landjaeger picanha kevin. Pastrami ham pork prosciutto rump landjaeger. Salami corned beef kevin picanha pork tenderloin beef andouille capicola tongue tri-tip. Jowl corned beef jerky biltong alcatra tenderloin pork ham ball tip cupim. T-bone landjaeger cupim ball tip andouille pancetta fatback boudin kevin drumstick. Capicola pancetta prosciutto brisket short ribs shoulder pork loin porchetta jowl hamburger bacon rump strip steak pork belly cow. Jerky bacon tri-tip tongue, shoulder pork loin pancetta ribeye.</p>
+
+    </div><!--inner-->
+
 </section><!--pattern-->
 
-<script>
-$('#container').isotope({ layoutMode : 'fitRows' });
 
-    $(function(){
-      
-      var $container = $('#container');
-
-      $container.isotope({
-        itemSelector : '.media-item'
-      });
-      
-      
-      var $optionSets = $('#options .option-set'),
-          $optionLinks = $optionSets.find('a');
-
-      $optionLinks.click(function(){
-        var $this = $(this);
-        // don't proceed if already selected
-        if ( $this.hasClass('selected') ) {
-          return false;
-        }
-        var $optionSet = $this.parents('.option-set');
-        $optionSet.find('.selected').removeClass('selected');
-        $this.addClass('selected');
-  
-        // make option object dynamically, i.e. { filter: '.my-filter-class' }
-        var options = {},
-            key = $optionSet.attr('data-option-key'),
-            value = $this.attr('data-option-value');
-        // parse 'false' as false boolean
-        value = value === 'false' ? false : value;
-        options[ key ] = value;
-        if ( key === 'layoutMode' && typeof changeLayoutMode === 'function' ) {
-          // changes in layout modes need extra logic
-          changeLayoutMode( $this, options )
-        } else {
-          // otherwise, apply new options
-          $container.isotope( options );
-        }
-        
-        return false;
-      });
-
-      
-    });
-  
-    $(function(){
-      
-      var $container = $('#container');
-      
-      $container.isotope({
-        itemSelector : '.media-item',
-        getSortData : {
-          symbol : function( $elem ) {
-            return $elem.attr('data-symbol');
-          },
-          category : function( $elem ) {
-            return $elem.attr('data-category');
-          },
-          number : function( $elem ) {
-            return parseInt( $elem.find('.number').text(), 10 );
-          },
-          weight : function( $elem ) {
-            return parseFloat( $elem.find('.weight').text().replace( /[\(\)]/g, '') );
-          },
-          name : function ( $elem ) {
-            return $elem.find('.name').text();
-          }
-        }
-      });
-      
-      
-      var $optionSets = $('#options .option-set'),
-          $optionLinks = $optionSets.find('a');
-
-      $optionLinks.click(function(){
-        var $this = $(this);
-        // don't proceed if already selected
-        if ( $this.hasClass('selected') ) {
-          return false;
-        }
-        var $optionSet = $this.parents('.option-set');
-        $optionSet.find('.selected').removeClass('selected');
-        $this.addClass('selected');
-  
-        // make option object dynamically, i.e. { filter: '.my-filter-class' }
-        var options = {},
-            key = $optionSet.attr('data-option-key'),
-            value = $this.attr('data-option-value');
-        // parse 'false' as false boolean
-        value = value === 'false' ? false : value;
-        options[ key ] = value;
-        if ( key === 'layoutMode' && typeof changeLayoutMode === 'function' ) {
-          // changes in layout modes need extra logic
-          changeLayoutMode( $this, options )
-        } else {
-          // otherwise, apply new options
-          $container.isotope( options );
-        }
-        
-        return false;
-      });
-
-      
-    });
-</script>
 
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/footer.php'); // footer, close body and html?>
