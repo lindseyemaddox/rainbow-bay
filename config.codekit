@@ -663,6 +663,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_assets\/img\/fixed-legacy.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 176608,
+		"inputAbbreviatedPath": "\/_assets\/img\/fixed-legacy.jpg",
+		"outputAbbreviatedPath": "\/_assets\/img\/fixed-legacy.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_assets\/img\/fixed-lodge.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -949,6 +960,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_assets\/img\/staff-pippen-j.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 60004,
+		"inputAbbreviatedPath": "\/_assets\/img\/staff-pippen-j.jpg",
+		"outputAbbreviatedPath": "\/_assets\/img\/staff-pippen-j.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/staff-pippen-k.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 57756,
+		"inputAbbreviatedPath": "\/_assets\/img\/staff-pippen-k.jpg",
+		"outputAbbreviatedPath": "\/_assets\/img\/staff-pippen-k.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_assets\/img\/temp-fisherman.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1097,6 +1130,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_assets\/js\/jquery.isotope.min.js",
 		"outputAbbreviatedPath": "\/_assets\/js\/min\/jquery.isotope.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/_assets\/js\/jquery.maskedinput.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_assets\/js\/jquery.maskedinput.js",
+		"outputAbbreviatedPath": "\/_assets\/js\/min\/jquery.maskedinput-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -1310,6 +1354,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/contact.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/contact.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/faq.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -1337,6 +1390,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/legacy.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/legacy.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/lightboxes\/rates.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -1360,6 +1422,24 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/lightboxes\/staff\/kern.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/lightboxes\/staff\/pippen-j.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/lightboxes\/staff\/pippen-j.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/lightboxes\/staff\/pippen-k.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/lightboxes\/staff\/pippen-k.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

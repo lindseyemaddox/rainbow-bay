@@ -13,7 +13,7 @@
 
 	<div class="inner">
 
-		<h2>Contact Us</h2>
+		<h2>Cast Us a Line</h2>
 
         <div class="form">
 
@@ -42,12 +42,12 @@
         else
           { echo "
                 <form method='post' action='".$_SERVER['SCRIPT_NAME']."'>
-                    <label for='name'>Name (required)</label><input type='text' required name='name' id='name' size='10' placeholder='Johnny Angler'>
-                    <label for='phone'>Phone (required)</label><input type='text' required name='phone' id='phone' size='10' placeholder='1 (555) 555-5555'>
-                    <label for='email'>Email</label><input type='text' name='email' id='email' size='10' placeholder='namey@namerson.com'>
+                    <label for='name'>Name</label><input type='text' required name='name' id='name' size='10' placeholder='(required)'>
+                    <label for='phone'>Phone</label><input type='text' required name='phone' id='phone' size='10' placeholder='(required)'>
+                    <label for='email'>Email</label><input type='text' required name='email' id='email' size='10' placeholder='(required)'>
                     <label for='desc'>How May We Help You?</label>
                     <textarea name='desc' id='desc' size='10'></textarea>
-                    <button class='submit' type='submit' name='submit'>Send Form</button>
+                    <button class='submit' type='submit' name='submit'>Send</button>
               </form>";
               }
             ?>
@@ -56,15 +56,13 @@
 
         <div class="contact">
             
-            <p class="phone"><a href="tel:18179462479">1 (817) 946-2479</a></p>
-
-            <p><a href="mailto:jim@rbrlodge.com">Email Us</a></p>
+            <p class="phone"><a href="tel:18179462479">(817) 946-2479</a></p>
 
             <p>P.O. Box 47011<br />
 
             Pedro Bay, AK 99647</p>
 
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d128186.66823512591!2d-154.02904560000002!3d59.86712945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x56c30a90275ebf31%3A0x455b21b73178553b!2sPedro+Bay%2C+AK+99647!5e0!3m2!1sen!2sus!4v1420932731050" width="100%" height="313" frameborder="0" style="border:0"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d128186.66823512591!2d-154.02904560000002!3d59.86712945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x56c30a90275ebf31%3A0x455b21b73178553b!2sPedro+Bay%2C+AK+99647!5e0!3m2!1sen!2sus!4v1420932731050" width="100%" height="355" frameborder="0" style="border:0"></iframe>
 
         </div><!--contact-->
 

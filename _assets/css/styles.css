@@ -1918,6 +1918,9 @@ div.contact p {
   padding: 0px 0 26px;
   color: #fff;
 }
+div.contact p.phone {
+  padding-top: 20px;
+}
 div.contact p a {
   color: #fff;
   text-decoration: none;

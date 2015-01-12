@@ -101,7 +101,7 @@
 
               <h4>2015 <br/>Brochure</h4>
 
-              <a href="/lightboxes/brochure" class="fancybox fancybox.iframe"><img src="/_assets/img/brochure.jpg" alt="2015 Rainbow Bay printable brochure"></a>
+              <a href="/lightboxes/brochure" class="fancybox fancybox.iframe"><img src="/_assets/img/media-brochure.jpg" alt="2015 Rainbow Bay printable brochure"></a>
 
             </article><!--media-item-->
 
