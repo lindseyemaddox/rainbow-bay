@@ -2451,9 +2451,6 @@ section.media div#container article.media-item p {
 section.media div#container article.media-item a.video-link {
   position: relative;
 }
-section.media div#container article.media-item a.video-link:hover img {
-  opacity: .8;
-}
 section.media div#container article.media-item a.video-link:hover span {
   color: #f2f3e4;
   -webkit-transition: all 400ms ease;

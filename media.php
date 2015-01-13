@@ -61,11 +61,59 @@
               
               <span class="icon-video"></span>
 
-              <h4>trout in the something bay</h4>
+              <h4>Jet sleding down the Illiamna River</h4>
 
-              <p>Video description slkdfj sodijfeowih aklsdnf as;ldf oweif a;sd kfawpoe a;sfn s;ofa awoeihfa</p>
+              <p>Bacon ipsum dolor amet frankfurter turducken ground round hamburger salami brisket, jerky shoulder jowl.</p>
 
-              <a href="/media/video-trout" class="video-link fancybox fancybox.iframe"><span class="icon-play"></span><img src="/_assets/img/video-trout.jpg" alt="Trout video"></a>
+              <a href="/lightboxes/video/jet-sleding" class="video-link fancybox fancybox.iframe"><span class="icon-play"></span><img src="/_assets/img/video-jet-sleding.jpg" alt="Jet sleding down the Illiamna River video"></a>
+
+            </article><!--media-item-->
+
+            <article class="media-item video">
+              
+              <span class="icon-video"></span>
+
+              <h4>Sockeye <br />Spawning</h4>
+
+              <p>Bacon ipsum dolor amet frankfurter turducken ground round hamburger salami brisket, jerky shoulder jowl.</p>
+
+              <a href="/lightboxes/video/sockeye" class="video-link fancybox fancybox.iframe"><span class="icon-play"></span><img src="/_assets/img/video-sockeye.jpg" alt="Sockeye spawning in the Illiamna River video"></a>
+
+            </article><!--media-item-->
+
+            <article class="media-item video">
+              
+              <span class="icon-video"></span>
+
+              <h4>Fishing with <br />Brown Bears</h4>
+
+              <p>Bacon ipsum dolor amet frankfurter turducken ground round hamburger salami brisket, jerky shoulder jowl.</p>
+
+              <a href="/lightboxes/video/bear" class="video-link fancybox fancybox.iframe"><span class="icon-play"></span><img src="/_assets/img/video-bear.jpg" alt="Fishing with Brown Bears Katami National Park"></a>
+
+            </article><!--media-item-->
+
+            <article class="media-item video">
+              
+              <span class="icon-video"></span>
+
+              <h4>Dallas Safari Club Interview</h4>
+
+              <p>Dallas Safari Club Game Trails Online Editor Gayne C. Young talks to Jim Kern about fishing in Alaska.</p>
+
+              <a href="/lightboxes/video/interview" class="video-link fancybox fancybox.iframe"><span class="icon-play"></span><img src="/_assets/img/video-interview.jpg" alt="Dallas Safari Club Game Trails Online Editor Gayne C. Young talks to Jim Kern of Rainbow Bay Resort about fishing in Alaska."></a>
+
+            </article><!--media-item-->
+
+            <article class="media-item video">
+              
+              <span class="icon-video"></span>
+
+              <h4>Salmon fishing on the Nushagak</h4>
+
+              <p>Bacon ipsum dolor amet frankfurter turducken ground round hamburger salami brisket, jerky shoulder jowl.</p>
+
+              <a href="/lightboxes/video/fishing" class="video-link fancybox fancybox.iframe"><span class="icon-play"></span><img src="/_assets/img/video-fishing.jpg" alt="King Salmon fishing on the Nushagak River in western Alaska"></a>
 
             </article><!--media-item-->
 
@@ -83,15 +131,15 @@
               
               <span class="icon-article"></span>
 
-              <h4>a long trip up-river</h4>
+              <h4>Need English title for Igor's</h4>
 
-              <a href="/media/article-up-river" class="fancybox fancybox.iframe"><img src="/_assets/img/article-bear.jpg" alt="close-up of bear on Illiamna Lake"></a>
+              <a href="/lightboxes/articles/igors-article.pdf" class="fancybox fancybox.iframe"><img src="/_assets/img/article-igors.jpg" alt="igor's article"></a>
 
-              <p class="author">by Jim Kern, GM</p>
+              <p class="author">by Igor Grigorenko</p>
 
               <p>Article doiafoa efoaiehf a sdlfoaieh fanf aoeifh a dslvaoief sldkn aowiehf a lsdkcn faoeishr ldknfaoweia sdlknf aoseir alsdkfn aoeifha lsdknfaoweif sldknf a Article doiafoa efoaiehf asdlfoaieh fanf aoeifh adslvaoief sldkn aowiehf alsdkcn faoeishr asldknfaoweia sdlknf aoseir alsdkfn aoeifha lsdknfaoweif sldknf a Article doiafoa efoaiehf asdlfoaieh fanf aoeifh adslvaoief sldkn aowiehf alsdkcn faoeishr asldknfaoweia sdlknf aoseir alsdkfn aoeifha lsdknfaoweif</p>
 
-              <a href="/media/article-bear" class="fancybox fancybox.iframe readmore">read more</a>
+              <a href="/lightboxes/articles/igors-article.pdf" class="fancybox fancybox.iframe readmore">read more</a>
 
             </article><!--media-item-->
 
