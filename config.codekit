@@ -382,26 +382,6 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
-	"\/_assets\/css\/less\/pages\/media.less": {
-		"allowInsecureImports": 0,
-		"createSourceMap": 0,
-		"disableJavascript": 0,
-		"fileType": 1,
-		"ieCompatibility": 1,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_assets\/css\/less\/pages\/media.less",
-		"outputAbbreviatedPath": "\/_assets\/css\/less\/css\/media.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"relativeURLS": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"strictImports": 0,
-		"strictMath": 0,
-		"strictUnits": 0
-		},
 	"\/_assets\/css\/less\/pages\/plan.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
@@ -511,15 +491,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_assets\/css\/styles.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_assets\/css\/styles.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/_assets\/img\/apple-touch-57.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -538,17 +509,6 @@
 		"initialSize": 8797,
 		"inputAbbreviatedPath": "\/_assets\/img\/article-bear.jpg",
 		"outputAbbreviatedPath": "\/_assets\/img\/article-bear.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_assets\/img\/article-igors.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 8592,
-		"inputAbbreviatedPath": "\/_assets\/img\/article-igors.jpg",
-		"outputAbbreviatedPath": "\/_assets\/img\/article-igors.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -656,7 +616,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 546742,
+		"initialSize": 626377,
 		"inputAbbreviatedPath": "\/_assets\/img\/fixed-fish2.jpg",
 		"outputAbbreviatedPath": "\/_assets\/img\/fixed-fish2.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -854,7 +814,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1040,
+		"initialSize": 1011,
 		"inputAbbreviatedPath": "\/_assets\/img\/pattern-dark.png",
 		"outputAbbreviatedPath": "\/_assets\/img\/pattern-dark.png",
 		"outputPathIsOutsideProject": 0,
@@ -1033,61 +993,6 @@
 		"initialSize": 12801,
 		"inputAbbreviatedPath": "\/_assets\/img\/testimonial.jpg",
 		"outputAbbreviatedPath": "\/_assets\/img\/testimonial.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_assets\/img\/video-bear.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 21020,
-		"inputAbbreviatedPath": "\/_assets\/img\/video-bear.jpg",
-		"outputAbbreviatedPath": "\/_assets\/img\/video-bear.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_assets\/img\/video-fishing.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 19986,
-		"inputAbbreviatedPath": "\/_assets\/img\/video-fishing.jpg",
-		"outputAbbreviatedPath": "\/_assets\/img\/video-fishing.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_assets\/img\/video-interview.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 22724,
-		"inputAbbreviatedPath": "\/_assets\/img\/video-interview.jpg",
-		"outputAbbreviatedPath": "\/_assets\/img\/video-interview.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_assets\/img\/video-jet-sleding.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 18280,
-		"inputAbbreviatedPath": "\/_assets\/img\/video-jet-sleding.jpg",
-		"outputAbbreviatedPath": "\/_assets\/img\/video-jet-sleding.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_assets\/img\/video-sockeye.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 25211,
-		"inputAbbreviatedPath": "\/_assets\/img\/video-sockeye.jpg",
-		"outputAbbreviatedPath": "\/_assets\/img\/video-sockeye.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1521,65 +1426,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/lightboxes\/video\/bear.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/lightboxes\/video\/bear.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/lightboxes\/video\/fishing.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/lightboxes\/video\/fishing.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/lightboxes\/video\/interview.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/lightboxes\/video\/interview.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/lightboxes\/video\/jet-sleding.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/lightboxes\/video\/jet-sleding.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/lightboxes\/video\/sockeye.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/lightboxes\/video\/sockeye.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/lodges.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/lodges.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/media.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/media.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

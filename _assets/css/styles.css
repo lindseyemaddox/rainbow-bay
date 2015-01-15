@@ -592,6 +592,17 @@ a:hover {
   -ms-transition: all 400ms ease;
   transition: all 400ms ease;
 }
+ul {
+  padding: 0 0 20px 20px;
+}
+ul li {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+  color: #504e3c;
+  line-height: 1.3em;
+  list-style-type: disc;
+}
 button.print {
   font-size: 0.7777777777777777em;
   color: #504e3c;
@@ -674,6 +685,9 @@ a.readmore:hover {
   -o-transition: all 400ms ease;
   -ms-transition: all 400ms ease;
   transition: all 400ms ease;
+}
+span.temp {
+  color: magenta;
 }
 /*=================================================*/
 /*================ ORGANIC STYLES ================*/
@@ -2248,7 +2262,7 @@ section#media-section article.media-item {
   padding: 22px 2%;
   display: inline-block;
   vertical-align: top;
-  max-height: 391px;
+  min-height: 410px;
   overflow: hidden;
 }
 section#media-section article.media-item span {
@@ -2547,7 +2561,6 @@ ul.itinerary li div.desc div.schedule h6 {
 ul.itinerary li div.desc div.schedule p {
   font-size: 1.3333333333333333em;
   color: #504e3c !important;
-  padding-bottom: 72px;
 }
 ul.itinerary li div.icons {
   border-left: 1px solid #b8c6bc;
@@ -2648,22 +2661,22 @@ section.staff a.staff-item img {
   margin-top: 20px;
 }
 #bio {
-  background: url(/_assets/img/pattern-dark.png) repeat left top transparent;
+  background: url(/_assets/img/pattern.png) repeat left top transparent;
   padding: 0 30px 30px;
 }
 #bio h1 {
-  color: #fff;
+  color: #504e3c;
   letter-spacing: 4px;
 }
 #bio h2 {
-  color: #fff;
+  color: #504e3c;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 300;
   letter-spacing: 2px;
   font-size: 1.3em;
 }
 #bio p {
-  color: #fff;
+  color: #504e3c;
 }
 #bio img {
   width: 29%;

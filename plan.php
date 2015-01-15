@@ -15,7 +15,7 @@
 
 		<h2>Your Adventure Starts Here</h2>
 
-		<p>Angry Eagle trips begin when Anglers fly into the Anchorage International Airport on Friday afternoon, spending the night at one of the many hotels in Anchorage. We recommend the Captain Cook Hotel in downtown Anchorage as it offers the finest accommodations in town and we have negotiated a special rate for our clients. At 7:30 am Saturday mornings, guests will take a cab to the Lake Clark Air charter service located at Merrill Field in north Anchorage for the hour flight to Rainbow Bay Resort on Lake Iliamna located 180 air miles southwest of Anchorage. The following Saturday, guest will make the return flight on Lake Clark Air from the lodge arriving in Anchorage around noon. Below is a sample itinerary for your trip!</p>
+		<p><span class="temp">Angry Eagle trips begin when Anglers fly into the Anchorage International Airport on Friday afternoon, spending the night at one of the many hotels in Anchorage. We recommend the Captain Cook Hotel in downtown Anchorage as it offers the finest accommodations in town and we have negotiated a special rate for our clients. At 7:30 am Saturday mornings, guests will take a cab to the Lake Clark Air charter service located at Merrill Field in north Anchorage for the hour flight to Rainbow Bay Resort on Lake Iliamna located 180 air miles southwest of Anchorage. The following Saturday, guest will make the return flight on Lake Clark Air from the lodge arriving in Anchorage around noon. Below is a sample itinerary for your trip!</span></p>
 
 	</div><!--inner-->
 
@@ -120,7 +120,7 @@
                 </div><!--fish-icon-->
                 <div class="schedule">
                   <h6>Sunday 8:00am - 6:00pm</h6>
-                  <p>Depart on our Something plane to the banks of Somewhere where the Something fish are beautiful and plentiful. Spend the day some kind of fishing off our Something boat only interrupted once by your belly, whilst it digests a shore lunch cooked by your guide.</p>
+                  <p><span class="temp">Depart on our Something plane to the banks of Somewhere where the Something fish are beautiful and plentiful. Spend the day some kind of fishing off our Something boat only interrupted once by your belly, whilst it digests a shore lunch cooked by your guide.</p>
                 </div><!--schedule-->
               </div><!--desc-->
               <div class="icons">
@@ -140,7 +140,7 @@
                 </div><!--fish-icon-->
                 <div class="schedule">
                   <h6>Monday 8:00am - 6:00pm</h6>
-                  <p>Depart on our Something plane to the banks of Somewhere where the Something fish are beautiful and plentiful. Spend the day some kind of fishing off our Something boat only interrupted once by your belly, whilst it digests a shore lunch cooked by your guide.</p>
+                  <p><span class="temp">Depart on our Something plane to the banks of Somewhere where the Something fish are beautiful and plentiful. Spend the day some kind of fishing off our Something boat only interrupted once by your belly, whilst it digests a shore lunch cooked by your guide.</p>
                 </div><!--schedule-->
               </div><!--desc-->
               <div class="icons">
@@ -160,7 +160,7 @@
                 </div><!--fish-icon-->
                 <div class="schedule">
                   <h6>Tuesday 8:00am - 6:00pm</h6>
-                  <p>Depart on our Something plane to the banks of Somewhere where the Something fish are beautiful and plentiful. Spend the day some kind of fishing off our Something boat only interrupted once by your belly, whilst it digests a shore lunch cooked by your guide.</p>
+                  <p><span class="temp">Depart on our Something plane to the banks of Somewhere where the Something fish are beautiful and plentiful. Spend the day some kind of fishing off our Something boat only interrupted once by your belly, whilst it digests a shore lunch cooked by your guide.</p>
                 </div><!--schedule-->
               </div><!--desc-->
               <div class="icons">
@@ -180,7 +180,7 @@
                 </div><!--fish-icon-->
                 <div class="schedule">
                   <h6>Wednesday 8:00am - 6:00pm</h6>
-                  <p>Depart on our Something plane to the banks of Somewhere where the Something fish are beautiful and plentiful. Spend the day some kind of fishing off our Something boat only interrupted once by your belly, whilst it digests a shore lunch cooked by your guide.</p>
+                  <p><span class="temp">Depart on our Something plane to the banks of Somewhere where the Something fish are beautiful and plentiful. Spend the day some kind of fishing off our Something boat only interrupted once by your belly, whilst it digests a shore lunch cooked by your guide.</p>
                 </div><!--schedule-->
               </div><!--desc-->
               <div class="icons">
@@ -200,7 +200,7 @@
                 </div><!--fish-icon-->
                 <div class="schedule">
                   <h6>Thursday 8:00am - 6:00pm</h6>
-                  <p>Depart on our Something plane to the banks of Somewhere where the Something fish are beautiful and plentiful. Spend the day some kind of fishing off our Something boat only interrupted once by your belly, whilst it digests a shore lunch cooked by your guide.</p>
+                  <p><span class="temp">Depart on our Something plane to the banks of Somewhere where the Something fish are beautiful and plentiful. Spend the day some kind of fishing off our Something boat only interrupted once by your belly, whilst it digests a shore lunch cooked by your guide.</p>
                 </div><!--schedule-->
               </div><!--desc-->
               <div class="icons">
@@ -220,7 +220,7 @@
                 </div><!--fish-icon-->
                 <div class="schedule">
                   <h6>Friday 8:00am - 6:00pm</h6>
-                  <p>Depart on our Something plane to the banks of Somewhere where the Something fish are beautiful and plentiful. Spend the day some kind of fishing off our Something boat only interrupted once by your belly, whilst it digests a shore lunch cooked by your guide.</p>
+                  <p><span class="temp">Depart on our Something plane to the banks of Somewhere where the Something fish are beautiful and plentiful. Spend the day some kind of fishing off our Something boat only interrupted once by your belly, whilst it digests a shore lunch cooked by your guide.</p>
                 </div><!--schedule-->
               </div><!--desc-->
               <div class="icons">
@@ -240,7 +240,7 @@
                 </div><!--fish-icon-->
                 <div class="schedule">
                   <h6>Saturday 8:00am - 6:00pm</h6>
-                  <p>Depart on our Something plane to the banks of Somewhere where the Something fish are beautiful and plentiful. Spend the day some kind of fishing off our Something boat only interrupted once by your belly, whilst it digests a shore lunch cooked by your guide.</p>
+                  <p><span class="temp">Depart on our Something plane to the banks of Somewhere where the Something fish are beautiful and plentiful. Spend the day some kind of fishing off our Something boat only interrupted once by your belly, whilst it digests a shore lunch cooked by your guide.</p>
                 </div><!--schedule-->
               </div><!--desc-->
               <div class="icons">

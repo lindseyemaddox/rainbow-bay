@@ -63,7 +63,7 @@
 
               <h4>Jet sleding down the Illiamna River</h4>
 
-              <p>Bacon ipsum dolor amet frankfurter turducken ground round hamburger salami brisket, jerky shoulder jowl.</p>
+              <p>The Iliamna River’s shallow areas are home to impressive rainbow trout and Arctic char!</p>
 
               <a href="/lightboxes/video/jet-sleding" class="video-link fancybox fancybox.iframe"><span class="icon-play"></span><img src="/_assets/img/video-jet-sleding.jpg" alt="Jet sleding down the Illiamna River video"></a>
 
@@ -75,7 +75,7 @@
 
               <h4>Sockeye <br />Spawning</h4>
 
-              <p>Bacon ipsum dolor amet frankfurter turducken ground round hamburger salami brisket, jerky shoulder jowl.</p>
+              <p>Experience the rush of the sockeye salmon run in southwest Alaska from July to September!</p>
 
               <a href="/lightboxes/video/sockeye" class="video-link fancybox fancybox.iframe"><span class="icon-play"></span><img src="/_assets/img/video-sockeye.jpg" alt="Sockeye spawning in the Illiamna River video"></a>
 
@@ -87,7 +87,7 @@
 
               <h4>Fishing with <br />Brown Bears</h4>
 
-              <p>Bacon ipsum dolor amet frankfurter turducken ground round hamburger salami brisket, jerky shoulder jowl.</p>
+              <p>Bears are common, but our guides are pros and ensure guests have a safe and exciting experience.</p>
 
               <a href="/lightboxes/video/bear" class="video-link fancybox fancybox.iframe"><span class="icon-play"></span><img src="/_assets/img/video-bear.jpg" alt="Fishing with Brown Bears Katami National Park"></a>
 
@@ -111,7 +111,7 @@
 
               <h4>Salmon fishing on the Nushagak</h4>
 
-              <p>Bacon ipsum dolor amet frankfurter turducken ground round hamburger salami brisket, jerky shoulder jowl.</p>
+              <p>From June to July, find 50,000 to 120,000 king salmon in Alaska’s Nushagak River.</p>
 
               <a href="/lightboxes/video/fishing" class="video-link fancybox fancybox.iframe"><span class="icon-play"></span><img src="/_assets/img/video-fishing.jpg" alt="King Salmon fishing on the Nushagak River in western Alaska"></a>
 

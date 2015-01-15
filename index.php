@@ -76,9 +76,9 @@
 
 	<div class="inner">
 
-		<h1>Over 30 Years Of Awesome</h1>
+		<h1><span class="temp">Over 30 Years Of Awesome</span></h1>
 
-		<h3>Rainbow Trout of Southwest Alaska are all wild and acrobatic fish that have never been contaminated by the genes of stocked fish. Fly fishing and spinning are the most popular and effective methods of deceiving Rainbows.  Rainbow fishing is available the entire season with late August and September being the prime time to catch the huge rainbows the Bristol Bay area is noted for. By late August, the rainbows have been feasting on salmon eggs for over 6 weeks. There are not as many drifting salmon eggs by late August so the competition for the available food supply is greater. The fish average 2 to 6 pounds and measure 18 to 24 inches during the summer. In late August and September, ten pound plus fish, over 30 inches are not uncommon.</h3>
+		<h3><span class="temp">Drumstick turkey ham short ribs shankle leberkas. Pig shoulder andouille kevin, brisket venison salami chicken cow. Sausage spare ribs salami, ground round ham chuck pastrami pork belly. Ball tip sirloin biltong prosciutto alcatra capicola bacon cupim pastrami leberkas shoulder. Pork loin shank filet mignon beef alcatra. Jowl flank swine ground round meatloaf shoulder ribeye ham picanha bresaola shankle bacon pork belly chicken. Beef andouille meatloaf filet mignon, ham hock sausage capicola venison pork loin drumstick shankle pancetta.</span></h3>
 
 	</div><!--inner-->
 
@@ -94,21 +94,10 @@
       
       <img src="/_assets/img/testimonial.jpg" alt="testimonial by Person Name">
 
-      <p>“A testimonial here would be fabulous. Rainbow Bay Lodge is located in the Bristol Bay drainage on Lake Iliamna, 180 miles southwest of Anchorage, Alaska and the nearest road. The Lodge is surrounded by Lake Clark National Park to the north and  numbers of wild Rainbow Trout, Arctic Grayling, Arctic Char, Northern Pike and the 5 species of Pacific Salmon.</p>
+      <p><span class="temp">“A testimonial here would be fabulous. Rainbow Bay Lodge is located in the Bristol Bay drainage on Lake Iliamna, 180 miles southwest of Anchorage, Alaska and the nearest road. The Lodge is surrounded by Lake Clark National Park to the north and  numbers of wild Rainbow Trout, Arctic Grayling, Arctic Char, Northern Pike and the 5 species of Pacific Salmon.</span></p>
 
-      <h6>A Happy Man, Out West, Oregon</h6>
-      <h6>Third Trip to Rainbow Bay Lodge, June 2014</h6>
-
-    </div><!--testimonial-->
-
-    <div class="testimonial">
-      
-      <img src="/_assets/img/testimonial.jpg" alt="testimonial by Person Name">
-
-      <p>“A testimonial here would be fabulous. Rainbow Bay Lodge is located in the Bristol Bay drainage on Lake Iliamna, 180 miles southwest of Anchorage, Alaska and the nearest road. The Lodge is surrounded by Lake Clark National Park to the north and  numbers of wild Rainbow Trout, Arctic Grayling, Arctic Char, Northern Pike and the 5 species of Pacific Salmon.</p>
-
-      <h6>A Happy Man, Out West, Oregon</h6>
-      <h6>Third Trip to Rainbow Bay Lodge, June 2014</h6>
+      <h6><span class="temp">A Happy Man, Out West, Oregon</span></h6>
+      <h6><span class="temp">Third Trip to Rainbow Bay Lodge, June 2014</span></h6>
 
     </div><!--testimonial-->
 
@@ -116,10 +105,10 @@
       
       <img src="/_assets/img/testimonial.jpg" alt="testimonial by Person Name">
 
-      <p>“A testimonial here would be fabulous. Rainbow Bay Lodge is located in the Bristol Bay drainage on Lake Iliamna, 180 miles southwest of Anchorage, Alaska and the nearest road. The Lodge is surrounded by Lake Clark National Park to the north and  numbers of wild Rainbow Trout, Arctic Grayling, Arctic Char, Northern Pike and the 5 species of Pacific Salmon.</p>
+      <p><span class="temp">“A testimonial here would be fabulous. Rainbow Bay Lodge is located in the Bristol Bay drainage on Lake Iliamna, 180 miles southwest of Anchorage, Alaska and the nearest road. The Lodge is surrounded by Lake Clark National Park to the north and  numbers of wild Rainbow Trout, Arctic Grayling, Arctic Char, Northern Pike and the 5 species of Pacific Salmon.</span></p>
 
-      <h6>A Happy Man, Out West, Oregon</h6>
-      <h6>Third Trip to Rainbow Bay Lodge, June 2014</h6>
+      <h6><span class="temp">A Happy Man, Out West, Oregon</span></h6>
+      <h6><span class="temp">Third Trip to Rainbow Bay Lodge, June 2014</span></h6>
 
     </div><!--testimonial-->
 
@@ -127,10 +116,21 @@
       
       <img src="/_assets/img/testimonial.jpg" alt="testimonial by Person Name">
 
-      <p>“A testimonial here would be fabulous. Rainbow Bay Lodge is located in the Bristol Bay drainage on Lake Iliamna, 180 miles southwest of Anchorage, Alaska and the nearest road. The Lodge is surrounded by Lake Clark National Park to the north and  numbers of wild Rainbow Trout, Arctic Grayling, Arctic Char, Northern Pike and the 5 species of Pacific Salmon.</p>
+      <p><span class="temp">“A testimonial here would be fabulous. Rainbow Bay Lodge is located in the Bristol Bay drainage on Lake Iliamna, 180 miles southwest of Anchorage, Alaska and the nearest road. The Lodge is surrounded by Lake Clark National Park to the north and  numbers of wild Rainbow Trout, Arctic Grayling, Arctic Char, Northern Pike and the 5 species of Pacific Salmon.</span></p>
 
-      <h6>A Happy Man, Out West, Oregon</h6>
-      <h6>Third Trip to Rainbow Bay Lodge, June 2014</h6>
+      <h6><span class="temp">A Happy Man, Out West, Oregon</span></h6>
+      <h6><span class="temp">Third Trip to Rainbow Bay Lodge, June 2014</span></h6>
+
+    </div><!--testimonial-->
+
+    <div class="testimonial">
+      
+      <img src="/_assets/img/testimonial.jpg" alt="testimonial by Person Name">
+
+      <p><span class="temp">“A testimonial here would be fabulous. Rainbow Bay Lodge is located in the Bristol Bay drainage on Lake Iliamna, 180 miles southwest of Anchorage, Alaska and the nearest road. The Lodge is surrounded by Lake Clark National Park to the north and  numbers of wild Rainbow Trout, Arctic Grayling, Arctic Char, Northern Pike and the 5 species of Pacific Salmon.</span></p>
+
+      <h6><span class="temp">A Happy Man, Out West, Oregon</span></h6>
+      <h6><span class="temp">Third Trip to Rainbow Bay Lodge, June 2014</span></h6>
 
     </div><!--testimonial-->
 
@@ -160,41 +160,39 @@
 
   <div class="inner">
   
-    <article class="media-item">
+    <article class="media-item video">
       
       <span class="icon-video"></span>
 
-      <h4>trout in the something bay</h4>
+      <h4>Sockeye <br />Spawning</h4>
 
-      <p>Video description slkdfj sodijfeowih aklsdnf as;ldf oweif a;sd kfawpoe a;sfn s;ofa awoeihfa</p>
+      <p>Experience the rush of the sockeye salmon run in southwest Alaska from July to September!</p>
 
-      <a href="/media/video-trout" class="video-link fancybox fancybox.iframe"><span class="icon-play"></span><img src="/_assets/img/video-trout.jpg" alt="Trout video"></a>
-
-    </article><!--media-item-->
-
-    <article class="media-item">
-      
-      <span class="icon-photo"></span>
-
-      <h4>casting on a warm day</h4>
-
-      <a href="/media/photo-casting" class="link fancybox fancybox.iframe"><img src="/_assets/img/photo-casting.jpg" alt="Woman casting fishing line on the Illiamna River on a warm day"></a>
+      <a href="/lightboxes/video/sockeye" class="video-link fancybox fancybox.iframe"><span class="icon-play"></span><img src="/_assets/img/video-sockeye.jpg" alt="Sockeye spawning in the Illiamna River video"></a>
 
     </article><!--media-item-->
 
-    <article class="media-item article">
+    <article class="media-item video">
       
-      <span class="icon-article"></span>
+      <span class="icon-video"></span>
 
-      <h4>a long trip up-river</h4>
+      <h4>Dallas Safari Club Interview</h4>
 
-      <a href="/media/article-up-river" class="fancybox fancybox.iframe"><img src="/_assets/img/article-bear.jpg" alt="close-up of bear on Illiamna Lake"></a>
+      <p>Dallas Safari Club Game Trails Online Editor Gayne C. Young talks to Jim Kern about fishing in Alaska.</p>
 
-      <p class="author">by Jim Kern, GM</p>
+      <a href="/lightboxes/video/interview" class="video-link fancybox fancybox.iframe"><span class="icon-play"></span><img src="/_assets/img/video-interview.jpg" alt="Dallas Safari Club Game Trails Online Editor Gayne C. Young talks to Jim Kern of Rainbow Bay Resort about fishing in Alaska."></a>
 
-      <p>Article doiafoa efoaiehf a sdlfoaieh fanf aoeifh a dslvaoief sldkn aowiehf a lsdkcn faoeishr ldknfaoweia sdlknf aoseir alsdkfn aoeifha lsdknfaoweif sldknf a Article doiafoa efoaiehf asdlfoaieh fanf aoeifh adslvaoief sldkn aowiehf alsdkcn faoeishr asldknfaoweia sdlknf aoseir alsdkfn aoeifha</p>
+    </article><!--media-item-->
 
-      <a href="/media/article-bear" class="fancybox fancybox.iframe readmore">read more</a>
+    <article class="media-item video">
+      
+      <span class="icon-video"></span>
+
+      <h4>Jet sleding on the Illiamna</h4>
+
+      <p>The Iliamna River’s shallow areas are <br />home to impressive rainbow trout and <br />Arctic char!</p>
+
+      <a href="/lightboxes/video/jet-sleding" class="video-link fancybox fancybox.iframe"><span class="icon-play"></span><img src="/_assets/img/video-jet-sleding.jpg" alt="Jet sleding down the Illiamna River video"></a>
 
     </article><!--media-item-->
 

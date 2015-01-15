@@ -14,7 +14,7 @@
 
         <h2>Our Staff</h2>
 
-        <p>The weather during the summer in the Bristol Bay area of southwest Alaska can vary from a warm sunny 75 degrees to a cool rainy 45 degree day. This area is not far from the Bering Sea and Cook Inlet and as the old saying goes, “if you don’t like the weather just wait a few minutes.” Layer your clothes so that you can add or subtract layers as the weather changes. You will want to bring a light backpack with you daily with your rain gear and possibly a wool sweater to ensure your comfort while in the field. Drag the slider to the left to reveal the packing list.</p>
+        <p><span class="temp">Strip steak cupim jowl brisket kielbasa beef ribs short ribs, alcatra meatball salami ham hock tri-tip capicola pork shoulder. Salami meatloaf cow, ball tip sausage picanha turkey pancetta brisket swine. Shoulder frankfurter filet mignon spare ribs boudin ham hock, jowl salami rump. Doner corned beef pork drumstick pig ground round. Strip steak swine beef ribs brisket fatback drumstick frankfurter pastrami pork belly spare ribs cupim ham shoulder meatloaf. Fatback rump swine chicken pancetta hamburger short ribs brisket t-bone landjaeger ground round chuck salami andouille. Jerky fatback turkey pork belly cow.</span></p>
 
     </div><!--inner-->
 
@@ -34,113 +34,53 @@
 
     </a><!--staff-item-->
 
-    <a href="/lightboxes/staff/kern" class="staff-item fancybox fancybox.iframe">
+    <a href="/lightboxes/staff/baldwin" class="staff-item fancybox fancybox.iframe">
       
       <span class="icon-bio"></span>
 
-      <h4>Jim Kern <br />General Manager</h4>
+      <h4>Ken Baldwin <br />Fishing <br />Guide</h4>
 
-      <img src="/_assets/img/staff-kern.jpg" alt="Rainbow Bay staff member Jim Kern">
+      <img src="/_assets/img/staff-baldwin.jpg" alt="Rainbow Bay fishing guide Ken Baldwin">
 
     </a><!--staff-item-->
 
-    <a href="/lightboxes/staff/kern" class="staff-item fancybox fancybox.iframe">
+    <a href="/lightboxes/staff/cochran" class="staff-item fancybox fancybox.iframe">
       
       <span class="icon-bio"></span>
 
-      <h4>Jim Kern <br />General Manager</h4>
+      <h4>Mason Cochran <br />Fishing <br />Guide</h4>
 
-      <img src="/_assets/img/staff-kern.jpg" alt="Rainbow Bay staff member Jim Kern">
+      <img src="/_assets/img/no-image.jpg" alt="Rainbow Bay fishing guide Mason Cochran">
 
     </a><!--staff-item-->
 
-    <a href="/lightboxes/staff/kern" class="staff-item fancybox fancybox.iframe">
+    <a href="/lightboxes/staff/rogers" class="staff-item fancybox fancybox.iframe">
       
       <span class="icon-bio"></span>
 
-      <h4>Jim Kern <br />General Manager</h4>
+      <h4>Erin Rogers <br />Fishing <br />Guide</h4>
 
-      <img src="/_assets/img/staff-kern.jpg" alt="Rainbow Bay staff member Jim Kern">
+      <img src="/_assets/img/no-image.jpg" alt="Rainbow Bay fishing guide Erin Rogers">
 
     </a><!--staff-item-->
 
-    <a href="/lightboxes/staff/kern" class="staff-item fancybox fancybox.iframe">
+    <a href="/lightboxes/staff/baker" class="staff-item fancybox fancybox.iframe">
       
       <span class="icon-bio"></span>
 
-      <h4>Jim Kern <br />General Manager</h4>
+      <h4>Jon Baker <br />Fishing <br />Guide</h4>
 
-      <img src="/_assets/img/staff-kern.jpg" alt="Rainbow Bay staff member Jim Kern">
+      <img src="/_assets/img/no-image.jpg" alt="Rainbow Bay fishing guide Jon Baker">
 
     </a><!--staff-item-->
 
-    <a href="/lightboxes/staff/kern" class="staff-item fancybox fancybox.iframe">
+    <a href="/lightboxes/staff/lincecum" class="staff-item fancybox fancybox.iframe">
       
       <span class="icon-bio"></span>
 
-      <h4>Jim Kern <br />General Manager</h4>
+      <h4>Lewis Lincecum <br />Fishing <br />Guide</h4>
 
-      <img src="/_assets/img/staff-kern.jpg" alt="Rainbow Bay staff member Jim Kern">
-
-    </a><!--staff-item-->
-
-    <a href="/lightboxes/staff/kern" class="staff-item fancybox fancybox.iframe">
-      
-      <span class="icon-bio"></span>
-
-      <h4>Jim Kern <br />General Manager</h4>
-
-      <img src="/_assets/img/staff-kern.jpg" alt="Rainbow Bay staff member Jim Kern">
-
-    </a><!--staff-item-->
-
-    <a href="/lightboxes/staff/kern" class="staff-item fancybox fancybox.iframe">
-      
-      <span class="icon-bio"></span>
-
-      <h4>Jim Kern <br />General Manager</h4>
-
-      <img src="/_assets/img/staff-kern.jpg" alt="Rainbow Bay staff member Jim Kern">
-
-    </a><!--staff-item-->
-
-    <a href="/lightboxes/staff/kern" class="staff-item fancybox fancybox.iframe">
-      
-      <span class="icon-bio"></span>
-
-      <h4>Jim Kern <br />General Manager</h4>
-
-      <img src="/_assets/img/staff-kern.jpg" alt="Rainbow Bay staff member Jim Kern">
-
-    </a><!--staff-item-->
-
-    <a href="/lightboxes/staff/kern" class="staff-item fancybox fancybox.iframe">
-      
-      <span class="icon-bio"></span>
-
-      <h4>Jim Kern <br />General Manager</h4>
-
-      <img src="/_assets/img/staff-kern.jpg" alt="Rainbow Bay staff member Jim Kern">
-
-    </a><!--staff-item-->
-
-    <a href="/lightboxes/staff/kern" class="staff-item fancybox fancybox.iframe">
-      
-      <span class="icon-bio"></span>
-
-      <h4>Jim Kern <br />General Manager</h4>
-
-      <img src="/_assets/img/staff-kern.jpg" alt="Rainbow Bay staff member Jim Kern">
-
-    </a><!--staff-item-->
-
-    <a href="/lightboxes/staff/kern" class="staff-item fancybox fancybox.iframe">
-      
-      <span class="icon-bio"></span>
-
-      <h4>Jim Kern <br />General Manager</h4>
-
-      <img src="/_assets/img/staff-kern.jpg" alt="Rainbow Bay staff member Jim Kern">
+      <img src="/_assets/img/no-image.jpg" alt="Rainbow Bay fishing guide Lewis Lincecum">
 
     </a><!--staff-item-->
 
