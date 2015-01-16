@@ -1,13 +1,29 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/common.php'); //php framework and meta?>
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/head.php'); // HTTP head?>
 <script src="/_assets/js/jquery.maskedinput.js"></script>
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/navigation.php'); //navigation?>
 
 <header>
 
-  <img class="temp-image" src="/_assets/img/header.jpg" alt="temporary image">
+    <div class="video-overlay"></div>
+
+    <div class="videowrap">
+
+      <div class="videoHolder header">
+    
+        <video autoplay preload="auto" muted loop="loop" canplay="false" class="bg-vid">
+    
+          <source src="web-vid2.mp4" type="video/mp4">
+          <source src="web-vid2.webm" type="video/webm">
+    
+        </video>
+    
+      </div>
+    
+    </div>
 
 </header>
+
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/navigation.php'); //navigation?>
 
 <section class="pattern dark headerComp" id="contact">
 

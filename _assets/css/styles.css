@@ -699,6 +699,7 @@ nav {
   max-width: 1000px;
   margin: 0 auto;
   z-index: 1;
+  top: -140px;
 }
 nav ul {
   height: 50px;
@@ -745,8 +746,11 @@ nav ul li a:hover {
   text-decoration: none;
 }
 header {
-  top: -107px;
+  top: 0;
   position: relative;
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
 }
 header div.slider {
   z-index: -1;
@@ -1752,41 +1756,11 @@ html[xmlns] .slides {
   -o-transition: none;
   transition: none;
 }
-/*
-
-
-What: This CSS+HTML is for implementing video-based responsive videos. 
-
-Usage: To use to the code, you need a video container div with a class of 1) .video AND 2) the correct sizing class (.fixed, .widescreen, .standard, etc.).
-Around that container div,you need a wrapper div with either a width only (in the case of percentage-based sizing) or a height AND width for a fixed-size.
-
-Compatibility: Works in all major browsers, backwards compatible in IE to IE7
-
-Known issues: IE7 has an issue with percentage-based heights, so it uses height: auto for the video player. This will cause some slightly off sizes and
-letterboxing on wide screens (the aspect ratio should still be very close to being correct, however). 
-
-
-<!-- PLAYER HTML -->
-<div class="videowrap">
-    	<div class="video fixed">
-		<!--
-		1. video CODE GOES HERE
-		2. SELECT CORRECT CLASS BASED ON CONTAINER TYPE
-		-->
-	</div>
-</div>
-<!-- END PLAYER HTML -->
-
-
-*/
-/*** RESPONSIVE VIDEO ***/
 div.videowrap {
-  width: 640px;
+  width: 100%;
   /* Demo only - change to whatever width is needed */
-  height: 360px;
-  /* Demo/optional - change to needed height (height is only needed for .fixed container */
 }
-.video {
+.videoHolder {
   display: block;
   width: 100%;
   height: 0;
@@ -1794,45 +1768,52 @@ div.videowrap {
   padding-top: 1px;
   /* adjustment for player controls or video sizing slightly off */
 }
-.video.fixed {
-  height: 100%;
-  padding-bottom: 0;
+.videoHolder.header {
+  padding-bottom: 17.25%;
+  /* 43.25% default padding equal to video height (16:9) - h / w */
 }
-.video.widescreen {
-  padding-bottom: 56.25%;
-  /* default padding equal to video height (16:9) - h / w */
+.videoHolder.header img {
+  width: 100%;
+  /* height: 100%; */
+  background-size: cover;
 }
-.video.standard {
-  padding-bottom: 75%;
-  /* default padding equal to video height (4:3) - h / w */
-}
-.video div,
-.video embed,
-.video object,
-.video iframe {
+.videoHolder div,
+.videoHolder embed,
+.videoHolder object,
+.videoHolder iframe {
   position: absolute;
   width: 100%;
   height: 100%;
   left: 0;
-  top: 0;
+  top: -60px;
 }
 /* fixes for IE5/6 */
-* html .video {
+* html .videoHolder {
   margin-bottom: 45px;
   margin-bottom: 0;
 }
 /* fix for ie7 having an issue with 100% height */
-.video.widescreen div,
-.video.widescreen embed,
-.video.widescreen object,
-.video.widescreen iframe,
-.video.standard div,
-.video.standard embed,
-.video.standard object,
-.video.standard iframe {
+.videoHolder.header div,
+.videoHolder.header embed,
+.videoHolder.header object,
+.videoHolder.header iframe,
+.videoHolder.standard div,
+.videoHolder.standard embed,
+.videoHolder.standard object,
+.videoHolder.standard iframe {
   *height: auto;
 }
-/*** END RESPONSIVE VIDEO ***/
+header .video-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.71);
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  left: 0;
+}
 /*================================================*/
 /*================  PAGE STYLES  ================*/
 /*==============================================*/
@@ -2592,27 +2573,32 @@ p.table-header {
 p.table-body {
   text-transform: none;
 }
-#rates {
+#rates,
+#gallery {
   background: url(/_assets/img/rates.jpg) no-repeat center center transparent;
   background-size: cover;
   padding-bottom: 30px;
 }
-#rates h1 {
+#rates h1,
+#gallery h1 {
   color: #fff;
   letter-spacing: 10px;
 }
-#rates h3 {
+#rates h3,
+#gallery h3 {
   color: #fff;
   font-size: 2em;
   text-align: center;
 }
-#rates h6 {
+#rates h6,
+#gallery h6 {
   color: #fff;
   text-align: center;
   text-decoration: underline;
   padding-bottom: 15px;
 }
-#rates p {
+#rates p,
+#gallery p {
   color: #fff;
   text-align: center;
   padding-bottom: 10px;
@@ -2620,11 +2606,38 @@ p.table-body {
   letter-spacing: 2px;
   font-size: .8em;
 }
-#rates article.column {
+#rates p a,
+#gallery p a {
+  color: #fff;
+  text-decoration: none;
+}
+#rates p a:hover,
+#gallery p a:hover {
+  color: #79887b;
+}
+#rates article.column,
+#gallery article.column {
   display: inline-block;
   vertical-align: top;
   width: 40%;
   margin: 0 4.5%;
+}
+#gallery {
+  background: url(/_assets/img/fixed-plane2.jpg) no-repeat center center transparent;
+  background-size: cover;
+}
+#gallery .form-login {
+  width: 50%;
+  margin: 0 25%;
+  display: block;
+}
+#gallery .form-login input {
+  margin: 0 auto 20px;
+  text-align: center;
+}
+#gallery .form-login button {
+  float: none;
+  margin-bottom: 30px;
 }
 #safety-information {
   background: url(/_assets/img/pattern.png) repeat left top transparent;

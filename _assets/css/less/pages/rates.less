@@ -1,4 +1,4 @@
-#rates {
+#rates, #gallery {
 	background: url(/_assets/img/rates.jpg) no-repeat center center transparent;
 	background-size: cover;
 	padding-bottom: 30px;
@@ -24,6 +24,13 @@
 		text-transform: uppercase;
 		letter-spacing: 2px;
 		font-size: .8em;
+		a {
+			color: #fff;
+			text-decoration: none;
+			&:hover {
+				color: @blue;
+			}
+		}
 	}
 	article.column {
 		display: inline-block;
@@ -31,6 +38,24 @@
 		width: 40%;
 		margin: 0 4.5%;
 		&.left {
+		}
+	}
+}
+
+#gallery {
+	background: url(/_assets/img/fixed-plane2.jpg) no-repeat center center transparent;
+	background-size: cover;
+	.form-login {
+		width: 50%;
+		margin: 0 25%;
+		display: block;
+		input {
+			margin: 0 auto 20px;
+			text-align: center;
+		}
+		button {
+			float: none;
+			margin-bottom: 30px;
 		}
 	}
 }

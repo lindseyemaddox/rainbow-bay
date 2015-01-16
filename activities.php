@@ -4,6 +4,7 @@
 <link rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
 <script src="//code.jquery.com/jquery-1.10.2.js"></script>
 <script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+<script src="/_assets/js/jquery.isotope.min.js"></script>
 
 <script>
  $(function() {
@@ -23,14 +24,28 @@
  });
 </script>
 
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/navigation.php'); //navigation?>
-<script src="/_assets/js/jquery.isotope.min.js"></script>
-
 <header>
 
-  <img class="temp-image" src="/_assets/img/header.jpg" alt="temporary image">
+    <div class="video-overlay"></div>
+
+    <div class="videowrap">
+
+      <div class="videoHolder header">
+    
+        <video autoplay preload="auto" muted loop="loop" canplay="false" class="bg-vid">
+    
+          <source src="web-vid2.mp4" type="video/mp4">
+          <source src="web-vid2.webm" type="video/webm">
+    
+        </video>
+    
+      </div>
+    
+    </div>
 
 </header>
+
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/navigation.php'); //navigation?>
 
 <section class="pattern headerComp" id="intro">
 
