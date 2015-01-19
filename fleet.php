@@ -1,27 +1,6 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/common.php'); //php framework and meta?>
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/head.php'); // HTTP head?>
-
-<header>
-
-    <div class="video-overlay"></div>
-
-    <div class="videowrap">
-
-      <div class="videoHolder header">
-    
-        <video autoplay preload="auto" muted loop="loop" canplay="false" class="bg-vid">
-    
-          <source src="web-vid2.mp4" type="video/mp4">
-          <source src="web-vid2.webm" type="video/webm">
-    
-        </video>
-    
-      </div>
-    
-    </div>
-
-</header>
-
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/subpage-header.php'); //video header?>
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/navigation.php'); //navigation?>
 
 <section class="pattern headerComp" id="intro">
@@ -66,7 +45,7 @@
 
       <h4>Harbercraft KingFisher</h4>
 
-      <p>Our Harbercraft KingFisher 2825 boats transport guests to the streams we fish and to Cook Inlet for shallow water fishing. One boat has twin 150 HP Honda outboards and the other has twin 200 HP outboards. Equipped with depth finders, radios, and radar.</p>
+      <p>Our Harbercraft KingFisher 2825 boats transport guests to streams and to the shallow waters of the Cook Inlet. One boat has twin 150 HP Honda outboards and the other has twin 200 HP outboards. Equipped with depth finders, radios, and radar.</p>
 
     </article><!--fleet-item-->
 
@@ -86,7 +65,7 @@
 
       <h4>John Deere Gator</h4>
 
-      <p>need desc</p>
+      <p>Go pretty much anywhere in our John Deere Gator all-terrain utility vehicle that boasts 4WD, an impressive turn of speed, and a killer suspension.</p>
 
     </article><!--fleet-item-->
 
@@ -96,7 +75,7 @@
 
       <h4>Kubota <br />1140</h4>
 
-      <p>need desc</p>
+      <p>Our heavy-duty Kubota RTV1140CPX utility vehicle features 4WD and an impressive suspension system that allows us to transport our guests on a variety of terrain.</p>
 
     </article><!--fleet-item-->
 

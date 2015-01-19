@@ -1,28 +1,7 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/common.php'); //php framework and meta?>
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/head.php'); // HTTP head?>
 <script type="text/javascript" src="/_assets/js/faq.js"></script>
-
-<header>
-
-    <div class="video-overlay"></div>
-
-    <div class="videowrap">
-
-      <div class="videoHolder header">
-    
-        <video autoplay preload="auto" muted loop="loop" canplay="false" class="bg-vid">
-    
-          <source src="web-vid2.mp4" type="video/mp4">
-          <source src="web-vid2.webm" type="video/webm">
-    
-        </video>
-    
-      </div>
-    
-    </div>
-
-</header>
-
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/subpage-header.php'); //video header?>
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/navigation.php'); //navigation?>
 
 <section class="pattern headerComp" id="faq">
@@ -37,7 +16,7 @@
 
         <p class="faquestion"><span class="icon-question"></span> Is there a computer that I may use to check email? What about transferring images from my camera to a CD or flash drive?</p>
 
-        <p class="faqanswer">Is there a computer that I may use to check email? What about transferring images from my camera to a CD or flash drive?</p>
+        <p class="faqanswer">Yes, guests are welcome to use our computer to check email or transfer pictures. Just make sure you know how to access your email from a computer other than yours.</p>
 
         <p class="faquestion"><span class="icon-question"></span> Does the lodge provide liquor?</p>
 
@@ -61,7 +40,7 @@
 
         <p class="faquestion"><span class="icon-question"></span> How much time will I spend fishing each day?</p>
 
-        <p class="faqanswer">This depends on your fishing destination and the weather, but during a typical day you’ll be fishing from 8 a.m. – 5 p.m. AKST.</p>
+        <p class="faqanswer">This depends on your fishing destination and the weather, but during a typical day you’ll be fishing from 8 a.m. to 5 p.m. AKST.</p>
 
         <p class="faquestion"><span class="icon-question"></span> How many fishermen are placed per guide?</p>
 
@@ -69,7 +48,7 @@
 
         <p class="faquestion"><span class="icon-question"></span> What are the catch limits?</p>
 
-        <p class="faqanswer">The catch limit varies each season, depending upon the strength of the salmon runs. You can keep two to five salmon and two halibut per day, depending on the species and the stream in which we are fishing. We practice catch and release on rainbow trout, Arctic char, grayling, and halibut.</p>
+        <p class="faqanswer">The catch limit varies each season, depending upon the strength of the salmon runs. You can keep two to five salmon and two halibut per day, depending on the species and the stream in which we are fishing. We practice catch and release on everything but salmon and halibut.</p>
 
         <p class="faquestion"><span class="icon-question"></span> What if I want to have a fish mounted?</p>
 
