@@ -1,6 +1,32 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/common.php'); //php framework and meta?>
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/head.php'); // HTTP head?>
 <link rel="stylesheet" type="text/css" media="print" href="/_assets/css/print.css" />
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="//code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
+<script>
+	function productReveal() {
+	$( "#revealParts" ).resizable({
+	  handles: 'e',
+	  maxWidth: 645
+	});
+
+	$('.highlights li').click(function(){
+		$('.feature-info').show();
+		$('.feature-info li').hide();
+	      $(this).addClass('indicator');
+	        var str = $(this).index();
+            $('.feature-info li').eq(str).fadeIn(500);
+		$('body').append('<div class="highlight-overlay"></div>');
+		$('.highlight-overlay').click(function(){
+			 $('.feature-info li').hide();
+			 $('.feature-info').fadeOut();
+			 $('.highlight-overlay').remove();
+		});
+	});
+
+
+}
+</script>
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/subpage-header.php'); //video header?>
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/navigation.php'); //navigation?>
 
@@ -22,8 +48,25 @@
     
     <div class="left fisherman">
 
-      <img src="/_assets/img/temp-fisherman.png" alt="temp image">
-
+		<div class="reveal-parts-container boiler">
+			<div id="revealParts" class="foreground">
+				<div class="image-c"><img src="/_assets/img/fisherman-over.png" alt=""></div>
+			</div>
+			<div class="background"><img src="/_assets/img/fisherman-under.png" alt=""></div>
+			<div class="bot-bar"></div>
+			<span class="tip">Drag to Reveal</span>
+			<ul class="highlights">
+				<li class="b-one"><span class="ring pulse"></span></li>
+				<li class="b-two"><span class="ring pulse2"></span></li>
+				<li class="b-three"><span class="ring pulse"></span></li>
+				<li class="b-four"><span class="ring pulse2"></span></li>
+				<li class="b-five"><span class="ring pulse2"></span></li>
+				<li class="b-six"><span class="ring pulse2"></span></li>
+				<li class="b-seven"><span class="ring pulse2"></span></li>
+				<li class="b-eight"><span class="ring pulse2"></span></li>
+			</ul>
+		</div>
+		
     </div><!--left-->
 
     <div class="right table">

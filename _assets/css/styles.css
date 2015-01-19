@@ -2583,6 +2583,360 @@ p.table-header {
 p.table-body {
   text-transform: none;
 }
+/******** START Drag to Reveal module STYLES *********/
+section.product-reveal.fan {
+  min-height: 400px;
+}
+section.product-reveal.fan .reveal-parts-container {
+  background: url(/_assets/img/air.png) no-repeat center 64px;
+  background-size: contain;
+  float: right;
+  min-height: 480px;
+  min-width: 802px;
+  margin-right: -75px;
+  margin-top: 0;
+}
+section.product-reveal.fan .reveal-parts-container .full-fan {
+  position: relative;
+  z-index: 2;
+  display: inline-block;
+  padding-bottom: 50px;
+}
+section.product-reveal.fan .reveal-parts-container .full-fan::after {
+  content: "";
+  height: 100%;
+  border-right: 2px solid #ccc;
+  position: absolute;
+  left: 50%;
+}
+section.product-reveal.fan .reveal-parts-container .full-fan img {
+  transition: all .3s;
+}
+section.product-reveal.fan .reveal-parts-container .full-fan .fade {
+  opacity: .15;
+}
+section.product-reveal.fan .reveal-parts-container .arrow-one-gif {
+  position: absolute;
+  opacity: 0;
+  z-index: 1;
+  left: -50px;
+}
+section.product-reveal.fan .reveal-parts-container .arrow-one-gif.show {
+  opacity: .4;
+  transition: all .7s ease;
+}
+section.product-reveal.fan .reveal-parts-container .arrow-one.hide {
+  opacity: 0;
+}
+section.product-reveal.fan .reveal-parts-container .arrow-one {
+  position: absolute;
+  left: -50px;
+}
+section.product-reveal.fan .reveal-parts-container .arrow-circle {
+  position: absolute;
+  right: 23%;
+  top: 19px;
+}
+section.product-reveal.fan .reveal-parts-container .arrow-circle.rotate {
+  opacity: .5;
+  transition: all .3s;
+}
+section.product-reveal.fan .reveal-parts-container .divider {
+  color: #c2d72d;
+  font-size: 1.5em;
+  border-top: 2px solid #ccc;
+}
+section.product-reveal.fan .reveal-parts-container .divider .col5 {
+  padding-top: 15px;
+}
+section.product-reveal.fan .reveal-parts-container .divider .col5 img {
+  vertical-align: bottom;
+  margin-right: 6px;
+}
+section.product-reveal.fan .reveal-parts-container .divider .col5:first-child {
+  border-right: 2px solid #ccc;
+}
+section.product-reveal.fan .reveal-parts-container ul.highlights li {
+  height: 47px;
+  width: 47px;
+  background: url(/_assets/img/highlight-big.png);
+}
+section.product-reveal.fan .reveal-parts-container ul.highlights li .ring {
+  height: 55px;
+  width: 55px;
+  top: -4px;
+  left: -4px;
+}
+section.product-reveal.fan .reveal-parts-container ul.highlights .h-one {
+  top: 100px;
+  left: 265px;
+}
+section.product-reveal.fan .reveal-parts-container ul.highlights .h-two {
+  top: 100px;
+  left: 492px;
+}
+section.product-reveal.fan .reveal-cta {
+  clear: both;
+}
+.reveal-parts-container {
+  position: relative;
+  display: inline-block;
+  margin-top: 25px;
+  float: right;
+}
+.reveal-parts-container .foreground {
+  width: 50%;
+  padding: 25px 0 100px 0;
+  border-right: 2px solid #a5a5a5;
+  position: absolute;
+  z-index: 101;
+  top: 0;
+  left: 0;
+}
+.reveal-parts-container .foreground .image-c {
+  overflow: hidden;
+}
+.reveal-parts-container .foreground .ui-resizable-e {
+  width: 62px;
+  height: 62px;
+  background: url(/_assets/img/handle.png);
+  position: absolute;
+  right: -31px;
+  bottom: 0;
+}
+.reveal-parts-container .foreground .ui-resizable-e:active,
+.reveal-parts-container .foreground .ui-resizable-e:hover {
+  cursor: pointer;
+}
+.reveal-parts-container .background {
+  position: relative;
+  padding: 25px 0 100px 0;
+  width: 645px;
+}
+.reveal-parts-container .bot-bar {
+  height: 12px;
+  background: url(/_assets/img/bot-bar.png) no-repeat;
+  width: 100%;
+  background-size: 100%;
+  margin-top: -35px;
+}
+.reveal-parts-container .tip {
+  display: block;
+  text-align: center;
+  padding: 30px;
+  font-size: .8em;
+}
+.reveal-parts-container ul.highlights {
+  /* 		//heater/furnace markers */
+  /* 		//boiler markers */
+  /* 		//burner markers */
+}
+.reveal-parts-container ul.highlights li {
+  height: 28px;
+  width: 28px;
+  background: url(/_assets/img/highlight.png);
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.55), inset 0 0 20px rgba(255, 255, 255, 0.63);
+  border-radius: 100%;
+  z-index: 105;
+  cursor: pointer;
+  transition: all .5s ease;
+}
+.reveal-parts-container ul.highlights li img {
+  position: relative;
+  z-index: 100;
+}
+.reveal-parts-container ul.highlights li .ring {
+  height: 38px;
+  width: 38px;
+  border-radius: 100%;
+  border: 2px solid #504e3c;
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  z-index: 99;
+}
+.reveal-parts-container ul.highlights .h-one {
+  top: 118px;
+  left: 21px;
+}
+.reveal-parts-container ul.highlights .h-two {
+  top: 165px;
+  left: 102px;
+}
+.reveal-parts-container ul.highlights .h-three {
+  top: 184px;
+  left: 266px;
+}
+.reveal-parts-container ul.highlights .h-four {
+  top: 221px;
+  left: 618px;
+}
+.reveal-parts-container ul.highlights .h-five {
+  top: 247px;
+  left: 6px;
+}
+.reveal-parts-container ul.highlights .h-six {
+  top: 187px;
+  left: -28px;
+}
+.reveal-parts-container ul.highlights .h-seven {
+  top: 272px;
+  left: 452px;
+}
+.reveal-parts-container ul.highlights .h-eight {
+  top: 200px;
+  left: 460px;
+}
+.reveal-parts-container ul.highlights .b-one {
+  top: 260px;
+  left: 234px;
+}
+.reveal-parts-container ul.highlights .b-two {
+  top: 243px;
+  left: 350px;
+}
+.reveal-parts-container ul.highlights .b-three {
+  top: 170px;
+  left: 295px;
+}
+.reveal-parts-container ul.highlights .b-four {
+  top: 200px;
+  left: 220px;
+}
+.reveal-parts-container ul.highlights .b-five {
+  top: 300px;
+  left: 150px;
+}
+.reveal-parts-container ul.highlights .b-six {
+  top: 313px;
+  left: 234px;
+}
+.reveal-parts-container ul.highlights .b-seven {
+  top: 333px;
+  left: 350px;
+}
+.reveal-parts-container ul.highlights .b-eight {
+  top: 200px;
+  left: 425px;
+}
+.reveal-parts-container ul.highlights .b-nine {
+  top: 194px;
+  left: 350px;
+}
+.reveal-parts-container ul.highlights .br-one {
+  top: 120px;
+  left: 70px;
+}
+.reveal-parts-container ul.highlights .br-two {
+  top: 288px;
+  left: 386px;
+}
+.reveal-parts-container ul.highlights .br-three {
+  top: 215px;
+  left: 240px;
+}
+.reveal-parts-container.boiler {
+  margin-top: -40px;
+}
+.reveal-parts-container.boiler .foreground {
+  padding: 25px 0 35px 0;
+}
+.reveal-parts-container.boiler .foreground img {
+  margin-left: -83px;
+}
+.reveal-parts-container.boiler .background {
+  padding: 25px 0 0 0;
+}
+.reveal-parts-container.boiler .background img {
+  margin-left: -83px;
+}
+.reveal-parts-container.boiler .tip {
+  margin-top: 68px;
+  padding: 0;
+}
+.feature-info {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin-top: 30px;
+  background: #fff;
+  padding: 1%;
+  width: 100%;
+  max-width: 490px;
+  /* max-height: 374px; */
+  min-height: 374px;
+  z-index: 106;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  display: none;
+}
+.feature-info ul li {
+  display: none;
+}
+.feature-info div {
+  border-radius: 100%;
+  width: 180px;
+  height: 180px;
+  border: 1px solid #504e3c;
+  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.04);
+  overflow: hidden;
+  margin: 0 auto;
+  position: relative;
+}
+.feature-info div img {
+  height: 100%;
+}
+.feature-info span {
+  line-height: 1.5em;
+  font-size: 1em;
+  text-align: left;
+}
+.feature-info .title {
+  color: #504e3c;
+  font-size: 1.75em;
+  display: block;
+  text-align: center;
+  margin-bottom: 10px;
+  line-height: 1.75em;
+}
+/*.feature-info:after {
+	content: "";
+	border-top: 186px solid transparent;
+	border-left: 44px solid rgba(255, 255, 255, 0.7);
+	border-bottom: 189px solid transparent;
+	width: 0;
+	height: 0;
+	position: absolute;
+	right: -44px;
+	top: 0;
+}
+*/
+.fan .feature-info {
+  min-height: 0;
+  padding-bottom: 20px;
+}
+.reveal-cta {
+  clear: both;
+}
+.reveal-cta h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.reveal-cta p {
+  padding-bottom: 30px;
+}
+.highlight-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 104;
+}
+/******** END Drag to Reveal module STYLES *********/
 #rates,
 #gallery {
   background: url(/_assets/img/rates.jpg) no-repeat center center transparent;
