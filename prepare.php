@@ -3,30 +3,7 @@
 <link rel="stylesheet" type="text/css" media="print" href="/_assets/css/print.css" />
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="//code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
-<script>
-	function productReveal() {
-	$( "#revealParts" ).resizable({
-	  handles: 'e',
-	  maxWidth: 645
-	});
-
-	$('.highlights li').click(function(){
-		$('.feature-info').show();
-		$('.feature-info li').hide();
-	      $(this).addClass('indicator');
-	        var str = $(this).index();
-            $('.feature-info li').eq(str).fadeIn(500);
-		$('body').append('<div class="highlight-overlay"></div>');
-		$('.highlight-overlay').click(function(){
-			 $('.feature-info li').hide();
-			 $('.feature-info').fadeOut();
-			 $('.highlight-overlay').remove();
-		});
-	});
-
-
-}
-</script>
+<script src="/_assets/js/prepare.js"></script>
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/subpage-header.php'); //video header?>
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/navigation.php'); //navigation?>
 
@@ -45,29 +22,77 @@
 <section id="bgFixed" class="subpage plane">
   
   <div class="inner">
-    
-    <div class="left fisherman">
 
-		<div class="reveal-parts-container boiler">
-			<div id="revealParts" class="foreground">
-				<div class="image-c"><img src="/_assets/img/fisherman-over.png" alt=""></div>
-			</div>
-			<div class="background"><img src="/_assets/img/fisherman-under.png" alt=""></div>
-			<div class="bot-bar"></div>
-			<span class="tip">Drag to Reveal</span>
-			<ul class="highlights">
-				<li class="b-one"><span class="ring pulse"></span></li>
-				<li class="b-two"><span class="ring pulse2"></span></li>
-				<li class="b-three"><span class="ring pulse"></span></li>
-				<li class="b-four"><span class="ring pulse2"></span></li>
-				<li class="b-five"><span class="ring pulse2"></span></li>
-				<li class="b-six"><span class="ring pulse2"></span></li>
-				<li class="b-seven"><span class="ring pulse2"></span></li>
-				<li class="b-eight"><span class="ring pulse2"></span></li>
-			</ul>
-		</div>
-		
-    </div><!--left-->
+    <div id="product-reveal" class="left fisherman">
+
+      <div class="container">
+    
+      		<div class="reveal-parts-container boiler">
+      			<div id="revealParts" class="foreground">
+      				<div class="image-c"><img src="/_assets/img/fisherman-over.png" alt=""></div>
+      			</div>
+      			<div class="background"><img src="/_assets/img/fisherman-under.png" alt=""></div>
+      			<div class="bot-bar"></div>
+      			<ul class="highlights">
+      				<li class="b-one"><span class="ring pulse"></span></li>
+      				<li class="b-two"><span class="ring pulse2"></span></li>
+      				<li class="b-three"><span class="ring pulse"></span></li>
+      				<li class="b-four"><span class="ring pulse2"></span></li>
+      				<li class="b-five"><span class="ring pulse2"></span></li>
+      				<li class="b-six"><span class="ring pulse2"></span></li>
+      				<li class="b-seven"><span class="ring pulse2"></span></li>
+      				<li class="b-eight"><span class="ring pulse2"></span></li>
+      			</ul>
+      		</div><!--reveal-parts-container-->
+
+          <div class="feature-info">
+            <ul>
+              <li>
+                <div><img src="/_assets/img/parts/boiler/heatexchanger.jpg"></div>
+                <span class="title">Wet Floor Based Heat Exchanger</span>
+                <span>Water-cooled heat exchanger prevents hot spots and deterioration</span>
+              </li>
+              <li>
+                <div><img src="/_assets/img/parts/boiler/carbonsteel.jpg"></div>
+                <span class="title">Carbon Steel Construction</span>
+                <span>Unlike other brands that are made of cast iron or coil tubes, we feature ASME certified with carbon-steel construction.</span>
+              </li>
+              <li>
+                <div><img src="/_assets/img/parts/boiler/coil.jpg"></div>
+                <span class="title">Optional Integrated Domestic Hot Water Coil</span>
+                <span>Provides hot, potable water for restrooms, car washes, dishwashers and more.</span>
+              </li>
+              <li>
+                <div><img src="/_assets/img/parts/boiler/door.jpg"></div>
+                <span class="title">Boiler Door</span>
+                <span>A swing-open door to the front of the boiler provides easy access to the firing chamber for rapid cleaning.</span>
+              </li>
+              <li>
+                <div><img src="/_assets/img/parts/boiler/preheater.jpg"></div>
+                <span class="title">Accutemp Preheater</span>
+                <span>Rapidly heats the widest range of viscosities of used oil and synthetic oils.</span>
+              </li>
+              <li>
+                <div><img src="/_assets/img/parts/boiler/meeteringpump.jpg"></div>
+                <span class="title">Reliable Metering Pump</span>
+                <span>Reliable, consistent fuel delivery regardless of fuel type (up to 90W) with no manual adjustments.</span>
+              </li>
+              <li>
+                <div><img src="/_assets/img/parts/boiler/footprint.jpg"></div>
+                <span class="title">Small Footprint</span>
+                <span>Saves space and makes installation simpler and more flexible with unit stacking and flue options.</span>
+              </li>
+              <li>
+                <div><img src="/_assets/img/parts/boiler/panel.jpg"></div>
+                <span class="title">Removeable Rear Panel</span>
+                <span>Easy access to clean the chamber in 30 minutes or less with one tool.</span>
+              </li>
+            </ul>
+          </div>
+
+      </div> <!-- END PRODUCT REVEAL -->
+
+    </div>
 
     <div class="right table">
 

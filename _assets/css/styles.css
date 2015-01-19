@@ -2502,8 +2502,8 @@ section.media div#container article.media-item a.readmore:hover {
   width: 100%;
 }
 .left.fisherman {
-  width: 25%;
-  margin: 0 15% 0 10%;
+  width: 27%;
+  margin: 0 13% 0 10%;
 }
 .right {
   display: inline-block;
@@ -2584,117 +2584,37 @@ p.table-body {
   text-transform: none;
 }
 /******** START Drag to Reveal module STYLES *********/
-section.product-reveal.fan {
-  min-height: 400px;
+div#product-reveal {
+  padding-bottom: 40px;
 }
-section.product-reveal.fan .reveal-parts-container {
-  background: url(/_assets/img/air.png) no-repeat center 64px;
-  background-size: contain;
-  float: right;
-  min-height: 480px;
-  min-width: 802px;
-  margin-right: -75px;
-  margin-top: 0;
-}
-section.product-reveal.fan .reveal-parts-container .full-fan {
+div#product-reveal .container {
   position: relative;
-  z-index: 2;
-  display: inline-block;
-  padding-bottom: 50px;
 }
-section.product-reveal.fan .reveal-parts-container .full-fan::after {
-  content: "";
-  height: 100%;
-  border-right: 2px solid #ccc;
-  position: absolute;
-  left: 50%;
-}
-section.product-reveal.fan .reveal-parts-container .full-fan img {
-  transition: all .3s;
-}
-section.product-reveal.fan .reveal-parts-container .full-fan .fade {
-  opacity: .15;
-}
-section.product-reveal.fan .reveal-parts-container .arrow-one-gif {
-  position: absolute;
-  opacity: 0;
-  z-index: 1;
-  left: -50px;
-}
-section.product-reveal.fan .reveal-parts-container .arrow-one-gif.show {
-  opacity: .4;
-  transition: all .7s ease;
-}
-section.product-reveal.fan .reveal-parts-container .arrow-one.hide {
-  opacity: 0;
-}
-section.product-reveal.fan .reveal-parts-container .arrow-one {
-  position: absolute;
-  left: -50px;
-}
-section.product-reveal.fan .reveal-parts-container .arrow-circle {
-  position: absolute;
-  right: 23%;
-  top: 19px;
-}
-section.product-reveal.fan .reveal-parts-container .arrow-circle.rotate {
-  opacity: .5;
-  transition: all .3s;
-}
-section.product-reveal.fan .reveal-parts-container .divider {
-  color: #c2d72d;
-  font-size: 1.5em;
-  border-top: 2px solid #ccc;
-}
-section.product-reveal.fan .reveal-parts-container .divider .col5 {
-  padding-top: 15px;
-}
-section.product-reveal.fan .reveal-parts-container .divider .col5 img {
-  vertical-align: bottom;
-  margin-right: 6px;
-}
-section.product-reveal.fan .reveal-parts-container .divider .col5:first-child {
-  border-right: 2px solid #ccc;
-}
-section.product-reveal.fan .reveal-parts-container ul.highlights li {
-  height: 47px;
-  width: 47px;
-  background: url(/_assets/img/highlight-big.png);
-}
-section.product-reveal.fan .reveal-parts-container ul.highlights li .ring {
-  height: 55px;
-  width: 55px;
-  top: -4px;
-  left: -4px;
-}
-section.product-reveal.fan .reveal-parts-container ul.highlights .h-one {
-  top: 100px;
-  left: 265px;
-}
-section.product-reveal.fan .reveal-parts-container ul.highlights .h-two {
-  top: 100px;
-  left: 492px;
-}
-section.product-reveal.fan .reveal-cta {
-  clear: both;
+div#product-reveal h1 {
+  float: left;
+  padding-top: 50px;
+  max-width: 43%;
+  white-space: nowrap;
 }
 .reveal-parts-container {
   position: relative;
   display: inline-block;
-  margin-top: 25px;
   float: right;
 }
 .reveal-parts-container .foreground {
   width: 50%;
-  padding: 25px 0 100px 0;
   border-right: 2px solid #a5a5a5;
   position: absolute;
   z-index: 101;
   top: 0;
-  left: 0;
+  left: -10px;
 }
 .reveal-parts-container .foreground .image-c {
   overflow: hidden;
+  margin-left: 10px;
+}
+.reveal-parts-container .foreground .image-c img {
+  width: inherit;
 }
 .reveal-parts-container .foreground .ui-resizable-e {
   width: 62px;
@@ -2710,8 +2630,10 @@ section.product-reveal.fan .reveal-cta {
 }
 .reveal-parts-container .background {
   position: relative;
-  padding: 25px 0 100px 0;
-  width: 645px;
+  width: 260px;
+}
+.reveal-parts-container .background img {
+  width: 107%;
 }
 .reveal-parts-container .bot-bar {
   height: 12px;
@@ -2725,11 +2647,6 @@ section.product-reveal.fan .reveal-cta {
   text-align: center;
   padding: 30px;
   font-size: .8em;
-}
-.reveal-parts-container ul.highlights {
-  /* 		//heater/furnace markers */
-  /* 		//boiler markers */
-  /* 		//burner markers */
 }
 .reveal-parts-container ul.highlights li {
   height: 28px;
@@ -2757,38 +2674,6 @@ section.product-reveal.fan .reveal-cta {
   top: -5px;
   left: -5px;
   z-index: 99;
-}
-.reveal-parts-container ul.highlights .h-one {
-  top: 118px;
-  left: 21px;
-}
-.reveal-parts-container ul.highlights .h-two {
-  top: 165px;
-  left: 102px;
-}
-.reveal-parts-container ul.highlights .h-three {
-  top: 184px;
-  left: 266px;
-}
-.reveal-parts-container ul.highlights .h-four {
-  top: 221px;
-  left: 618px;
-}
-.reveal-parts-container ul.highlights .h-five {
-  top: 247px;
-  left: 6px;
-}
-.reveal-parts-container ul.highlights .h-six {
-  top: 187px;
-  left: -28px;
-}
-.reveal-parts-container ul.highlights .h-seven {
-  top: 272px;
-  left: 452px;
-}
-.reveal-parts-container ul.highlights .h-eight {
-  top: 200px;
-  left: 460px;
 }
 .reveal-parts-container ul.highlights .b-one {
   top: 260px;
@@ -2826,36 +2711,11 @@ section.product-reveal.fan .reveal-cta {
   top: 194px;
   left: 350px;
 }
-.reveal-parts-container ul.highlights .br-one {
-  top: 120px;
-  left: 70px;
-}
-.reveal-parts-container ul.highlights .br-two {
-  top: 288px;
-  left: 386px;
-}
-.reveal-parts-container ul.highlights .br-three {
-  top: 215px;
-  left: 240px;
-}
-.reveal-parts-container.boiler {
-  margin-top: -40px;
-}
-.reveal-parts-container.boiler .foreground {
-  padding: 25px 0 35px 0;
-}
 .reveal-parts-container.boiler .foreground img {
-  margin-left: -83px;
-}
-.reveal-parts-container.boiler .background {
-  padding: 25px 0 0 0;
+  margin-left: 0;
 }
 .reveal-parts-container.boiler .background img {
-  margin-left: -83px;
-}
-.reveal-parts-container.boiler .tip {
-  margin-top: 68px;
-  padding: 0;
+  margin-left: 0;
 }
 .feature-info {
   position: absolute;
@@ -2866,7 +2726,6 @@ section.product-reveal.fan .reveal-cta {
   padding: 1%;
   width: 100%;
   max-width: 490px;
-  /* max-height: 374px; */
   min-height: 374px;
   z-index: 106;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
@@ -2901,32 +2760,6 @@ section.product-reveal.fan .reveal-cta {
   text-align: center;
   margin-bottom: 10px;
   line-height: 1.75em;
-}
-/*.feature-info:after {
-	content: "";
-	border-top: 186px solid transparent;
-	border-left: 44px solid rgba(255, 255, 255, 0.7);
-	border-bottom: 189px solid transparent;
-	width: 0;
-	height: 0;
-	position: absolute;
-	right: -44px;
-	top: 0;
-}
-*/
-.fan .feature-info {
-  min-height: 0;
-  padding-bottom: 20px;
-}
-.reveal-cta {
-  clear: both;
-}
-.reveal-cta h2 {
-  text-align: center;
-  margin-bottom: 10px;
-}
-.reveal-cta p {
-  padding-bottom: 30px;
 }
 .highlight-overlay {
   position: absolute;
