@@ -8,7 +8,9 @@ p.table-header {
 p.table-body {
 	text-transform: none;
 }
-
+table.dark td {
+	cursor: pointer;
+}
 
 
 
@@ -32,7 +34,7 @@ div#product-reveal {
 	float: right;
 	.foreground {
 		width: 50%;
-		border-right: 2px solid #a5a5a5;
+		border-right: 1px solid @white;
 		position: absolute;
 		z-index: 101;
 		top: 0;
@@ -45,11 +47,11 @@ div#product-reveal {
 			}
 		}
 		.ui-resizable-e {
-			width: 62px;
-			height:62px;
+			width: 44px;
+			height: 43px;
 			background: url(/_assets/img/handle.png);
 			position: absolute;
-			right: -31px;
+			right: -22px;
 			bottom: 0;
 		}
 
@@ -69,7 +71,7 @@ div#product-reveal {
 		background: url(/_assets/img/bot-bar.png) no-repeat;
 		width: 100%;
 		background-size: 100%;
-		margin-top: -35px;
+		margin-top: -29px;
 	}
 	.tip {
 		display: block;
@@ -82,15 +84,14 @@ div#product-reveal {
 		li {
 			height: 28px;
 			width: 28px;
-			background: url(/_assets/img/highlight.png);
 			position: absolute;
 			top: 0;
 			left: 0;
-			box-shadow:0 0 20px rgba(255, 255, 255, 0.55), inset 0 0 20px rgba(255, 255, 255, 0.63);
 			border-radius: 100%;
 			z-index: 105;
 			cursor: pointer;
 			transition: all .5s ease;
+			list-style-type: none;
 			img {
 				position: relative;
 				z-index: 100;
@@ -99,7 +100,6 @@ div#product-reveal {
 				height: 38px;
 				width: 38px;
 				border-radius: 100%;
-				border: 2px solid @brown;
 				position: absolute;
 				top: -5px;
 				left: -5px;
@@ -107,20 +107,22 @@ div#product-reveal {
 			}
 		}
 
-		//boiler markers
-		.b-one {top: 260px;left: 234px;}
-		.b-two {top: 243px;left: 350px;}
-		.b-three {top: 170px;left: 295px;}
-		.b-four {top: 200px;left: 220px;}
-		.b-five {top: 300px;left: 150px;}
-		.b-six {top:313px;left:234px;}
-		.b-seven {top: 333px;left: 350px;}
-		.b-eight {top: 200px;left: 425px;}
-		.b-nine {top: 194px;left: 350px;}
-
+		//fisherman markers
+		.b-one {top: -10px;left: 44px;}
+		.b-two {top: 23px;left: 76px;}
+		.b-three {top: 350px;left: 161px;}
+		.b-four {top: 430px;left: 190px;}
+		.b-five {top: 550px;left: 31px;}
+		.b-six {top: 143px;left: 152px;}
+		.b-seven {top: 93px;left: 50px;}
+		.b-eight {top: 150px;left: 15px;}
+		.b-nine {top: 294px;left: 70px;}
+		.b-ten {top: 176px;left: 60px;}
+		.b-eleven {top: 396px;left: 60px;}
+		.b-twelve {top: 540px;left: 54px;}
 	}
 }
-.reveal-parts-container.boiler {
+.reveal-parts-container.fisherman {
 	.foreground {
 		img {margin-left: 0;}
 	}
@@ -131,44 +133,39 @@ div#product-reveal {
 
 .feature-info {
 	position: absolute;
-	left: 0;
-	top: 0;
+	left: 200px;
+	top: 120px;
 	margin-top: 30px;
-	background: #fff;
+	background: @white;
 	padding: 1%;
 	width: 100%;
 	max-width: 490px;
-	min-height: 374px;
+	min-height: 260px;
 	z-index: 106;
 	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 	text-align: center;
 	display: none;
-	ul li {	display: none;}
-	div {
-		border-radius: 100%;
-		width: 180px;
-		height: 180px;
-		border: 1px solid @brown;
-		box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.04);
-		overflow: hidden;
-		margin: 0 auto;
-		position: relative;
-		img {
-			height: 100%;
-		}
+	ul {
+		padding: 0;
+	}
+	li {
+		display: none;
+		list-style-type: none;
+		padding: 0;
+	}
+	img {
+		width: inherit;
+		display: block;
+		text-align: center;
+		margin: 30px auto 50px;
 	}
 	span {
 		line-height: 1.5em;
 		font-size: 1em;
-		text-align: left;
-	}
-	.title {
-		color: @brown;
-		font-size: 1.75em;
-		display: block;
 		text-align: center;
-		margin-bottom: 10px;
-		line-height: 1.75em;
+		.passion;
+		color: @brown;
+		text-transform: uppercase;
 	}
 }
 .highlight-overlay {

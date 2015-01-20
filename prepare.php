@@ -27,65 +27,77 @@
 
       <div class="container">
     
-      		<div class="reveal-parts-container boiler">
+      		<div class="reveal-parts-container fisherman">
       			<div id="revealParts" class="foreground">
       				<div class="image-c"><img src="/_assets/img/fisherman-over.png" alt=""></div>
       			</div>
       			<div class="background"><img src="/_assets/img/fisherman-under.png" alt=""></div>
       			<div class="bot-bar"></div>
       			<ul class="highlights">
-      				<li class="b-one"><span class="ring pulse"></span></li>
-      				<li class="b-two"><span class="ring pulse2"></span></li>
-      				<li class="b-three"><span class="ring pulse"></span></li>
-      				<li class="b-four"><span class="ring pulse2"></span></li>
-      				<li class="b-five"><span class="ring pulse2"></span></li>
-      				<li class="b-six"><span class="ring pulse2"></span></li>
-      				<li class="b-seven"><span class="ring pulse2"></span></li>
-      				<li class="b-eight"><span class="ring pulse2"></span></li>
+      				<li class="b-one"></li>
+      				<li class="b-two"></li>
+      				<li class="b-three"></li>
+      				<li class="b-four"></li>
+      				<li class="b-five"></li>
+      				<li class="b-six"></li>
+      				<li class="b-seven"></li>
+      				<li class="b-eight"></li>
+              <li class="b-nine"></li>
+              <li class="b-ten"></li>
+              <li class="b-eleven"></li>
+              <li class="b-twelve"></li>
       			</ul>
       		</div><!--reveal-parts-container-->
 
           <div class="feature-info">
             <ul>
               <li>
-                <div><img src="/_assets/img/parts/boiler/heatexchanger.jpg"></div>
-                <span class="title">Wet Floor Based Heat Exchanger</span>
-                <span>Water-cooled heat exchanger prevents hot spots and deterioration</span>
+                <img src="/_assets/img/gear-cap.png">
+                <span>warm cap</span>
               </li>
               <li>
-                <div><img src="/_assets/img/parts/boiler/carbonsteel.jpg"></div>
-                <span class="title">Carbon Steel Construction</span>
-                <span>Unlike other brands that are made of cast iron or coil tubes, we feature ASME certified with carbon-steel construction.</span>
+                <img src="/_assets/img/gear-cap.png">
+                <span>polarized sunglasses</span>
               </li>
               <li>
-                <div><img src="/_assets/img/parts/boiler/coil.jpg"></div>
-                <span class="title">Optional Integrated Domestic Hot Water Coil</span>
-                <span>Provides hot, potable water for restrooms, car washes, dishwashers and more.</span>
+                <img src="/_assets/img/gear-cap.png">
+                <span>two sets of light long johns</span>
               </li>
               <li>
-                <div><img src="/_assets/img/parts/boiler/door.jpg"></div>
-                <span class="title">Boiler Door</span>
-                <span>A swing-open door to the front of the boiler provides easy access to the firing chamber for rapid cleaning.</span>
+                <img src="/_assets/img/gear-cap.png">
+                <span>two pairs of padded wool socks</span>
               </li>
               <li>
-                <div><img src="/_assets/img/parts/boiler/preheater.jpg"></div>
-                <span class="title">Accutemp Preheater</span>
-                <span>Rapidly heats the widest range of viscosities of used oil and synthetic oils.</span>
+                <img src="/_assets/img/gear-cap.png">
+                <span>two pairs of padded cotton socks</span>
               </li>
               <li>
-                <div><img src="/_assets/img/parts/boiler/meeteringpump.jpg"></div>
-                <span class="title">Reliable Metering Pump</span>
-                <span>Reliable, consistent fuel delivery regardless of fuel type (up to 90W) with no manual adjustments.</span>
+                <img src="/_assets/img/gear-cap.png">
+                <span>fishing gloves (fingerless are ok)</span>
               </li>
               <li>
-                <div><img src="/_assets/img/parts/boiler/footprint.jpg"></div>
-                <span class="title">Small Footprint</span>
-                <span>Saves space and makes installation simpler and more flexible with unit stacking and flue options.</span>
+                <img src="/_assets/img/gear-cap.png">
+                <span>two long-sleeved shirts</span>
               </li>
               <li>
-                <div><img src="/_assets/img/parts/boiler/panel.jpg"></div>
-                <span class="title">Removeable Rear Panel</span>
-                <span>Easy access to clean the chamber in 30 minutes or less with one tool.</span>
+                <img src="/_assets/img/gear-cap.png">
+                <span>light down jacket</span>
+              </li>
+              <li>
+                <img src="/_assets/img/gear-cap.png">
+                <span>two pairs of wool pants or jeans</span>
+              </li>
+              <li>
+                <img src="/_assets/img/gear-cap.png">
+                <span>medium-weight wool sweater</span>
+              </li>
+              <li>
+                <img src="/_assets/img/gear-cap.png">
+                <span>rain suit (we recommend Gore-Tex)</span>
+              </li>
+              <li>
+                <img src="/_assets/img/gear-cap.png">
+                <span>tennis or deck shoes (for use at lodge)</span>
               </li>
             </ul>
           </div>
@@ -98,40 +110,40 @@
 
       <table class="dark">
         <tr>
-          <td><a class="fancybox fancybox.iframe" href="/warm-cap">warm cap</a></td>
+          <td>warm cap</td>
         </tr>
         <tr>
-          <td><a class="fancybox fancybox.iframe" href="/polarized-sunglasses">polarized sunglasses</a></td>
+          <td>polarized sunglasses</td>
         </tr>
         <tr>
-          <td><a class="fancybox fancybox.iframe" href="/long-johns">2 sets of light long johns </a></td>
+          <td>two sets of light long johns</td>
         </tr>
         <tr>
-          <td><a class="fancybox fancybox.iframe" href="/wool-socks">2 pairs of padded wool socks</a></td>
+          <td>two pairs of padded wool socks</td>
         </tr>
         <tr>
-          <td><a class="fancybox fancybox.iframe" href="/cotton-socks">2 pairs of padded cotton socks</a></td>
+          <td>two pairs of padded cotton socks</td>
         </tr>
         <tr>
-          <td><a class="fancybox fancybox.iframe" href="/gloves">fishing gloves (fingerless are acceptable)</a></td>
+          <td>fishing gloves (fingerless are ok)</td>
         </tr>
         <tr>
-          <td><a class="fancybox fancybox.iframe" href="/shirts">2 long-sleeved shirts</a></td>
+          <td>two long-sleeved shirts</td>
         </tr>
         <tr>
-          <td><a class="fancybox fancybox.iframe" href="/wool-sweater">medium-weight wool sweater</a></td>
+          <td>medium-weight wool sweater</td>
         </tr>
         <tr>
-          <td><a class="fancybox fancybox.iframe" href="/pants">2 pairs of wool pants or jeans</a></td>
+          <td>two pairs of wool pants or jeans</td>
         </tr>
         <tr>
-          <td><a class="fancybox fancybox.iframe" href="/down-jacket">light down jacket</a></td>
+          <td>light down jacket</td>
         </tr>
         <tr>
-          <td><a class="fancybox fancybox.iframe" href="/rain-suit">rain suit (we recommend Gore-Tex)</a></td>
+          <td>rain suit (we recommend Gore-Tex)</td>
         </tr>
         <tr>
-          <td><a class="fancybox fancybox.iframe" href="/shoes">tennis or deck shoes (for use at lodge)</a></td>
+          <td>tennis or deck shoes (for use at lodge)</td>
         </tr>
       </table>
 
