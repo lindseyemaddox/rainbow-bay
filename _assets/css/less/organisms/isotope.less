@@ -2,11 +2,11 @@
 
 /**** Isotope Filtering ****/
 
-.fish-item {
+.fish-item, .media-item {
   z-index: 2;
 }
 
-.isotope-hidden.fish-item {
+.isotope-hidden.fish-item, .isotope-hidden.media-item {
   pointer-events: none;
   z-index: 1;
 }
@@ -14,7 +14,8 @@
 /**** Isotope CSS3 transitions ****/
 
 .isotope,
-.isotope .fish-item {
+.isotope .fish-item,
+.isotope .media-item {
   -webkit-transition-duration: 0.8s;
      -moz-transition-duration: 0.8s;
       -ms-transition-duration: 0.8s;
@@ -30,7 +31,8 @@
           transition-property: height, width;
 }
 
-.isotope .fish-item {
+.isotope .fish-item,
+.isotope .media-item {
   -webkit-transition-property: -webkit-transform, opacity;
      -moz-transition-property:    -moz-transform, opacity;
       -ms-transition-property:     -ms-transform, opacity;
@@ -42,7 +44,9 @@
 
 .isotope.no-transition,
 .isotope.no-transition .fish-item,
-.isotope .fish-item.no-transition {
+.isotope.no-transition .media-item,
+.isotope .fish-item.no-transition,
+.isotope .media-item.no-transition {
   -webkit-transition-duration: 0s;
      -moz-transition-duration: 0s;
       -ms-transition-duration: 0s;

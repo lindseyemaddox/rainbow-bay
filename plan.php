@@ -10,7 +10,7 @@
 
 		<h2>Your Adventure Starts Here</h2>
 
-		<p><span class="temp">Angry Eagle trips begin when Anglers fly into the Anchorage International Airport on Friday afternoon, spending the night at one of the many hotels in Anchorage. We recommend the Captain Cook Hotel in downtown Anchorage as it offers the finest accommodations in town and we have negotiated a special rate for our clients. At 7:30 am Saturday mornings, guests will take a cab to the Lake Clark Air charter service located at Merrill Field in north Anchorage for the hour flight to Rainbow Bay Resort on Lake Iliamna located 180 air miles southwest of Anchorage. The following Saturday, guest will make the return flight on Lake Clark Air from the lodge arriving in Anchorage around noon. Below is a sample itinerary for your trip!</span></p>
+		<p>Get ready for the angler experience of a lifetime! While no Rainbow Bay adventure is the same, here’s a sample itinerary to help you get a better idea of what to expect.</p>
 
 	</div><!--inner-->
 
@@ -35,7 +35,7 @@
                 </div><!--fish-icon-->
                 <div class="schedule">
                   <h6>Friday Night</h6>
-                  <p>Arrive at Anchorage International Airport and take a cab to your hotel for the night. </p>
+                  <p>Arrive at Anchorage International Airport and stay in Anchorage for the evening.</p>
                 </div><!--schedule-->
               </div><!--desc-->
               <div class="icons">
@@ -55,7 +55,7 @@
                 </div><!--fish-icon-->
                 <div class="schedule">
                   <h6>Saturday 7:30am</h6>
-                  <p>Take a cab to Merrill Field arriving at the Lake Clark Air office. </p>
+                  <p>Take a cab to the Lake Clark Air office at Merrill Field.</p>
                 </div><!--schedule-->
               </div><!--desc-->
               <div class="icons">
@@ -75,7 +75,7 @@
                 </div><!--fish-icon-->
                 <div class="schedule">
                   <h6>Saturday 8:30am</h6>
-                  <p>Depart Merrill Field on Lake Clark Air charter.</p>
+                  <p>Depart Merrill Field.</p>
                 </div><!--schedule-->
               </div><!--desc-->
               <div class="icons">
@@ -95,7 +95,7 @@
                 </div><!--fish-icon-->
                 <div class="schedule">
                   <h6>Saturday 9:30am</h6>
-                  <p>Arrive at Pedro Bay on Lake Iliamna where the personnel of Rainbow Bay Resort will meet you, transporting you and your gear to the lodge located just 10 minutes from the airstrip. You will then get settled into your room at the lodge and relax.</p>
+                  <p>Arrive at Pedro Bay on Lake Iliamna, where we’ll meet and drive you to our lodge to enjoy a hearty lunch while you discuss fishing techniques with our experienced guides. After lunch, feel free to take a tour of the lake, or simply relax as you take in the sights and sounds of the Alaskan wilderness from the comfort of our rustic lodge setting.</p>
                 </div><!--schedule-->
               </div><!--desc-->
               <div class="icons">
@@ -114,8 +114,8 @@
                   <span class="icon-fish"></span>
                 </div><!--fish-icon-->
                 <div class="schedule">
-                  <h6>Sunday 8:00am - 6:00pm</h6>
-                  <p><span class="temp">Depart on our Something plane to the banks of Somewhere where the Something fish are beautiful and plentiful. Spend the day some kind of fishing off our Something boat only interrupted once by your belly, whilst it digests a shore lunch cooked by your guide.</p>
+                  <h6>Sunday - Friday</h6>
+                  <p>After an early wakeup call and hearty breakfast around 7:15 a.m., you’ll suit up in waders and depart the lodge via boat or float plane to explore the natural beauty of Alaska’s rivers and lakes. Depending on the weather and your destination, you’ll enjoy a pre-made box lunch or a shore lunch prepared by your guides. Around 5 p.m., you’ll return to the lodge, where you’ll have an hour or so to rest and clean up before you enjoy drinks, hors d’ourves, and dinner.</p>
                 </div><!--schedule-->
               </div><!--desc-->
               <div class="icons">
@@ -134,108 +134,8 @@
                   <span class="icon-fish"></span>
                 </div><!--fish-icon-->
                 <div class="schedule">
-                  <h6>Monday 8:00am - 6:00pm</h6>
-                  <p><span class="temp">Depart on our Something plane to the banks of Somewhere where the Something fish are beautiful and plentiful. Spend the day some kind of fishing off our Something boat only interrupted once by your belly, whilst it digests a shore lunch cooked by your guide.</p>
-                </div><!--schedule-->
-              </div><!--desc-->
-              <div class="icons">
-                <div class="clock-icon">
-                  <span class="icon-clock-8"></span>
-                </div><!--clock-icon-->
-                <div class="day-icon">
-                  <span class="icon-monday"></span>
-                </div><!--day-icon-->
-              </div><!--icons-->
-            </li>
-
-            <li>
-              <div class="desc">
-                <div class="fish icon">
-                  <span class="icon-fish"></span>
-                </div><!--fish-icon-->
-                <div class="schedule">
-                  <h6>Tuesday 8:00am - 6:00pm</h6>
-                  <p><span class="temp">Depart on our Something plane to the banks of Somewhere where the Something fish are beautiful and plentiful. Spend the day some kind of fishing off our Something boat only interrupted once by your belly, whilst it digests a shore lunch cooked by your guide.</p>
-                </div><!--schedule-->
-              </div><!--desc-->
-              <div class="icons">
-                <div class="clock-icon">
-                  <span class="icon-clock-8"></span>
-                </div><!--clock-icon-->
-                <div class="day-icon">
-                  <span class="icon-tuesday"></span>
-                </div><!--day-icon-->
-              </div><!--icons-->
-            </li>
-
-            <li>
-              <div class="desc">
-                <div class="fish icon">
-                  <span class="icon-fish"></span>
-                </div><!--fish-icon-->
-                <div class="schedule">
-                  <h6>Wednesday 8:00am - 6:00pm</h6>
-                  <p><span class="temp">Depart on our Something plane to the banks of Somewhere where the Something fish are beautiful and plentiful. Spend the day some kind of fishing off our Something boat only interrupted once by your belly, whilst it digests a shore lunch cooked by your guide.</p>
-                </div><!--schedule-->
-              </div><!--desc-->
-              <div class="icons">
-                <div class="clock-icon">
-                  <span class="icon-clock-8"></span>
-                </div><!--clock-icon-->
-                <div class="day-icon">
-                  <span class="icon-wednesday"></span>
-                </div><!--day-icon-->
-              </div><!--icons-->
-            </li>
-
-            <li>
-              <div class="desc">
-                <div class="fish icon">
-                  <span class="icon-fish"></span>
-                </div><!--fish-icon-->
-                <div class="schedule">
-                  <h6>Thursday 8:00am - 6:00pm</h6>
-                  <p><span class="temp">Depart on our Something plane to the banks of Somewhere where the Something fish are beautiful and plentiful. Spend the day some kind of fishing off our Something boat only interrupted once by your belly, whilst it digests a shore lunch cooked by your guide.</p>
-                </div><!--schedule-->
-              </div><!--desc-->
-              <div class="icons">
-                <div class="clock-icon">
-                  <span class="icon-clock-8"></span>
-                </div><!--clock-icon-->
-                <div class="day-icon">
-                  <span class="icon-thursday"></span>
-                </div><!--day-icon-->
-              </div><!--icons-->
-            </li>
-
-            <li>
-              <div class="desc">
-                <div class="fish icon">
-                  <span class="icon-fish"></span>
-                </div><!--fish-icon-->
-                <div class="schedule">
-                  <h6>Friday 8:00am - 6:00pm</h6>
-                  <p><span class="temp">Depart on our Something plane to the banks of Somewhere where the Something fish are beautiful and plentiful. Spend the day some kind of fishing off our Something boat only interrupted once by your belly, whilst it digests a shore lunch cooked by your guide.</p>
-                </div><!--schedule-->
-              </div><!--desc-->
-              <div class="icons">
-                <div class="clock-icon">
-                  <span class="icon-clock-8"></span>
-                </div><!--clock-icon-->
-                <div class="day-icon">
-                  <span class="icon-friday"></span>
-                </div><!--day-icon-->
-              </div><!--icons-->
-            </li>
-
-            <li>
-              <div class="desc">
-                <div class="fish icon">
-                  <span class="icon-fish"></span>
-                </div><!--fish-icon-->
-                <div class="schedule">
                   <h6>Saturday 8:00am - 6:00pm</h6>
-                  <p><span class="temp">Depart on our Something plane to the banks of Somewhere where the Something fish are beautiful and plentiful. Spend the day some kind of fishing off our Something boat only interrupted once by your belly, whilst it digests a shore lunch cooked by your guide.</p>
+                  <p>Start the day with a continental breakfast at 8 a.m. We’ll depart for Pedro Bay at 10 a.m., where you’ll catch your one-hour Lake Clark Air charter flight for Merrill Field in Anchorage. From there, take a cab to Anchorage International Airport for your flight home. (Remember, do not book your departing flight from Anchorage until at least 2 p.m., as inclement weather may delay your departure from the lodge.)</p>
                 </div><!--schedule-->
               </div><!--desc-->
               <div class="icons">
@@ -314,6 +214,8 @@
 
     </div><!--slider-->
 
+    <!-- <p>*All times mentioned on this website are in Alaska Standard Time (AKST).</p> -->
+
   </div><!--inner-->
 
 </section>
@@ -322,17 +224,11 @@
 
   <div class="inner">
 
-    <h2>Anchorage International Airport</h2>
-
-    <p>Most anglers arrive at Anchorage International Airport on Friday afternoons and spend the night at one of the many fine hotels in Anchorage. Do not book a departure flight from Anchorage for home earlier than 4:00 pm on the last Saturday of your trip as inclement weather may delay your Lake Clark Air charter flight arrival into Anchorage from Pedro Bay. </p>
-
-    <p>The lodge personel will filet, vacuum pack and freeze Salmon and Halibut caught during your stay, providing you with a heavy waxed cardboard fish box at the end of your trip. Anchorage International Airport has walk in freezers and you can check your fish while you await your departure flight. You will need to claim your fish box from the airport freezer and check it on you departure flight as baggage. Your fish should remain frozen until you arrive at the airport of your final destination. </p>
-
-    <h2 class="multiple">Anchorage Hotels</h2>
+    <h2>Anchorage Hotels</h2>
 
     <div class="left">
 
-      <p>Listed below are recommendations for Anchorage hotels. The Captain Cook hotel in downtown Anchorage offers the most upscale accommodations in town offer’s clients of Rainbow Bay Resort a special rate of $215.00/night.</p>
+      <p>Anchorage is home to nearly 100 hotels, so we’ve hand selected our top choices for the area’s best accommodations. Our favorite is The Hotel Captain Cook! Located in the heart of downtown Anchorage, this hotel offers luxury accommodations to Rainbow Bay Resort guests at a special rate of $215/night. </p>
 
     </div><!--left-->
 
@@ -340,19 +236,27 @@
 
       <table>
         <tr>
-          <td>Hotel Captain Cook</td>
+          <td><a href="http://www.captaincook.com" target="_blank">The Hotel Captain Cook</a></td>
           <td><a href="tel:19072766000">(907) 276-6000</a></td>
         </tr>
         <tr>
-          <td>Millennium Hotel</td>
-          <td><a href="tel:19072432300">(907) 243-2300</a></td>
+          <td><a href="http://www.millenniumhotels.com/usa/millenniumanchorage" target="_blank">Millennium Alaskan <br />Hotel Anchorage</a></td>
+          <td><a href="tel:18005440553">(800) 544-0553</a></td>
         </tr>
         <tr>
-          <td>Holiday Inn</td>
+          <td><a href="http://www.ihg.com/holidayinnexpress/hotels/us/en/anchorage/ancsp/hoteldetail/directions" target="_blank">Holiday Inn Express</a></td>
           <td><a href="tel:19072488848">(907) 248-8848</a></td>
         </tr>
         <tr>
-          <td>Marriott Courtyard</td>
+          <td><a href="http://www.super8.com/hotels/alaska/anchorage/super-8-anchorage/hotel-overview" target="_blank">Super 8 Anchorage</a></td>
+          <td><a href="tel:19072768884">(907) 276-8884</a></td>
+        </tr>
+        <tr>
+          <td><a href="http://www.puffininn.net/" target="_blank">Puffin Inn</a></td>
+          <td><a href="tel:18664944841">(866) 494-4841</a></td>
+        </tr>
+        <tr>
+          <td><a href="http://www.marriott.com/hotels/hotel-deals/anccy-courtyard-anchorage-airport/" target="_blank">Courtyard by Marriott</a></td>
           <td><a href="tel:18002282800">(800) 228-2800</a></td>
         </tr>
       </table>
@@ -361,19 +265,23 @@
 
     </div><!--right-->
 
-    <h2 class="multiple">Lake Clark Air Charter Flights</h2>
-
-    <div class="left">
-
-      <img src="/_assets/img/temp-map.png" alt="Map of Illiamna Bay, Pedro Bay, Alaska">
-
-    </div><!--left-->
-
-    <div class="right">
+    <h2 class="multiple">Booking Your Airfare &amp; Hotel</h2>
       
-      <p>Angry Eagle will make your charter reservations for you!  Lake Clark Air (LCA) is a private charter service that operates 8 passenger, twin engine Navajo aircraft between Anchorage and Rainbow Bay Resort. LCA operates out of Merrill Field, a private airstrip located on the north side of Anchorage. Plan on arriving at the LCA office at Merrill Field at 8:00 am on Saturday morning as the charter flight is scheduled to depart Anchorage for Pedro Bay on Lake Iliamna at 9:00 am. The flight is about 1 hour and offers great vistas of the snow covered Alaskan Range and breathtaking glaciers. Be sure to dress warm for the flight and have your camera with you as well as your raingear in case there is rain on the 10 minute trip from the airstrip at Pedro Bay to the lodge. There is a limit of 50lb of baggage/person on the LCA charter flights, plus a charge of 75 cents/pound for all luggage over 50 lbs/person. LCA has a flat fee of $25.00 for each fish box of frozen fish due on your return to Anchorage from the lodge. The round-trip charter cost is around $465.00/person, they accept cash, check or Visa/MC/AMX. Clients will pay of this charter flight upon arrival at the Lake Clark Air office. </p>
+      <p>When booking your travel plans to Alaska, we recommend arriving at the <a href="http://www.dot.state.ak.us/anc/" target="_blank">Anchorage International Airport</a> the Friday before your adventure begins at Rainbow Bay Resort. After arriving in Anchorage, explore the <a href="https://www.travelalaska.com/Destinations/Communities/Anchorage/Services.aspx?cat=Things_To_Do" target="_blank">sights and sounds of the city</a> or head to your hotel to relax and unwind for the evening.</p>
 
-    </div><!--right-->
+      <p>When scheduling your departing flight home from Anchorage, do NOT book anything earlier than 4 p.m. on the last Saturday of your trip. Inclement weather may delay your Lake Clark Air Charter flight arrival into Anchorage from Pedro Bay. </p>
+
+    <h2 class="multiple">Traveling with Your Catch </h2>
+
+    <p>Wondering what to do with all the fish you catch during your stay with us? We’ve got you covered. Before you head home, we’ll filet your salmon and halibut and then vacuum pack, freeze, and place in it a travel-friendly box that holds up to 40 pounds of fish. Anchorage International Airport has walk-in freezers where you can check your fish while you wait for your flight home. When your departure time draws near, simply claim your box from the airport freezer and check it on your flight as baggage. Your fish should remain frozen until you arrive at your final destination.</p>
+
+    <h2 class="multiple">Getting to Rainbow Bay Resort</h2>
+
+    <p>Have your camera ready for breathtaking views of the snow-covered Alaska Range and glaciers as you travel with <a href="http://www.lakeclarkair.com/" target="_blank">Lake Clark Air</a> (LCA), a private charter service that operates eight-passenger, twin-engine Navajo aircraft between Anchorage and Rainbow Bay Resort. We’ll schedule your reservations with LCA, so the only thing you need to do is take a cab to the LCA office at <a href="http://www.muni.org/departments/merrill_field/pages/default.aspx" target="_blank">Merrill Field</a>, a commercial service airport located on the north side of Anchorage, at 8 a.m.* on the morning of your charter flight. Typically, this one-hour, 180-mile flight departs Anchorage for Pedro Bay on Lake Iliamna at 9 a.m. Be sure to dress in warm clothes and have your raingear handy in case there’s rain upon your arrival at Pedro Bay. </p>
+
+    <p>Keep in mind, LCA has a 50-pound baggage limit per person and charges 75¢ per additional pound of baggage. LCA also charges $25 for each box of fish on your return flight to Anchorage. The round-trip charter flight costs about $465 per person and must be paid by clients upon arrival at the LCA office. LCA accepts cash and check as well as Visa, MasterCard, and American Express. </p>
+
+    <p>*All times mentioned on this website are in Alaska Standard Time (AKST).</p>
 
   </div><!--inner-->
   
@@ -389,9 +297,10 @@ function printTable() {
       $('.flexslider').flexslider({
         animation: "slide",
         directionNav: true,
-        controlNav: true,
+        controlNav: false,
         pauseOnHover: true,
         animationLoop: false,
+        randomize: false,
         start: function(slider){
           $('body').removeClass('loading');
         }

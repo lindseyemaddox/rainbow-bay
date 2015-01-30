@@ -8,8 +8,8 @@
     
         <video autoplay preload="auto" muted loop="loop" canplay="false" class="bg-vid">
     
-          <source src="web-vid2.mp4" type="video/mp4">
-          <source src="web-vid2.webm" type="video/webm">
+          <source src="sockeye.mp4" type="video/mp4">
+          <source src="sockeye.webm" type="video/webm">
     
         </video>
     

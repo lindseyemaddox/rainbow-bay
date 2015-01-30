@@ -9,7 +9,11 @@
 
         <h2>Our Fleet</h2>
 
-        <p><span class="temp">Strip steak cupim jowl brisket kielbasa beef ribs short ribs, alcatra meatball salami ham hock tri-tip capicola pork shoulder. Salami meatloaf cow, ball tip sausage picanha turkey pancetta brisket swine. Shoulder frankfurter filet mignon spare ribs boudin ham hock, jowl salami rump. Doner corned beef pork drumstick pig ground round. Strip steak swine beef ribs brisket fatback drumstick frankfurter pastrami pork belly spare ribs cupim ham shoulder meatloaf. Fatback rump swine chicken pancetta hamburger short ribs brisket t-bone landjaeger ground round chuck salami andouille. Jerky fatback turkey pork belly cow.</span></p>
+        <p>Angry Eagle’s collection of aircraft and boats allows us to access some of the best streams, lakes, and rivers from Lake Clark National Park to the Nushagak River.</p>
+
+        <p>We have riverboats throughout the Bristol Bay watershed that can be accessed by our lake boats or float planes. Our wide selection of boats also helps us ensure clients can comfortably and safely fish on days when fly-outs aren’t possible due to the weather (a perk that many other area lodges can’t give their clients). We also offer all-day and overnight fishing trips aboard our 55’ sport fishing boat.</p>
+
+        <p>In addition to fly-outs, we provide plane tours of Brooks Falls in Katmai National Park for bear viewing and to Twin Lakes in Lake Clark National Park to visit Richard Proenneke’s famous homestead featured in PBS’ “One Man’s Wilderness.” Flying over the vast tundra and Chugach Mountains of Southwest Alaska is an experience you’ll never forget.</p>
 
     </div><!--inner-->
 

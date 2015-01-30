@@ -1,7 +1,6 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/common.php'); //php framework and meta?>
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/head.php'); // HTTP head?>
 <script type="text/javascript" src="/_assets/js/jquery.isotope.min.js"></script>
-<script type="text/javascript" src="/_assets/js/media.js"></script>
 <link rel="stylesheet" type="text/css" media="print" href="/_assets/css/print.css" />
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/subpage-header.php'); //video header?>
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/navigation.php'); //navigation?>
@@ -31,17 +30,17 @@
                     <ul id="filters" class="option-set clearfix" data-option-key="filter">
                         <li><a href="#filter" data-option-value="*" class="selected showall">Show All</a></li>
                         <li class="heading">Filter By</li>
-                        <li><a href="#filter" data-option-value=".news">News</a></li>
+                        <!-- <li><a href="#filter" data-option-value=".news">News</a></li> -->
                         <li><a href="#filter" data-option-value=".article">Articles</a></li>
-                        <li><a href="#filter" data-option-value=".story">Stories</a></li>
+                        <!-- <li><a href="#filter" data-option-value=".story">Stories</a></li> -->
                         <li><a href="#filter" data-option-value=".video">Videos</a></li>
                         <li><a href="#filter" data-option-value=".printable">Printables</a></li>
-                        <li><a href="#filter" data-option-value=".photo">Photos</a></li>
-                        <li class="heading">Photo Topic</li>
+                        <!-- <li><a href="#filter" data-option-value=".photo">Photos</a></li> -->
+                        <!-- <li class="heading">Photo Topic</li>
                         <li><a href="#filter" data-option-value=".wildlife">Wildlife</a></li>
                         <li><a href="#filter" data-option-value=".fish">Fish</a></li>
                         <li><a href="#filter" data-option-value=".scenery">Scenery</a></li>
-                        <li><a href="#filter" data-option-value=".hiking">Hiking</a></li>
+                        <li><a href="#filter" data-option-value=".hiking">Hiking</a></li> -->
                     </ul>
                 
                 </div>
@@ -112,13 +111,15 @@
 
             </article><!--media-item-->
 
-            <article class="media-item photo fish">
+            <article class="media-item video">
               
-              <span class="icon-photo"></span>
+              <span class="icon-video"></span>
 
-              <h4>casting on a <br />warm day</h4>
+              <h4>Young Brown Bear Fishing</h4>
 
-              <a href="/media/photo-casting" class="link fancybox fancybox.iframe"><img src="/_assets/img/photo-casting.jpg" alt="Woman casting fishing line on the Illiamna River on a warm day"></a>
+              <p>Need a short description</p>
+
+              <a href="/lightboxes/video/fishing-bear" class="video-link fancybox fancybox.iframe"><span class="icon-play"></span><img src="/_assets/img/video-fishing-bear.jpg" alt=""></a>
 
             </article><!--media-item-->
 
@@ -126,13 +127,13 @@
               
               <span class="icon-article"></span>
 
-              <h4>Need English title for Igor's</h4>
+              <h4>King of <br />Salmon!</h4>
 
               <a href="/lightboxes/articles/igors-article.pdf" class="fancybox fancybox.iframe"><img src="/_assets/img/article-igors.jpg" alt="igor's article"></a>
 
               <p class="author">by Igor Grigorenko</p>
 
-              <p>Article doiafoa efoaiehf a sdlfoaieh fanf aoeifh a dslvaoief sldkn aowiehf a lsdkcn faoeishr ldknfaoweia sdlknf aoseir alsdkfn aoeifha lsdknfaoweif sldknf a Article doiafoa efoaiehf asdlfoaieh fanf aoeifh adslvaoief sldkn aowiehf alsdkcn faoeishr asldknfaoweia sdlknf aoseir alsdkfn aoeifha lsdknfaoweif sldknf a Article doiafoa efoaiehf asdlfoaieh fanf aoeifh adslvaoief sldkn aowiehf alsdkcn faoeishr asldknfaoweia sdlknf aoseir alsdkfn aoeifha lsdknfaoweif</p>
+              <p>Alaskan chinook salmon are nicknamed “king salmon” or simply “the king” for a reason. This noble Pacific salmon demonstrates sheer power and strength, which makes hooking this mighty fish a complete delight.</p>
 
               <a href="/lightboxes/articles/igors-article.pdf" class="fancybox fancybox.iframe readmore">read more</a>
 
@@ -202,65 +203,7 @@ $('#container').isotope({ layoutMode : 'fitRows' });
       
     });
   
-    $(function(){
-      
-      var $container = $('#container');
-      
-      $container.isotope({
-        itemSelector : '.media-item',
-        getSortData : {
-          symbol : function( $elem ) {
-            return $elem.attr('data-symbol');
-          },
-          category : function( $elem ) {
-            return $elem.attr('data-category');
-          },
-          number : function( $elem ) {
-            return parseInt( $elem.find('.number').text(), 10 );
-          },
-          weight : function( $elem ) {
-            return parseFloat( $elem.find('.weight').text().replace( /[\(\)]/g, '') );
-          },
-          name : function ( $elem ) {
-            return $elem.find('.name').text();
-          }
-        }
-      });
-      
-      
-      var $optionSets = $('#options .option-set'),
-          $optionLinks = $optionSets.find('a');
-
-      $optionLinks.click(function(){
-        var $this = $(this);
-        // don't proceed if already selected
-        if ( $this.hasClass('selected') ) {
-          return false;
-        }
-        var $optionSet = $this.parents('.option-set');
-        $optionSet.find('.selected').removeClass('selected');
-        $this.addClass('selected');
-  
-        // make option object dynamically, i.e. { filter: '.my-filter-class' }
-        var options = {},
-            key = $optionSet.attr('data-option-key'),
-            value = $this.attr('data-option-value');
-        // parse 'false' as false boolean
-        value = value === 'false' ? false : value;
-        options[ key ] = value;
-        if ( key === 'layoutMode' && typeof changeLayoutMode === 'function' ) {
-          // changes in layout modes need extra logic
-          changeLayoutMode( $this, options )
-        } else {
-          // otherwise, apply new options
-          $container.isotope( options );
-        }
-        
-        return false;
-      });
-
-      
-    });
 </script>
+
 
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/footer.php'); // footer, close body and html?>

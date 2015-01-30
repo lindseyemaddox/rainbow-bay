@@ -36,6 +36,9 @@ h2 {
 	&.multiple {
 		padding-top: 55px;
 	}
+	&.subh2 {
+		font-size: 1.5em;
+	}
 }
 h3 {
 	.ssp-light;
@@ -59,6 +62,10 @@ h4 {
 	line-height: 0.6944444444444444em;
 	padding: 20px 0 26px;
 	border-bottom: 1px solid #fff;
+	&.alt {
+		border-bottom: none;
+		color: @brown;
+	}
 }
 h5 {
 	.passion;
@@ -81,6 +88,13 @@ p {
 	font-size: 1em;
 	color: @brown;
 	line-height: 1.3em;
+	a {
+		color: @green;
+		text-decoration: underline;
+		&:hover {
+			color: @mint;
+		}
+	}
 }
 .italic {
 	.ssp-italic;
@@ -158,7 +172,7 @@ table {
 			.ssp-semibold;
 			td {
 				text-transform: none;
-				padding: 5px 10px;
+				padding: 8px 10px;
 			}
 			&:first-child td {
 				border-top: none;

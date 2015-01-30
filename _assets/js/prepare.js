@@ -6,7 +6,7 @@
 	  maxWidth: 277
 	});
 
-	$('.highlights li, table.dark td').click(function(){
+	$('.highlights li').click(function(){
 		$('.feature-info').show();
 		$('.feature-info li').hide();
 	      $(this).addClass('indicator');

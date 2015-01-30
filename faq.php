@@ -8,9 +8,9 @@
 
 	<div class="inner">
 
-		<h2>Frequently Asked Questions</h2>
+	<h2>Frequently Asked Questions</h2>
 
-		<p class="faquestion"><span class="icon-question"></span> Do you have phone service at the lodge?</p>
+	<p class="faquestion"><span class="icon-question"></span> Do you have phone service at the lodge?</p>
 
         <p class="faqanswer show">Yes, we provide satellite phone service for our guests. Because guests are charged for using this service, we recommend that they bring prepaid calling cards to get the best rates.</p>
 
@@ -28,7 +28,11 @@
 
         <p class="faquestion"><span class="icon-question"></span> What time are meals served?</p>
 
-        <p class="faqanswer">Breakfast will be ready at 7:15 a.m. AKST, and dinner is served at approximately 7:30 p.m. AKST. We cook shore lunches when the weather allows. Otherwise, we’ll provide you with a sack lunch.</p>
+        <p class="faqanswer">Breakfast will be ready at 7:15 a.m. AKST, and dinner is served at approximately 7:30 p.m. AKST. We cook shore lunches when the weather and location allow. Otherwise, we’ll provide you with a sack lunch.</p>
+
+        <p class="faquestion"><span class="icon-question"></span> What kind of meals are served?</p>
+
+        <p class="faqanswer">Guests are served three meals a day. Breakfast is typically served around 7:15 a.m. Lunch will either be a shore-cooked lunch or a prepared sack lunch depending on the fishing destination and weather. After guests return to the lodge, they are treated to hors ‘dourves, beer, and wine followed by an upscale dinner that may include king crab, prime rib, or inch-thick pork chops, just to name a few.</p>
 
         <p class="faquestion"><span class="icon-question"></span> Does the lodge provide laundry service?</p>
 
@@ -41,6 +45,10 @@
         <p class="faquestion"><span class="icon-question"></span> How much time will I spend fishing each day?</p>
 
         <p class="faqanswer">This depends on your fishing destination and the weather, but during a typical day you’ll be fishing from 8 a.m. to 5 p.m. AKST.</p>
+
+        <p class="faquestion"><span class="icon-question"></span> Can I rent waders from Angry Eagle? Or, can you order a pair for me?</p>
+
+        <p class="faqanswer">Yes, you can rent high-quality Simms® G3 and Patagonia® waders and wading boots for $100 weekly. We’re also happy to purchase Simms or Patagonia waders and boots for you and have them waiting at the lodge upon your arrival. If you’d like to rent or purchase waders and boots, please <a href="/contact">let us know</a> at least 30 days prior to your arrival.</p>
 
         <p class="faquestion"><span class="icon-question"></span> How many fishermen are placed per guide?</p>
 

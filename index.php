@@ -1,5 +1,6 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/common.php'); //php framework and meta?>
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/head.php'); // HTTP head?>
+<link rel="stylesheet" href="/_assets/css/fishslider.css" media="screen">
 <div class="index-nav">
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/navigation.php'); //navigation?>
 </div><!--index-nav-->	
@@ -7,7 +8,7 @@
 
     <div class="slider">
     
-        <div class="flexslider carousel">
+        <div class="flexslider">
     
           <ul class="slides">
 
@@ -91,49 +92,62 @@
 
   <div class="inner">
     
-    <div class="testimonial">
-      
-      <img src="/_assets/img/testimonial.jpg" alt="testimonial by Person Name">
-
-      <p><span class="temp">“A testimonial here would be fabulous. Rainbow Bay Lodge is located in the Bristol Bay drainage on Lake Iliamna, 180 miles southwest of Anchorage, Alaska and the nearest road. The Lodge is surrounded by Lake Clark National Park to the north and  numbers of wild Rainbow Trout, Arctic Grayling, Arctic Char, Northern Pike and the 5 species of Pacific Salmon.</span></p>
-
-      <h6><span class="temp">A Happy Man, Out West, Oregon</span></h6>
-      <h6><span class="temp">Third Trip to Rainbow Bay Lodge, June 2014</span></h6>
-
-    </div><!--testimonial-->
-
-    <div class="testimonial">
-      
-      <img src="/_assets/img/testimonial.jpg" alt="testimonial by Person Name">
-
-      <p><span class="temp">“A testimonial here would be fabulous. Rainbow Bay Lodge is located in the Bristol Bay drainage on Lake Iliamna, 180 miles southwest of Anchorage, Alaska and the nearest road. The Lodge is surrounded by Lake Clark National Park to the north and  numbers of wild Rainbow Trout, Arctic Grayling, Arctic Char, Northern Pike and the 5 species of Pacific Salmon.</span></p>
-
-      <h6><span class="temp">A Happy Man, Out West, Oregon</span></h6>
-      <h6><span class="temp">Third Trip to Rainbow Bay Lodge, June 2014</span></h6>
-
-    </div><!--testimonial-->
-
-    <div class="testimonial">
-      
-      <img src="/_assets/img/testimonial.jpg" alt="testimonial by Person Name">
-
-      <p><span class="temp">“A testimonial here would be fabulous. Rainbow Bay Lodge is located in the Bristol Bay drainage on Lake Iliamna, 180 miles southwest of Anchorage, Alaska and the nearest road. The Lodge is surrounded by Lake Clark National Park to the north and  numbers of wild Rainbow Trout, Arctic Grayling, Arctic Char, Northern Pike and the 5 species of Pacific Salmon.</span></p>
-
-      <h6><span class="temp">A Happy Man, Out West, Oregon</span></h6>
-      <h6><span class="temp">Third Trip to Rainbow Bay Lodge, June 2014</span></h6>
-
-    </div><!--testimonial-->
-
-    <div class="testimonial">
-      
-      <img src="/_assets/img/testimonial.jpg" alt="testimonial by Person Name">
-
-      <p><span class="temp">“A testimonial here would be fabulous. Rainbow Bay Lodge is located in the Bristol Bay drainage on Lake Iliamna, 180 miles southwest of Anchorage, Alaska and the nearest road. The Lodge is surrounded by Lake Clark National Park to the north and  numbers of wild Rainbow Trout, Arctic Grayling, Arctic Char, Northern Pike and the 5 species of Pacific Salmon.</span></p>
-
-      <h6><span class="temp">A Happy Man, Out West, Oregon</span></h6>
-      <h6><span class="temp">Third Trip to Rainbow Bay Lodge, June 2014</span></h6>
-
-    </div><!--testimonial-->
+      <div class="slider">
+        <div class="fishslider carousel">
+          <ul class="slides">
+            <li><a href="/activities#species">
+              <img src="/_assets/img/icon-arctic-char.svg" alt="Arctic Char">
+              <h4 class="alt">Arctic <br />Char</h4>
+              <p>Arctic Char are relatives of the Dolly Varden, brook trout, and...</p>
+            </a></li>
+            <li><a href="/activities#species">
+              <img src="/_assets/img/icon-arctic-grayling.svg" alt="Arctic Grayling">
+              <h4 class="alt">Arctic <br />Grayling</h4>
+              <p>Arctic grayling are often referred to as the sailfish of the north...</p>
+            </a></li>
+            <li><a href="/activities#species">
+              <img src="/_assets/img/icon-chum-salmon.svg" alt="Chum Salmon">
+              <h4 class="alt">Chum <br />Salmon</h4>
+              <p>Next to the king salmon, chum salmon are the biggest and...</p>
+            </a></li>
+            <li><a href="/activities#species">
+              <img src="/_assets/img/icon-halibut.svg" alt="Pacific Halibut">
+              <h4 class="alt">Pacific <br />Halibut</h4>
+              <p>Pacific halibut are considered by many fishermen to be the...</p>
+            </a></li>
+            <li><a href="/activities#species">
+              <img src="/_assets/img/icon-king-salmon.svg" alt="King Salmon">
+              <h4 class="alt">King <br />Salmon</h4>
+              <p>King salmon, also known as Chinook salmon, are the biggest of the five...</p>
+            </a></li>
+            <li><a href="/activities#species">
+              <img src="/_assets/img/icon-northern-pike.svg" alt="Northern Pike">
+              <h4 class="alt">Northern <br />Pike</h4>
+              <p>Northern Pike is a sport fish in a class by itself—it’s a true predator that...</p>
+            </a></li>
+            <li><a href="/activities#species">
+              <img src="/_assets/img/icon-pink-salmon.svg" alt="Pink Salmon">
+              <h4 class="alt">Pink <br />Salmon</h4>
+              <p>Pink salmon typically measure 36 inches in length, often exceeding 30...</p>
+            </a></li>
+            <li><a href="/activities#species">
+              <img src="/_assets/img/icon-rainbow-trout.svg" alt="Rainobw Trout">
+              <h4 class="alt">Rainbow <br />Trout</h4>
+              <p>These acrobatic fish are known for being fierce fighters that haven’t...</p>
+            </a></li>
+            <li><a href="/activities#species">
+              <img src="/_assets/img/icon-silver-salmon.svg" alt="Silver Salmon">
+              <h4 class="alt">Silver <br />Salmon</h4>
+              <p>Silver salmon are the salmon of choice by most avid fly fishermen...</p>
+            </a></li>
+            <li><a href="/activities#species">
+              <img src="/_assets/img/icon-sockeye-salmon.svg" alt="Sockeye Salmon">
+              <h4 class="alt">Sockeye <br />Salmon</h4>
+              <p>Sockeye salmon are the most plentiful of the Bristol Bay Salmon...</p>
+            </a></li>
+          </ul>
+        </div>
+      </div><!--slider-->
 
   </div><!--inner-->
   
@@ -179,7 +193,7 @@
 
       <h4>Dallas Safari Club Interview</h4>
 
-      <p>Dallas Safari Club Game Trails Online Editor Gayne C. Young talks to Jim Kern about fishing in Alaska.</p>
+      <p>Jim Kern discusses fishing in Alaska with Gayne C. Young, editor of Dallas Safari Club's GameTrails Online.</p>
 
       <a href="/lightboxes/video/interview" class="video-link fancybox fancybox.iframe"><span class="icon-play"></span><img src="/_assets/img/video-interview.jpg" alt="Dallas Safari Club Game Trails Online Editor Gayne C. Young talks to Jim Kern of Rainbow Bay Resort about fishing in Alaska."></a>
 
@@ -210,6 +224,27 @@
 	  	});
 	});
 </script>
+
+<script type="text/javascript">
+  $(document).ready(function(){
+      $('.fishslider').flexslider({
+        animation: "slide",
+        directionNav: true,
+        controlNav: false,
+        pauseOnHover: true,
+        animationLoop: true,
+        randomize: true,
+        slideshow: false, 
+        itemWidth: 330,
+        minItems: 3,
+        maxItems: 3,
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+      });
+  });
+</script>
+
 <script src="/_assets/js/jquery.flexslider.js"></script>
 
 <script type="text/javascript">

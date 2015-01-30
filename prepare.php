@@ -11,9 +11,11 @@
 
 	<div class="inner">
 
-		<h2>What to pack</h2>
+		<h2>Packing for Your Trip to Rainbow Bay Resort</h2>
 
-		<p>The weather during the summer in the Bristol Bay area of southwest Alaska can vary from a warm sunny 75 degrees to a cool rainy 45 degree day. This area is not far from the Bering Sea and Cook Inlet and as the old saying goes, <span class="italic">“if you don’t like the weather just wait a few minutes.”</span> Layer your clothes so that you can add or subtract layers as the weather changes. You will want to bring a light backpack with you daily with your rain gear and possibly a wool sweater to ensure your comfort while in the field. Drag the slider to the left to reveal the illustrated packing list.</p>
+		<p>As the saying goes, “If you don’t like the weather, just wait a few minutes.” That couldn’t be truer than here in the Bristol Bay area of southwest Alaska. Summer weather can vary from a sunny day in the mid-seventies to a cool, rainy day in the mid-forties. That’s why you should bring clothing that can be layered so you can add or subtract layers as the weather changes. </p>
+
+    <p>Drag the slider over the fisherman to see our entire list of packing recommendations.</p>
 
 	</div><!--inner-->
 
@@ -56,47 +58,47 @@
                 <span>warm cap</span>
               </li>
               <li>
-                <img src="/_assets/img/gear-cap.png">
+                <img src="/_assets/img/gear-sunglasses.png">
                 <span>polarized sunglasses</span>
               </li>
               <li>
-                <img src="/_assets/img/gear-cap.png">
+                <img src="/_assets/img/gear-long-johns.png">
                 <span>two sets of light long johns</span>
               </li>
               <li>
-                <img src="/_assets/img/gear-cap.png">
+                <img src="/_assets/img/gear-wool-socks.png">
                 <span>two pairs of padded wool socks</span>
               </li>
               <li>
-                <img src="/_assets/img/gear-cap.png">
+                <img src="/_assets/img/gear-cotton-socks.png">
                 <span>two pairs of padded cotton socks</span>
               </li>
               <li>
-                <img src="/_assets/img/gear-cap.png">
+                <img src="/_assets/img/gear-gloves.png">
                 <span>fishing gloves (fingerless are ok)</span>
               </li>
               <li>
-                <img src="/_assets/img/gear-cap.png">
+                <img src="/_assets/img/gear-long-sleeved.png">
                 <span>two long-sleeved shirts</span>
               </li>
               <li>
-                <img src="/_assets/img/gear-cap.png">
+                <img src="/_assets/img/gear-down-jacket.png">
                 <span>light down jacket</span>
               </li>
               <li>
-                <img src="/_assets/img/gear-cap.png">
+                <img src="/_assets/img/gear-jeans.png">
                 <span>two pairs of wool pants or jeans</span>
               </li>
               <li>
-                <img src="/_assets/img/gear-cap.png">
+                <img src="/_assets/img/gear-wool-sweater.png">
                 <span>medium-weight wool sweater</span>
               </li>
               <li>
-                <img src="/_assets/img/gear-cap.png">
+                <img src="/_assets/img/gear-rain-suit.png">
                 <span>rain suit (we recommend Gore-Tex)</span>
               </li>
               <li>
-                <img src="/_assets/img/gear-cap.png">
+                <img src="/_assets/img/gear-shoes.png">
                 <span>tennis or deck shoes (for use at lodge)</span>
               </li>
             </ul>
@@ -162,52 +164,51 @@
 
     <h2>Fishing Equipment</h2>
 
-    <p>Rainbow Bay Resort has a complete inventory of fishing equipment, fly and spinning, that we furnish to our clients at no additional cost. Should you wish to bring your own fishing equipment we welcome it. On lures & flies remember only single hooks are allowed in Alaska, double or treble hooks on lures are illegal on trout streams! We recommend that you bring chest waders, Gore-Tex works best, if you have neoprene you need not buy new ones! Remember, felt sole wader boots are illegal in Alaska!</p>
+    <p>Rainbow Bay Resort has a complete inventory of fly, spinning, and bait-casting equipment featuring custom Temple Fork Outfitters (TFO) 6-wt. and 8-wt. fly rods, complemented with TFO fly reels and fly lines as well as light and heavy TFO spinning and bait rods. Quality Shimano spinning and bait casting reels are also furnished, as are the flies, spinners, and jigs during your fishing trip at no additional cost. </p>
+
+    <h2 class="multiple subh2">Our Wader Rental &amp; Purchase Program</h2>
+
+    <p>Bringing a quality pair of waders and wading boots is a must, since you’ll be wearing them every day. If you don’t own a pair, we offer a rental program that allows you to rent high-quality Simms® G3 and Patagonia® waders and wading boots for $100 weekly. We’re also happy to order Simms or Patagonia waders and boots for you and have them waiting at the lodge upon your arrival. </p>
+
+    <p>If you’d like to rent or purchase waders and boots, please <a href="/contact">let us know</a> at least 30 days prior to your arrival at Rainbow Bay.</p>
+
+    <p>Remember, felt sole waders and wader boots are <a href="http://www.adfg.alaska.gov/static/species/nonnative/invasive/pdfs/felt_soled_waders_faq.pdf" target="_blank">Illegal in Alaska</a>.</p>
+
 
       <table class="pad">
         <tr>
-          <td class="table-left"><p class="table-header">Spinning Equipment</p><p class="table-body">The equipment listed below is for everything but King Salmon. Kings will weigh upwards of 50 lbs and you need pretty heavy bait casting equipment to land them. We furnish this heavy equipment at the lodge, but if you wish to bring your own equipment for the Kings contact us for proper equipment.</p></td>
+          <td class="table-left"><p class="table-header">Spinning Equipment</p><p class="table-body">This list covers everything except for equipment needed to catch king salmon, which can weigh upward of 50 pounds and require heavy-duty bait casting equipment to land. We furnish this type of equipment at the lodge, but you’re welcome bring your own equipment. <a href="/contact">Contact us</a> so we can tell you more about what you’ll need.</p></td>
           <td class="no-padding">
             <table>
               <tr>
-                <td>Light Weight Spinning Rod</td>
-                <td>1/8 – 1/4 ounce Lures</td>
+                <td>Lightweight spinning rod (1/8-oz. to 1/4-oz. lures)</td>
               </tr>
               <tr>
-                <td>Light Weight Reel</td>
-                <td>Loaded with 8 lb Line</td>
+                <td>Lightweight reel loaded with 8-lb. line</td>
               </tr>
               <tr>
-                <td>Medium - Heavy Spinning Rod</td>
-                <td>3/8 – 3/4 ounce</td>
+                <td>Medium to heavy spinning rod (3/8 oz. to 3/4 oz.)</td>
               </tr>
               <tr>
-                <td>Medium Weight Reel</td>
-                <td>Loaded with 17 lb Test Line</td>
+                <td>Medium-weight reel loaded with 17-lb. test line</td>
               </tr>
               <tr>
-                <td>Chest Waders</td>
-                <td>Gore-Tex Recommended</td>
+                <td>Chest waders (We recommend GORE-TEX&reg;)</td>
               </tr>
               <tr>
-                <td>Mepps Spinners</td>
-                <td>#3 &amp; #5</td>
+                <td>Mepps spinners #3 &amp; #5</td>
               </tr>
               <tr>
-                <td>Vibrex Spinners</td>
-                <td>#3 &amp; #5</td>
+                <td>Vibrax spinners #3 &amp; #5</td>
               </tr>
               <tr>
-                <td>Pixie Spoons</td>
-                <td>3/8 – 5/8 ounce</td>
+                <td>Pixie spoons 3/8 – 5/8 oz.</td>
               </tr>
               <tr>
-                <td>Dare Devil Spoons</td>
-                <td>3/8 – 5/8 ounce</td>
+                <td><a href="http://www.basspro.com/Eppinger-Original-Dardevle-Spoons/product/2918/" target="_blank">Dardevle spoons</a> 3/8 – 5/8 oz.</td>
               </tr>
               <tr>
-                <td>Black Crappie Jigs</td>
-                <td>1/8 – 1/4 ounce</td>
+                <td>Black crappie jigs 1/8 – 1/4 oz.</td>
               </tr>
             </table>
           </td>
@@ -218,48 +219,41 @@
 
       <table class="pad pad-more">
         <tr>
-          <td class="table-left"><p class="table-header">Fly Fishing Equipment</p><p class="table-body">Fly fishing equipment is kind of personal and although we have fly fishing gear at the lodge we suggest you bring your own if you have it. Bringing a fly vest is a good idea if you use our equipment or not, as we do not furnish them. We do furnish flies at the lodge, but bring some of your own to try if you wish.</p></td>
+          <td class="table-left"><p class="table-header">Fly Fishing Equipment</p><p class="table-body">While our guests are welcome to use our Temple Fork Outfitters’ 6-wt. and 8-wt. fly rods, we suggest bringing your own rods if you have them. After all, if your gear is customized for your use, it will most likely increase your chances of hooking a fish worthy of bragging about for years to come. </p><p class="table-body">We also provide an assortment of flies and other terminal tackle, but keep your options open and bring as many flies as you’d like. Here are our other recommendations for bringing your own rods, reels, and terminal tackle:</p></td>
           <td class="no-padding">
             <table>
               <tr>
-                <td>Fly Rod for Trout &amp; Char</td>
-                <td>5 - 6 Weight</td>
+                <td>A fly vest</td>
               </tr>
               <tr>
-                <td>Single &amp; Double Egg Patterns</td>
-                <td>Size 4 &amp; 6</td>
+                <td>5 – 6 wt. fly rod for trout and char</td>
               </tr>
               <tr>
-                <td>Fly Rod for Salmon &amp; Pike</td>
-                <td>8 – 9 Weight</td>
+                <td>8 – 9 wt. fly rod for salmon and pike</td>
               </tr>
               <tr>
-                <td>Fly Lines</td>
-                <td>Floating &amp; Sink Tip</td>
+                <td>Floating &amp; sink tip fly lines</td>
               </tr>
               <tr>
-                <td>Leaders for Trout &amp; Char</td>
-                <td>8 - 10 pound</td>
+                <td>8 &amp; 10 lb. leaders for trout and char</td>
               </tr>
               <tr>
-                <td>Leaders for Salmon</td>
-                <td>17 - 20 pound</td>
+                <td>17 – 20 lb. leaders for salmon</td>
               </tr>
               <tr>
-                <td>Steel Leaders for Pike</td>
-                <td>30 – 50 pound</td>
+                <td>30 – 50 lb. steel leaders for pike</td>
               </tr>
               <tr>
-                <td>Bunny or Egg Sucking Leeches</td>
-                <td>Size 2 &amp; 4, Pink &amp; Orange</td>
+                <td>Single and double egg patterns, sizes: 4 &amp; 6, pink &amp; orange</td>
               </tr>
               <tr>
-                <td>Muddler Minnow</td>
-                <td>Size 2, 4 &amp; 6, Black &amp; Purple</td>
+                <td>Bunny or egg-sucking leeches, sizes: 2 &amp; 4, black &amp; purple</td>
               </tr>
               <tr>
-                <td>Royal Wolfe Dry Flies</td>
-                <td>Size 12, 14 &amp; 16</td>
+                <td>Muddler minnow, sizes: 2, 4 &amp; 6</td>
+              </tr>
+              <tr>
+                <td>Royal Wulff dry flies, sizes: 12, 14 &amp; 16</td>
               </tr>
             </table>
           </td>

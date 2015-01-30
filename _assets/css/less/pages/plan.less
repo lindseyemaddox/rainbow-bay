@@ -21,6 +21,7 @@ ul.itinerary {
 	li {
 		border: 1px solid @mint;
 		background: url(/_assets/img/pattern.png) repeat left top transparent;
+		list-style-type: none;
 		div.desc {
 			vertical-align: middle;
 			width: 81%;
@@ -54,7 +55,7 @@ ul.itinerary {
 					padding: 68px 0 10px;
 				}
 				p {
-					font-size: 1.3333333333333333em;
+					font-size: 1em;
 					color: @brown!important;
 				}
 			}
@@ -78,4 +79,7 @@ ul.itinerary {
 	[class^="icon-"], [class*=" icon-"] {
 		color: @mint;
 	}
+}
+ul.flex-direction-nav li {
+	list-style-type: none;
 }

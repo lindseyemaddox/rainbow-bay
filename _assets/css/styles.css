@@ -532,6 +532,9 @@ h2.alt {
 h2.multiple {
   padding-top: 55px;
 }
+h2.subh2 {
+  font-size: 1.5em;
+}
 h3 {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 300;
@@ -556,6 +559,10 @@ h4 {
   padding: 20px 0 26px;
   border-bottom: 1px solid #fff;
 }
+h4.alt {
+  border-bottom: none;
+  color: #504e3c;
+}
 h5 {
   font-family: 'Passion One', sans-serif;
   font-size: 3em;
@@ -579,6 +586,13 @@ p {
   font-size: 1em;
   color: #504e3c;
   line-height: 1.3em;
+}
+p a {
+  color: #b4aa5e;
+  text-decoration: underline;
+}
+p a:hover {
+  color: #b8c6bc;
 }
 .italic {
   font-family: 'Source Sans Pro', sans-serif;
@@ -659,7 +673,7 @@ table table tr {
 }
 table table tr td {
   text-transform: none;
-  padding: 5px 10px;
+  padding: 8px 10px;
 }
 table table tr:first-child td {
   border-top: none;
@@ -1717,16 +1731,19 @@ html[xmlns] .slides {
 }
 /* Start: Recommended Isotope styles */
 /**** Isotope Filtering ****/
-.fish-item {
+.fish-item,
+.media-item {
   z-index: 2;
 }
-.isotope-hidden.fish-item {
+.isotope-hidden.fish-item,
+.isotope-hidden.media-item {
   pointer-events: none;
   z-index: 1;
 }
 /**** Isotope CSS3 transitions ****/
 .isotope,
-.isotope .fish-item {
+.isotope .fish-item,
+.isotope .media-item {
   -webkit-transition-duration: 0.8s;
   -moz-transition-duration: 0.8s;
   -ms-transition-duration: 0.8s;
@@ -1740,7 +1757,8 @@ html[xmlns] .slides {
   -o-transition-property: height, width;
   transition-property: height, width;
 }
-.isotope .fish-item {
+.isotope .fish-item,
+.isotope .media-item {
   -webkit-transition-property: -webkit-transform, opacity;
   -moz-transition-property: -moz-transform, opacity;
   -ms-transition-property: -ms-transform, opacity;
@@ -1750,7 +1768,9 @@ html[xmlns] .slides {
 /**** disabling Isotope CSS3 transitions ****/
 .isotope.no-transition,
 .isotope.no-transition .fish-item,
-.isotope .fish-item.no-transition {
+.isotope.no-transition .media-item,
+.isotope .fish-item.no-transition,
+.isotope .media-item.no-transition {
   -webkit-transition-duration: 0s;
   -moz-transition-duration: 0s;
   -ms-transition-duration: 0s;
@@ -1777,6 +1797,7 @@ div.videowrap {
   position: relative;
   padding-top: 1px;
   /* adjustment for player controls or video sizing slightly off */
+  margin-left: -480px;
 }
 .videoHolder.header {
   padding-bottom: 17.25%;
@@ -2138,7 +2159,7 @@ section.pattern.dark {
 section#bgFixed {
   background-attachment: fixed;
   width: 100%;
-  height: 900px;
+  height: 300px;
 }
 section#bgFixed.subpage {
   height: auto;
@@ -2513,6 +2534,7 @@ section.media div#container article.media-item a.readmore:hover {
 ul.itinerary li {
   border: 1px solid #b8c6bc;
   background: url(/_assets/img/pattern.png) repeat left top transparent;
+  list-style-type: none;
 }
 ul.itinerary li div.desc {
   vertical-align: middle;
@@ -2550,7 +2572,7 @@ ul.itinerary li div.desc div.schedule h6 {
   padding: 68px 0 10px;
 }
 ul.itinerary li div.desc div.schedule p {
-  font-size: 1.3333333333333333em;
+  font-size: 1em;
   color: #504e3c !important;
 }
 ul.itinerary li div.icons {
@@ -2571,6 +2593,9 @@ ul.itinerary li div.icons div.day-icon {
 ul.itinerary [class^="icon-"],
 ul.itinerary [class*=" icon-"] {
   color: #b8c6bc;
+}
+ul.flex-direction-nav li {
+  list-style-type: none;
 }
 p.table-header {
   text-transform: uppercase;
@@ -2751,7 +2776,7 @@ div#product-reveal h1 {
 .feature-info li {
   display: none;
   list-style-type: none;
-  padding: 0;
+  padding: 0 30px 20px;
 }
 .feature-info img {
   width: inherit;
@@ -2760,7 +2785,7 @@ div#product-reveal h1 {
   margin: 30px auto 50px;
 }
 .feature-info span {
-  line-height: 1.5em;
+  line-height: .8em;
   font-size: 1em;
   text-align: center;
   font-family: 'Passion One', sans-serif;
