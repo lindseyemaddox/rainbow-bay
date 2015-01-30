@@ -6,43 +6,10 @@
 <script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
 <script src="/_assets/js/jquery.isotope.min.js"></script>
 
-
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/subpage-header.php'); //video header?>
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/navigation.php'); //navigation?>
 
-<section class="pattern headerComp" id="intro">
-
-	<div class="inner">
-
-		<h2><span class="temp">Rainbow Bay Recreation</span></h2>
-
-		<p>Southwest Alaska offers unforgettable outdoor experiences—including fishing, hiking, birding, viewing bears, and sightseeing from one of our planes, just to name a few. So, whether you’re hooking rainbow trout or salmon, exploring the area’s natural beauty, or checking out local wildlife, it’s safe to say that each day at Rainbow Bay Resort brings a new adventure.</p>
-
-	</div><!--inner-->
-
-</section><!--pattern-->
-
-<section id="bgFixed" class="subpage bears">
-  
-  <div class="inner">
-    
-    <h2 class="alt"><span class="temp">Hiking and Such</span></h2>
-
-    <img class="inset" src="/_assets/img/inset-moose.jpg" alt="Moose on the Illiamna Bay" />
-
-    <p><span class="temp">Bacon ipsum dolor amet boudin turducken leberkas bresaola pig. Ground round chuck ribeye jerky. Strip steak beef ribs tail filet mignon. Pork corned beef turkey shankle. Venison pork belly salami                     meatball jowl. Frankfurter leberkas biltong kielbasa, meatball prosciutto short loin sirloin beef ribs                    pancetta flank pastrami brisket. Leberkas picanha turducken shoulder porchetta biltong rump fatback                   alcatra pork.</span></p>
-
-    <p><span class="temp">Sausage tenderloin porchetta cow, shoulder tri-tip fatback ham pancetta alcatra flank meatball picaha ball tip. Meatloaf pork chop drumstick, alcatra pastrami                              picanha kielbasa brisket frankfurter pork belly tail corned beef spare ribs tri-tip strip                         steak. Kevin chuck tenderloin, beef ham pig pork belly shank rump bresaola                                frankfurter pork loin leberkas brisket strip steak. Shoulder boudin tongue f                              atback,  venison pig rump kevin ground round. Pastrami chicken meatball, pork belly corned beef ball tip tri-tip boudin strip steak alcatra frankfurter short loin ribeye kielbasa ham. Turducken salami pork chop pork belly meatball brisket venison short ribs pig.</span></p>
-
-    <p><span class="temp">Jerky spare ribs cupim landjaeger, meatball rump turkey kevin drumstick prosciutto biltong hamburger jowl beef ribs. Corned beef meatloaf hamburger landjaeger. Tail sausage frankfurter pork loin bresaola pork belly jerky spare ribs corned beef capicola ball tip. Kevin prosciutto pork loin pork leberkas. Biltong spare ribs prosciutto, flank picanha corned beef hamburger short loin bresaola strip steak. Boudin venison strip steak rump chicken turducken. Boudin bacon ball tip shank, shoulder tail kevin sausage meatball venison pig t-bone fatback ribeye cupim.</span></p>
-
-    <p><span class="temp">Venison meatloaf doner beef filet mignon andouille chuck picanha tri-tip, pork chop kielbasa jerky ham hock. Pork landjaeger hamburger, meatball pancetta beef ribs bacon shankle t-bone beef fatback meatloaf shank jowl. Venison ribeye short ribs doner tongue rump corned beef strip steak bresaola cow meatball short loin salami. Cupim sausage tail tri-tip boudin.</span></p>
-
-  </div><!--inner-->
-
-</section>
-
-<section class="pattern" id="species">
+<section class="pattern headerComp" id="species">
 
   <div class="inner">
 

@@ -1797,7 +1797,6 @@ div.videowrap {
   position: relative;
   padding-top: 1px;
   /* adjustment for player controls or video sizing slightly off */
-  margin-left: -480px;
 }
 .videoHolder.header {
   padding-bottom: 17.25%;
@@ -2158,6 +2157,7 @@ section.pattern.dark {
 }
 section#bgFixed {
   background-attachment: fixed;
+  background-size: cover;
   width: 100%;
   height: 300px;
 }

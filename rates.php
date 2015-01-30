@@ -1,6 +1,11 @@
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/common.php'); //php framework and meta?>
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/head.php'); // HTTP head?>
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/subpage-header.php'); //video header?>
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/navigation.php'); //navigation?>
 
-<section id="rates">
+<section class="pattern headerComp" id="rates">
+
+  <div class="inner">
   
   <h1><?php echo date("Y"); ?> Rates</h1>
 
@@ -37,5 +42,4 @@
 
 </section><!--testimonials-->
 
-  </body>
-</html>
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/footer.php'); // footer, close body and html?>
