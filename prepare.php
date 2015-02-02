@@ -11,7 +11,7 @@
 
 	<div class="inner">
 
-		<h2>Packing for Your Trip to Rainbow Bay Resort</h2>
+		<h2>Packing for Your Trip to Angry Eagle</h2>
 
 		<p>As the saying goes, “If you don’t like the weather, just wait a few minutes.” That couldn’t be truer than here in the Bristol Bay area of southwest Alaska. Summer weather can vary from a sunny day in the mid-seventies to a cool, rainy day in the mid-forties. That’s why you should bring clothing that can be layered so you can add or subtract layers as the weather changes. </p>
 

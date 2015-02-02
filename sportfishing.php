@@ -119,18 +119,6 @@
         </div><!--description-->
       </article>
 
-      <article class="fish-item june1 june2 june3 june4 july1 july2 july3 july4 aug1 aug2 aug3 aug4 sept1 sept2 sept3 sept4">
-        <div class="fish">
-          <img src="/_assets/img/icon-halibut.svg" alt="Halibut" />
-          <h5>Pacific Halibut</h5>
-        </div><!--fish-->
-        <div class="description">
-          <p><span>What: </span>Pacific halibut are considered by many fishermen to be the best-tasting fish in Alaska. The state record for halibut is nearly 500 pounds, but the fish we catch average 20 to 60 pounds with an occasional 100-plus pound fish.</p>
-          <p><span>When: </span>They are available throughout the summer.</p>
-          <p><span>How: </span>We fish for halibut on the west side of Cook Inlet and around the Kodiak Island Archipelago in 20 to 60 ft. of water as opposed to 200 to 300 ft. of water.</p>
-        </div><!--description-->
-      </article>
-
       <article class="fish-item june2 june3 june4 july1 july2 july3 july4 aug1 aug2 aug3 aug4 sept1 sept2 sept3 sept4">
         <div class="fish">
           <img src="/_assets/img/icon-arctic-char.svg" alt="Arctic Char" />

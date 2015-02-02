@@ -25,7 +25,7 @@
 
     <article class="fleet-item">
       
-      <span class="icon-net"></span>
+      <img src="/_assets/img/icon-beaver.png" alt="DeHavilland Beaver icon">
 
       <h4>DeHavilland Beaver</h4>
 
@@ -35,7 +35,7 @@
 
     <article class="fleet-item">
       
-      <span class="icon-net"></span>
+      <img src="/_assets/img/icon-cessna.png" alt="Cessna 185 icon">
 
       <h4>Cessna <br />185</h4>
 
@@ -45,17 +45,17 @@
 
     <article class="fleet-item">
       
-      <span class="icon-net"></span>
+      <img src="/_assets/img/icon-kingfisher.png" alt="Habercraft KingFisher icon">
 
-      <h4>Harbercraft KingFisher</h4>
+      <h4>Habercraft KingFisher</h4>
 
-      <p>Our Harbercraft KingFisher 2825 boats transport guests to streams and to the shallow waters of the Cook Inlet. One boat has twin 150 HP Honda outboards and the other has twin 200 HP outboards. Equipped with depth finders, radios, and radar.</p>
+      <p>Our Habercraft KingFisher 2825 boats transport guests to streams and to the shallow waters of the Cook Inlet. One boat has twin 150 HP Honda outboards and the other has twin 200 HP outboards. Equipped with depth finders, radios, and radar.</p>
 
     </article><!--fleet-item-->
 
     <article class="fleet-item">
       
-      <span class="icon-net"></span>
+      <img src="/_assets/img/icon-jetboat.png" alt="G-3 Jet Boat icon">
 
       <h4>G-3 <br />Jet Boats</h4>
 
@@ -65,7 +65,7 @@
 
     <article class="fleet-item">
       
-      <span class="icon-net"></span>
+      <img class="atv" src="/_assets/img/icon-gator.png" alt="John Deere Gator icon">
 
       <h4>John Deere Gator</h4>
 
@@ -75,7 +75,7 @@
 
     <article class="fleet-item">
       
-      <span class="icon-net"></span>
+      <img class="atv" src="/_assets/img/icon-kubota.png" alt="Kubota 1140 icon">
 
       <h4>Kubota <br />1140</h4>
 

@@ -403,6 +403,9 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.icon-drop:before {
+  content: "\e622";
+}
 .icon-play:before {
   content: "\e620";
 }
@@ -414,6 +417,12 @@ html {
 }
 .icon-google-plus:before {
   content: "\e602";
+}
+.icon-youtube:before {
+  content: "\e621";
+}
+.icon-twitter:before {
+  content: "\e623";
 }
 .icon-news:before {
   content: "\e603";
@@ -732,25 +741,28 @@ nav ul:after {
   display: block;
 }
 nav ul:before {
-  width: 89%;
+  width: 82%;
 }
 nav ul:after {
-  width: 87.5%;
-  margin-top: -20px;
+  width: 82%;
+  margin-top: -50px;
 }
 nav ul li {
   display: inline-block;
   letter-spacing: .1em;
   font-family: 'Passion One', sans-serif;
   text-transform: uppercase;
-  font-size: .8em;
-  margin-right: 17px;
+  font-size: .85em;
+  margin-right: 19px;
+  vertical-align: top;
+  margin-top: 10px;
 }
 nav ul li:last-child {
   margin-right: 0;
 }
 nav ul li.logo {
-  margin-top: -20px;
+  margin-top: -50px;
+  margin-left: -84px;
 }
 nav ul li.logo a:hover {
   border-bottom: none;
@@ -762,6 +774,33 @@ nav ul li a {
 nav ul li a:hover {
   border-bottom: 1px solid #fff;
   text-decoration: none;
+}
+nav ul li span {
+  font-size: .7em;
+}
+nav ul li ul {
+  height: 0;
+  width: 0;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: all 400ms ease;
+  -moz-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+  -ms-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+nav ul li ul:before,
+nav ul li ul:after {
+  content: "";
+  display: none;
+}
+nav ul li ul li {
+  display: block;
+}
+nav ul li:hover ul {
+  height: auto;
+  width: auto;
 }
 .index-nav nav {
   top: 10px;
@@ -793,11 +832,19 @@ header div.tag:after {
   width: 60px;
   color: #fff;
   font-size: 1em;
+  line-height: 1.3em;
+}
+header div.tag:before {
+  line-height: .8em;
+}
+header div.tag.change p span {
+  letter-spacing: 0;
 }
 header div.tag p {
   font-family: 'Condiment', cursive;
   color: #fff;
   font-size: 2em;
+  line-height: 1.5em;
   text-align: center;
   margin-top: 20px;
 }
@@ -807,6 +854,10 @@ header div.tag p span {
   text-transform: uppercase;
   letter-spacing: .2em;
   font-size: 2.3em;
+}
+header div.tag p span a {
+  color: #fff;
+  text-decoration: none;
 }
 header div#topLodge {
   background-color: #504e3c;
@@ -1797,6 +1848,7 @@ div.videowrap {
   position: relative;
   padding-top: 1px;
   /* adjustment for player controls or video sizing slightly off */
+  margin-top: -870px;
 }
 .videoHolder.header {
   padding-bottom: 17.25%;
@@ -1940,7 +1992,7 @@ div.contact p {
   text-transform: uppercase;
   text-align: center;
   line-height: 1em;
-  padding: 0px 0 26px;
+  padding: 0px 0 44px;
   color: #fff;
 }
 div.contact p.phone {
@@ -2128,8 +2180,12 @@ section.fleet article.fleet-item a.video-link:hover span {
   transition: all 400ms ease;
 }
 section.fleet article.fleet-item img {
-  width: 100%;
-  margin-top: 20px;
+  width: 76%;
+  margin: 20px 12% 0;
+}
+section.fleet article.fleet-item img.atv {
+  width: 50%;
+  margin: 0 25%;
 }
 section.fleet article.fleet-item.article img {
   float: left;
@@ -2275,6 +2331,7 @@ section#media-section article.media-item {
   display: inline-block;
   vertical-align: top;
   min-height: 410px;
+  max-height: 411px;
   overflow: hidden;
 }
 section#media-section article.media-item span {
@@ -2547,8 +2604,10 @@ ul.itinerary li div.desc div.icon {
   padding: 5%;
   vertical-align: middle;
 }
-ul.itinerary li div.desc div.icon.fish {
-  font-size: 5em;
+ul.itinerary li div.desc div.icon.pole {
+  font-size: 8em;
+  margin-left: 30px;
+  margin-right: -40px;
 }
 ul.itinerary li div.desc div.icon.plane-arrive,
 ul.itinerary li div.desc div.icon.plane-depart {
@@ -2801,31 +2860,26 @@ div#product-reveal h1 {
   z-index: 104;
 }
 /******** END Drag to Reveal module STYLES *********/
-#rates,
 #gallery {
   background: url(/_assets/img/rates.jpg) no-repeat center center transparent;
   background-size: cover;
   padding-bottom: 30px;
 }
-#rates h1,
 #gallery h1 {
   color: #fff;
   letter-spacing: 10px;
 }
-#rates h3,
 #gallery h3 {
   color: #fff;
   font-size: 2em;
   text-align: center;
 }
-#rates h6,
 #gallery h6 {
   color: #fff;
   text-align: center;
   text-decoration: underline;
   padding-bottom: 15px;
 }
-#rates p,
 #gallery p {
   color: #fff;
   text-align: center;
@@ -2834,21 +2888,26 @@ div#product-reveal h1 {
   letter-spacing: 2px;
   font-size: .8em;
 }
-#rates p a,
 #gallery p a {
   color: #fff;
   text-decoration: none;
 }
-#rates p a:hover,
 #gallery p a:hover {
   color: #79887b;
 }
-#rates article.column,
-#gallery article.column {
+#rates h3 {
+  color: #504e3c;
+  font-size: 2em;
+  text-align: center;
+}
+#rates h6 {
+  padding-bottom: 15px;
+}
+#rates article.column {
   display: inline-block;
   vertical-align: top;
-  width: 40%;
-  margin: 0 4.5%;
+  width: 30%;
+  margin: 0 9% 30px;
 }
 #gallery {
   background: url(/_assets/img/fixed-plane2.jpg) no-repeat center center transparent;

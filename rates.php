@@ -19,7 +19,7 @@
     <p>Upscale Food and Lodging</p>
     <p>Guided daily fishing trips</p>
     <p>Flyout Fishing Trips</p>
-    <p>fly, spinning, and <br />bait casting equipment</p>
+    <p>fly, spinning, and bait casting equipment</p>
     <p>Beverages</p>
     <p>daily maid and laundry service</p>
     <p>the adventure of a lifetime</p>    
@@ -30,7 +30,7 @@
 
     <h6>Not Included:</h6>
 
-    <p>Fishing license <br />and King Salmon tag</p>
+    <p>Fishing license and King Salmon tag</p>
     <p>Airfare to Anchorage</p>
     <p>Anchorage hotels</p>
     <p>airfare from Anchorage to Lodge</p>

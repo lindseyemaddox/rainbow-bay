@@ -12,6 +12,10 @@
     
           <ul class="slides">
 
+              <li>
+                <img src="/_assets/img/slide-change.jpg" alt="Rainbow Bay is now Angry Eagle Lodge and Outfitters" />
+            </li>
+
             	<li>
             		<div class="tag">
             			<p>If You're Gonna Go, <span>Go Remote</span></p>
@@ -91,10 +95,22 @@
 <section class="pattern" id="testimonials">
 
   <div class="inner">
+
+	<h1>Our Daily Catch</h1>
     
       <div class="slider">
         <div class="fishslider carousel">
           <ul class="slides">
+            <li><a href="/activities#species">
+              <img src="/_assets/img/icon-rainbow-trout.svg" alt="Rainobw Trout">
+              <h4 class="alt">Rainbow <br />Trout</h4>
+              <p>These acrobatic fish are known for being fierce fighters that haven’t...</p>
+            </a></li>
+            <li><a href="/activities#species">
+              <img src="/_assets/img/icon-king-salmon.svg" alt="King Salmon">
+              <h4 class="alt">King <br />Salmon</h4>
+              <p>King salmon, also known as Chinook salmon, are the biggest of the five...</p>
+            </a></li>
             <li><a href="/activities#species">
               <img src="/_assets/img/icon-arctic-char.svg" alt="Arctic Char">
               <h4 class="alt">Arctic <br />Char</h4>
@@ -111,16 +127,6 @@
               <p>Next to the king salmon, chum salmon are the biggest and...</p>
             </a></li>
             <li><a href="/activities#species">
-              <img src="/_assets/img/icon-halibut.svg" alt="Pacific Halibut">
-              <h4 class="alt">Pacific <br />Halibut</h4>
-              <p>Pacific halibut are considered by many fishermen to be the...</p>
-            </a></li>
-            <li><a href="/activities#species">
-              <img src="/_assets/img/icon-king-salmon.svg" alt="King Salmon">
-              <h4 class="alt">King <br />Salmon</h4>
-              <p>King salmon, also known as Chinook salmon, are the biggest of the five...</p>
-            </a></li>
-            <li><a href="/activities#species">
               <img src="/_assets/img/icon-northern-pike.svg" alt="Northern Pike">
               <h4 class="alt">Northern <br />Pike</h4>
               <p>Northern Pike is a sport fish in a class by itself—it’s a true predator that...</p>
@@ -129,11 +135,6 @@
               <img src="/_assets/img/icon-pink-salmon.svg" alt="Pink Salmon">
               <h4 class="alt">Pink <br />Salmon</h4>
               <p>Pink salmon typically measure 36 inches in length, often exceeding 30...</p>
-            </a></li>
-            <li><a href="/activities#species">
-              <img src="/_assets/img/icon-rainbow-trout.svg" alt="Rainobw Trout">
-              <h4 class="alt">Rainbow <br />Trout</h4>
-              <p>These acrobatic fish are known for being fierce fighters that haven’t...</p>
             </a></li>
             <li><a href="/activities#species">
               <img src="/_assets/img/icon-silver-salmon.svg" alt="Silver Salmon">
@@ -163,7 +164,11 @@
       
       <a href="https://www.facebook.com/pages/Rainbow-Bay-Resort/110232285696450" target="_blank"><img src="/_assets/img/facebook.png" alt="Facebook logo"></a>
 
-      <a href="#"><img src="/_assets/img/google.png" alt="Google+ logo"></a>
+      <a href="#" target="_blank"><img src="/_assets/img/google.png" alt="Google+ logo"></a>
+
+      <a href="#" target="_blank"><img src="/_assets/img/youtube.png" alt="YouTube logo"></a>
+
+      <a href="#" target="_blank"><img src="/_assets/img/twitter.png" alt="Twitter logo"></a>
 
     </div><!--bottom-->
 
@@ -175,15 +180,17 @@
 
   <div class="inner">
   
-    <article class="media-item video">
+    <article class="media-item article">
       
-      <span class="icon-video"></span>
+      <span class="icon-article"></span>
 
-      <h4>Sockeye <br />Spawning</h4>
+      <h4>Guides' <br />Report</h4>
 
-      <p>Experience the rush of the sockeye salmon run in southwest Alaska from July to September!</p>
+      <p class="author">by <a href="/lightboxes/staff/baldwin" class="fancybox fancybox.iframe">Ken Baldwin</a>, Fishing Guide</p>
 
-      <a href="/lightboxes/video/sockeye" class="video-link fancybox fancybox.iframe"><span class="icon-play"></span><img src="/_assets/img/video-sockeye.jpg" alt="Sockeye spawning in the Illiamna River video"></a>
+      <p>Bacon ipsum dolor amet shoulder bacon turkey short ribs ball tip venison beef pig, jerky doner pork chop porchetta. Meatloaf salami doner tail strip steak pork chop. Picanha meatball jowl frankfurter spare ribs, sausage sirloin pig ground round jerky brisket rump short loin venison pork loin. Brisket turkey rump pastrami ball tip.  Picanha meatball jowl frankfurter spare ribs.</p>
+
+      <a href="/lightboxes/articles/guides-report.php" class="fancybox fancybox.iframe readmore">read more</a>
 
     </article><!--media-item-->
 
@@ -218,6 +225,7 @@
 <script type="text/javascript">
 	$(window).load(function(){
 	  	$('.flexslider').flexslider({
+        randomize: false,
 	    	start: function(slider){
 	    	  $('body').removeClass('loading');
 	    	}

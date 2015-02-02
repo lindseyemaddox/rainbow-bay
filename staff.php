@@ -25,7 +25,7 @@
 
       <h4>Jim Kern <br />General Manager</h4>
 
-      <img src="/_assets/img/staff-kern.jpg" alt="Rainbow Bay staff member Jim Kern">
+      <img src="/_assets/img/staff-kern.jpg" alt="Angry Eagle staff member Jim Kern">
 
     </a><!--staff-item-->
 
@@ -35,27 +35,7 @@
 
       <h4>Ken Baldwin <br />Fishing <br />Guide</h4>
 
-      <img src="/_assets/img/staff-baldwin.jpg" alt="Rainbow Bay fishing guide Ken Baldwin">
-
-    </a><!--staff-item-->
-
-    <a href="/lightboxes/staff/cochran" class="staff-item fancybox fancybox.iframe">
-      
-      <span class="icon-bio"></span>
-
-      <h4>Mason Cochran <br />Fishing <br />Guide</h4>
-
-      <img src="/_assets/img/no-image.jpg" alt="Rainbow Bay fishing guide Mason Cochran">
-
-    </a><!--staff-item-->
-
-    <a href="/lightboxes/staff/rogers" class="staff-item fancybox fancybox.iframe">
-      
-      <span class="icon-bio"></span>
-
-      <h4>Erin Rogers <br />Fishing <br />Guide</h4>
-
-      <img src="/_assets/img/no-image.jpg" alt="Rainbow Bay fishing guide Erin Rogers">
+      <img src="/_assets/img/staff-baldwin.jpg" alt="Angry Eagle fishing guide Ken Baldwin">
 
     </a><!--staff-item-->
 
@@ -65,7 +45,17 @@
 
       <h4>Jon Baker <br />Fishing <br />Guide</h4>
 
-      <img src="/_assets/img/no-image.jpg" alt="Rainbow Bay fishing guide Jon Baker">
+      <img src="/_assets/img/no-image.jpg" alt="Angry Eagle fishing guide Jon Baker">
+
+    </a><!--staff-item-->
+
+    <a href="/lightboxes/staff/rogers" class="staff-item fancybox fancybox.iframe">
+      
+      <span class="icon-bio"></span>
+
+      <h4>Erin Rogers <br />Fishing <br />Guide</h4>
+
+      <img src="/_assets/img/staff-rogers.jpg" alt="Angry Eagle fishing guide Erin Rogers">
 
     </a><!--staff-item-->
 
@@ -75,7 +65,17 @@
 
       <h4>Lewis Lincecum <br />Fishing <br />Guide</h4>
 
-      <img src="/_assets/img/no-image.jpg" alt="Rainbow Bay fishing guide Lewis Lincecum">
+      <img src="/_assets/img/staff-lincecum.jpg" alt="Angry Eagle fishing guide Lewis Lincecum">
+
+    </a><!--staff-item-->
+
+    <a href="/lightboxes/staff/cochran" class="staff-item fancybox fancybox.iframe">
+      
+      <span class="icon-bio"></span>
+
+      <h4>Mason Cochran <br />Fishing <br />Guide</h4>
+
+      <img src="/_assets/img/no-image.jpg" alt="Angry Eagle fishing guide Mason Cochran">
 
     </a><!--staff-item-->
 

@@ -10,9 +10,13 @@
 
 	<h2>Frequently Asked Questions</h2>
 
+        <p class="faquestion"><span class="icon-question"></span> So, why is the eagle angry?</p>
+
+        <p class="faqanswer show">Wouldn’t you be angry if someone was taking your fish? Of course, we practice catch and release with most of the fish we catch, but you try telling an eagle that.</p>
+
 	<p class="faquestion"><span class="icon-question"></span> Do you have phone service at the lodge?</p>
 
-        <p class="faqanswer show">Yes, we provide satellite phone service for our guests. Because guests are charged for using this service, we recommend that they bring prepaid calling cards to get the best rates.</p>
+        <p class="faqanswer">Yes, we provide satellite phone service for our guests. Because guests are charged for using this service, we recommend that they bring prepaid calling cards to get the best rates.</p>
 
         <p class="faquestion"><span class="icon-question"></span> Is there a computer that I may use to check email? What about transferring images from my camera to a CD or flash drive?</p>
 
@@ -56,11 +60,11 @@
 
         <p class="faquestion"><span class="icon-question"></span> What are the catch limits?</p>
 
-        <p class="faqanswer">The catch limit varies each season, depending upon the strength of the salmon runs. You can keep two to five salmon and two halibut per day, depending on the species and the stream in which we are fishing. We practice catch and release on everything but salmon and halibut.</p>
+        <p class="faqanswer">The catch limit varies each season, depending upon the strength of the salmon runs. You can keep two to five salmon per day, depending on the species and the stream in which we are fishing. We practice catch and release on everything but salmon.</p>
 
         <p class="faquestion"><span class="icon-question"></span> What if I want to have a fish mounted?</p>
 
-        <p class="faqanswer">Again, we practice catch and release on everything but salmon and halibut. But, if you want to have a mount of a particular fish made, we recommend a fiberglass “fish clone” mount. Simply take a picture of your fish and measure its length. A taxidermist will create a long-lasting clone that matches the photograph.</p>
+        <p class="faqanswer">Again, we practice catch and release on everything but salmon. But, if you want to have a mount of a particular fish made, we recommend a fiberglass “fish clone” mount. Simply take a picture of your fish and measure its length. A taxidermist will create a long-lasting clone that matches the photograph.</p>
 
         <p class="faquestion"><span class="icon-question"></span> What if I want my fish smoked or canned?</p>
 
@@ -68,7 +72,7 @@
 
         <p class="faquestion"><span class="icon-question"></span> How do I get my fish home?</p>
 
-        <p class="faqanswer">Each day, we’ll fillet your salmon and halibut and then vacuum pack, freeze, and place in it a travel-friendly box that holds up to 40 pounds of fish. There’s a $25 charge for each box of fish on your Lake Clark Air flight to Anchorage. Once you’re at the Anchorage International Airport, check your fish in their walk-in freezer while you wait for your flight home. When your departure time draws near, simply claim your box from the airport freezer and check it on your flight as baggage. Your fish should remain frozen until you arrive at your final destination.</p>
+        <p class="faqanswer">Each day, we’ll fillet your salmon and then vacuum pack, freeze, and place in it a travel-friendly box that holds up to 40 pounds of fish. There’s a $25 charge for each box of fish on your Lake Clark Air flight to Anchorage. Once you’re at the Anchorage International Airport, check your fish in their walk-in freezer while you wait for your flight home. When your departure time draws near, simply claim your box from the airport freezer and check it on your flight as baggage. Your fish should remain frozen until you arrive at your final destination.</p>
 
         <p class="faquestion"><span class="icon-question"></span> What is the customary tip for guides and staff at the lodge?</p>
 

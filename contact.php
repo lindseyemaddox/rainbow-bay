@@ -51,13 +51,21 @@
 
         <div class="contact">
             
-            <p class="phone"><a href="tel:18179462479">(817) 946-2479</a></p>
+            <p class="phone">Winter: <a href="tel:18179462479">(817) 946-2479</a></p>
 
-            <p>P.O. Box 47011<br />
+            <p class="phone">Summer: <a href="tel:19078502235">(907) 850-2235</a></p>
 
-            Pedro Bay, AK 99647</p>
+            <p><a href="https://goo.gl/maps/HzMIT" target="_blank">P.O. Box 47011<br />
+            Pedro Bay, AK 99647</a></p>
 
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d128186.66823512591!2d-154.02904560000002!3d59.86712945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x56c30a90275ebf31%3A0x455b21b73178553b!2sPedro+Bay%2C+AK+99647!5e0!3m2!1sen!2sus!4v1420932731050" width="100%" height="355" frameborder="0" style="border:0"></iframe>
+            <p><a href="https://goo.gl/maps/Q0nqo" target="_blank">Corporate Headquarters<br />
+            Rainbow Bay Resorts LLC<br />
+            30 Burton Hills Blvd, Suite 325<br />
+            Nashville, TN. 37215</a></p>
+
+            <p><a href="/downloads/contact-form.pdf">Download Contact Form</a></p>
+
+            <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d128186.66823512591!2d-154.02904560000002!3d59.86712945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x56c30a90275ebf31%3A0x455b21b73178553b!2sPedro+Bay%2C+AK+99647!5e0!3m2!1sen!2sus!4v1420932731050" width="100%" height="355" frameborder="0" style="border:0"></iframe> -->
 
         </div><!--contact-->
 

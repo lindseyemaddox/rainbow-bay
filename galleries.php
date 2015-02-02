@@ -9,9 +9,9 @@
 
     <div class="inner">
 
-        <h2>Media</h2>
+        <h2>Galleries</h2>
 
-        <p>The weather during the summer in the Bristol Bay area of southwest Alaska can vary from a warm sunny 75 degrees to a cool rainy 45 degree day. This area is not far from the Bering Sea and Cook Inlet and as the old saying goes, “if you don’t like the weather just wait a few minutes.” Layer your clothes so that you can add or subtract layers as the weather changes. You will want to bring a light backpack with you daily with your rain gear and possibly a wool sweater to ensure your comfort while in the field. Drag the slider to the left to reveal the packing list.</p>
+        <p>Flank venison beef ribs t-bone short ribs beef. Strip steak turducken venison fatback shankle sirloin shoulder pig bacon landjaeger andouille tenderloin. Drumstick cow tenderloin shankle pork tail landjaeger hamburger ground round. Jerky landjaeger short ribs pastrami biltong tail chicken picanha ham pork loin fatback venison strip steak. Ham tri-tip venison frankfurter ribeye tenderloin leberkas pork chop. Fatback salami pastrami, ball tip andouille rump chicken shoulder.</p>
 
     </div><!--inner-->
 
@@ -55,7 +55,7 @@
               
               <span class="icon-video"></span>
 
-              <h4>Jet sleding down the Illiamna River</h4>
+              <h4>Jet sleding down the Iliamna River</h4>
 
               <p>The Iliamna River’s shallow areas are home to impressive rainbow trout and Arctic char!</p>
 
@@ -95,7 +95,7 @@
 
               <p>Dallas Safari Club Game Trails Online Editor Gayne C. Young talks to Jim Kern about fishing in Alaska.</p>
 
-              <a href="/lightboxes/video/interview" class="video-link fancybox fancybox.iframe"><span class="icon-play"></span><img src="/_assets/img/video-interview.jpg" alt="Dallas Safari Club Game Trails Online Editor Gayne C. Young talks to Jim Kern of Rainbow Bay Resort about fishing in Alaska."></a>
+              <a href="/lightboxes/video/interview" class="video-link fancybox fancybox.iframe"><span class="icon-play"></span><img src="/_assets/img/video-interview.jpg" alt="Dallas Safari Club Game Trails Online Editor Gayne C. Young talks to Jim Kern of Angry Eagle Resort about fishing in Alaska."></a>
 
             </article><!--media-item-->
 
@@ -145,7 +145,17 @@
 
               <h4>2015 <br/>Brochure</h4>
 
-              <a href="/lightboxes/brochure" class="fancybox fancybox.iframe"><img src="/_assets/img/media-brochure.jpg" alt="2015 Rainbow Bay printable brochure"></a>
+              <a href="/downloads/brochure.pdf" class="fancybox fancybox.iframe"><img src="/_assets/img/media-brochure.jpg" alt="2015 Angry Eagle printable brochure"></a>
+
+            </article><!--media-item-->
+
+            <article class="media-item printable">
+              
+              <span class="icon-news"></span>
+
+              <h4>Contact <br/>Form</h4>
+
+              <a href="/downloads/contact-form.pdf" class="fancybox fancybox.iframe"><img src="/_assets/img/media-form.jpg" alt="2015 Angry Eagle printable contact form"></a>
 
             </article><!--media-item-->
 

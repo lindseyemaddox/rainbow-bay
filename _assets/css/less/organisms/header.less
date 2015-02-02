@@ -19,24 +19,27 @@ nav {
 			display: block;
 		}
 		&:before {
-			width: 89%;
+			width: 82%;
 		}
 		&:after {
-			width: 87.5%;
-			margin-top: -20px;
+			width: 82%;
+			margin-top: -50px;
 		}
 		li {
 			display: inline-block;
 			letter-spacing: .1em;
 			.passion;
 			text-transform: uppercase;
-			font-size: .8em;
-			margin-right: 17px;
+			font-size: .85em;
+			margin-right: 19px;
+			vertical-align: top;
+			margin-top: 10px;
 			&:last-child {
 				margin-right: 0;
 			}
 			&.logo {
-				margin-top: -20px;
+				margin-top: -50px;
+				margin-left: -84px;
 				a:hover {
 					border-bottom: none;
 				}
@@ -47,6 +50,30 @@ nav {
 				&:hover {
 					border-bottom: 1px solid #fff;
 					text-decoration: none;
+				}
+			}
+			span {
+				font-size: .7em;
+			}
+			ul {
+				height: 0;
+				width: 0;
+				overflow: hidden;
+				margin: 0;
+				padding: 0;
+				.transition;
+				&:before, &:after {
+					content: "";
+					display: none;
+				}
+				li {
+					display: block;
+				}
+			}
+			&:hover {
+				ul {
+					height: auto;
+					width: auto;
 				}
 			}
 		}
@@ -81,11 +108,21 @@ header {
 			width: 60px;
 			color: #fff;
 			font-size: 1em;
+			line-height: 1.3em;
+		}
+		&:before {
+			line-height: .8em;
+		}
+		&.change {
+			p span {
+				letter-spacing: 0;
+			}
 		}
 		p {
 			.condiment;
 			color: #fff;
 			font-size: 2em;
+			line-height: 1.5em;
 			text-align: center;
 			margin-top: 20px;
 			span {
@@ -94,6 +131,10 @@ header {
 				text-transform: uppercase;
 				letter-spacing: .2em;
 				font-size: 2.3em;
+				a {
+					color: #fff;
+					text-decoration: none;
+				}
 			}
 		}
 	}
