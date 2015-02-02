@@ -2,12 +2,12 @@
 /******** START MAIN HEADER AND NAVIGATION STYLES *********/
 
 nav {
-	position: relative;
+	position: absolute;
 	width: 80%;
 	max-width: 1000px;
 	margin: 0 auto;
 	z-index: 1;
-	top: -140px;
+	top: 15px;
 	ul {
 		height: 50px;
 		margin-top: 40px;
@@ -23,7 +23,6 @@ nav {
 		}
 		&:after {
 			width: 82%;
-			margin-top: -50px;
 		}
 		li {
 			display: inline-block;
@@ -31,20 +30,50 @@ nav {
 			.passion;
 			text-transform: uppercase;
 			font-size: .85em;
-			margin-right: 19px;
+			margin-right: 13px;
 			vertical-align: top;
 			margin-top: 10px;
+			.transition;
 			&:last-child {
 				margin-right: 0;
 			}
 			&.logo {
 				margin-top: -50px;
 				margin-left: -84px;
+				height: 90px;
+				overflow: visible;
 				a:hover {
 					border-bottom: none;
 				}
 			}
-			a {
+			span {
+				position: relative;
+				top: 2px;
+				left: 3px;
+				color: #fff;
+				cursor: pointer;
+				.transition;
+				&.expanded {
+					.rotate(180deg);
+				}
+				&.drop-icon {
+					background: url(/_assets/img/collapsed.png) no-repeat center center transparent;
+					width: 40px;
+					height: 40px;
+					display: inline-block;
+					vertical-align: top;
+					top: -10px;
+					left: -5px;
+					margin-bottom: -10px;
+				}
+			}
+			&.drop1, &.drop2, &.drop3 {
+				margin-right: 4px;
+				>a:hover {
+					border-bottom: none;
+				}
+			}
+			>a {
 				text-decoration: none;
 				color: #fff;
 				&:hover {
@@ -52,28 +81,30 @@ nav {
 					text-decoration: none;
 				}
 			}
-			span {
-				font-size: .7em;
-			}
 			ul {
-				height: 0;
-				width: 0;
-				overflow: hidden;
-				margin: 0;
-				padding: 0;
+				margin-top: 0;
+				padding-left: 0;
 				.transition;
-				&:before, &:after {
-					content: "";
-					display: none;
-				}
 				li {
 					display: block;
+					margin-right: 0;
+					a:hover {
+						border-bottom: 1px solid #fff;
+					}
 				}
-			}
-			&:hover {
-				ul {
+				&.collapsed {
+					height: 0;
+					overflow: hidden;
+					margin: 0;
+					padding: 0;
+				}
+				&.expanded {
 					height: auto;
-					width: auto;
+					.transition;
+					&:before, &:after {
+						content: "";
+						display: none;
+					}
 				}
 			}
 		}
@@ -94,7 +125,7 @@ header {
 	}
 	&.subheader {
 		top: 0;
-		height: 150px;
+		height: 240px;
 	}
 	div.tag {
 		width: 100%;
@@ -163,4 +194,3 @@ header {
 }
 
 /******** END MAIN HEADER AND NAVIGATION STYLES *********/
-

@@ -721,12 +721,12 @@ span.temp {
 /*===============================================*/
 /******** START MAIN HEADER AND NAVIGATION STYLES *********/
 nav {
-  position: relative;
+  position: absolute;
   width: 80%;
   max-width: 1000px;
   margin: 0 auto;
   z-index: 1;
-  top: -140px;
+  top: 15px;
 }
 nav ul {
   height: 50px;
@@ -745,7 +745,6 @@ nav ul:before {
 }
 nav ul:after {
   width: 82%;
-  margin-top: -50px;
 }
 nav ul li {
   display: inline-block;
@@ -753,9 +752,14 @@ nav ul li {
   font-family: 'Passion One', sans-serif;
   text-transform: uppercase;
   font-size: .85em;
-  margin-right: 19px;
+  margin-right: 13px;
   vertical-align: top;
   margin-top: 10px;
+  -webkit-transition: all 400ms ease;
+  -moz-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+  -ms-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 nav ul li:last-child {
   margin-right: 0;
@@ -763,44 +767,92 @@ nav ul li:last-child {
 nav ul li.logo {
   margin-top: -50px;
   margin-left: -84px;
+  height: 90px;
+  overflow: visible;
 }
 nav ul li.logo a:hover {
   border-bottom: none;
 }
-nav ul li a {
-  text-decoration: none;
-  color: #fff;
-}
-nav ul li a:hover {
-  border-bottom: 1px solid #fff;
-  text-decoration: none;
-}
 nav ul li span {
-  font-size: .7em;
-}
-nav ul li ul {
-  height: 0;
-  width: 0;
-  overflow: hidden;
-  margin: 0;
-  padding: 0;
+  position: relative;
+  top: 2px;
+  left: 3px;
+  color: #fff;
+  cursor: pointer;
   -webkit-transition: all 400ms ease;
   -moz-transition: all 400ms ease;
   -o-transition: all 400ms ease;
   -ms-transition: all 400ms ease;
   transition: all 400ms ease;
 }
-nav ul li ul:before,
-nav ul li ul:after {
-  content: "";
-  display: none;
+nav ul li span.expanded {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+}
+nav ul li span.drop-icon {
+  background: url(/_assets/img/collapsed.png) no-repeat center center transparent;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  vertical-align: top;
+  top: -10px;
+  left: -5px;
+  margin-bottom: -10px;
+}
+nav ul li.drop1,
+nav ul li.drop2,
+nav ul li.drop3 {
+  margin-right: 4px;
+}
+nav ul li.drop1 > a:hover,
+nav ul li.drop2 > a:hover,
+nav ul li.drop3 > a:hover {
+  border-bottom: none;
+}
+nav ul li > a {
+  text-decoration: none;
+  color: #fff;
+}
+nav ul li > a:hover {
+  border-bottom: 1px solid #fff;
+  text-decoration: none;
+}
+nav ul li ul {
+  margin-top: 0;
+  padding-left: 0;
+  -webkit-transition: all 400ms ease;
+  -moz-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+  -ms-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 nav ul li ul li {
   display: block;
+  margin-right: 0;
 }
-nav ul li:hover ul {
+nav ul li ul li a:hover {
+  border-bottom: 1px solid #fff;
+}
+nav ul li ul.collapsed {
+  height: 0;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+nav ul li ul.expanded {
   height: auto;
-  width: auto;
+  -webkit-transition: all 400ms ease;
+  -moz-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+  -ms-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+nav ul li ul.expanded:before,
+nav ul li ul.expanded:after {
+  content: "";
+  display: none;
 }
 .index-nav nav {
   top: 10px;
@@ -816,7 +868,7 @@ header div.slider {
 }
 header.subheader {
   top: 0;
-  height: 150px;
+  height: 240px;
 }
 header div.tag {
   width: 100%;
@@ -881,7 +933,6 @@ header div#topLodge img {
 header img.temp-image {
   width: 100%;
 }
-/******** END MAIN HEADER AND NAVIGATION STYLES *********/
 /******** START MAIN FOOTER STYLES *********/
 footer {
   background-color: #504e3c;
@@ -920,7 +971,6 @@ footer a {
 footer a:hover {
   color: #b4aa5e;
 }
-/******** END FOOTER STYLES *********/
 /* @group Base */
 .chosen-container {
   position: relative;
@@ -970,7 +1020,7 @@ footer a:hover {
   background: -o-linear-gradient(top, #ffffff 20%, #f6f6f6 50%, #eeeeee 52%, #f4f4f4 100%);
   background: linear-gradient(top, #ffffff 20%, #f6f6f6 50%, #eeeeee 52%, #f4f4f4 100%);
   background-clip: padding-box;
-  box-shadow: 0 0 3px #ffffff inset, 0 1px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 3px white inset, 0 1px 1px rgba(0, 0, 0, 0.1);
   color: #444;
   text-decoration: none;
   white-space: nowrap;
@@ -1036,7 +1086,7 @@ footer a:hover {
   height: auto;
   outline: 0;
   border: 1px solid #aaa;
-  background: #ffffff url('/_assets/img/chosen-sprite.png') no-repeat 100% -20px;
+  background: white url('/_assets/img/chosen-sprite.png') no-repeat 100% -20px;
   background: url('/_assets/img/chosen-sprite.png') no-repeat 100% -20px, -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(1%, #eeeeee), color-stop(15%, #ffffff));
   background: url('/_assets/img/chosen-sprite.png') no-repeat 100% -20px, -webkit-linear-gradient(#eeeeee 1%, #ffffff 15%);
   background: url('/_assets/img/chosen-sprite.png') no-repeat 100% -20px, -moz-linear-gradient(#eeeeee 1%, #ffffff 15%);
@@ -1169,7 +1219,7 @@ footer a:hover {
   background-image: -o-linear-gradient(#f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eeeeee 100%);
   background-image: linear-gradient(#f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eeeeee 100%);
   background-clip: padding-box;
-  box-shadow: 0 0 2px #ffffff inset, 0 1px 0 rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 2px white inset, 0 1px 0 rgba(0, 0, 0, 0.05);
   color: #333;
   line-height: 13px;
   cursor: default;
@@ -1314,7 +1364,7 @@ footer a:hover {
 }
 .chosen-rtl .chosen-search input[type="text"] {
   padding: 4px 5px 4px 20px;
-  background: #ffffff url('/_assets/img/chosen-sprite.png') no-repeat -30px -20px;
+  background: white url('/_assets/img/chosen-sprite.png') no-repeat -30px -20px;
   background: url('/_assets/img/chosen-sprite.png') no-repeat -30px -20px, -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(1%, #eeeeee), color-stop(15%, #ffffff));
   background: url('/_assets/img/chosen-sprite.png') no-repeat -30px -20px, -webkit-linear-gradient(#eeeeee 1%, #ffffff 15%);
   background: url('/_assets/img/chosen-sprite.png') no-repeat -30px -20px, -moz-linear-gradient(#eeeeee 1%, #ffffff 15%);
@@ -1343,7 +1393,6 @@ footer a:hover {
     background-repeat: no-repeat !important;
   }
 }
-/* @end */
 /*! fancyBox v2.1.5 fancyapps.com | fancyapps.com/fancybox/#license */
 .fancybox-wrap,
 .fancybox-skin,
@@ -1848,7 +1897,7 @@ div.videowrap {
   position: relative;
   padding-top: 1px;
   /* adjustment for player controls or video sizing slightly off */
-  margin-top: -870px;
+  margin-top: -840px;
 }
 .videoHolder.header {
   padding-bottom: 17.25%;
@@ -2204,9 +2253,6 @@ section.fleet article.fleet-item.article p.author {
 }
 section.pattern {
   background: url(/_assets/img/pattern.png) repeat left top transparent;
-}
-section.pattern.headerComp {
-  margin-top: -107px;
 }
 section.pattern.dark {
   background: url(/_assets/img/pattern-dark.png) repeat left top transparent;
@@ -2859,7 +2905,6 @@ div#product-reveal h1 {
   bottom: 0;
   z-index: 104;
 }
-/******** END Drag to Reveal module STYLES *********/
 #gallery {
   background: url(/_assets/img/rates.jpg) no-repeat center center transparent;
   background-size: cover;

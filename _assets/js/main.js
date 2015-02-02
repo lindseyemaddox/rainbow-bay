@@ -1,60 +1,69 @@
 // JavaScript Document
 
-// codekit pre-prends
-
 // set initial variables
-var $showMenu,
-	$header,
-	$content;
+var $drop1,
+	$showDrop1;
 
-$(function() {
-	firstLoad();
-});
-
-function firstLoad() {
-	initVars();
-	showMenu();
-	checkScreenSize();
-	initPlaceholders();
-}
 
 // function to set dom vars, etc that will not change
 function initVars() {
-	$nav 	= $('header.main nav.main-nav ul');
-	$showMenu 	= $('a#showMenu');
+	$drop1 	= $('.drop1 a span');
+	$drop2 	= $('.drop2 a span');
+	$drop3 	= $('.drop3 a span');
+	$showDrop1 	= $('.drop1 ul');
+	$showDrop2 	= $('.drop2 ul');
+	$showDrop3 	= $('.drop3 ul');
 }
 
-$(window).resize(function() {
-	checkScreenSize();
-});
-
-// checks to see if screen size requires mobile menu
-function checkScreenSize(){
-	if ($(window).width() < 950) {
-		$nav.removeClass('expand');
-	} else {
-		$nav.removeClass('expand');
-	}
-}
-
-// show hide left menu
-function showMenu(){
-	$showMenu.click(function(){
-		if ($nav.hasClass('expand')) {
-			menuOut();
+function showDrop1(){
+	$('.drop1 > a').click(function(){
+		if ($drop1.hasClass('expanded')) {
+			$drop1.removeClass('expanded');
+			$drop1.addClass('collapsed');
+			$showDrop1.removeClass('expanded');
+			$showDrop1.addClass('collapsed');
 		} else {
-			menuIn();
+			$drop1.addClass('expanded');
+			$drop1.removeClass('collapsed');
+			$showDrop1.addClass('expanded');
+			$showDrop1.removeClass('collapsed');
 		}
 		return false;
 	});
 }
-function menuOut() {
-	$nav.removeClass('expand');
-	//$content.unbind('click',menuOut);
+
+function showDrop2(){
+	$('.drop2 > a').click(function(){
+		if ($drop2.hasClass('expanded')) {
+			$drop2.removeClass('expanded');
+			$drop2.addClass('collapsed');
+			$showDrop2.removeClass('expanded');
+			$showDrop2.addClass('collapsed');
+		} else {
+			$drop2.addClass('expanded');
+			$drop2.removeClass('collapsed');
+			$showDrop2.addClass('expanded');
+			$showDrop2.removeClass('collapsed');
+		}
+		return false;
+	});
 }
-function menuIn() {
-	$nav.addClass('expand');
-	//$content.bind('click',menuOut);
+
+function showDrop3(){
+	$('.drop3 > a').click(function(){
+		if ($drop3.hasClass('expanded')) {
+			$drop3.removeClass('expanded');
+			$drop3.addClass('collapsed');
+			$showDrop3.removeClass('expanded');
+			$showDrop3.addClass('collapsed');
+		} else {
+			$drop3.addClass('expanded');
+			$drop3.removeClass('collapsed');
+			$showDrop3.addClass('expanded');
+			$showDrop3.removeClass('collapsed');
+		}
+		return false;
+	});
 }
 
 // this function fixes placeholders in browsers that don't support it
@@ -89,3 +98,17 @@ function placeholderSupported() {
     test = document.createElement('input');
     return ('placeholder' in test);
 }
+
+
+
+function firstLoad() {
+	initVars();
+	showDrop1();
+	showDrop2();
+	showDrop3();
+	initPlaceholders();
+}
+
+$(function() {
+	firstLoad();
+});
