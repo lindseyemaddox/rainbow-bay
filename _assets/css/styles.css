@@ -415,6 +415,9 @@ html {
 .icon-facebook:before {
   content: "\e601";
 }
+.icon-instagram:before {
+  content: "\e624";
+}
 .icon-google-plus:before {
   content: "\e602";
 }
@@ -596,6 +599,9 @@ p {
   color: #504e3c;
   line-height: 1.3em;
 }
+p.alt {
+  color: #fff;
+}
 p a {
   color: #b4aa5e;
   text-decoration: underline;
@@ -741,20 +747,20 @@ nav ul:after {
   display: block;
 }
 nav ul:before {
-  width: 82%;
+  width: 72%;
 }
 nav ul:after {
-  width: 82%;
+  width: 72%;
 }
 nav ul li {
   display: inline-block;
   letter-spacing: .1em;
   font-family: 'Passion One', sans-serif;
   text-transform: uppercase;
-  font-size: .85em;
+  font-size: .7em;
   margin-right: 13px;
   vertical-align: top;
-  margin-top: 10px;
+  margin-top: 13px;
   -webkit-transition: all 400ms ease;
   -moz-transition: all 400ms ease;
   -o-transition: all 400ms ease;
@@ -779,6 +785,7 @@ nav ul li span {
   left: 3px;
   color: #fff;
   cursor: pointer;
+  text-decoration: none;
   -webkit-transition: all 400ms ease;
   -moz-transition: all 400ms ease;
   -o-transition: all 400ms ease;
@@ -828,9 +835,15 @@ nav ul li ul {
   -ms-transition: all 400ms ease;
   transition: all 400ms ease;
 }
+nav ul li ul:before,
+nav ul li ul:after {
+  content: "";
+  display: none;
+}
 nav ul li ul li {
   display: block;
-  margin-right: 0;
+  margin: 10px 0 0 0;
+  font-size: 1em;
 }
 nav ul li ul li a:hover {
   border-bottom: 1px solid #fff;
@@ -849,16 +862,10 @@ nav ul li ul.expanded {
   -ms-transition: all 400ms ease;
   transition: all 400ms ease;
 }
-nav ul li ul.expanded:before,
-nav ul li ul.expanded:after {
-  content: "";
-  display: none;
-}
 .index-nav nav {
   top: 10px;
 }
 header {
-  top: -90px;
   position: relative;
   width: 100%;
   overflow: hidden;
@@ -867,7 +874,6 @@ header div.slider {
   z-index: -1;
 }
 header.subheader {
-  top: 0;
   height: 240px;
 }
 header div.tag {
@@ -933,10 +939,73 @@ header div#topLodge img {
 header img.temp-image {
   width: 100%;
 }
+/******** END MAIN HEADER AND NAVIGATION STYLES *********/
+section#links p {
+  line-height: 3em;
+  padding-bottom: 0;
+}
+section#links p a {
+  text-decoration: none;
+}
+section#links p.next {
+  float: right;
+}
+section#links p.next img {
+  margin-left: 10px;
+}
+section#links p.prev {
+  float: left;
+}
+section#links p.prev img {
+  margin-right: 10px;
+}
 /******** START MAIN FOOTER STYLES *********/
 footer {
   background-color: #504e3c;
-  padding: 38px 0;
+  padding: 100px 0 28px;
+}
+footer div.addresses {
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+}
+footer div.addresses p {
+  font-size: 1em;
+}
+footer div.addresses p span {
+  font-size: 1.2em;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+}
+footer div.addresses p.copy {
+  font-size: .5em;
+}
+footer div.addresses p a {
+  font-size: 1.2em;
+}
+footer div.addresses p a:hover {
+  color: #fff;
+}
+footer div.mapnstuff {
+  display: inline-block;
+  width: 59%;
+  margin-left: 10%;
+  vertical-align: top;
+}
+footer div.mapnstuff a {
+  display: inline-block;
+  vertical-align: top;
+  text-decoration: none;
+  color: #fff;
+  float: right;
+  margin: 0 0 0 30px;
+  font-size: 2em;
+}
+footer div.mapnstuff a:hover {
+  color: #b4aa5e;
+}
+footer div.mapnstuff iframe {
+  margin-bottom: 30px;
 }
 footer p {
   font-family: 'Source Sans Pro', sans-serif;
@@ -944,8 +1013,6 @@ footer p {
   font-size: 0.6571428571428571em;
   color: #fff;
   text-transform: uppercase;
-  display: inline-block;
-  vertical-align: middle;
 }
 footer p a {
   text-decoration: none;
@@ -960,17 +1027,7 @@ footer p a:hover {
   -ms-transition: all 400ms ease;
   transition: all 400ms ease;
 }
-footer a {
-  display: inline-block;
-  vertical-align: top;
-  text-decoration: none;
-  color: #fff;
-  float: right;
-  margin: 0 10px;
-}
-footer a:hover {
-  color: #b4aa5e;
-}
+/******** END FOOTER STYLES *********/
 /* @group Base */
 .chosen-container {
   position: relative;
@@ -1020,7 +1077,7 @@ footer a:hover {
   background: -o-linear-gradient(top, #ffffff 20%, #f6f6f6 50%, #eeeeee 52%, #f4f4f4 100%);
   background: linear-gradient(top, #ffffff 20%, #f6f6f6 50%, #eeeeee 52%, #f4f4f4 100%);
   background-clip: padding-box;
-  box-shadow: 0 0 3px white inset, 0 1px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 3px #ffffff inset, 0 1px 1px rgba(0, 0, 0, 0.1);
   color: #444;
   text-decoration: none;
   white-space: nowrap;
@@ -1086,7 +1143,7 @@ footer a:hover {
   height: auto;
   outline: 0;
   border: 1px solid #aaa;
-  background: white url('/_assets/img/chosen-sprite.png') no-repeat 100% -20px;
+  background: #ffffff url('/_assets/img/chosen-sprite.png') no-repeat 100% -20px;
   background: url('/_assets/img/chosen-sprite.png') no-repeat 100% -20px, -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(1%, #eeeeee), color-stop(15%, #ffffff));
   background: url('/_assets/img/chosen-sprite.png') no-repeat 100% -20px, -webkit-linear-gradient(#eeeeee 1%, #ffffff 15%);
   background: url('/_assets/img/chosen-sprite.png') no-repeat 100% -20px, -moz-linear-gradient(#eeeeee 1%, #ffffff 15%);
@@ -1219,7 +1276,7 @@ footer a:hover {
   background-image: -o-linear-gradient(#f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eeeeee 100%);
   background-image: linear-gradient(#f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eeeeee 100%);
   background-clip: padding-box;
-  box-shadow: 0 0 2px white inset, 0 1px 0 rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 2px #ffffff inset, 0 1px 0 rgba(0, 0, 0, 0.05);
   color: #333;
   line-height: 13px;
   cursor: default;
@@ -1364,7 +1421,7 @@ footer a:hover {
 }
 .chosen-rtl .chosen-search input[type="text"] {
   padding: 4px 5px 4px 20px;
-  background: white url('/_assets/img/chosen-sprite.png') no-repeat -30px -20px;
+  background: #ffffff url('/_assets/img/chosen-sprite.png') no-repeat -30px -20px;
   background: url('/_assets/img/chosen-sprite.png') no-repeat -30px -20px, -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(1%, #eeeeee), color-stop(15%, #ffffff));
   background: url('/_assets/img/chosen-sprite.png') no-repeat -30px -20px, -webkit-linear-gradient(#eeeeee 1%, #ffffff 15%);
   background: url('/_assets/img/chosen-sprite.png') no-repeat -30px -20px, -moz-linear-gradient(#eeeeee 1%, #ffffff 15%);
@@ -1393,6 +1450,7 @@ footer a:hover {
     background-repeat: no-repeat !important;
   }
 }
+/* @end */
 /*! fancyBox v2.1.5 fancyapps.com | fancyapps.com/fancybox/#license */
 .fancybox-wrap,
 .fancybox-skin,
@@ -2025,10 +2083,22 @@ section#contact {
 section#contact h2 {
   color: #fff;
 }
-div.form {
-  width: 40%;
-  margin-right: 9%;
+div.form div.formleft {
+  width: 46%;
+  margin-right: 7%;
   display: inline-block;
+  vertical-align: top;
+}
+div.form div.formright {
+  width: 46%;
+  display: inline-block;
+}
+div.form div.formright input {
+  display: inline;
+  width: 25px;
+}
+div.form div.formright label#opt-in {
+  display: inline;
 }
 div.contact {
   width: 50%;
@@ -2084,7 +2154,7 @@ textarea {
   font-size: 18px;
   border: none;
   resize: none;
-  height: 150px;
+  height: 90px;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 400;
 }
@@ -2299,7 +2369,7 @@ section#bgFixed.legacy {
   background-image: url(/_assets/img/fixed-legacy.jpg);
 }
 section#testimonials {
-  padding: 100px 0 60px;
+  padding: 60px 0;
 }
 section#testimonials div.testimonial {
   display: inline-block;
@@ -2360,6 +2430,23 @@ section#social div.bottom a img {
 }
 section#social div.bottom a img:hover {
   opacity: .6;
+  -webkit-transition: all 400ms ease;
+  -moz-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+  -ms-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+section#social div.bottom div.icons {
+  float: right;
+}
+section#social div.bottom span {
+  display: inline-block;
+  color: #93a698;
+  font-size: 2em;
+  margin-left: 20px;
+}
+section#social div.bottom span:hover {
+  color: #fff;
   -webkit-transition: all 400ms ease;
   -moz-transition: all 400ms ease;
   -o-transition: all 400ms ease;
@@ -2905,6 +2992,7 @@ div#product-reveal h1 {
   bottom: 0;
   z-index: 104;
 }
+/******** END Drag to Reveal module STYLES *********/
 #gallery {
   background: url(/_assets/img/rates.jpg) no-repeat center center transparent;
   background-size: cover;

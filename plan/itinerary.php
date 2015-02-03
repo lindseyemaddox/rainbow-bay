@@ -34,7 +34,7 @@
                   <span class="icon-plane-arrive"></span>
                 </div><!--fish-icon-->
                 <div class="schedule">
-                  <h6>Friday Night</h6>
+                  <h6>Friday</h6>
                   <p>Arrive at Anchorage International Airport and stay in Anchorage for the evening.</p>
                 </div><!--schedule-->
               </div><!--desc-->
@@ -115,7 +115,7 @@
                 </div><!--fish-icon-->
                 <div class="schedule">
                   <h6>Sunday - Friday</h6>
-                  <p>After an early wakeup call and hearty breakfast around 7:15 a.m., you’ll suit up in waders and depart the lodge via boat or float plane to explore the natural beauty of Alaska’s rivers and lakes. Depending on the weather and your destination, you’ll enjoy a pre-made box lunch or a shore lunch prepared by your guides. Around 5 p.m., you’ll return to the lodge, where you’ll have an hour or so to rest and clean up before you enjoy drinks, hors d’ourves, and dinner.</p>
+                  <p>After an early wakeup call and hearty breakfast, you’ll suit up in waders and depart the lodge via boat or float plane to explore the natural beauty of Alaska’s rivers and lakes. Depending on the weather and your destination, you’ll enjoy a pre-made lunch or a shore lunch prepared by your guides. In the late afternoon, you’ll return to the lodge, where you can rest and clean up before you enjoy drinks, hors d’ourves, and dinner.</p>
                 </div><!--schedule-->
               </div><!--desc-->
               <div class="icons">
@@ -135,7 +135,7 @@
                 </div><!--fish-icon-->
                 <div class="schedule">
                   <h6>Saturday</h6>
-                  <p>Start the day with a continental breakfast at 8 a.m. We’ll depart for Pedro Bay at 10 a.m., where you’ll catch your one-hour Lake Clark Air charter flight for Merrill Field in Anchorage. From there, take a cab to Anchorage International Airport for your flight home. (Remember, do not book your departing flight from Anchorage until at least 2 p.m., as inclement weather may delay your departure from the lodge.)</p>
+                  <p>Depart on your one-hour Lake Clark Air charter flight for Merrill Field in Anchorage, where you’ll take a cab to Anchorage International Airport for your flight home. (Do not book your departing flight from Anchorage until at least 2 p.m., as inclement weather may delay your departure from the lodge.)</p>
                 </div><!--schedule-->
               </div><!--desc-->
               <div class="icons">
@@ -154,7 +154,17 @@
 
     </div><!--slider-->
 
-    <!-- <p>*All times mentioned on this website are in Alaska Standard Time (AKST).</p> -->
+  </div><!--inner-->
+
+</section>
+
+<section class="pattern" id="links">
+
+  <div class="inner">
+
+    <p class="next"><a href="/plan/stay"><span>Next:</span> Plan Your Stay <img src="/_assets/img/next.png"/></a></p>
+
+    <div class="clearfix"></div>
 
   </div><!--inner-->
 

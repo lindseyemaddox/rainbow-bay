@@ -158,6 +158,20 @@
 
 </section>
 
+<section class="pattern" id="links">
+
+  <div class="inner">
+
+    <p class="prev"><a href="/plan/stay"><img src="/_assets/img/prev.png"/> <span>Previous:</span> Plan Your Stay</a></p>
+
+    <p class="next"><a href="/plan/equipment"><span>Next:</span> Equipment <img src="/_assets/img/next.png"/></a></p>
+
+    <div class="clearfix"></div>
+
+  </div><!--inner-->
+
+</section>
+
 <script>
 function printTable() {
     window.print();

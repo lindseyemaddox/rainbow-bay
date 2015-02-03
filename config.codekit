@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "18493",
+"creatorBuild": "18270",
 "files": {
 	"\/_assets\/css\/fishslider.css": {
 		"fileType": 16,
@@ -191,26 +191,6 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
-	"\/_assets\/css\/less\/organisms\/header.less": {
-		"allowInsecureImports": 0,
-		"createSourceMap": 0,
-		"disableJavascript": 0,
-		"fileType": 1,
-		"ieCompatibility": 1,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_assets\/css\/less\/organisms\/header.less",
-		"outputAbbreviatedPath": "\/_assets\/css\/less\/css\/header.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"relativeURLS": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"strictImports": 0,
-		"strictMath": 0,
-		"strictUnits": 0
-		},
 	"\/_assets\/css\/less\/organisms\/isotope.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
@@ -221,26 +201,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_assets\/css\/less\/organisms\/isotope.less",
 		"outputAbbreviatedPath": "\/_assets\/css\/less\/css\/isotope.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"relativeURLS": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"strictImports": 0,
-		"strictMath": 0,
-		"strictUnits": 0
-		},
-	"\/_assets\/css\/less\/organisms\/video.less": {
-		"allowInsecureImports": 0,
-		"createSourceMap": 0,
-		"disableJavascript": 0,
-		"fileType": 1,
-		"ieCompatibility": 1,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_assets\/css\/less\/organisms\/video.less",
-		"outputAbbreviatedPath": "\/_assets\/css\/less\/css\/video.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -321,26 +281,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_assets\/css\/less\/pages\/fleet.less",
 		"outputAbbreviatedPath": "\/_assets\/css\/less\/css\/fleet.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"relativeURLS": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"strictImports": 0,
-		"strictMath": 0,
-		"strictUnits": 0
-		},
-	"\/_assets\/css\/less\/pages\/index.less": {
-		"allowInsecureImports": 0,
-		"createSourceMap": 0,
-		"disableJavascript": 0,
-		"fileType": 1,
-		"ieCompatibility": 1,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_assets\/css\/less\/pages\/index.less",
-		"outputAbbreviatedPath": "\/_assets\/css\/less\/css\/index.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -520,15 +460,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_assets\/css\/styles.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_assets\/css\/styles.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/_assets\/img\/air.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -566,7 +497,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 8592,
+		"initialSize": 11456,
 		"inputAbbreviatedPath": "\/_assets\/img\/article-igors.jpg",
 		"outputAbbreviatedPath": "\/_assets\/img\/article-igors.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -599,7 +530,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 383,
+		"initialSize": 1177,
 		"inputAbbreviatedPath": "\/_assets\/img\/bot-bar.png",
 		"outputAbbreviatedPath": "\/_assets\/img\/bot-bar.png",
 		"outputPathIsOutsideProject": 0,
@@ -624,28 +555,6 @@
 		"initialSize": 872,
 		"inputAbbreviatedPath": "\/_assets\/img\/chosen-sprite@2x.png",
 		"outputAbbreviatedPath": "\/_assets\/img\/chosen-sprite@2x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_assets\/img\/collapsed.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1275,
-		"inputAbbreviatedPath": "\/_assets\/img\/collapsed.png",
-		"outputAbbreviatedPath": "\/_assets\/img\/collapsed.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_assets\/img\/expanded.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1240,
-		"inputAbbreviatedPath": "\/_assets\/img\/expanded.png",
-		"outputAbbreviatedPath": "\/_assets\/img\/expanded.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -676,7 +585,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1362,
+		"initialSize": 2888,
 		"inputAbbreviatedPath": "\/_assets\/img\/fancybox_sprite.png",
 		"outputAbbreviatedPath": "\/_assets\/img\/fancybox_sprite.png",
 		"outputPathIsOutsideProject": 0,
@@ -687,7 +596,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 6553,
+		"initialSize": 5068,
 		"inputAbbreviatedPath": "\/_assets\/img\/fancybox_sprite@2x.png",
 		"outputAbbreviatedPath": "\/_assets\/img\/fancybox_sprite@2x.png",
 		"outputPathIsOutsideProject": 0,
@@ -698,7 +607,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 50941,
+		"initialSize": 49879,
 		"inputAbbreviatedPath": "\/_assets\/img\/fisherman-over.png",
 		"outputAbbreviatedPath": "\/_assets\/img\/fisherman-over.png",
 		"outputPathIsOutsideProject": 0,
@@ -709,7 +618,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 49108,
+		"initialSize": 47351,
 		"inputAbbreviatedPath": "\/_assets\/img\/fisherman-under.png",
 		"outputAbbreviatedPath": "\/_assets\/img\/fisherman-under.png",
 		"outputPathIsOutsideProject": 0,
@@ -742,7 +651,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 546742,
+		"initialSize": 626377,
 		"inputAbbreviatedPath": "\/_assets\/img\/fixed-fish2.jpg",
 		"outputAbbreviatedPath": "\/_assets\/img\/fixed-fish2.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -951,7 +860,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1034,
+		"initialSize": 2661,
 		"inputAbbreviatedPath": "\/_assets\/img\/handle.png",
 		"outputAbbreviatedPath": "\/_assets\/img\/handle.png",
 		"outputPathIsOutsideProject": 0,
@@ -1222,17 +1131,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_assets\/img\/logo-angry-eagle.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 20598,
-		"inputAbbreviatedPath": "\/_assets\/img\/logo-angry-eagle.png",
-		"outputAbbreviatedPath": "\/_assets\/img\/logo-angry-eagle.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/_assets\/img\/logo-eagles-peak.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1314,7 +1212,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1040,
+		"initialSize": 1011,
 		"inputAbbreviatedPath": "\/_assets\/img\/pattern-dark.png",
 		"outputAbbreviatedPath": "\/_assets\/img\/pattern-dark.png",
 		"outputPathIsOutsideProject": 0,
@@ -1380,7 +1278,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 344237,
+		"initialSize": 340510,
 		"inputAbbreviatedPath": "\/_assets\/img\/slide-change.jpg",
 		"outputAbbreviatedPath": "\/_assets\/img\/slide-change.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -1678,38 +1576,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_assets\/inc\/head.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_assets\/inc\/head.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/_assets\/inc\/meta.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_assets\/inc\/meta.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/_assets\/inc\/navigation.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_assets\/inc\/navigation.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/_assets\/inc\/subpage-header.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_assets\/inc\/subpage-header.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -1780,17 +1651,6 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/_assets\/js\/main.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_assets\/js\/main.js",
-		"outputAbbreviatedPath": "\/_assets\/js\/min\/main-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/_assets\/js\/media.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -1824,17 +1684,6 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/_assets\/js\/min\/main-min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_assets\/js\/min\/main-min.js",
-		"outputAbbreviatedPath": "\/_assets\/js\/min\/min\/main-min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/_assets\/js\/min\/media-min.js": {
 		"fileType": 64,
 		"ignore": 1,
@@ -1846,34 +1695,12 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/_assets\/js\/min\/navstyler-min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_assets\/js\/min\/navstyler-min.js",
-		"outputAbbreviatedPath": "\/_assets\/js\/min\/min\/navstyler-min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/_assets\/js\/min\/prepare-min.js": {
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_assets\/js\/min\/prepare-min.js",
 		"outputAbbreviatedPath": "\/_assets\/js\/min\/min\/prepare-min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/_assets\/js\/navstyler.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_assets\/js\/navstyler.js",
-		"outputAbbreviatedPath": "\/_assets\/js\/min\/navstyler-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -2030,51 +1857,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_assets\/modules\/phpframework\/mysql_connect.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/about\/fleet.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/about\/fleet.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/about\/index.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/about\/index.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/about\/legacy.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/about\/legacy.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/about\/lodges.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/about\/lodges.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/about\/staff.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/about\/staff.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -2268,92 +2050,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/plan\/equipment.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/plan\/equipment.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/plan\/index.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/plan\/index.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/plan\/itinerary.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/plan\/itinerary.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/plan\/prepare.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/plan\/prepare.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/plan\/stay.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/plan\/stay.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/rates.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/rates.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/recreation\/geography.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/recreation\/geography.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/recreation\/hiking.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/recreation\/hiking.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/recreation\/index.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/recreation\/index.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/recreation\/sportfishing.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/recreation\/sportfishing.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -2407,10 +2108,6 @@
 			},
 		"empty_constructor_needs_parens": {
 			"active": 0,
-			"flagValue": -1
-			},
-		"ensure_comprehensions": {
-			"active": 1,
 			"flagValue": -1
 			},
 		"indentation": {
@@ -2504,10 +2201,6 @@
 		"space_operators": {
 			"active": 0,
 			"flagValue": -1
-			},
-		"spacing_after_comma": {
-			"active": 1,
-			"flagValue": -1
 			}
 		},
 	"coffeeMinifyOutput": 1,
@@ -2564,10 +2257,6 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"browserify": {
-			"active": 0,
-			"flagValue": -1
-			},
 		"camelcase": {
 			"active": 0,
 			"flagValue": -1
@@ -2590,10 +2279,6 @@
 			},
 		"dojo": {
 			"active": 0,
-			"flagValue": -1
-			},
-		"elision": {
-			"active": 1,
 			"flagValue": -1
 			},
 		"eqeqeq": {
@@ -2648,10 +2333,6 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"jasmine": {
-			"active": 0,
-			"flagValue": -1
-			},
 		"jquery": {
 			"active": 1,
 			"flagValue": -1
@@ -2695,10 +2376,6 @@
 		"maxstatements": {
 			"active": 0,
 			"flagValue": 4
-			},
-		"mocha": {
-			"active": 0,
-			"flagValue": -1
 			},
 		"mootools": {
 			"active": 0,
@@ -2765,10 +2442,6 @@
 			"flagValue": -1
 			},
 		"prototypejs": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"qunit": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -2996,7 +2669,6 @@
 	"slimAutoOutputPathStyle": 0,
 	"slimCompileOnly": 0,
 	"slimLogicless": 0,
-	"slimOutputFormat": 0,
 	"slimOutputStyle": 1,
 	"slimRailsCompatible": 0,
 	"stylusAutoOutputPathEnabled": 1,
@@ -3021,9 +2693,8 @@
 	"typescriptMinifyOutput": 0,
 	"typescriptModuleType": 0,
 	"typescriptNoImplicitAny": 0,
-	"typescriptPreserveConstEnums": 0,
+	"typescriptNoResolve": 0,
 	"typescriptRemoveComments": 0,
-	"typescriptSuppressImplicitAnyIndexErrors": 0,
 	"typescriptTargetECMAVersion": 0,
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
@@ -3060,10 +2731,6 @@
 			"flagValue": -1
 			},
 		"dead_code": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"drop_console": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -3107,10 +2774,6 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"keep_fargs": {
-			"active": 0,
-			"flagValue": -1
-			},
 		"loops": {
 			"active": 1,
 			"flagValue": -1
@@ -3123,16 +2786,8 @@
 			"active": 1,
 			"flagValue": 32000
 			},
-		"negate_iife": {
-			"active": 1,
-			"flagValue": -1
-			},
 		"properties": {
 			"active": 1,
-			"flagValue": -1
-			},
-		"pure_getters": {
-			"active": 0,
 			"flagValue": -1
 			},
 		"quote-keys": {

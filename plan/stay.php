@@ -71,6 +71,20 @@
   
 </section><!--testimonials-->
 
+<section class="pattern" id="links">
+
+  <div class="inner">
+
+    <p class="prev"><a href="/plan/itinerary"><img src="/_assets/img/prev.png"/> <span>Previous:</span> Sample Itinerary</a></p>
+
+    <p class="next"><a href="/plan/prepare"><span>Next:</span> Prepare Yourself <img src="/_assets/img/next.png"/></a></p>
+
+    <div class="clearfix"></div>
+
+  </div><!--inner-->
+
+</section>
+
 <script>
 function printTable() {
     window.print();

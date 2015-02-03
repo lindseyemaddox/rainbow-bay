@@ -16,13 +16,13 @@
 
     <h6>Included:</h6>
 
-    <p>Upscale Food and Lodging</p>
+    <p>Upscale food and lodging</p>
     <p>Guided daily fishing trips</p>
-    <p>Flyout Fishing Trips</p>
-    <p>fly, spinning, and bait casting equipment</p>
+    <p>Flyout fishing trips</p>
+    <p>Fly, spinning, and bait casting equipment</p>
     <p>Beverages</p>
-    <p>daily maid and laundry service</p>
-    <p>the adventure of a lifetime</p>    
+    <p>Daily maid and laundry service</p>
+    <p>The adventure of a lifetime</p>    
     
   </article>
 
@@ -30,13 +30,13 @@
 
     <h6>Not Included:</h6>
 
-    <p>Fishing license and King Salmon tag</p>
+    <p>Fishing license and king salmon tag</p>
     <p>Airfare to Anchorage</p>
     <p>Anchorage hotels</p>
-    <p>airfare from Anchorage to Lodge</p>
+    <p>Airfare from Anchorage to lodge</p>
     <p>Liquor</p>
     <p>Gratuities</p>
-    <p>The Daily Grind</p>    
+    <p>The daily grind</p>    
         
   </article>
 

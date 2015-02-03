@@ -1,16 +1,80 @@
+section#links {
+	p {
+		line-height: 3em;
+		padding-bottom: 0;
+		a {
+			text-decoration: none;
+		}
+		&.next {
+			float: right;
+			img {
+				margin-left: 10px;
+			}
+		}
+		&.prev {
+			float: left;
+			img {
+				margin-right: 10px;
+			}
+		}
+	}
+}
+
+
+
 
 /******** START MAIN FOOTER STYLES *********/
 
 footer {
 	background-color: @brown;
-	padding: 38px 0;
+	padding: 100px 0 28px;
+	div.addresses {
+		display: inline-block;
+		width: 30%;
+		vertical-align: top;
+		p {
+			font-size: 1em;
+			span {
+				font-size: 1.2em;
+				.ssp-bold;
+			}
+			&.copy {
+				font-size: .5em;
+			}
+			a {
+				font-size: 1.2em;
+				&:hover {
+					color: #fff;
+				}
+			}
+		}
+	}
+	div.mapnstuff {
+		display: inline-block;
+		width: 59%;
+		margin-left: 10%;
+		vertical-align: top;
+		a {
+			display: inline-block;
+			vertical-align: top;
+			text-decoration: none;
+			color: #fff;
+			float: right;
+			margin: 0 0 0 30px;
+			font-size: 2em;
+			&:hover {
+				color: @green;
+			}
+		}
+		iframe {
+			margin-bottom: 30px;
+		}
+	}
 	p {
 		.ssp-light;
 		font-size: 0.6571428571428571em;
 		color: #fff;
 		text-transform: uppercase;
-		display: inline-block;
-		vertical-align: middle;
 		a {
 			text-decoration: none;
 			float: none;
@@ -19,17 +83,6 @@ footer {
 				color: @green;
 				.transition;
 			}
-		}
-	}
-	a {
-		display: inline-block;
-		vertical-align: top;
-		text-decoration: none;
-		color: #fff;
-		float: right;
-		margin: 0 10px;
-		&:hover {
-			color: @green;
 		}
 	}
 }

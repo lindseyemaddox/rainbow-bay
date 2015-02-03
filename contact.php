@@ -4,70 +4,62 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/subpage-header.php'); //video header?>
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/navigation.php'); //navigation?>
 
-<section class="pattern dark headerComp" id="contact">
+<section class="pattern dark" id="contact">
 
 	<div class="inner">
 
 		<h2>Cast Us a Line</h2>
 
-        <div class="form">
+    <p class="alt">intro sentence with link to printable contact form</p>
 
-            <?php
-                $name = $_REQUEST['name'] ;
-                $email = $_REQUEST['email'] ;
-                $phone = $_REQUEST['phone'] ;
-                $desc = $_REQUEST['desc'] ;
-                if (isset($_POST['submit'])) {
-                  $to = 'lindseyemaddox@gmail.com';
-                  $headers = "From: " . strip_tags($_POST['email']) . "\r\n";
-                  $headers .= "Reply-To: ". strip_tags($_POST['email']) . "\r\n";
-                  $headers .= "MIME-Version: 1.0\r\n";
-                  $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
-                  $message = '<html><body>';
-                  $message .= 'Name: '.$name.'<br>';
-                  $message .= 'Email: '.$email.'<br>';
-                  $message .= 'Phone: '.$phone.'<br>';
-                  $message .= 'How May We Help You: '.$desc.'<br>';
-                  $message .= '</body></html>';
-                  $subject = 'new form submission from website';
+    <div class="form">
 
-            mail($to, $subject, $message, $headers);
-            echo "<div style='padding: 60px 20px; color: #fff; text-align: center;'><label> Thank you for using our form. We will be in contact with you as soon as possible.</label></div>";
-          }
-        else
-          { echo "
-                <form method='post' action='".$_SERVER['SCRIPT_NAME']."'>
-                    <label for='name'>Name</label><input type='text' required name='name' id='name' size='10' placeholder='(required)'>
-                    <label for='phone'>Phone</label><input type='text' required name='phone' id='phone' size='10' placeholder='(required)'>
-                    <label for='email'>Email</label><input type='text' required name='email' id='email' size='10' placeholder='(required)'>
-                    <label for='desc'>How May We Help You?</label>
-                    <textarea name='desc' id='desc' size='10'></textarea>
-                    <button class='submit' type='submit' name='submit'>Send</button>
-              </form>";
+        <?php
+            $name = $_REQUEST['name'] ;
+            $email = $_REQUEST['email'] ;
+            $phone = $_REQUEST['phone'] ;
+            $desc = $_REQUEST['desc'] ;
+            if (isset($_POST['submit'])) {
+              $to = 'lindseyemaddox@gmail.com';
+              $headers = "From: " . strip_tags($_POST['email']) . "\r\n";
+              $headers .= "Reply-To: ". strip_tags($_POST['email']) . "\r\n";
+              $headers .= "MIME-Version: 1.0\r\n";
+              $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
+              $message = '<html><body>';
+              $message .= 'Name: '.$name.'<br>';
+              $message .= 'Email: '.$email.'<br>';
+              if (isset($_POST['opt-in'])) {
+                  $message .= 'I would like to receive the e-newsletter';
+                } else {
               }
-            ?>
+              $message .= 'Phone: '.$phone.'<br>';
+              $message .= 'How May We Help You: '.$desc.'<br>';
+              $message .= '</body></html>';
+              $subject = 'new form submission from website';
 
-        </div><!--form-->
+        mail($to, $subject, $message, $headers);
+        echo "<div style='padding: 60px 20px; color: #fff; text-align: center;'><label> Thank you for using our form. We will be in contact with you as soon as possible.</label></div>";
+      }
+    else
+      { echo "
+          <div class='formleft'>
+            <form method='post' action='".$_SERVER['SCRIPT_NAME']."'>
+                <label for='name'>Name</label><input type='text' required name='name' id='name' size='10' placeholder='(required)'>
+                <label for='phone'>Phone</label><input type='text' required name='phone' id='phone' size='10' placeholder='(required)'>
+                <label for='email'>Email</label><input type='text' required name='email' id='email' size='10' placeholder='(required)'>
+          </div>
+          <div class='formright'>
+                <label for='desc'>How May We Help You?</label>
+                <textarea name='desc' id='desc' size='10'></textarea>
+                <label for='opt-in' id='opt-in'>I'd like to receive the e-newsletter.</label>
+                <input type='checkbox' value='1' id='opt-in' name='opt-in[]' checked />
+                <button class='submit' type='submit' name='submit'>Send</button>
+          </div>
+          </form>";
+          }
+        ?>
 
-        <div class="contact">
-            
-            <p class="phone">Winter: <a href="tel:18179462479">(817) 946-2479</a></p>
-
-            <p class="phone">Summer: <a href="tel:19078502235">(907) 850-2235</a></p>
-
-            <p><a href="https://goo.gl/maps/HzMIT" target="_blank">P.O. Box 47011<br />
-            Pedro Bay, AK 99647</a></p>
-
-            <p><a href="https://goo.gl/maps/Q0nqo" target="_blank">Corporate Headquarters<br />
-            Rainbow Bay Resorts LLC<br />
-            30 Burton Hills Blvd, Suite 325<br />
-            Nashville, TN. 37215</a></p>
-
-            <p><a href="/downloads/contact-form.pdf">Download Contact Form</a></p>
-
-            <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d128186.66823512591!2d-154.02904560000002!3d59.86712945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x56c30a90275ebf31%3A0x455b21b73178553b!2sPedro+Bay%2C+AK+99647!5e0!3m2!1sen!2sus!4v1420932731050" width="100%" height="355" frameborder="0" style="border:0"></iframe> -->
-
-        </div><!--contact-->
+    </div><!--form-->
 
 	</div><!--inner-->
 

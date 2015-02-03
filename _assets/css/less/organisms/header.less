@@ -19,20 +19,20 @@ nav {
 			display: block;
 		}
 		&:before {
-			width: 82%;
+			width: 72%;
 		}
 		&:after {
-			width: 82%;
+			width: 72%;
 		}
 		li {
 			display: inline-block;
 			letter-spacing: .1em;
 			.passion;
 			text-transform: uppercase;
-			font-size: .85em;
+			font-size: .7em;
 			margin-right: 13px;
 			vertical-align: top;
-			margin-top: 10px;
+			margin-top: 13px;
 			.transition;
 			&:last-child {
 				margin-right: 0;
@@ -52,6 +52,7 @@ nav {
 				left: 3px;
 				color: #fff;
 				cursor: pointer;
+				text-decoration: none;
 				.transition;
 				&.expanded {
 					.rotate(180deg);
@@ -85,9 +86,14 @@ nav {
 				margin-top: 0;
 				padding-left: 0;
 				.transition;
+				&:before, &:after {
+					content: "";
+					display: none;
+				}
 				li {
 					display: block;
-					margin-right: 0;
+					margin: 10px 0 0 0;
+					font-size: 1em;
 					a:hover {
 						border-bottom: 1px solid #fff;
 					}
@@ -101,10 +107,6 @@ nav {
 				&.expanded {
 					height: auto;
 					.transition;
-					&:before, &:after {
-						content: "";
-						display: none;
-					}
 				}
 			}
 		}
@@ -116,7 +118,6 @@ nav {
 }
 
 header {
-	top: -90px;
 	position: relative;
 	width: 100%;
 	overflow: hidden;
@@ -124,7 +125,6 @@ header {
 		z-index: -1;
 	}
 	&.subheader {
-		top: 0;
 		height: 240px;
 	}
 	div.tag {

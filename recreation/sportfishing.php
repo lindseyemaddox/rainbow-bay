@@ -161,8 +161,19 @@
   
 </section><!--testimonials-->
 
+<section class="pattern" id="links">
 
+  <div class="inner">
 
+    <p class="prev"><a href="/about/fleet"><img src="/_assets/img/prev.png"/> <span>Previous:</span> Our Fleet</a></p>
+
+    <p class="next"><a href="/recreation/hiking"><span>Next:</span> Hiking and Such <img src="/_assets/img/next.png"/></a></p>
+
+    <div class="clearfix"></div>
+
+  </div><!--inner-->
+
+</section>
 
 <script>
 $('#container').isotope({ layoutMode : 'fitRows' });

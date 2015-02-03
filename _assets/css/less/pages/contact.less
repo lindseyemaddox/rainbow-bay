@@ -6,9 +6,23 @@ section#contact {
 }
 
 div.form {
-	width: 40%;
-	margin-right: 9%;
-	display: inline-block;
+	div.formleft {
+		width: 46%;
+		margin-right: 7%;
+		display: inline-block;
+		vertical-align: top
+	}
+	div.formright {
+		width: 46%;
+		display: inline-block;
+		input {
+			display: inline;
+			width: 25px;
+		}
+		label#opt-in{
+			display: inline;
+		}
+	}
 }
 div.contact {
 	width: 50%;
@@ -66,7 +80,7 @@ textarea {
 	font-size: 18px;
 	border: none;
 	resize: none;
-	height: 150px;
+	height: 90px;
 	.ssp-normal;
 }
 

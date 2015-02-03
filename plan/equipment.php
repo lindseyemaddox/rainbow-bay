@@ -1,9 +1,6 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/common.php'); //php framework and meta?>
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/head.php'); // HTTP head?>
 <link rel="stylesheet" type="text/css" media="print" href="/_assets/css/print.css" />
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script src="//code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
-<script src="/_assets/js/prepare.js"></script>
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/subpage-header.php'); //video header?>
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/navigation.php'); //navigation?>
 
@@ -113,6 +110,20 @@
   </div><!--inner-->
   
 </section><!--testimonials-->
+
+<section class="pattern" id="links">
+
+  <div class="inner">
+
+    <p class="prev"><a href="/plan/prepare"><img src="/_assets/img/prev.png"/> <span>Previous:</span> Prepare Yourself</a></p>
+
+    <p class="next"><a href="/about/legacy"><span>Next:</span> Our Legacy <img src="/_assets/img/next.png"/></a></p>
+
+    <div class="clearfix"></div>
+
+  </div><!--inner-->
+
+</section>
 
 <script>
 function printTable() {
