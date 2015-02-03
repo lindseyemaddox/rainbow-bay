@@ -116,6 +116,7 @@ function placeholderSupported() {
 
 
 
+
 function firstLoad() {
 	initVars();
 	showDrop1();

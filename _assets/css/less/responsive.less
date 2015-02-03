@@ -16,7 +16,7 @@
 	html {
 		font-size: 17px;
 	}
-	nav ul li.logo {
+	nav div.logo {
 		width: 34%;
 		img {
 			width: 100%;
@@ -25,49 +25,95 @@
 	nav ul li span.drop-icon {
 		top: -12px;
 	}
-	nav ul:before, nav ul:after {
-		width: 75%;
-	}
 }
 
 @media screen and (max-width: 1100px) {
 	html {
 		font-size: 16.5px;
 	}
-	nav ul li.logo {
-		width: 22%;
-		margin: -20px 0 0 -64px;
-		height: 60px;
+	nav div.logo {
+		margin: 0px 0px 0 -64px;
+		width: 30%;
 	}
-	nav ul:before, nav ul:after {
-		width: 88%;
+	nav > ul {
+		width: 77%;
+	}
+	nav > ul li.drop1, nav > ul li.drop2, nav > ul li.drop3 {
+		margin-right: 0;
+	}
+	nav > ul li span.drop-icon {
+		width: 36px;
+	}
+	header div.tag:before, header div.tag:after {
+		content: "";
+	}
+	.fishslider .flex-viewport img {
+		top: 10px;
+	}
+	.flex-direction-nav a {
+		width: 23px;
+	}
+	.flex-direction-nav .flex-next {
+		right: -32px;
+	}
+	.flex-direction-nav .flex-prev {
+		left: -32px;
+	}
+	footer div.addresses {
+		width: 35%;
+	}
+	footer div.mapnstuff {
+		width: 54%;
 	}
 }
-
-
-
-
-
 
 @media screen and (max-width: 1000px) {
 	html {
 		font-size: 16px;
 	}
-	nav ul {
-		margin-top: 0;
-		height: auto;
-		&.expanded {
-			li:not(.logo) {
+	nav {
+		z-index: 3;
+		> ul {
+			margin-top: 0;
+			padding: 0;
+			height: 0;
+			overflow: hidden;
+			width: 285px;
+			right: -15px;
+			top: -10px;
+			position: absolute;
+			.transition;
+			&.expanded {
+				background-color: @brown;
 				height: auto;
-				display: block;
+				padding: 0 0 20px 20px;
 				.transition;
+				li {
+					display: block;
+					font-size: 1.2em;
+					&.drop1 {
+						margin-top: 135px;
+					}
+					span.drop-icon {
+						top: -9px;
+					}
+					ul {
+						padding-left: 15px;
+						li {
+							margin: 0;
+							padding: 10px 0;
+							font-size: 1em;
+						}
+					}
+				}
 			}
 		}
 	}
-	nav ul li:not(.logo) {
-		height: 0;
-		overflow: hidden;
-	}	
+	nav div.logo {
+		width: 40%;
+		margin: 0 0 0 -20px;
+		height: auto;
+	}
 	nav ul:before, nav ul:after {
 		height: 0;
 	}
@@ -80,5 +126,130 @@
 		margin: 35px 0 0 0;
 		color: #fff;
 		cursor: pointer;
+		position: relative;
+	}
+	div.videowrap {
+		display: none;
+	}
+	header .video-overlay {
+		background-color: @brown;
+	}
+	header div.tag p span {
+		font-size: 1.8em;
+	}
+	.fishslider .flex-viewport img {
+		top: 20px;
 	}
 }
+
+
+
+
+@media screen and (max-width: 900px) {
+	html {
+		font-size: 15.5px;
+	}
+	header div#topLodge {
+		position: relative;
+		opacity: .9;
+	}
+	.inner, header div#topLodge div#fullOpacity {
+		width: 90%;
+	}
+	nav {
+		width: 90%;
+	}
+	header div.tag {
+		top: 50%;
+	}
+	header div#topLodge img {
+		width: 16%;
+	}
+	section#media-section {
+		padding: 80px 0;
+	}
+	section#testimonials {
+		padding: 10px 0 50px;
+	}
+}
+
+
+@media screen and (max-width: 800px) {
+	html {
+		font-size: 15px;
+	}
+	.flex-direction-nav .flex-next {
+		right: -12px;
+	}
+	.flex-direction-nav .flex-prev {
+		left: -12px;
+	}
+	section#media-section article.media-item {
+		width: 100%;
+		margin: 0 0 20px;
+		min-height: auto;
+		br {
+			display: none;
+		}
+		&.video {
+			p {
+				display: none;
+			}
+		}
+	}
+	footer {
+		padding-top: 60px;
+	}
+	footer div.addresses {
+		width: 38%;
+	}
+	footer div.mapnstuff {
+		width: 51%;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	html {
+		font-size: 14.5px;
+	}
+	h3.alt {
+		text-align: left;
+	}
+	footer div.addresses {
+		width: 100%;
+	}
+	footer div.addresses p {
+		text-align: center;
+	}
+	footer div.mapnstuff {
+		width: 100%;
+		margin: 0;
+		iframe {
+			height: 220px!important;
+		}
+	}
+}
+
+@media screen and (max-width: 600px) {
+	html {
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	html {
+		font-size: 13.5px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+

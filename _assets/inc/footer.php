@@ -27,10 +27,6 @@
 
 					<p><a href="/client-photos/login" class="fancybox fancybox.iframe">Guest Login</a></p>
 
-					<br/>
-
-					<p class="copy">&copy;<?php echo date("Y"); ?> Rainbow Bay Resorts, LLC</p>
-
 				</div><!--addresses-->
 
 				<div class="mapnstuff">
@@ -49,6 +45,7 @@
 
 				</div><!--mapnstuff-->
 
+				<p class="copy">&copy;<?php echo date("Y"); ?> Rainbow Bay Resorts, LLC</p>
 
 			</div><!--inner-->
 

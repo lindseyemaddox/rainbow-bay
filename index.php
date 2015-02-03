@@ -1,6 +1,28 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/common.php'); //php framework and meta?>
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/head.php'); // HTTP head?>
-<link rel="stylesheet" href="/_assets/css/fishslider.css" media="screen">
+<script type="text/javascript">
+  $(window).load(function(){
+      $('.fishslider').flexslider({
+        maxItems: 3,
+        minItems: 3,
+        move: 1,
+        itemWidth: 333,
+        animation: "slide",
+        directionNav: true,
+        controlNav: false,
+        pauseOnHover: true,
+        animationLoop: true,
+        randomize: true,
+        slideshow: false, 
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+      });
+      $('.flexslider').flexslider({
+        randomize: false,
+      });
+  });
+</script>
 <div class="index-nav">
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/navigation.php'); //navigation?>
 </div><!--index-nav-->	
@@ -102,7 +124,7 @@
         <div class="fishslider carousel">
           <ul class="slides">
             <li><a href="/recreation/sportfishing">
-              <img src="/_assets/img/icon-rainbow-trout.svg" alt="Rainobw Trout">
+              <img src="/_assets/img/icon-rainbow-trout.svg" alt="Rainbow Trout">
               <h4 class="alt">Rainbow <br />Trout</h4>
               <p>These acrobatic fish are known for being fierce fighters that haven’t...</p>
             </a></li>
@@ -218,7 +240,7 @@
 
       <h4>Jet sleding on the Illiamna</h4>
 
-      <p>The Iliamna River’s shallow areas are <br />home to impressive rainbow trout and <br />Arctic char!</p>
+      <p>The Iliamna River’s shallow areas are home to impressive rainbow trout and Arctic char!</p>
 
       <a href="/lightboxes/video/jet-sleding" class="video-link fancybox fancybox.iframe"><span class="icon-play"></span><img src="/_assets/img/video-jet-sleding.jpg" alt="Jet sleding down the Illiamna River video"></a>
 
@@ -228,36 +250,7 @@
 
 </section><!--media-section-->
 
-<script type="text/javascript">
-	$(window).load(function(){
-	  	$('.flexslider').flexslider({
-        randomize: false,
-	    	start: function(slider){
-	    	  $('body').removeClass('loading');
-	    	}
-	  	});
-	});
-</script>
 
-<script type="text/javascript">
-  $(document).ready(function(){
-      $('.fishslider').flexslider({
-        animation: "slide",
-        directionNav: true,
-        controlNav: false,
-        pauseOnHover: true,
-        animationLoop: true,
-        randomize: true,
-        slideshow: false, 
-        itemWidth: 330,
-        minItems: 3,
-        maxItems: 3,
-        start: function(slider){
-          $('body').removeClass('loading');
-        }
-      });
-  });
-</script>
 
 <script src="/_assets/js/jquery.flexslider.js"></script>
 

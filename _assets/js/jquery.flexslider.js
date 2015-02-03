@@ -854,11 +854,11 @@
     asNavFor: "",                   //{NEW} Selector: Internal property exposed for turning the slider into a thumbnail navigation for another slider
 
     // Carousel Options
-    itemWidth: 0,                   //{NEW} Integer: Box-model width of individual carousel items, including horizontal borders and padding.
-    itemMargin: 0,                  //{NEW} Integer: Margin between carousel items.
-    minItems: 3,                    //{NEW} Integer: Minimum number of carousel items that should be visible. Items will resize fluidly when below this.
+    itemWidth: 330,                   //{NEW} Integer: Box-model width of individual carousel items, including horizontal borders and padding.
+    itemMargin: 10,                  //{NEW} Integer: Margin between carousel items.
+    minItems: 1,                    //{NEW} Integer: Minimum number of carousel items that should be visible. Items will resize fluidly when below this.
     maxItems: 3,                    //{NEW} Integer: Maxmimum number of carousel items that should be visible. Items will resize fluidly when above this limit.
-    move: 0,                        //{NEW} Integer: Number of carousel items that should move on animation. If 0, slider will move all visible items.
+    move: 1,                        //{NEW} Integer: Number of carousel items that should move on animation. If 0, slider will move all visible items.
 
     // Callback API
     start: function(){},            //Callback: function(slider) - Fires when the slider loads the first slide

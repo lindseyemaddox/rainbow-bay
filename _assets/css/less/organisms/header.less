@@ -11,21 +11,23 @@ nav {
 	span#nav {
 		display: none;
 	}
-	ul {
+	div.logo {
+		margin-left: -84px;
+		display: inline-block;
+		width: 30%;
+	}
+	> ul {
 		height: 50px;
 		margin-top: 40px;
+		display: inline-block;
+		width: 74%;
+		float: right;
 		&:before, &:after {
 			content: "";
 			background-color: #fff;
 			height: 1px;
-			float: right;
 			display: block;
-		}
-		&:before {
-			width: 72%;
-		}
-		&:after {
-			width: 72%;
+			width: 100%;
 		}
 		li {
 			display: inline-block;
@@ -39,15 +41,6 @@ nav {
 			.transition;
 			&:last-child {
 				margin-right: 0;
-			}
-			&.logo {
-				margin-top: -50px;
-				margin-left: -84px;
-				height: 90px;
-				overflow: visible;
-				a:hover {
-					border-bottom: none;
-				}
 			}
 			span {
 				position: relative;
@@ -188,7 +181,7 @@ header {
 		img {
 			position: absolute;
 			right: 0;
-			top: 33px;
+			top: 18px;
 		}
 	}
 	img.temp-image {
