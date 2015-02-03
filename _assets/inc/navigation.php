@@ -5,6 +5,8 @@
 
 	<nav>
 
+		<span id="nav" class="icon-vest"></span>
+
 		<ul id="mainNav">
 			<li class="logo"><a href="/"><img src="/_assets/img/logo-angry-eagle.png" alt="Angry Eagle Lodge &amp; Outfitters logo"></a></li>
 			<li class="drop1"><a href="/plan">Plan Your Adventure<span class="drop-icon collapsed"></span></a>
@@ -33,7 +35,7 @@
 			<li><a href="/galleries">Galleries</a></li>
 			<li><a href="/rates">Rates</a></li>
 			<li><a href="/faq">FAQ</a></li>
-			<li><a href="/contact">Contact Us</a></li>
+			<li><a href="/contact">Contact</a></li>
 		</ul>
 
 	</nav>

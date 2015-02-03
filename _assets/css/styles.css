@@ -734,6 +734,9 @@ nav {
   z-index: 1;
   top: 15px;
 }
+nav span#nav {
+  display: none;
+}
 nav ul {
   height: 50px;
   margin-top: 40px;
@@ -758,7 +761,7 @@ nav ul li {
   font-family: 'Passion One', sans-serif;
   text-transform: uppercase;
   font-size: .7em;
-  margin-right: 13px;
+  margin-right: 17px;
   vertical-align: top;
   margin-top: 13px;
   -webkit-transition: all 400ms ease;
@@ -939,7 +942,6 @@ header div#topLodge img {
 header img.temp-image {
   width: 100%;
 }
-/******** END MAIN HEADER AND NAVIGATION STYLES *********/
 section#links p {
   line-height: 3em;
   padding-bottom: 0;
@@ -1027,7 +1029,6 @@ footer p a:hover {
   -ms-transition: all 400ms ease;
   transition: all 400ms ease;
 }
-/******** END FOOTER STYLES *********/
 /* @group Base */
 .chosen-container {
   position: relative;
@@ -1077,7 +1078,7 @@ footer p a:hover {
   background: -o-linear-gradient(top, #ffffff 20%, #f6f6f6 50%, #eeeeee 52%, #f4f4f4 100%);
   background: linear-gradient(top, #ffffff 20%, #f6f6f6 50%, #eeeeee 52%, #f4f4f4 100%);
   background-clip: padding-box;
-  box-shadow: 0 0 3px #ffffff inset, 0 1px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 3px white inset, 0 1px 1px rgba(0, 0, 0, 0.1);
   color: #444;
   text-decoration: none;
   white-space: nowrap;
@@ -1143,7 +1144,7 @@ footer p a:hover {
   height: auto;
   outline: 0;
   border: 1px solid #aaa;
-  background: #ffffff url('/_assets/img/chosen-sprite.png') no-repeat 100% -20px;
+  background: white url('/_assets/img/chosen-sprite.png') no-repeat 100% -20px;
   background: url('/_assets/img/chosen-sprite.png') no-repeat 100% -20px, -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(1%, #eeeeee), color-stop(15%, #ffffff));
   background: url('/_assets/img/chosen-sprite.png') no-repeat 100% -20px, -webkit-linear-gradient(#eeeeee 1%, #ffffff 15%);
   background: url('/_assets/img/chosen-sprite.png') no-repeat 100% -20px, -moz-linear-gradient(#eeeeee 1%, #ffffff 15%);
@@ -1276,7 +1277,7 @@ footer p a:hover {
   background-image: -o-linear-gradient(#f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eeeeee 100%);
   background-image: linear-gradient(#f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eeeeee 100%);
   background-clip: padding-box;
-  box-shadow: 0 0 2px #ffffff inset, 0 1px 0 rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 2px white inset, 0 1px 0 rgba(0, 0, 0, 0.05);
   color: #333;
   line-height: 13px;
   cursor: default;
@@ -1421,7 +1422,7 @@ footer p a:hover {
 }
 .chosen-rtl .chosen-search input[type="text"] {
   padding: 4px 5px 4px 20px;
-  background: #ffffff url('/_assets/img/chosen-sprite.png') no-repeat -30px -20px;
+  background: white url('/_assets/img/chosen-sprite.png') no-repeat -30px -20px;
   background: url('/_assets/img/chosen-sprite.png') no-repeat -30px -20px, -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(1%, #eeeeee), color-stop(15%, #ffffff));
   background: url('/_assets/img/chosen-sprite.png') no-repeat -30px -20px, -webkit-linear-gradient(#eeeeee 1%, #ffffff 15%);
   background: url('/_assets/img/chosen-sprite.png') no-repeat -30px -20px, -moz-linear-gradient(#eeeeee 1%, #ffffff 15%);
@@ -1450,7 +1451,6 @@ footer p a:hover {
     background-repeat: no-repeat !important;
   }
 }
-/* @end */
 /*! fancyBox v2.1.5 fancyapps.com | fancyapps.com/fancybox/#license */
 .fancybox-wrap,
 .fancybox-skin,
@@ -2992,7 +2992,6 @@ div#product-reveal h1 {
   bottom: 0;
   z-index: 104;
 }
-/******** END Drag to Reveal module STYLES *********/
 #gallery {
   background: url(/_assets/img/rates.jpg) no-repeat center center transparent;
   background-size: cover;
@@ -3120,8 +3119,79 @@ section.staff a.staff-item img {
 /*================  RESPONSIVE STYLES  ================*/
 /*====================================================*/
 /*************RESPONSIVE CODE*****************/
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1300px) {
   html {
     font-size: 17.5px;
+  }
+  nav ul li {
+    margin-right: 11px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  html {
+    font-size: 17px;
+  }
+  nav ul li.logo {
+    width: 34%;
+  }
+  nav ul li.logo img {
+    width: 100%;
+  }
+  nav ul li span.drop-icon {
+    top: -12px;
+  }
+  nav ul:before,
+  nav ul:after {
+    width: 75%;
+  }
+}
+@media screen and (max-width: 1100px) {
+  html {
+    font-size: 16.5px;
+  }
+  nav ul li.logo {
+    width: 22%;
+    margin: -20px 0 0 -64px;
+    height: 60px;
+  }
+  nav ul:before,
+  nav ul:after {
+    width: 88%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  html {
+    font-size: 16px;
+  }
+  nav ul {
+    margin-top: 0;
+    height: auto;
+  }
+  nav ul.expanded li:not(.logo) {
+    height: auto;
+    display: block;
+    -webkit-transition: all 400ms ease;
+    -moz-transition: all 400ms ease;
+    -o-transition: all 400ms ease;
+    -ms-transition: all 400ms ease;
+    transition: all 400ms ease;
+  }
+  nav ul li:not(.logo) {
+    height: 0;
+    overflow: hidden;
+  }
+  nav ul:before,
+  nav ul:after {
+    height: 0;
+  }
+  header.subheader {
+    height: 120px;
+  }
+  nav span#nav {
+    display: block;
+    float: right;
+    margin: 35px 0 0 0;
+    color: #fff;
+    cursor: pointer;
   }
 }

@@ -3,8 +3,82 @@
 /*************RESPONSIVE CODE*****************/
 
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1300px) {
 	html {
 		font-size: 17.5px;
+	}
+	nav ul li {
+		margin-right: 11px;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	html {
+		font-size: 17px;
+	}
+	nav ul li.logo {
+		width: 34%;
+		img {
+			width: 100%;
+		}
+	}
+	nav ul li span.drop-icon {
+		top: -12px;
+	}
+	nav ul:before, nav ul:after {
+		width: 75%;
+	}
+}
+
+@media screen and (max-width: 1100px) {
+	html {
+		font-size: 16.5px;
+	}
+	nav ul li.logo {
+		width: 22%;
+		margin: -20px 0 0 -64px;
+		height: 60px;
+	}
+	nav ul:before, nav ul:after {
+		width: 88%;
+	}
+}
+
+
+
+
+
+
+@media screen and (max-width: 1000px) {
+	html {
+		font-size: 16px;
+	}
+	nav ul {
+		margin-top: 0;
+		height: auto;
+		&.expanded {
+			li:not(.logo) {
+				height: auto;
+				display: block;
+				.transition;
+			}
+		}
+	}
+	nav ul li:not(.logo) {
+		height: 0;
+		overflow: hidden;
+	}	
+	nav ul:before, nav ul:after {
+		height: 0;
+	}
+	header.subheader {
+		height: 120px;
+	}
+	nav span#nav {
+		display: block;
+		float: right;
+		margin: 35px 0 0 0;
+		color: #fff;
+		cursor: pointer;
 	}
 }

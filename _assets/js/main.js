@@ -2,7 +2,13 @@
 
 // set initial variables
 var $drop1,
-	$showDrop1;
+	$showDrop1,
+	$drop2,
+	$showDrop2,
+	$drop3,
+	$showDrop3,
+	$showNav,
+	$nav;
 
 
 // function to set dom vars, etc that will not change
@@ -13,6 +19,8 @@ function initVars() {
 	$showDrop1 	= $('.drop1 ul');
 	$showDrop2 	= $('.drop2 ul');
 	$showDrop3 	= $('.drop3 ul');
+	$showNav 	= $('nav span#nav');
+	$nav 	= $('nav > ul');
 }
 
 function showDrop1(){
@@ -66,6 +74,13 @@ function showDrop3(){
 	});
 }
 
+function showNav(){
+	$showNav.click(function(){
+			$nav.toggleClass('expanded');
+		return false;
+	});
+}
+
 // this function fixes placeholders in browsers that don't support it
 function initPlaceholders() {
 	if ($('input[placeholder]').length > 0) {
@@ -106,6 +121,7 @@ function firstLoad() {
 	showDrop1();
 	showDrop2();
 	showDrop3();
+	showNav();
 	initPlaceholders();
 }
 
