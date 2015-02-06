@@ -1,28 +1,5 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/common.php'); //php framework and meta?>
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/head.php'); // HTTP head?>
-<script type="text/javascript">
-  $(window).load(function(){
-      $('.fishslider').flexslider({
-        maxItems: 3,
-        minItems: 3,
-        move: 1,
-        itemWidth: 333,
-        animation: "slide",
-        directionNav: true,
-        controlNav: false,
-        pauseOnHover: true,
-        animationLoop: true,
-        randomize: true,
-        slideshow: false, 
-        start: function(slider){
-          $('body').removeClass('loading');
-        }
-      });
-      $('.flexslider').flexslider({
-        randomize: false,
-      });
-  });
-</script>
 <div class="index-nav">
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/navigation.php'); //navigation?>
 </div><!--index-nav-->	
@@ -104,9 +81,9 @@
 
 	<div class="inner">
 
-		<h1><span class="temp">Over 30 Years Of Awesome</span></h1>
+		<h1>Your Adventure Starts Here</h1>
 
-		<h3><span class="temp">Drumstick turkey ham short ribs shankle leberkas. Pig shoulder andouille kevin, brisket venison salami chicken cow. Sausage spare ribs salami, ground round ham chuck pastrami pork belly. Ball tip sirloin biltong prosciutto alcatra capicola bacon cupim pastrami leberkas shoulder. Pork loin shank filet mignon beef alcatra. Jowl flank swine ground round meatloaf shoulder ribeye ham picanha bresaola shankle bacon pork belly chicken. Beef andouille meatloaf filet mignon, ham hock sausage capicola venison pork loin drumstick shankle pancetta.</span></h3>
+		<h3>Angry Eagle Lodge &amp; Outfitters is a full-service Alaskan fishing lodge in the heart of Southwest Alaska’s Bristol Bay. For the past 30 years, we’ve prided ourselves on offering the fishing adventures of a lifetime. Our knowledgable guides offer assistance and insight to all anglers of all experience levels. And our large fleet of planes, boats, and ATVs means that, regardless of the weather, you’ll always have a great place to cast a line.</h3>
 
 	</div><!--inner-->
 
@@ -250,6 +227,29 @@
 
 </section><!--media-section-->
 
+<script type="text/javascript">
+  $(window).load(function(){
+      $('.fishslider').flexslider({
+        maxItems: 3,
+        minItems: 3,
+        move: 1,
+        itemWidth: 333,
+        animation: "slide",
+        directionNav: true,
+        controlNav: false,
+        pauseOnHover: true,
+        animationLoop: true,
+        randomize: true,
+        slideshow: false, 
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+      });
+      $('.flexslider').flexslider({
+        randomize: false,
+      });
+  });
+</script>
 
 
 <script src="/_assets/js/jquery.flexslider.js"></script>

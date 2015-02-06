@@ -37,7 +37,7 @@
 			<li><a href="/contact">Contact</a></li>
 		</ul>
 
-		<span id="nav" class="icon-vest"></span>
+		<span id="nav" class="icon-menu"></span>
 
 	</nav>
 

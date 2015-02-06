@@ -2,6 +2,8 @@
 		<footer>
 
 			<div class="inner">
+				
+				<h2 class="alt">Contact Angry Eagle Lodge & Outfitters</h3>
 
 				<div class="addresses">
 				
@@ -31,7 +33,7 @@
 
 				<div class="mapnstuff">
 
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d257197.95668582027!2d-154.0826039496094!3d59.7601003965142!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x56c30a90275ebf31%3A0x455b21b73178553b!2sPedro+Bay%2C+AK+99647!5e0!3m2!1sen!2sus!4v1422932980325" width="100%" height="400" frameborder="0" style="border:0"></iframe>
+					<img src="/_assets/img/map.png" alt="map of Alaska with a closer view of Angry Eagle Lodge &amp; Outfitters">
 
 					<a href="#" class="icon-google-plus"></a>
 

@@ -45,7 +45,7 @@
 
       <h4>Jon Baker <br />Fishing <br />Guide</h4>
 
-      <img src="/_assets/img/no-image.jpg" alt="Angry Eagle fishing guide Jon Baker">
+      <img src="/_assets/img/staff-baker.jpg" alt="Angry Eagle fishing guide Jon Baker">
 
     </a><!--staff-item-->
 
