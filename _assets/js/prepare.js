@@ -1,6 +1,5 @@
 
-
-	function productReveal() {
+$(function() {
 	$( "#revealParts" ).resizable({
 	  handles: 'e',
 	  maxWidth: 277
@@ -20,14 +19,4 @@
 		});
 	});
 
-
-}
-
-
-function firstLoad() {
-	productReveal();
-}
-
-$(function() {
-	firstLoad();
 });

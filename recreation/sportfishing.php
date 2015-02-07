@@ -17,12 +17,12 @@
 
     <p>The Bristol Bay area in Southwest Alaska offers a wide variety of sportfishing, which means Rainbow Bay Lodge guests are in for an angler experience of a lifetime. During the Alaskan fishing season, our guests will be casting their lines for these finned beauties:</p>
 
-    <div id="slider">
+    <div id="slider-cont">
       
       <div id="options" class="clearfix">
+          <p>slide to order species <br />or<br /> <a href="#filter" data-option-value="*" class="selected">original order</a></p>
 
         <ul id="filters" class="option-set clearfix" data-option-key="filter">
-          <p>slide to order species <br />or<br /> <a href="#filter" data-option-value="*" class="selected">original order</a></p>
           <li><a href="#filter" data-option-value=".june1">June 1</a></li>
           <li><a href="#filter" data-option-value=".june2">June 2</a></li>
           <li><a href="#filter" data-option-value=".june3">June 3</a></li>
@@ -42,7 +42,7 @@
         </ul>
 
       </div> <!-- #options -->
-  
+      <div class="slider"></div>
     </div><!--slider-->  
 
     <div id="container" class="clearfix">
@@ -176,10 +176,9 @@
 </section>
 
 <script>
-$('#container').isotope({ layoutMode : 'fitRows' });
 
     $(function(){
-      
+
       var $container = $('#container');
 
       $container.isotope({
@@ -218,28 +217,27 @@ $('#container').isotope({ layoutMode : 'fitRows' });
         return false;
       });
 
-      
+      $( ".slider" ).slider({      
+        value:0,      
+        min: 0,      
+        max: 15,      
+        step: 1,      
+        slide: function( event, ui ) {        
+          var slideVal = ui.value;   
+          console.log(slideVal );   
+          $('#filters li:eq('+ slideVal +') a').trigger('click');
+          $('#filters li:eq('+ slideVal +') a').css('color','blue');
+        }    
+      });
+
+
     });
   
 </script>
 
 
 <script>
- $(function() {
-   var select = $( "#filters" );
-   var slider = $( "<div id='slider'></div>" ).insertAfter( select ).slider({
-     min: 1,
-     max: 16,
-     range: "min",
-     value: select[ 0 ].selectedIndex + 1,
-     slide: function( event, ui ) {
-       select[ 0 ].selectedIndex = ui.value - 1;
-     }
-   });
-   $( "#filters" ).change(function() {
-     slider.slider( "value", this.selectedIndex + 1 );
-   });
- });
+
 </script>
 
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/footer.php'); // footer, close body and html?>

@@ -1,7 +1,6 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/common.php'); //php framework and meta?>
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/head.php'); // HTTP head?>
 <link rel="stylesheet" type="text/css" media="print" href="/_assets/css/print.css" />
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="//code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
 <script src="/_assets/js/prepare.js"></script>
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/subpage-header.php'); //video header?>
@@ -162,7 +161,7 @@
 
   <div class="inner">
 
-    <p class="prev"><a href="/plan/stay"><img src="/_assets/img/prev.png"/> <span>Previous:</span> Plan Your Stay</a></p>
+    <p class="prev"><a href="/plan/trip"><img src="/_assets/img/prev.png"/> <span>Previous:</span> Plan Your Trip</a></p>
 
     <p class="next"><a href="/plan/equipment"><span>Next:</span> Equipment <img src="/_assets/img/next.png"/></a></p>
 

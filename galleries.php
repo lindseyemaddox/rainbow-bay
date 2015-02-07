@@ -117,7 +117,7 @@
 
               <h4>Young Brown Bear Fishing</h4>
 
-              <p>Need a short description</p>
+              <p>Learn a thing or two about fishing from this self-taught pro.</p>
 
               <a href="/lightboxes/video/fishing-bear" class="video-link fancybox fancybox.iframe"><span class="icon-play"></span><img src="/_assets/img/video-fishing-bear.jpg" alt=""></a>
 

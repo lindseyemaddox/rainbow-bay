@@ -45,7 +45,7 @@
       
       <span class="icon-bio"></span>
 
-      <h4>Jim Kern <br />General Manager</h4>
+      <h4>Jim Kern <br />Operations Manager</h4>
 
       <img src="/_assets/img/staff-kern.jpg" alt="Rainbow Bay general manager Jim Kern">
 

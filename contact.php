@@ -10,7 +10,7 @@
 
 		<h2>Cast Us a Line</h2>
 
-    <p class="alt">intro sentence with link to printable contact form</p>
+    <p class="alt">Contact us to make your reservations, ask questions, and learn more about Angry Eagle Lodge & Outfitters. Or, <a href="/downloads/contact-form.pdf">download</a> a contact form to send via email, fax, or mail.</p>
 
     <div class="form">
 

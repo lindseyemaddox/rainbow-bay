@@ -840,6 +840,10 @@ nav > ul li ul {
   -o-transition: all 400ms ease;
   -ms-transition: all 400ms ease;
   transition: all 400ms ease;
+  height: 0;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
 }
 nav > ul li ul:before,
 nav > ul li ul:after {
@@ -853,12 +857,6 @@ nav > ul li ul li {
 }
 nav > ul li ul li a:hover {
   border-bottom: 1px solid #fff;
-}
-nav > ul li ul.collapsed {
-  height: 0;
-  overflow: hidden;
-  margin: 0;
-  padding: 0;
 }
 nav > ul li ul.expanded {
   height: auto;
@@ -1009,6 +1007,7 @@ footer div.mapnstuff a:hover {
 footer div.mapnstuff img {
   margin-bottom: 50px;
   display: block;
+  width: 100%;
 }
 footer div.mapnstuff iframe {
   margin-bottom: 30px;
@@ -1802,16 +1801,16 @@ html[xmlns] .slides {
   z-index: 10;
   cursor: pointer;
   text-indent: -9999px;
-  opacity: 0;
+  opacity: .3;
   -webkit-transition: all .3s ease;
   overflow: hidden;
 }
 .flex-direction-nav .flex-next {
   background-position: 100% 0;
-  right: -72px;
+  right: -60px;
 }
 .flex-direction-nav .flex-prev {
-  left: -72px;
+  left: -60px;
 }
 .flexslider:hover .flex-next {
   opacity: 0.8;
@@ -1956,6 +1955,7 @@ html[xmlns] .slides {
 .fishslider .flex-viewport li {
   position: relative;
   min-height: 230px;
+  width: 33%;
 }
 .fishslider .flex-viewport img {
   position: absolute;
@@ -2628,9 +2628,6 @@ section.legacy a.legacy-item {
   padding: 35px 2%;
   display: inline-block;
   vertical-align: top;
-  max-height: 425px;
-  min-height: 425px;
-  overflow: hidden;
   text-decoration: none;
 }
 section.legacy a.legacy-item span {
@@ -2644,6 +2641,7 @@ section.legacy a.legacy-item h4 {
   color: #504e3c;
   border-bottom-color: #b8c6bc;
   font-size: 1.8em;
+  min-height: 115px;
 }
 section.legacy a.legacy-item img {
   width: 100%;
@@ -2816,7 +2814,6 @@ section.media div#container article.media-item a.readmore:hover {
   vertical-align: middle;
 }
 ul.itinerary li {
-  border: 1px solid #b8c6bc;
   background: url(/_assets/img/pattern.png) repeat left top transparent;
   list-style-type: none;
 }
@@ -3264,10 +3261,14 @@ section.staff a.staff-item img {
   .flex-direction-nav a {
     width: 23px;
   }
-  .flex-direction-nav .flex-next {
+  .flex-direction-nav .flex-next,
+  .flex-direction-nav .flex-next:hover,
+  .flexslider:hover .flex-next {
     right: -32px;
   }
-  .flex-direction-nav .flex-prev {
+  .flex-direction-nav .flex-prev,
+  .flex-direction-nav .flex-prev:hover,
+  .flexslider:hover .flex-prev {
     left: -32px;
   }
   footer div.addresses {
@@ -3275,6 +3276,15 @@ section.staff a.staff-item img {
   }
   footer div.mapnstuff {
     width: 54%;
+  }
+  .left,
+  .right {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+  }
+  table.dark td {
+    text-indent: 200px;
   }
 }
 @media screen and (max-width: 1000px) {
@@ -3387,15 +3397,46 @@ section.staff a.staff-item img {
   section#testimonials {
     padding: 10px 0 50px;
   }
+  .fish .inner {
+    width: 80%;
+  }
+  ul.itinerary li div.desc div.schedule h6 {
+    padding-top: 35px;
+  }
+  ul.itinerary [class^="icon-"],
+  ul.itinerary [class*=" icon-"] {
+    font-size: .5em;
+  }
+  ul.itinerary li div.icons div.day-icon,
+  ul.itinerary li div.icons div.clock-icon {
+    min-height: 130px;
+  }
+  ul.itinerary li div.icons div.clock-icon {
+    padding: 33px 30%;
+  }
+  ul.itinerary li div.icons div.day-icon {
+    padding: 40px 30%;
+  }
+  section.legacy a.legacy-item h4 {
+    min-height: 95px;
+    padding-bottom: 16px;
+  }
+  section.legacy a.legacy-item {
+    padding: 20px 2%;
+  }
 }
 @media screen and (max-width: 800px) {
   html {
     font-size: 15px;
   }
-  .flex-direction-nav .flex-next {
+  #testimonials .flex-direction-nav .flex-next,
+  #testimonials .flex-direction-nav .flex-next:hover,
+  #testimonials .flexslider:hover .flex-next {
     right: -12px;
   }
-  .flex-direction-nav .flex-prev {
+  #testimonials .flex-direction-nav .flex-prev,
+  #testimonials .flex-direction-nav .flex-prev:hover,
+  #testimonials .flexslider:hover .flex-prev {
     left: -12px;
   }
   section#media-section article.media-item {
@@ -3418,6 +3459,23 @@ section.staff a.staff-item img {
   footer div.mapnstuff {
     width: 51%;
   }
+  ul.itinerary li div.desc {
+    width: 95%;
+    min-height: 245px;
+  }
+  ul.itinerary li div.desc div.schedule {
+    width: 100%;
+    text-align: center;
+  }
+  ul.itinerary li div.icons,
+  ul.itinerary li div.desc div.icon {
+    display: none;
+  }
+  ul.itinerary li div.desc div.icon.plane-arrive,
+  ul.itinerary li div.desc div.icon.plane-depart,
+  ul.itinerary li div.desc div.icon.cab {
+    margin-top: 0;
+  }
 }
 @media screen and (max-width: 700px) {
   html {
@@ -3439,6 +3497,12 @@ section.staff a.staff-item img {
   footer div.mapnstuff iframe {
     height: 220px!important;
   }
+  ul.itinerary li div.desc {
+    min-height: 205px;
+  }
+  .left.fisherman {
+    width: 41%;
+  }
 }
 @media screen and (max-width: 600px) {
   html {
@@ -3453,9 +3517,73 @@ section.staff a.staff-item img {
   section#bgFixed {
     height: 200px;
   }
+  ul.itinerary li div.desc {
+    min-height: 225px;
+  }
+  div#product-reveal {
+    min-height: 620px;
+  }
+  .left.fisherman {
+    width: 70%;
+  }
+  table.dark td {
+    text-indent: 0;
+  }
+  section.legacy a.legacy-item h4 {
+    font-size: 1.5em;
+    min-height: 0;
+  }
+  section.legacy a.legacy-item {
+    padding: 10px 2%;
+  }
+  section#bgFixed.subpage {
+    padding: 40px 0;
+  }
 }
 @media screen and (max-width: 500px) {
   html {
     font-size: 13.5px;
+  }
+  footer div.mapnstuff {
+    text-align: center;
+  }
+  footer div.mapnstuff a {
+    float: none;
+    margin: 0 10px;
+  }
+  section#social {
+    padding: 100px 0;
+  }
+  header div#topLodge {
+    display: none;
+  }
+  header div.tag {
+    top: 40%;
+  }
+  header div.tag p {
+    font-size: 1em;
+    line-height: 1em;
+  }
+  h1 {
+    padding-top: 32px;
+  }
+  h3 {
+    padding-bottom: 45px;
+  }
+  section#testimonials {
+    padding-bottom: 20px;
+  }
+  section#media-section {
+    padding-bottom: 50px 0;
+  }
+  ul.itinerary li div.desc {
+    min-height: 300px;
+  }
+  .left.fisherman {
+    width: 80%;
+  }
+  section.legacy a.legacy-item {
+    margin: 0 auto 20px;
+    width: 100%;
   }
 }

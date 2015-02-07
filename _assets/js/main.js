@@ -1,78 +1,30 @@
 // JavaScript Document
 
 // set initial variables
-var $drop1,
-	$showDrop1,
-	$drop2,
-	$showDrop2,
-	$drop3,
-	$showDrop3,
-	$showNav,
+var $showNav,
 	$nav;
 
 
 // function to set dom vars, etc that will not change
 function initVars() {
-	$drop1 	= $('.drop1 a span');
-	$drop2 	= $('.drop2 a span');
-	$drop3 	= $('.drop3 a span');
-	$showDrop1 	= $('.drop1 ul');
-	$showDrop2 	= $('.drop2 ul');
-	$showDrop3 	= $('.drop3 ul');
+
 	$showNav 	= $('nav span#nav');
 	$nav 	= $('nav > ul');
 }
 
-function showDrop1(){
-	$('.drop1 > a').click(function(){
-		if ($drop1.hasClass('expanded')) {
-			$drop1.removeClass('expanded');
-			$drop1.addClass('collapsed');
-			$showDrop1.removeClass('expanded');
-			$showDrop1.addClass('collapsed');
+function showDrop(){
+	$('.drop > a').click(function(event){
+		if ($(this).next('ul').hasClass('expanded')) {
+			$(this).next('ul').removeClass('expanded');
 		} else {
-			$drop1.addClass('expanded');
-			$drop1.removeClass('collapsed');
-			$showDrop1.addClass('expanded');
-			$showDrop1.removeClass('collapsed');
+			$('.drop ul').removeClass('expanded');
+			$(this).next('ul').addClass('expanded');
 		}
-		return false;
+		event.preventDefault()
 	});
 }
 
-function showDrop2(){
-	$('.drop2 > a').click(function(){
-		if ($drop2.hasClass('expanded')) {
-			$drop2.removeClass('expanded');
-			$drop2.addClass('collapsed');
-			$showDrop2.removeClass('expanded');
-			$showDrop2.addClass('collapsed');
-		} else {
-			$drop2.addClass('expanded');
-			$drop2.removeClass('collapsed');
-			$showDrop2.addClass('expanded');
-			$showDrop2.removeClass('collapsed');
-		}
-		return false;
-	});
-}
 
-function showDrop3(){
-	$('.drop3 > a').click(function(){
-		if ($drop3.hasClass('expanded')) {
-			$drop3.removeClass('expanded');
-			$drop3.addClass('collapsed');
-			$showDrop3.removeClass('expanded');
-			$showDrop3.addClass('collapsed');
-		} else {
-			$drop3.addClass('expanded');
-			$drop3.removeClass('collapsed');
-			$showDrop3.addClass('expanded');
-			$showDrop3.removeClass('collapsed');
-		}
-		return false;
-	});
-}
 
 function showNav(){
 	$showNav.click(function(){
@@ -119,9 +71,7 @@ function placeholderSupported() {
 
 function firstLoad() {
 	initVars();
-	showDrop1();
-	showDrop2();
-	showDrop3();
+	showDrop();
 	showNav();
 	initPlaceholders();
 }

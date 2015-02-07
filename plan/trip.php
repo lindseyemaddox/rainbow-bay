@@ -8,7 +8,17 @@
 
   <div class="inner">
 
-    <h2>Anchorage Hotels</h2>
+    <h2>Getting to Angry Eagle Lodge</h2>
+
+    <p>We’re 180 miles from the nearest major road, which means getting to Angry Eagle Lodge is part of your adventure! From booking airfare and hotels to traveling home with your catch, here’s everything you need to know to plan your trip:</p>
+
+    <h2 class="multiple">Booking Your Airfare &amp; Hotel</h2>
+      
+    <p>When booking your travel plans to Alaska, we recommend arriving at the <a href="http://www.dot.state.ak.us/anc/" target="_blank">Anchorage International Airport</a> the Friday before your adventure begins at Rainbow Bay Resort. After arriving in Anchorage, explore the <a href="https://www.travelalaska.com/Destinations/Communities/Anchorage/Services.aspx?cat=Things_To_Do" target="_blank">sights and sounds of the city</a> or head to your hotel to relax and unwind for the evening.</p>
+
+    <p>When scheduling your departing flight home from Anchorage, do NOT book anything earlier than 4 p.m. on the last Saturday of your trip. Inclement weather may delay your Lake Clark Air Charter flight arrival into Anchorage from Pedro Bay. </p>
+
+    <h2 class="multiple">Anchorage Hotels</h2>
 
     <div class="left">
 
@@ -24,7 +34,7 @@
           <td><a href="tel:19072766000">(907) 276-6000</a></td>
         </tr>
         <tr>
-          <td><a href="http://www.millenniumhotels.com/usa/millenniumanchorage" target="_blank">Millennium Alaskan <br />Hotel Anchorage</a></td>
+          <td><a href="http://www.millenniumhotels.com/usa/millenniumanchorage" target="_blank">Millennium Alaskan Hotel Anchorage</a></td>
           <td><a href="tel:18005440553">(800) 544-0553</a></td>
         </tr>
         <tr>
@@ -49,21 +59,15 @@
 
     </div><!--right-->
 
-    <h2 class="multiple">Booking Your Airfare &amp; Hotel</h2>
-      
-      <p>When booking your travel plans to Alaska, we recommend arriving at the <a href="http://www.dot.state.ak.us/anc/" target="_blank">Anchorage International Airport</a> the Friday before your adventure begins at Rainbow Bay Resort. After arriving in Anchorage, explore the <a href="https://www.travelalaska.com/Destinations/Communities/Anchorage/Services.aspx?cat=Things_To_Do" target="_blank">sights and sounds of the city</a> or head to your hotel to relax and unwind for the evening.</p>
-
-      <p>When scheduling your departing flight home from Anchorage, do NOT book anything earlier than 4 p.m. on the last Saturday of your trip. Inclement weather may delay your Lake Clark Air Charter flight arrival into Anchorage from Pedro Bay. </p>
-
-    <h2 class="multiple">Traveling with Your Catch </h2>
-
-    <p>Wondering what to do with all the fish you catch during your stay with us? We’ve got you covered. Before you head home, we’ll filet your salmon and halibut and then vacuum pack, freeze, and place in it a travel-friendly box that holds up to 40 pounds of fish. Anchorage International Airport has walk-in freezers where you can check your fish while you wait for your flight home. When your departure time draws near, simply claim your box from the airport freezer and check it on your flight as baggage. Your fish should remain frozen until you arrive at your final destination.</p>
-
     <h2 class="multiple">Getting to Rainbow Bay Resort</h2>
 
     <p>Have your camera ready for breathtaking views of the snow-covered Alaska Range and glaciers as you travel with <a href="http://www.lakeclarkair.com/" target="_blank">Lake Clark Air</a> (LCA), a private charter service that operates eight-passenger, twin-engine Navajo aircraft between Anchorage and Rainbow Bay Resort. We’ll schedule your reservations with LCA, so the only thing you need to do is take a cab to the LCA office at <a href="http://www.muni.org/departments/merrill_field/pages/default.aspx" target="_blank">Merrill Field</a>, a commercial service airport located on the north side of Anchorage, at 8 a.m.* on the morning of your charter flight. Typically, this one-hour, 180-mile flight departs Anchorage for Pedro Bay on Lake Iliamna at 9 a.m. Be sure to dress in warm clothes and have your raingear handy in case there’s rain upon your arrival at Pedro Bay. </p>
 
     <p>Keep in mind, LCA has a 50-pound baggage limit per person and charges 75¢ per additional pound of baggage. LCA also charges $25 for each box of fish on your return flight to Anchorage. The round-trip charter flight costs about $465 per person and must be paid by clients upon arrival at the LCA office. LCA accepts cash and check as well as Visa, MasterCard, and American Express. </p>
+
+    <h2 class="multiple">Traveling with Your Catch </h2>
+
+    <p>Wondering what to do with all the fish you catch during your stay with us? We’ve got you covered. Before you head home, we’ll filet your salmon and halibut and then vacuum pack, freeze, and place in it a travel-friendly box that holds up to 40 pounds of fish. Anchorage International Airport has walk-in freezers where you can check your fish while you wait for your flight home. When your departure time draws near, simply claim your box from the airport freezer and check it on your flight as baggage. Your fish should remain frozen until you arrive at your final destination.</p>
 
     <p>*All times mentioned on this website are in Alaska Standard Time (AKST).</p>
 

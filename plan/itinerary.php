@@ -162,7 +162,7 @@
 
   <div class="inner">
 
-    <p class="next"><a href="/plan/stay"><span>Next:</span> Plan Your Stay <img src="/_assets/img/next.png"/></a></p>
+    <p class="next"><a href="/plan/trip"><span>Next:</span> Plan Your Trip <img src="/_assets/img/next.png"/></a></p>
 
     <div class="clearfix"></div>
 

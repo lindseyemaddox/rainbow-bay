@@ -6,10 +6,27 @@
 				<h2 class="alt">Contact Angry Eagle Lodge & Outfitters</h3>
 
 				<div class="addresses">
-				
-					<p><span>Summer</span> <a href="tel:19078502235">(907) 850-2235</a></p>
-					
-					<p><span>Winter</span> <a href="tel:18179462479">(817) 946-2479</a></p>
+
+					<?php
+					    $year = date('Y');
+					    $today = date('Y-m-d H:i:s');
+					    $startDate = date('Y-m-d H:i:s', strtotime("June 1, '$year' 12:01am"));
+					    $endDate = date('Y-m-d H:i:s', strtotime("September 30, '$year' 12:00pm"));
+
+					    if($today >= $startDate && $today <= $endDate)
+					    {
+					?>
+					      <p><span>In-Season</span> <a href="tel:19078502235">(907) 850-2235</a></p>
+					<?php
+					    }
+
+					    if($today >= $startDate)
+					    {
+					?>
+					      <p><span>Off-Season</span> <a href="tel:18179462479">(817) 946-2479</a></p>
+					<?php
+					    }
+					?>				
 
 					<br/>
 
