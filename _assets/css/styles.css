@@ -2157,13 +2157,30 @@ section#species article div.description span {
 section#species article div.description p {
   padding-bottom: 0;
 }
-#draggable {
-  width: 10px;
-  height: 10px;
+p.filters {
+  width: 20%;
+  display: inline-block;
+  text-align: center;
+}
+ul#filters {
+  width: 69%;
+  display: inline-block;
+  vertical-align: middle;
+}
+div.slider {
+  width: 77%;
+  float: right;
+  margin-bottom: 30px;
+}
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default {
+  background-image: none!important;
+  background-color: #504e3c !important;
+  border: 0 !important;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
-  cursor: pointer;
 }
 section#contact {
   padding: 77px 0px 65px;

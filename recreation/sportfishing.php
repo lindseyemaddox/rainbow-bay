@@ -21,10 +21,10 @@
       
       <div id="options" class="clearfix">
         
-        <p>slide to order species <br />or<br /> <a href="#filter" data-option-value="*" class="selected">original order</a></p>
+        <p class="filters">slide to order species <br />or<br /> <a href="#filter" data-option-value="*" class="selected">original order</a></p>
 
         <ul id="filters" class="option-set clearfix" data-option-key="filter">
-          <li><a href="#filter" data-option-value=".june1">June 1</a></li>
+          <li><a href="#filter" data-option-value=".june1" class="button is-checked">June 1</a></li>
           <li><a href="#filter" data-option-value=".june2">June 2</a></li>
           <li><a href="#filter" data-option-value=".june3">June 3</a></li>
           <li><a href="#filter" data-option-value=".june4">June 4</a></li>
@@ -44,6 +44,8 @@
 
       </div> <!-- #options -->
       <div class="slider"></div>
+
+      <div class="clearfix"></div>
     </div><!--slider-->  
 
     <div id="container" class="clearfix">
