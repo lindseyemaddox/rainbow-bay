@@ -9,7 +9,7 @@
 
 		<h2>The Lodges</h2>
 
-		<p>Rainbow Bay Resort Lodge is one of the most luxurious, yet rustic, lodges in Alaska. Situated on the remote shores of Lake Iliamna, we offer a quiet serenity and fantastic fishing seldom found anywhere.  Each bedroom is spaciously furnished with two queen size beds and a private bath for your comfort and convenience.  The Lodge is constructed with logs and the interior is covered with cedar.</p>
+		<p>Step into a world of rustic charm coupled with modern convenience. Both the Angry Eagle Lodge and Eagle’s Peak Lodge are ideal for unwinding after a long day spent fishing. Relax in style as you enjoy a beer and appetizers while our chef prepares an upscale dinner of king crab, prime rib, or inch-thick pork chops, just to name a few. And with no one around for miles, count on some of the best sleep you’ll ever get.</p>
 
 	</div><!--inner-->
 

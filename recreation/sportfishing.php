@@ -20,7 +20,8 @@
     <div id="slider-cont">
       
       <div id="options" class="clearfix">
-          <p>slide to order species <br />or<br /> <a href="#filter" data-option-value="*" class="selected">original order</a></p>
+        
+        <p>slide to order species <br />or<br /> <a href="#filter" data-option-value="*" class="selected">original order</a></p>
 
         <ul id="filters" class="option-set clearfix" data-option-key="filter">
           <li><a href="#filter" data-option-value=".june1">June 1</a></li>

@@ -83,7 +83,7 @@
 
 		<h1>Your Adventure Starts Here</h1>
 
-		<h3>Angry Eagle Lodge &amp; Outfitters is a full-service Alaskan fishing lodge in the heart of Southwest Alaska’s Bristol Bay. For the past 30 years, we’ve prided ourselves on offering the fishing adventures of a lifetime. Our knowledgable guides offer assistance and insight to anglers of all experience levels. And our large fleet of planes, boats, and ATVs means that—regardless of the weather—you’ll have a great place to cast a line.</h3>
+		<h3>Angry Eagle Lodge &amp; Outfitters is a full-service Alaskan fishing lodge in the heart of Southwest Alaska’s Bristol Bay. For the past 30 years, we’ve prided ourselves on offering the fishing adventures of a lifetime. Our knowledgeable guides offer assistance and insight to anglers of all experience levels. And our large fleet of planes, boats, and ATVs means you’ll always have a great place to cast a line regardless of the weather.</h3>
 
 	</div><!--inner-->
 

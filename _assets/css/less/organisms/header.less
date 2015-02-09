@@ -64,7 +64,7 @@ nav {
 					margin-bottom: -10px;
 				}
 			}
-			&.drop1, &.drop2, &.drop3 {
+			&.drop {
 				margin-right: 4px;
 				>a:hover {
 					border-bottom: none;
@@ -97,12 +97,16 @@ nav {
 					a:hover {
 						border-bottom: 1px solid #fff;
 					}
+					&:first-child {
+						margin-top: 0;
+					}
 				}
 				// &.collapsed {
 
 				// }
 				&.expanded {
-					height: auto;
+					height: 100px;
+					margin-bottom: 10px;
 					.transition;
 				}
 			}
