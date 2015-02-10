@@ -95,7 +95,7 @@
 
   <div class="inner">
 
-	<h1>Our Daily Catch</h1>
+	<h2>Our Daily Catch</h2>
     
       <div class="slider">
         <div class="fishslider carousel">
