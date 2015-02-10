@@ -19,7 +19,7 @@
 
   <div class="inner">
 
-    <p class="prev"><a href="/recreation/hiking"><img src="/_assets/img/prev.png"/> <span>Previous:</span> Hiking and Such</a></p>
+    <p class="prev"><a href="/recreation/hiking"><img src="/_assets/img/prev.png"/> <span>Previous:</span> Hiking, Birding & Sightseeing</a></p>
 
     <p class="next"><a href="/galleries"><span>Next:</span> Galleries <img src="/_assets/img/next.png"/></a></p>
 
