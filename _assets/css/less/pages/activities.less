@@ -10,9 +10,21 @@ img.inset {
 section#species {
 	padding: 77px 0 65px;
 	div#slider-cont {
+		#options {
+			width: 22%;
+			display: inline-block;
+			vertical-align: top;
+		}
+		p.filters {
+			text-align: center;
+		}
 		ul#filters {
 			li {
-				display: inline-block;
+				float: left;
+				list-style-type: none;
+				width: 5.7%;
+				font-size: .4em;
+				visibility: hidden;
 			}
 		}
 	}
@@ -60,22 +72,24 @@ section#species {
 	}
 }
 
-p.filters {
-	width: 20%;
-	display: inline-block;
-	text-align: center;
-}
 
-ul#filters {
-	width: 69%;
-	display: inline-block;
-	vertical-align: middle;
-}
 
-div.slider {
+
+div.slider-right {
 	width: 77%;
 	float: right;
-	margin-bottom: 30px;
+	margin-top: 7px;
+	div.slider-image {
+		margin-bottom: 22px;
+		img {
+			width: 100%;
+		}
+	}
+}
+
+.ui-slider {
+	width: 98%!important;
+	margin: 0 auto;
 }
 
 .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
@@ -85,11 +99,17 @@ div.slider {
 	.border-radius(50%);
 }
 
+.ui-slider-horizontal {
+	height: 0!important;
+}
 
+.ui-slider-horizontal .ui-slider-handle {
+	top: -.58em!important;
+}
 
-
-
-
+.ui-widget-content {
+	border-color: @green!important;
+}
 
 
 

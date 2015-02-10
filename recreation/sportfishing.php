@@ -21,31 +21,39 @@
       
       <div id="options" class="clearfix">
         
-        <p class="filters">slide to order species <br />or<br /> <a href="#filter" data-option-value="*" class="selected">original order</a></p>
-
         <ul id="filters" class="option-set clearfix" data-option-key="filter">
-          <li><a href="#filter" data-option-value=".june1" class="button is-checked">June 1</a></li>
-          <li><a href="#filter" data-option-value=".june2">June 2</a></li>
-          <li><a href="#filter" data-option-value=".june3">June 3</a></li>
-          <li><a href="#filter" data-option-value=".june4">June 4</a></li>
-          <li><a href="#filter" data-option-value=".july1">July 1</a></li>
-          <li><a href="#filter" data-option-value=".july2">July 2</a></li>
-          <li><a href="#filter" data-option-value=".july3">July 3</a></li>
-          <li><a href="#filter" data-option-value=".july4">July 4</a></li>
-          <li><a href="#filter" data-option-value=".aug1">August 1</a></li>
-          <li><a href="#filter" data-option-value=".aug2">August 2</a></li>
-          <li><a href="#filter" data-option-value=".aug3">August 3</a></li>
-          <li><a href="#filter" data-option-value=".aug4">August 4</a></li>
-          <li><a href="#filter" data-option-value=".sept1">September 1</a></li>
-          <li><a href="#filter" data-option-value=".sept2">September 2</a></li>
-          <li><a href="#filter" data-option-value=".sept3">September 3</a></li>
-          <li><a href="#filter" data-option-value=".sept4">September 4</a></li>
+          <p class="filters">slide to order species <br />or<br /> <a href="#filter" data-option-value="*" class="selected">original order</a></p>
+          <li class="june"><a href="#filter" data-option-value=".june1">June 1</a></li>
+          <li class="june"><a href="#filter" data-option-value=".june2">June 2</a></li>
+          <li class="june"><a href="#filter" data-option-value=".june3">June 3</a></li>
+          <li class="june"><a href="#filter" data-option-value=".june4">June 4</a></li>
+          <li class="july"><a href="#filter" data-option-value=".july1">July 1</a></li>
+          <li class="july"><a href="#filter" data-option-value=".july2">July 2</a></li>
+          <li class="july"><a href="#filter" data-option-value=".july3">July 3</a></li>
+          <li class="july"><a href="#filter" data-option-value=".july4">July 4</a></li>
+          <li class="aug"><a href="#filter" data-option-value=".aug1">August 1</a></li>
+          <li class="aug"><a href="#filter" data-option-value=".aug2">August 2</a></li>
+          <li class="aug"><a href="#filter" data-option-value=".aug3">August 3</a></li>
+          <li class="aug"><a href="#filter" data-option-value=".aug4">August 4</a></li>
+          <li class="sept"><a href="#filter" data-option-value=".sept1">September 1</a></li>
+          <li class="sept"><a href="#filter" data-option-value=".sept2">September 2</a></li>
+          <li class="sept"><a href="#filter" data-option-value=".sept3">September 3</a></li>
+          <li class="sept"><a href="#filter" data-option-value=".sept4">September 4</a></li>
         </ul>
 
       </div> <!-- #options -->
-      <div class="slider"></div>
+
+
+      <div class="slider-right">
+
+        <div class="slider-image"><img src="/_assets/img/slider.jpg"></div>
+
+        <div class="slider"></div>
+
+      </div><!--slider-right-->
 
       <div class="clearfix"></div>
+
     </div><!--slider-->  
 
     <div id="container" class="clearfix">
@@ -227,7 +235,6 @@
         step: 1,      
         slide: function( event, ui ) {        
           var slideVal = ui.value;   
-          console.log(slideVal );   
           $('#filters li:eq('+ slideVal +') a').trigger('click');
           $('#filters li:eq('+ slideVal +') a').css('color','blue');
         }    

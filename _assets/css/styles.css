@@ -2110,8 +2110,20 @@ img.inset {
 section#species {
   padding: 77px 0 65px;
 }
-section#species div#slider-cont ul#filters li {
+section#species div#slider-cont #options {
+  width: 22%;
   display: inline-block;
+  vertical-align: top;
+}
+section#species div#slider-cont p.filters {
+  text-align: center;
+}
+section#species div#slider-cont ul#filters li {
+  float: left;
+  list-style-type: none;
+  width: 5.7%;
+  font-size: .4em;
+  visibility: hidden;
 }
 section#species article {
   width: 100%;
@@ -2157,20 +2169,20 @@ section#species article div.description span {
 section#species article div.description p {
   padding-bottom: 0;
 }
-p.filters {
-  width: 20%;
-  display: inline-block;
-  text-align: center;
-}
-ul#filters {
-  width: 69%;
-  display: inline-block;
-  vertical-align: middle;
-}
-div.slider {
+div.slider-right {
   width: 77%;
   float: right;
-  margin-bottom: 30px;
+  margin-top: 7px;
+}
+div.slider-right div.slider-image {
+  margin-bottom: 22px;
+}
+div.slider-right div.slider-image img {
+  width: 100%;
+}
+.ui-slider {
+  width: 98%!important;
+  margin: 0 auto;
 }
 .ui-state-default,
 .ui-widget-content .ui-state-default,
@@ -2181,6 +2193,15 @@ div.slider {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
+}
+.ui-slider-horizontal {
+  height: 0!important;
+}
+.ui-slider-horizontal .ui-slider-handle {
+  top: -0.58em !important;
+}
+.ui-widget-content {
+  border-color: #b4aa5e !important;
 }
 section#contact {
   padding: 77px 0px 65px;
