@@ -9,7 +9,9 @@
 
         <h2>Our Staff</h2>
 
-        <p><span class="temp">Strip steak cupim jowl brisket kielbasa beef ribs short ribs, alcatra meatball salami ham hock tri-tip capicola pork shoulder. Salami meatloaf cow, ball tip sausage picanha turkey pancetta brisket swine. Shoulder frankfurter filet mignon spare ribs boudin ham hock, jowl salami rump. Doner corned beef pork drumstick pig ground round. Strip steak swine beef ribs brisket fatback drumstick frankfurter pastrami pork belly spare ribs cupim ham shoulder meatloaf. Fatback rump swine chicken pancetta hamburger short ribs brisket t-bone landjaeger ground round chuck salami andouille. Jerky fatback turkey pork belly cow.</span></p>
+        <p>Angry Eagle Lodge & Outfitters is proud to have one of the finest teams of professional fishing guides in all of Alaska. With nearly 200 years of combined experience, our guides have been fishing for most of their lives and are more than familiar with Southwest Alaska’s rivers, streams, and lakes—which means they know exactly how and where to go to ensure a great catch.</p>
+
+		<p>Whether it’s teaching the fundamentals of casting a line or focusing on the finer points of a particular technique, our expertise allows us to customize fishing experiences for anglers of all skill levels. We’re dedicated to making sure you have an extraordinary Alaskan fishing adventure.</p>
 
     </div><!--inner-->
 

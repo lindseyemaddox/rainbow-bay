@@ -15,13 +15,13 @@
 
 		<p>Here are a few recommendations for exploring Southwest Alaska during your visit to Angry Eagle Lodge & Outfitters:</p>
 		
-		<h3>Katmai National Park & Preserve</h3>
+		<h6>Katmai National Park & Preserve</h6>
 		
 		<p>This national park offers hiking, backpacking, camping, fishing, kayaking, and boat tours. It’s also home to the world's largest protected brown/grizzly bear population, estimated to be around 2,200 bears.</p>
 		
-		<h3>Lake Clark National Park & Preserve</h3>
+		<h6>Lake Clark National Park & Preserve</h6>
 		
-		<p>This national park maintains several hiking trails for all skill levels and is home to <a href="www.nps.gov/lacl/naturescience/bird-list.htm" target="_blank">nearly 200 bird species</a>.</p>
+		<p>This national park maintains several hiking trails for all skill levels and is home to <a href="http://www.nps.gov/lacl/naturescience/bird-list.htm" target="_blank">nearly 200 bird species</a>.</p>
 		
 		<ul>
 			<li>Tanalian Trails</li>
@@ -31,7 +31,7 @@
 			<li>Coastal Beach Hike</li>
 		</ul>
 		
-		<h3>Alaska Magazine’s Top 30 Day Hikes</h3>
+		<h6>Alaska Magazine’s Top 30 Day Hikes</h6>
 		
 		<p>This article lists the magazine’s top picks for hiking across Alaska and includes Brooks Falls Trail, North End Park, Katmai National Park, and Kodiak Area State Parks.</p>
 

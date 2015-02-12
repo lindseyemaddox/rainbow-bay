@@ -11,7 +11,7 @@
 
         <h2>Galleries</h2>
 
-        <p>Flank venison beef ribs t-bone short ribs beef. Strip steak turducken venison fatback shankle sirloin shoulder pig bacon landjaeger andouille tenderloin. Drumstick cow tenderloin shankle pork tail landjaeger hamburger ground round. Jerky landjaeger short ribs pastrami biltong tail chicken picanha ham pork loin fatback venison strip steak. Ham tri-tip venison frankfurter ribeye tenderloin leberkas pork chop. Fatback salami pastrami, ball tip andouille rump chicken shoulder.</p>
+        <p>Experience Alaskan fishing firsthand with Angry Eagle Lodge & Outfitters’ collection of videos, photos, and articles.</p>
 
     </div><!--inner-->
 
