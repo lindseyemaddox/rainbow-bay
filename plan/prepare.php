@@ -6,7 +6,7 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/subpage-header.php'); //video header?>
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/navigation.php'); //navigation?>
 
-<section class="pattern headerComp" id="intro">
+<section class="pattern headerComp dontPrintThis" id="intro">
 
 	<div class="inner">
 
@@ -26,7 +26,7 @@
 
     <div id="product-reveal" class="left fisherman">
 
-      <div class="container">
+      <div class="container dontPrintThis">
     
       		<div class="reveal-parts-container fisherman">
       			<div id="revealParts" class="foreground">
@@ -35,6 +35,7 @@
       			<div class="background"><img src="/_assets/img/fisherman-under.png" alt=""></div>
       			<div class="bot-bar"></div>
       			<ul class="highlights">
+      				<li class="b-thirteen"></li>
       				<li class="b-one"></li>
       				<li class="b-two"></li>
       				<li class="b-three"></li>
@@ -43,15 +44,19 @@
       				<li class="b-six"></li>
       				<li class="b-seven"></li>
       				<li class="b-eight"></li>
-              <li class="b-nine"></li>
-              <li class="b-ten"></li>
-              <li class="b-eleven"></li>
-              <li class="b-twelve"></li>
+		              <li class="b-nine"></li>
+		              <li class="b-ten"></li>
+		              <li class="b-eleven"></li>
+		              <li class="b-twelve"></li>
       			</ul>
       		</div><!--reveal-parts-container-->
 
           <div class="feature-info">
             <ul>
+              <li>
+                <img src="/_assets/img/gear-hat.png">
+                <span>brimmed hat</span>
+              </li>
               <li>
                 <img src="/_assets/img/gear-cap.png">
                 <span>warm cap</span>
@@ -114,6 +119,9 @@
           <td>warm cap</td>
         </tr>
         <tr>
+          <td>brimmed hat</td>
+        </tr>
+        <tr>
           <td>polarized sunglasses</td>
         </tr>
         <tr>
@@ -157,7 +165,7 @@
 
 </section>
 
-<section class="pattern" id="links">
+<section class="pattern dontPrintThis" id="links">
 
   <div class="inner">
 

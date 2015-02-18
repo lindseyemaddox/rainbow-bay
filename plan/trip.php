@@ -7,6 +7,8 @@
 <section class="pattern headerComp" id="intro">
 
   <div class="inner">
+	  
+	  <span class="dontPrintThis">
 
     <h2>Getting to Angry Eagle Lodge</h2>
 
@@ -20,13 +22,15 @@
 
     <h2 class="multiple">Anchorage Hotels</h2>
 
-    <div class="left">
+    <div class="left" style="width:30%;">
 
       <p>Anchorage is home to nearly 100 hotels, so we’ve hand selected our top choices for the area’s best accommodations. Our favorite is The Hotel Captain Cook! Located in the heart of downtown Anchorage, this hotel offers luxury accommodations to Rainbow Bay Resort guests at a special rate of $215/night. </p>
 
     </div><!--left-->
 
-    <div class="right">
+	  </span><!--dontPrintThis-->
+
+    <div class="right" style="width:60%;">
 
       <table>
         <tr>
@@ -55,9 +59,11 @@
         </tr>
       </table>
 
-      <button class="print" onclick="printTable()"><span class="icon-print"></span> Print</button>
+      <button class="print dontPrintThis" onclick="printTable()"><span class="icon-print"></span> Print</button>
 
     </div><!--right-->
+    
+    <span class="dontPrintThis">
 
     <h2 class="multiple">Getting to Rainbow Bay Resort</h2>
 
@@ -71,11 +77,13 @@
 
     <p>*All times mentioned on this website are in Alaska Standard Time (AKST).</p>
 
+    </span><!--dontPrintThis-->
+
   </div><!--inner-->
   
 </section><!--testimonials-->
 
-<section class="pattern" id="links">
+<section class="pattern dontPrintThis" id="links">
 
   <div class="inner">
 

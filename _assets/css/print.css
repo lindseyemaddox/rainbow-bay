@@ -1,6 +1,14 @@
-.printThis {
-	display: block;
-}
-.dontPrintThis {
-	display: none;
+@charset "UTF-8";
+
+@media print {
+	.printThis {
+		display: block;
+	}
+	.dontPrintThis,
+	header,
+	nav,
+	footer,
+	button.print {
+		display: none;
+	}
 }

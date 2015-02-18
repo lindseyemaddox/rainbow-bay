@@ -9,6 +9,8 @@
   <div class="inner">
 
     <h2>Fishing Equipment</h2>
+    
+    <span class="dontPrintThis">
 
     <p>Rainbow Bay Resort has a complete inventory of fly, spinning, and bait-casting equipment featuring custom Temple Fork Outfitters (TFO) 6-wt. and 8-wt. fly rods, complemented with TFO fly reels and fly lines as well as light and heavy TFO spinning and bait rods. Quality Shimano spinning and bait casting reels are also furnished, as are the flies, spinners, and jigs during your fishing trip at no additional cost. </p>
 
@@ -20,9 +22,11 @@
 
     <p>Remember, felt sole waders and wader boots are <a href="http://www.adfg.alaska.gov/static/species/nonnative/invasive/pdfs/felt_soled_waders_faq.pdf" target="_blank">Illegal in Alaska</a>.</p>
 
+    </span><!--dontPrintThis-->
+
       <table class="pad">
         <tr>
-          <td class="table-left"><p class="table-header">Spinning Equipment</p><p class="table-body">This list covers everything except for equipment needed to catch king salmon, which can weigh upward of 50 pounds and require heavy-duty bait casting equipment to land. We furnish this type of equipment at the lodge, but you’re welcome bring your own equipment. <a href="/contact">Contact us</a> so we can tell you more about what you’ll need.</p></td>
+          <td class="table-left dontPrintThis"><p class="table-header">Spinning Equipment</p><p class="table-body">This list covers everything except for equipment needed to catch king salmon, which can weigh upward of 50 pounds and require heavy-duty bait casting equipment to land. We furnish this type of equipment at the lodge, but you’re welcome bring your own equipment. <a href="/contact">Contact us</a> so we can tell you more about what you’ll need.</p></td>
           <td class="no-padding">
             <table>
               <tr>
@@ -60,11 +64,11 @@
         </tr>
       </table>
 
-      <button class="print" onclick="printTable()"><span class="icon-print"></span> Print</button>
+      <button class="print dontPrintThis" onclick="printTable()"><span class="icon-print"></span> Print</button>
 
       <table class="pad pad-more">
         <tr>
-          <td class="table-left"><p class="table-header">Fly Fishing Equipment</p><p class="table-body">While our guests are welcome to use our Temple Fork Outfitters’ 6-wt. and 8-wt. fly rods, we suggest bringing your own rods if you have them. After all, if your gear is customized for your use, it will most likely increase your chances of hooking a fish worthy of bragging about for years to come. </p><p class="table-body">We also provide an assortment of flies and other terminal tackle, but keep your options open and bring as many flies as you’d like. Here are our other recommendations for bringing your own rods, reels, and terminal tackle:</p></td>
+          <td class="table-left dontPrintThis"><p class="table-header">Fly Fishing Equipment</p><p class="table-body">While our guests are welcome to use our Temple Fork Outfitters’ 6-wt. and 8-wt. fly rods, we suggest bringing your own rods if you have them. After all, if your gear is customized for your use, it will most likely increase your chances of hooking a fish worthy of bragging about for years to come. </p><p class="table-body">We also provide an assortment of flies and other terminal tackle, but keep your options open and bring as many flies as you’d like. Here are our other recommendations for bringing your own rods, reels, and terminal tackle:</p></td>
           <td class="no-padding">
             <table>
               <tr>
@@ -111,7 +115,7 @@
   
 </section><!--testimonials-->
 
-<section class="pattern" id="links">
+<section class="pattern dontPrintThis" id="links">
 
   <div class="inner">
 

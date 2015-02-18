@@ -2474,9 +2474,11 @@ section#bgFixed.bears {
   background-repeat: no-repeat;
   background-position: center;
 }
-section#bgFixed.fish,
-section#bgFixed.media {
+section#bgFixed.fish {
   background-image: url(/_assets/img/fixed-fish.jpg);
+}
+section#bgFixed.media {
+  background-image: url(/_assets/img/fixed-media.jpg);
 }
 section#bgFixed.plane {
   background-image: url(/_assets/img/fixed-plane.jpg);
@@ -3018,6 +3020,10 @@ div#product-reveal h1 {
   top: -5px;
   left: -5px;
   z-index: 99;
+}
+.reveal-parts-container ul.highlights .b-thirteen {
+  top: 4px;
+  left: 82px;
 }
 .reveal-parts-container ul.highlights .b-one {
   top: -10px;
