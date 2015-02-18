@@ -8,7 +8,7 @@
 		font-size: 17.5px;
 	}
 	nav ul li {
-		margin-right: 11px;
+		margin-right: 25px;
 	}
 }
 
@@ -24,6 +24,22 @@
 	}
 	nav ul li span.drop-icon {
 		top: -12px;
+	}
+	nav ul li {
+		margin-right: 10px;
+	}
+	section.staff a.staff-item {
+		min-height: 0;
+	}
+	h4 {
+		font-size: 1.9em;
+	}
+	section.media div#container {
+		width: 73%;
+	}
+	section.media div#container article.media-item {
+		height: 400px;
+		padding: 22px 1% 10px;
 	}
 }
 
@@ -67,11 +83,29 @@
 	}
 	.left, .right {
 		display: block;
-		width: 100%;
+		width: 100%!important;
 		margin: 0 auto;
+	}
+	#rates article.column.left {
+		width: 30%!important;
 	}
 	table.dark td {
 		text-indent: 200px;
+	}
+	nav > ul li.drop {
+		margin-right: 0;
+	}
+	table tr td.table-left {
+		padding: 10px;
+	}
+	h4 {
+		font-size: 1.7em;
+	}
+	section.media div#container {
+		width: 71%;
+	}
+	section.media div#container article.media-item {
+		height: 372px;
 	}
 }
 
@@ -94,7 +128,7 @@
 			&.expanded {
 				background-color: @brown;
 				height: auto;
-				padding: 0 0 20px 20px;
+				padding: 120px 0 20px 20px;
 				.transition;
 				li {
 					display: block;
@@ -147,6 +181,24 @@
 	}
 	.fishslider .flex-viewport img {
 		top: 20px;
+	}
+	nav div.logo img {
+		width: 53%;
+	}
+	h4 {
+		font-size: 1.6em;
+	}
+	section.staff a.staff-item {
+		padding: 20px 2%;
+	}
+	section#species article div.fish h5 {
+		width: 80%;
+	}
+	section.media div#container {
+		width: 68%;
+	}
+	section.media div#container article.media-item {
+		height: 362px;
 	}
 }
 
@@ -204,6 +256,12 @@
 	section.legacy a.legacy-item {
 		padding: 20px 2%;
 	}
+	nav div.logo img {
+		width: 172px;
+	}
+	h2.multiple {
+		padding-top: 25px;
+	}
 }
 
 
@@ -253,6 +311,28 @@
 	ul.itinerary li div.desc div.icon.plane-arrive, ul.itinerary li div.desc div.icon.plane-depart, ul.itinerary li div.desc div.icon.cab {
 		margin-top: 0;
 	}
+	h4 {
+		font-size: 1.5em;
+	}
+	section.media div#container {
+		width: 100%;
+	}
+	section.media aside {
+		width: 100%;
+		margin: 0 0 20px;
+		padding: 0;
+	}
+	section.media aside ul {
+		padding: 0;
+		text-align: center;
+	}
+	section.media aside ul li {
+		display: inline-block;
+		margin: 0 2%;
+	}
+	section.media div#container article.media-item {
+		height: 385px;
+	}
 }
 
 @media screen and (max-width: 700px) {
@@ -280,6 +360,30 @@
 	}
 	.left.fisherman {
 		width: 41%;
+	}
+	section.staff a.staff-item, section.fleet article.fleet-item {
+		width: 47%;
+	}
+	h4 {
+		font-size: 2.1em;
+	}
+	section#species div#slider-cont p.filters span {
+		display: none;
+	}
+	ul#filters {
+		padding: 0;
+	}
+	section#species div#slider-cont #options, div.slider-right {
+		width: 100%;
+	}
+	section#species article div.fish h5 {
+		width: 90%;
+	}
+	div.slider-right {
+		margin: 0px 0 50px;
+	}
+	section#species article div.fish, section#species article {
+		min-height: 285px;
 	}
 }
 
@@ -317,6 +421,29 @@
 	}
 	section#bgFixed.subpage {
 		padding: 40px 0;
+	}
+	h4 {
+		font-size: 1.9em;
+		padding-bottom: 10px;
+	}
+	section.staff a.staff-item {
+		padding: 10px 2%;
+	}
+	section.staff a.staff-item img {
+		margin-top: 10px;
+	}
+	section.media aside ul li.heading {
+		display: block;
+	}
+	ul#filters {
+		padding: 15px 0 20px;
+	}
+	section.media div#container article.media-item {
+		height: 325px;
+	}
+	div.form div.formleft, div.form div.formright {
+		width: 100%;
+		margin: 0;
 	}
 }
 
@@ -366,11 +493,50 @@
 		margin: 0 auto 20px;
 		width: 100%;
 	}
+	section#intro {
+		padding: 40px 0 25px;
+	}
+	section#links p a span {
+		display: none;
+	}
+	section.fleet article.fleet-item {
+		min-height: 335px;
+	}
+	section#species article div.fish, section#species article div.description {
+		width: 100%;
+	}
+	section#species article div.fish {
+		min-height: 235px;
+		padding-bottom: 25px;
+	}
+	section#species article div.description {
+		padding-bottom: 20px;
+	}
+	section.media div#container article.media-item {
+		width: 100%;
+		margin: 0 0 20px;
+		height: auto;
+	}
+	#bio img {
+		width: 100%;
+		float: none;
+		padding: 5px 0 15px;
+	}
 }
 
 
-
-
+@media screen and (max-width: 400px) {
+	h4 {
+		font-size: 1.2em;
+	}
+	#rates article.column.left, #rates article.column {
+		width: 40%!important;
+		margin: 0 4% 30px;
+	}
+	label {
+		font-size: 1em;
+	}
+}
 
 
 

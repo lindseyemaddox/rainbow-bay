@@ -42,8 +42,8 @@
       }
     else
       { echo "
-          <div class='formleft'>
             <form method='post' action='".$_SERVER['SCRIPT_NAME']."'>
+          <div class='formleft'>
                 <label for='name'>Name</label><input type='text' required name='name' id='name' size='10' placeholder='(required)'>
                 <label for='phone'>Phone</label><input type='text' required name='phone' id='phone' size='10' placeholder='(required)'>
                 <label for='email'>Email</label><input type='text' required name='email' id='email' size='10' placeholder='(required)'>

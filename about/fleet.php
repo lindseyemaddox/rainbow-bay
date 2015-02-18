@@ -65,7 +65,7 @@
 
     <article class="fleet-item">
       
-      <img class="atv" src="/_assets/img/icon-gator.png" alt="John Deere Gator icon">
+      <img src="/_assets/img/icon-gator.png" alt="John Deere Gator icon">
 
       <h4>John Deere Gator</h4>
 
@@ -75,7 +75,7 @@
 
     <article class="fleet-item">
       
-      <img class="atv" src="/_assets/img/icon-kubota.png" alt="Kubota 1140 icon">
+      <img src="/_assets/img/icon-kubota.png" alt="Kubota 1140 icon">
 
       <h4>Kubota <br />1140</h4>
 
