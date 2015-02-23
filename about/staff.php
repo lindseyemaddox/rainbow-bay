@@ -77,7 +77,7 @@
 
       <h4>Mason Cochran <br />Fishing <br />Guide</h4>
 
-      <img src="/_assets/img/no-image.jpg" alt="Angry Eagle fishing guide Mason Cochran">
+      <img src="/_assets/img/staff-cochran.jpg" alt="Angry Eagle fishing guide Mason Cochran">
 
     </a><!--staff-item-->
 

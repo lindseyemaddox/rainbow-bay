@@ -248,6 +248,8 @@
       });
       $('.flexslider').flexslider({
         randomize: false,
+        itemMargin: 0,
+        //slideshow: false
       });
   });
 </script>

@@ -6,7 +6,7 @@
 
   <h2>Fishing Guide</h2>
 
-  <img src="/_assets/img/no-image.jpg" alt="Rainbow Bay fishing guide Mason Cochran">
+  <img src="/_assets/img/staff-cochran.jpg" alt="Rainbow Bay fishing guide Mason Cochran">
   
   <p>Mason Cochran is passionate about the outdoors&mdash;particularly when it comes to fishing. That, combined with his love of teaching, is what makes him an outstanding Rainbow Bay fishing guide.</p>
 

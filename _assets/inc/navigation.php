@@ -27,8 +27,7 @@
 			<li class="drop"><a href="#">Recreation<span class="drop-icon collapsed"></span></a>
 				<ul>
 					<li><a href="/recreation/sportfishing">Sportfishing</a></li>
-					<li><a href="/recreation/hiking">Hiking &amp; Such</a></li>
-					<li><a href="/recreation/geography">Geography</a></li>
+					<li><a href="/recreation/hiking">Other Activities</a></li>
 				</ul>
 			</li>
 			<li><a href="/galleries">Galleries</a></li>

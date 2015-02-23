@@ -45,7 +45,7 @@
 
     <p class="prev"><a href="/recreation/sportfishing"><img src="/_assets/img/prev.png"/> <span>Previous:</span> Sportfishing</a></p>
 
-    <p class="next"><a href="/recreation/geography"><span>Next:</span> Geography <img src="/_assets/img/next.png"/></a></p>
+    <p class="next"><a href="/galleries"><span>Next:</span> Galleries <img src="/_assets/img/next.png"/></a></p>
 
     <div class="clearfix"></div>
 

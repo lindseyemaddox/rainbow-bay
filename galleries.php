@@ -129,13 +129,13 @@
 
               <h4>King of <br />Salmon!</h4>
 
-              <a href="/lightboxes/articles/igors-article.pdf" class="fancybox fancybox.iframe"><img src="/_assets/img/article-igors.jpg" alt="igor's article"></a>
+              <a href="/lightboxes/articles/igors-article.pdf" target="_blank"><img src="/_assets/img/article-igors.jpg" alt="igor's article"></a>
 
               <p class="author">by Igor Grigorenko</p>
 
               <p>Alaskan chinook salmon are nicknamed “king salmon” or simply “the king” for a reason. This noble Pacific salmon demonstrates sheer power and strength, which makes hooking this mighty fish a complete delight.</p>
 
-              <a href="/lightboxes/articles/igors-article.pdf" class="fancybox fancybox.iframe readmore">read more</a>
+              <a href="/lightboxes/articles/igors-article.pdf" class="readmore" target="_blank">read more</a>
 
             </article><!--media-item-->
 
@@ -145,7 +145,7 @@
 
               <h4>2015 <br/>Brochure</h4>
 
-              <a href="/downloads/brochure.pdf" class="fancybox fancybox.iframe"><img src="/_assets/img/media-brochure.jpg" alt="2015 Angry Eagle printable brochure"></a>
+              <a href="/downloads/brochure.pdf" target="_blank"><img src="/_assets/img/media-brochure.jpg" alt="2015 Angry Eagle printable brochure"></a>
 
             </article><!--media-item-->
 
@@ -155,7 +155,7 @@
 
               <h4>Contact <br/>Form</h4>
 
-              <a href="/downloads/contact-form.pdf" class="fancybox fancybox.iframe"><img src="/_assets/img/media-form.jpg" alt="2015 Angry Eagle printable contact form"></a>
+              <a href="/downloads/contact-form.pdf" target="_blank"><img src="/_assets/img/media-form.jpg" alt="2015 Angry Eagle printable contact form"></a>
 
             </article><!--media-item-->
 
