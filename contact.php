@@ -10,11 +10,36 @@
 
 		<h2>Cast Us a Line</h2>
 
-    <p class="alt">Contact us to make your reservations, ask questions, and learn more about Angry Eagle Lodge & Outfitters. Or, <a href="/downloads/contact-form.pdf">download</a> a contact form to send via email, fax, or mail.</p>
+		<p class="alt">Contact us to make your reservations, ask questions, and learn more about Angry Eagle Lodge & Outfitters. Or, <a href="/downloads/contact-form.pdf">download</a> a contact form to send via email, fax, or mail.</p>
 
-    <div class="form">
+		<div class="form">
+	    
+	    
 
-        <?php
+        <?php	        
+			$capSecret = '6LfwmwITAAAAAObS8RQRJ_jUWtW4tUt31ZQdBMOi'; // required
+			$capResponse = ($_REQUEST['g-recaptcha-response']) ? $_REQUEST['g-recaptcha-response'] : false; //required (value from google)
+			$userIP = $_SERVER['REMOTE_ADDR']; //optional // &remoteip=$userIP
+			// Get cURL resource
+			$curl = curl_init();
+			// Set some options - we are passing in a useragent too here
+			curl_setopt_array($curl, array(
+			  CURLOPT_RETURNTRANSFER => 1,
+			  CURLOPT_URL => "https://www.google.com/recaptcha/api/siteverify?secret=$capSecret&response=$capResponse"
+			));
+			// Send the request & save response
+			$response = curl_exec($curl);
+			if(!$response)
+			{
+			  die('Error: "' . curl_error($curl) . '" - Code: ' . curl_errno($curl));
+			}
+			$checkResponse = strpos($response, 'success');
+			if($checkResponse !== false) {
+				echo"<div style='padding: 60px 20px; color: #fff; text-align: center;'><label> Thank you for using our form. We will be in contact with you as soon as possible.</label></div>";
+			}
+			//success response from google	        
+				        
+	        
             $name = $_REQUEST['name'] ;
             $email = $_REQUEST['email'] ;
             $phone = $_REQUEST['phone'] ;
@@ -29,15 +54,17 @@
               $message .= 'Name: '.$name.'<br>';
               $message .= 'Email: '.$email.'<br>';
               if (isset($_POST['opt-in'])) {
-                  $message .= 'I would like to receive the e-newsletter';
+                  $message .= 'I would like to receive the e-newsletter<br>';
                 } else {
               }
               $message .= 'Phone: '.$phone.'<br>';
               $message .= 'How May We Help You: '.$desc.'<br>';
               $message .= '</body></html>';
-              $subject = 'new form submission from website';
+              $subject = 'New form submission from angryeagle.com';
 
         mail($to, $subject, $message, $headers);
+          curl_close($curl);
+
         echo "<div style='padding: 60px 20px; color: #fff; text-align: center;'><label> Thank you for using our form. We will be in contact with you as soon as possible.</label></div>";
       }
     else
@@ -53,13 +80,14 @@
                 <textarea name='desc' id='desc' size='10'></textarea>
                 <label for='opt-in' id='opt-in'>I'd like to receive the e-newsletter.</label>
                 <input type='checkbox' value='1' id='opt-in' name='opt-in[]' checked />
+                <div class='g-recaptcha' data-sitekey='6LfwmwITAAAAAH8SP9JGnFP15qdRQM5OtPX0ubVZ'></div>
                 <button class='submit' type='submit' name='submit'>Send</button>
           </div>
           </form>";
           }
         ?>
 
-    </div><!--form-->
+    	</div><!--form-->
 
 	</div><!--inner-->
 
