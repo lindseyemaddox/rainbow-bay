@@ -35,12 +35,12 @@
                         <!-- <li><a href="#filter" data-option-value=".story">Stories</a></li> -->
                         <li><a href="#filter" data-option-value=".video">Videos</a></li>
                         <li><a href="#filter" data-option-value=".printable">Printables</a></li>
-                        <!-- <li><a href="#filter" data-option-value=".photo">Photos</a></li> -->
-                        <!-- <li class="heading">Photo Topic</li>
+                        <li><a href="#filter" data-option-value=".photo">Photos</a></li>
+                        <li class="heading">Photo Topic</li>
                         <li><a href="#filter" data-option-value=".wildlife">Wildlife</a></li>
                         <li><a href="#filter" data-option-value=".fish">Fish</a></li>
                         <li><a href="#filter" data-option-value=".scenery">Scenery</a></li>
-                        <li><a href="#filter" data-option-value=".hiking">Hiking</a></li> -->
+                        <li><a href="#filter" data-option-value=".hiking">Hiking</a></li>
                     </ul>
                 
                 </div>
@@ -51,6 +51,18 @@
 
         <div id="container" class="clearfix">
                 
+            <article class="media-item photo wildlife">
+              
+              <span class="icon-photo"></span>
+
+              <h4>Wildlife Photos</h4>
+              
+              <p>view gallery</p>
+
+              <a href="/lightboxes/photos/wildlife" class="fancybox fancybox.iframe"><img src="/_assets/img/galleries/brown-bear.jpg" alt="brown bear on the bank of lake Iliamna"></a>
+
+            </article><!--media-item-->
+
             <article class="media-item video">
               
               <span class="icon-video"></span>
