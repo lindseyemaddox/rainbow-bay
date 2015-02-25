@@ -22,10 +22,6 @@
 
         <p class="faqanswer">Yes, guests are welcome to use our computer to check email or transfer pictures. Just make sure you know how to access your email from a computer other than yours.</p>
 
-        <p class="faquestion"><span class="icon-question"></span> Does the lodge provide liquor?</p>
-
-        <p class="faqanswer">We provide a complimentary selection of beer and wine. If you’re looking for the “hard stuff,” you’ll need to bring that, and any mixers, with you.</p>
-
         <p class="faquestion"><span class="icon-question"></span> Do you offer trip insurance?</p>
 
         <p class="faqanswer">We do not offer trip insurance. Our policy is that trip deposits, balances, and airline tickets are not refundable unless we can find someone else to replace your spot. If you’re interested in trip insurance, we recommend researching information online to find an option that best suits your needs.</p>

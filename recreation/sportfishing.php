@@ -62,108 +62,72 @@
         <div class="fish silver">
           <img src="/_assets/img/icon-silver-salmon.svg" alt="Silver Salmon" />
           <h5>Silver Salmon</h5>
+          <p><a href="/lightboxes/sportfishing/silver-salmon" class="fancybox fancybox.iframe">details</a></p>
         </div><!--fish-->
-        <div class="description">
-          <p><span>What: </span>Silver salmon are the salmon of choice by most avid fly fishermen. They average eight to 12 pounds with larger fish weighing in at 15 pounds or more.</p>
-          <p><span>When: </span>These fish run from early August through September.</p>
-          <p><span>How: </span>Whether you use a fly rod or spinning rod, this fish will live up to his fighting reputation. We fish freshwater streams within 200 yards of the ocean. In fact, the fish are so fresh from the ocean they still have sea lice.</p>
-        </div><!--description-->
       </article>
 
       <article class="fish-item july3 july4 aug1 aug2 aug3">
         <div class="fish">
           <img src="/_assets/img/icon-pink-salmon.svg" alt="Pink Salmon" />
           <h5>Pink Salmon</h5>
+          <p><a href="/lightboxes/sportfishing/pink-salmon" class="fancybox fancybox.iframe">details</a></p>
         </div><!--fish-->
-        <div class="description">
-          <p><span>What: </span>Pink salmon typically measure 36 inches in length, often exceeding 30 pounds. It’s not uncommon to catch 100 fish a day, averaging three to five pounds apiece.</p>
-          <p><span>When: </span>Pink salmon start their run in mid-July and taper off in mid-August. Historically these fish run in cycles of two years, but in the lower Cook Inlet area, we have fishable runs every year.</p>
-          <p><span>How: </span>We fish for pink salmon in freshwater streams, right where they flow into saltwater. This ensures the strongest fish available. These salmon are extremely aggressive on light tackle, whether it be spinning or fly.</p>
-        </div><!--description-->
       </article>
 
       <article class="fish-item june2 june3 june4 july1 july2 july3 july4 aug1">
         <div class="fish">
           <img src="/_assets/img/icon-king-salmon.svg" alt="King Salmon" />
           <h5>King Salmon</h5>
+          <p><a href="/lightboxes/sportfishing/king-salmon" class="fancybox fancybox.iframe">details</a></p>
         </div><!--fish-->
-        <div class="description">
-          <p><span>What: </span>King salmon, also known as Chinook salmon, are the biggest of the five types of Pacific salmon. The average fish weighs 15 to 30 pounds with bigger fish exceeding 50 pounds.</p>
-          <p><span>When: </span>Catch these fish from mid-May and through June.</p>
-          <p><span>How: </span>Fishing for the bright silver, hard-fighting king salmon is done by trolling in close proximity to Kodiak Island. For shear brute strength and raw power, there is nothing that matches king salmon.</p>
-        </div><!--description-->
       </article>
 
       <article class="fish-item july1 july2 july3 july4 aug1 aug2 aug3 aug4 sept1">
         <div class="fish">
           <img src="/_assets/img/icon-sockeye-salmon.svg" alt="Sockeye Salmon" />
           <h5>Sockeye Salmon</h5>
+          <p><a href="/lightboxes/sportfishing/sockeye-salmon" class="fancybox fancybox.iframe">details</a></p>
         </div><!--fish-->
-        <div class="description">
-          <p><span>What: </span>Sockeye salmon are the most plentiful of the Bristol Bay Salmon with as many as six million fish entering the Lake Iliamna drainage yearly. These fish average 5 to 8 pounds with the bigger fish weighing 10 to 12 pounds.</p>
-          <p><span>When: </span>These salmon begin their spawning run late in June and are available through August.</p>
-          <p><span>How: </span>Sockeyes are acrobatic jumpers and great fighters that can take you down to your backing on the first run. Once you develop the fly presentation, the action can be fantastic. These fish average 5 to 8 pounds with the bigger fish weighing 10 to 12 pounds.</p>
-        </div><!--description-->
       </article>
 
       <article class="fish-item july2 july3 july4 aug1 aug2 aug3 aug4 sept1 sept2 sept3">
         <div class="fish">
           <img src="/_assets/img/icon-chum-salmon.svg" alt="Chum Salmon" />
           <h5>Chum Salmon</h5>
+          <p><a href="/lightboxes/sportfishing/chum-salmon" class="fancybox fancybox.iframe">details</a></p>
         </div><!--fish-->
-        <div class="description">
-          <p><span>What: </span>Next to the king salmon, chum salmon are the biggest and strongest of all the salmon. They typically weigh between 15 and 18 pounds with larger fish weighing between eight and 10 pounds.</p>
-          <p><span>When: </span>Chum salmon runs coincide with the pink salmon in our area.</p>
-          <p><span>How: </span>We fish in the freshwater streams at the point where they flow into saltwater. Chum like shallow, fast-moving water and can give you all the fight you can handle on spin tackle. They can be a great starter for the novice fly fisherperson because of their eagerness to take a fly.</p>
-        </div><!--description-->
       </article>
 
       <article class="fish-item june1 june2 june3 june4 july1 july2 july3 july4 aug1 aug2 aug3 aug4 sept1 sept2 sept3 sept4">
         <div class="fish">
           <img src="/_assets/img/icon-northern-pike.svg" alt="Northern Pike" />
           <h5>Northern Pike</h5>
+          <p><a href="/lightboxes/sportfishing/northern-pike" class="fancybox fancybox.iframe">details</a></p>
         </div><!--fish-->
-        <div class="description">
-          <p><span>What: </span>Northern pike is a sport fish in a class by itself—it’s a true predator that will eat anything that doesn't eat it first. This fish averages five to 10 pounds with some reaching 20 to 30 pounds.</p>
-          <p><span>When: </span>They are available throughout the summer.</p>
-          <p><span>How: </span>Whether you’re using a popping cork bug, streamer on a fly rod, or a spoon on a spinning rod, it’s thrilling to see the water part as a big pike comes in for the kill.</p>
-        </div><!--description-->
       </article>
 
       <article class="fish-item june2 june3 june4 july1 july2 july3 july4 aug1 aug2 aug3 aug4 sept1 sept2 sept3 sept4">
         <div class="fish">
           <img src="/_assets/img/icon-arctic-char.svg" alt="Arctic Char" />
-          <h5>Arctic Char</h5>
+          <h5>Arctic <br />Char</h5>
+          <p><a href="/lightboxes/sportfishing/arctic-char" class="fancybox fancybox.iframe">details</a></p>
         </div><!--fish-->
-        <div class="description">
-          <p><span>What: </span>Arctic char are relatives of the Dolly Varden, brook trout, and lake trout. Their coloring varies depending on the time of year, but they’re extremely brilliant and colorful in September when they’re spawning. Like rainbow trout, they average two to six pounds and measure 16 to 25 inches. Trophy fish weigh 10 pounds or more and achieve a length upwards of 30 inches.</p>
-          <p><span>When: </span>They are available throughout the summer.</p>
-          <p><span>How: </span>These fish are strong fighters and can be taken on fly or spinning tackle.</p>
-        </div><!--description-->
       </article>
 
       <article class="fish-item june2 june3 june4 july1 july2 july3 july4 aug1 aug2 aug3 aug4 sept1 sept2 sept3 sept4">
         <div class="fish">
           <img src="/_assets/img/icon-rainbow-trout.svg" alt="Rainbow Trout" />
           <h5>Rainbow Trout</h5>
+          <p><a href="/lightboxes/sportfishing/rainbow-trout" class="fancybox fancybox.iframe">details</a></p>
         </div><!--fish-->
-        <div class="description">
-          <p><span>What: </span>These acrobatic fish are known for being fierce fighters that haven’t been contaminated by the genes of stocked fish.</p>
-          <p><span>When: </span>They’re available the entire fishing season. These fish average two to six pounds and measure 18 to 24 inches during the summer. By late August, the trout have been feasting on salmon eggs for more than six weeks, which is the prime time to catch rainbow trout averaging 10 pounds or more and measuring more than 30 inches.</p>
-          <p><span>How: </span>Fly fishing and spinning are the most popular and effective methods of deceiving rainbow trout.</p>
-        </div><!--description-->
       </article>
 
       <article class="fish-item june2 june3 june4 july1 july2 july3 july4 aug1 aug2 aug3 aug4 sept1 sept2 sept3 sept4">
         <div class="fish grayling">
           <img src="/_assets/img/icon-arctic-grayling.svg" alt="Arctic Grayling" />
           <h5>Arctic Grayling</h5>
+          <p><a href="/lightboxes/sportfishing/arctic-grayling" class="fancybox fancybox.iframe">details</a></p>
         </div><!--fish-->
-        <div class="description">
-          <p><span>What: </span>Arctic grayling are often referred to as the “sailfish of the north.” They average one to two pounds and measure 14 to 18 inches with an occasional grayling weighing three to four pounds and measuring up to 24 inches.</p>
-          <p><span>When: </span>This sport fish is plentiful and available throughout the season.</p>
-          <p><span>How: </span>They eagerly take small, dry fly patterns and spinners.</p>
-        </div><!--description-->
       </article>
 
     </div><!--container-->

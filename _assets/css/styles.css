@@ -2125,18 +2125,22 @@ section#species div#slider-cont ul#filters li {
   visibility: hidden;
 }
 section#species article {
-  width: 100%;
+  width: 17.5%;
   border: 1px solid #504e3c;
-  min-height: 305px;
-  margin-bottom: 32px;
+  min-height: 175px;
+  margin: 22px 1% 0;
 }
 section#species article div.fish {
-  width: 39%;
-  border-right: 1px solid #504e3c;
-  display: inline-block;
-  vertical-align: middle;
-  min-height: 305px;
-  padding-top: 56px;
+  width: 100%;
+  padding-top: 18px;
+  /*
+			&.grayling {
+				padding-top: 34px;
+			}
+			&.silver {
+				padding-top: 40px;
+			}
+*/
 }
 section#species article div.fish img {
   width: 80%;
@@ -2144,29 +2148,12 @@ section#species article div.fish img {
   display: block;
 }
 section#species article div.fish h5 {
-  width: 60%;
   margin: 0 auto;
+  font-size: 1.8em;
+  padding-top: 14px;
 }
-section#species article div.fish.grayling {
-  padding-top: 34px;
-}
-section#species article div.fish.silver {
-  padding-top: 40px;
-}
-section#species article div.description {
-  width: 60%;
-  display: inline-block;
-  vertical-align: middle;
-  padding: 0 20px;
-}
-section#species article div.description span {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 400;
-  font-style: italic;
-  color: #b4aa5e;
-}
-section#species article div.description p {
-  padding-bottom: 0;
+section#species article div.fish p {
+  text-align: center;
 }
 div.slider-right {
   width: 77%;
@@ -3245,6 +3232,24 @@ section.staff a.staff-item img {
   width: 29%;
   float: left;
   padding: 5px 20px 10px 0;
+}
+#bio.fish img {
+  width: 80%;
+  margin: 0 auto;
+  float: none;
+  display: block;
+}
+#bio.fish h1 {
+  padding-top: 12px;
+}
+#bio.fish div.description span {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  color: #b4aa5e;
+}
+#bio.fish div.description p {
+  padding-bottom: 0;
 }
 /*======================================================*/
 /*================  RESPONSIVE STYLES  ================*/
