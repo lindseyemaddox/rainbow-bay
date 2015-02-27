@@ -1,5 +1,26 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/common.php'); //php framework and meta?>
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/head.php'); // HTTP head?>
+
+<!--FB-->
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '492097247594870',
+      xfbml      : true,
+      version    : 'v2.2'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+<!--endFB-->
+
 <div class="index-nav">
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/navigation.php'); //navigation?>
 </div><!--index-nav-->	
@@ -11,9 +32,12 @@
     
           <ul class="slides">
 
-              <li>
-                <img src="/_assets/img/slide-change.jpg" alt="Rainbow Bay is now Angry Eagle Lodge and Outfitters" />
-            </li>
+                <li>
+            		<div class="tag">
+            			<p>Formerly Known As <span>Rainbow Bay Lodge</span></p>
+            		</div>
+					<img src="/_assets/img/slide-change.jpg" alt="Rainbow Bay is now Angry Eagle Lodge and Outfitters" />
+				</li>
 
             	<li>
             		<div class="tag">
@@ -103,47 +127,38 @@
             <li><a href="/recreation/sportfishing">
               <img src="/_assets/img/icon-rainbow-trout.svg" alt="Rainbow Trout">
               <h4 class="alt">Rainbow <br />Trout</h4>
-              <p>These acrobatic fish are known for being fierce fighters that haven’t...</p>
             </a></li>
             <li><a href="/recreation/sportfishing">
               <img src="/_assets/img/icon-king-salmon.svg" alt="King Salmon">
               <h4 class="alt">King <br />Salmon</h4>
-              <p>King salmon, also known as Chinook salmon, are the biggest of the five...</p>
             </a></li>
             <li><a href="/recreation/sportfishing">
               <img src="/_assets/img/icon-arctic-char.svg" alt="Arctic Char">
               <h4 class="alt">Arctic <br />Char</h4>
-              <p>Arctic Char are relatives of the Dolly Varden, brook trout, and...</p>
             </a></li>
             <li><a href="/recreation/sportfishing">
               <img src="/_assets/img/icon-arctic-grayling.svg" alt="Arctic Grayling">
               <h4 class="alt">Arctic <br />Grayling</h4>
-              <p>Arctic grayling are often referred to as the sailfish of the north...</p>
             </a></li>
             <li><a href="/recreation/sportfishing">
               <img src="/_assets/img/icon-chum-salmon.svg" alt="Chum Salmon">
               <h4 class="alt">Chum <br />Salmon</h4>
-              <p>Next to the king salmon, chum salmon are the biggest and...</p>
             </a></li>
             <li><a href="/recreation/sportfishing">
               <img src="/_assets/img/icon-northern-pike.svg" alt="Northern Pike">
               <h4 class="alt">Northern <br />Pike</h4>
-              <p>Northern Pike is a sport fish in a class by itself—it’s a true predator that...</p>
             </a></li>
             <li><a href="/recreation/sportfishing">
               <img src="/_assets/img/icon-pink-salmon.svg" alt="Pink Salmon">
               <h4 class="alt">Pink <br />Salmon</h4>
-              <p>Pink salmon typically measure 36 inches in length, often exceeding 30...</p>
             </a></li>
             <li><a href="/recreation/sportfishing">
               <img src="/_assets/img/icon-silver-salmon.svg" alt="Silver Salmon">
               <h4 class="alt">Silver <br />Salmon</h4>
-              <p>Silver salmon are the salmon of choice by most avid fly fishermen...</p>
             </a></li>
             <li><a href="/recreation/sportfishing">
               <img src="/_assets/img/icon-sockeye-salmon.svg" alt="Sockeye Salmon">
               <h4 class="alt">Sockeye <br />Salmon</h4>
-              <p>Sockeye salmon are the most plentiful of the Bristol Bay Salmon...</p>
             </a></li>
           </ul>
         </div>
@@ -157,7 +172,7 @@
   
   <div class="inner">
     
-    <div class="facebook"></div><!--facebook-->
+    <div class="facebook"><div class="fb-like-box" data-href="https://www.facebook.com/pages/Rainbow-Bay-Resort/110232285696450" data-width="228" data-height="600" data-colorscheme="light" data-show-faces="false" data-header="false" data-stream="true" data-show-border="false"></div></div><!--facebook-->
 
     <div class="bottom">
       

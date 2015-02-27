@@ -162,6 +162,26 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
+	"\/_assets\/css\/less\/organisms\/flexslider.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_assets\/css\/less\/organisms\/flexslider.less",
+		"outputAbbreviatedPath": "\/_assets\/css\/less\/css\/flexslider.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
 	"\/_assets\/css\/less\/organisms\/footer.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
@@ -511,6 +531,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_assets\/css\/styles.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_assets\/css\/styles.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_assets\/img\/air.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -518,6 +547,17 @@
 		"initialSize": 58932,
 		"inputAbbreviatedPath": "\/_assets\/img\/air.png",
 		"outputAbbreviatedPath": "\/_assets\/img\/air.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/apple-touch-57.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8927,
+		"inputAbbreviatedPath": "\/_assets\/img\/apple-touch-57.png",
+		"outputAbbreviatedPath": "\/_assets\/img\/apple-touch-57.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -782,6 +822,193 @@
 		"initialSize": 222600,
 		"inputAbbreviatedPath": "\/_assets\/img\/fixed-plane2.jpg",
 		"outputAbbreviatedPath": "\/_assets\/img\/fixed-plane2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/galleries\/bear-two-cubs.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 318159,
+		"inputAbbreviatedPath": "\/_assets\/img\/galleries\/bear-two-cubs.jpg",
+		"outputAbbreviatedPath": "\/_assets\/img\/galleries\/bear-two-cubs.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/galleries\/bear-with-cubs.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 312522,
+		"inputAbbreviatedPath": "\/_assets\/img\/galleries\/bear-with-cubs.jpg",
+		"outputAbbreviatedPath": "\/_assets\/img\/galleries\/bear-with-cubs.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/galleries\/bears-playing.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 386286,
+		"inputAbbreviatedPath": "\/_assets\/img\/galleries\/bears-playing.jpg",
+		"outputAbbreviatedPath": "\/_assets\/img\/galleries\/bears-playing.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/galleries\/black-bear-in-grass.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 367168,
+		"inputAbbreviatedPath": "\/_assets\/img\/galleries\/black-bear-in-grass.jpg",
+		"outputAbbreviatedPath": "\/_assets\/img\/galleries\/black-bear-in-grass.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/galleries\/black-bear.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 266851,
+		"inputAbbreviatedPath": "\/_assets\/img\/galleries\/black-bear.jpg",
+		"outputAbbreviatedPath": "\/_assets\/img\/galleries\/black-bear.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/galleries\/brown-bear-with-fish.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 261924,
+		"inputAbbreviatedPath": "\/_assets\/img\/galleries\/brown-bear-with-fish.jpg",
+		"outputAbbreviatedPath": "\/_assets\/img\/galleries\/brown-bear-with-fish.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/galleries\/brown-bear.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 326909,
+		"inputAbbreviatedPath": "\/_assets\/img\/galleries\/brown-bear.jpg",
+		"outputAbbreviatedPath": "\/_assets\/img\/galleries\/brown-bear.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/galleries\/eagle-perch.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 99347,
+		"inputAbbreviatedPath": "\/_assets\/img\/galleries\/eagle-perch.jpg",
+		"outputAbbreviatedPath": "\/_assets\/img\/galleries\/eagle-perch.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/galleries\/eagle.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 104345,
+		"inputAbbreviatedPath": "\/_assets\/img\/galleries\/eagle.jpg",
+		"outputAbbreviatedPath": "\/_assets\/img\/galleries\/eagle.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/galleries\/fox.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 308504,
+		"inputAbbreviatedPath": "\/_assets\/img\/galleries\/fox.jpg",
+		"outputAbbreviatedPath": "\/_assets\/img\/galleries\/fox.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/galleries\/mink-on-deck.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 181343,
+		"inputAbbreviatedPath": "\/_assets\/img\/galleries\/mink-on-deck.jpg",
+		"outputAbbreviatedPath": "\/_assets\/img\/galleries\/mink-on-deck.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/galleries\/mink.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 202745,
+		"inputAbbreviatedPath": "\/_assets\/img\/galleries\/mink.jpg",
+		"outputAbbreviatedPath": "\/_assets\/img\/galleries\/mink.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/galleries\/moose-with-young.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 254850,
+		"inputAbbreviatedPath": "\/_assets\/img\/galleries\/moose-with-young.jpg",
+		"outputAbbreviatedPath": "\/_assets\/img\/galleries\/moose-with-young.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/galleries\/moose.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 298000,
+		"inputAbbreviatedPath": "\/_assets\/img\/galleries\/moose.jpg",
+		"outputAbbreviatedPath": "\/_assets\/img\/galleries\/moose.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/galleries\/swim-bear.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 256902,
+		"inputAbbreviatedPath": "\/_assets\/img\/galleries\/swim-bear.jpg",
+		"outputAbbreviatedPath": "\/_assets\/img\/galleries\/swim-bear.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/galleries\/swim-mink.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 253783,
+		"inputAbbreviatedPath": "\/_assets\/img\/galleries\/swim-mink.jpg",
+		"outputAbbreviatedPath": "\/_assets\/img\/galleries\/swim-mink.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/galleries\/young-bears.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 368693,
+		"inputAbbreviatedPath": "\/_assets\/img\/galleries\/young-bears.jpg",
+		"outputAbbreviatedPath": "\/_assets\/img\/galleries\/young-bears.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1523,6 +1750,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_assets\/img\/staff-cochran.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 31022,
+		"inputAbbreviatedPath": "\/_assets\/img\/staff-cochran.jpg",
+		"outputAbbreviatedPath": "\/_assets\/img\/staff-cochran.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_assets\/img\/staff-kern.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2177,6 +2415,87 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/lightboxes\/safety-information.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/lightboxes\/sportfishing\/arctic-char.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/lightboxes\/sportfishing\/arctic-char.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/lightboxes\/sportfishing\/arctic-grayling.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/lightboxes\/sportfishing\/arctic-grayling.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/lightboxes\/sportfishing\/chum-salmon.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/lightboxes\/sportfishing\/chum-salmon.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/lightboxes\/sportfishing\/king-salmon.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/lightboxes\/sportfishing\/king-salmon.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/lightboxes\/sportfishing\/northern-pike.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/lightboxes\/sportfishing\/northern-pike.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/lightboxes\/sportfishing\/pink-salmon.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/lightboxes\/sportfishing\/pink-salmon.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/lightboxes\/sportfishing\/rainbow-trout.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/lightboxes\/sportfishing\/rainbow-trout.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/lightboxes\/sportfishing\/silver-salmon.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/lightboxes\/sportfishing\/silver-salmon.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/lightboxes\/sportfishing\/sockeye-salmon.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/lightboxes\/sportfishing\/sockeye-salmon.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

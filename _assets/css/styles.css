@@ -772,7 +772,7 @@ nav > ul li {
   letter-spacing: .1em;
   font-family: 'Passion One', sans-serif;
   text-transform: uppercase;
-  font-size: .7em;
+  font-size: .69em;
   margin-right: 30px;
   vertical-align: top;
   margin-top: 13px;
@@ -1953,7 +1953,7 @@ html[xmlns] .slides {
 }
 .fishslider .flex-viewport li {
   position: relative;
-  min-height: 230px;
+  min-height: 180px;
   width: 33%;
 }
 .fishslider .flex-viewport img {
@@ -1964,7 +1964,7 @@ html[xmlns] .slides {
 }
 .fishslider li h4 {
   position: absolute;
-  bottom: 60px;
+  bottom: 0px;
   width: 60%;
   left: 20%;
 }
@@ -2127,12 +2127,12 @@ section#species div#slider-cont ul#filters li {
 section#species article {
   width: 17.5%;
   border: 1px solid #504e3c;
-  min-height: 175px;
+  min-height: 200px;
   margin: 22px 1% 0;
 }
 section#species article div.fish {
   width: 100%;
-  padding-top: 18px;
+  padding-top: 30px;
   /*
 			&.grayling {
 				padding-top: 34px;
@@ -2751,6 +2751,9 @@ section.media div#container article.media-item {
   display: inline-block;
   vertical-align: top;
 }
+section.media div#container article.media-item.photo img {
+  margin-top: 10px;
+}
 section.media div#container article.media-item span {
   display: block;
   margin: 0 auto;
@@ -2817,6 +2820,9 @@ section.media div#container article.media-item a.readmore {
 }
 section.media div#container article.media-item a.readmore:hover {
   color: #b4aa5e;
+}
+.hidden {
+  display: none;
 }
 .left {
   display: inline-block;
@@ -2913,9 +2919,6 @@ p.table-header {
 }
 p.table-body {
   text-transform: none;
-}
-table.dark td {
-  cursor: pointer;
 }
 /******** START Drag to Reveal module STYLES *********/
 div#product-reveal {
