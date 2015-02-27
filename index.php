@@ -93,7 +93,7 @@
 		
 		    <h3 class="alt">"One of the top 25 fishing lodges in North America..."</h3>
 
-		    <img src="/_assets/img/logo-field-stream.png" alt="Field &amp; Stream logo">
+		    <a href="http://www.fieldandstream.com/articles/fishing/saltwater/where-fish/2007/02/greatest-fishing-lodges-world" target="_blank"><img src="/_assets/img/logo-field-stream.png" alt="Field &amp; Stream logo"></a>
 
 		</div><!--fullOpacity-->
 

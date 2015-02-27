@@ -56,9 +56,7 @@
                 <span class="icon-photo"></span>
 
                 <h4>Wildlife Photos</h4>
-              
-                <a class="fancybox" href="/_assets/img/galleries/brown-bear.jpg"><p>view gallery</p></a>
-              
+                            
 				<a class="fancybox" href="/_assets/img/galleries/brown-bear.jpg"><img src="/_assets/img/galleries/brown-bear.jpg" alt="brown bear on the bank of lake iliamna" /></a>
 				
 				<div class="hidden">
@@ -87,7 +85,7 @@
               
               <span class="icon-video"></span>
 
-              <h4>Jet sleding down the Iliamna River</h4>
+              <h4>Jet sledding down the Iliamna River</h4>
 
               <p>The Iliamna River’s shallow areas are home to impressive rainbow trout and Arctic char!</p>
 
@@ -176,6 +174,8 @@
               <span class="icon-news"></span>
 
               <h4>2015 <br/>Brochure</h4>
+              
+              <p>Learn more about Angry Eagle Lodge & Outfitters.</p>
 
               <a href="/downloads/brochure.pdf" target="_blank"><img src="/_assets/img/media-brochure.jpg" alt="2015 Angry Eagle printable brochure"></a>
 
@@ -186,6 +186,8 @@
               <span class="icon-news"></span>
 
               <h4>Contact <br/>Form</h4>
+              
+              <p>Prefer the post office? Print and mail this form.</p>
 
               <a href="/downloads/contact-form.pdf" target="_blank"><img src="/_assets/img/media-form.jpg" alt="2015 Angry Eagle printable contact form"></a>
 
