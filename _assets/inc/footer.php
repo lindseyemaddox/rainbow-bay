@@ -76,6 +76,7 @@
 		  });
 		</script>
 		<script src="/_assets/js/jquery.fancybox.js"></script>
+		<script src="/_assets/js/touchpunch.js"></script>
 
 	</body>
 </html>

@@ -10,7 +10,7 @@
 	  
 	  <span class="dontPrintThis">
 
-    <h2>Planning Your Trip to <span style="white-space: nowrap;">Angry Eagle Lodge &amp; Outfitters</span></h2>
+    <h2>Planning Your Trip to Angry Eagle Lodge &amp; Outfitters</h2>
 
     <h3>We’re 180 miles from the nearest major road, which means getting to Angry Eagle Lodge &amp; Outfitters is part of your adventure! From booking airfare and hotels to traveling home with your catch, here’s everything you need to know to plan your trip:</h3>
 

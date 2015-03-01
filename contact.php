@@ -75,7 +75,7 @@
                 <label for='phone'>Phone</label><input type='text' required name='phone' id='phone' size='10' placeholder='(required)'>
                 <label for='email'>Email</label><input type='text' required name='email' id='email' size='10' placeholder='(required)'>
                 <label for='opt-in' id='opt-in'>I'd like to receive the e-newsletter.</label>
-                <input type='checkbox' value='1' id='opt-in' name='opt-in[]' checked />
+                <input class='opt-in' type='checkbox' value='1' id='opt-in' name='opt-in[]' checked />
           </div>
           <div class='formright'>
                 <label for='desc'>How May We Help You?</label>

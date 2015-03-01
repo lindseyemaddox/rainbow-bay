@@ -2215,16 +2215,23 @@ div.form div.formleft {
   display: inline-block;
   vertical-align: top;
 }
-div.form div.formleft input {
+div.form div.formleft input.opt-in {
   display: inline;
   width: 25px;
 }
 div.form div.formleft label#opt-in {
   display: inline;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  text-transform: none;
 }
 div.form div.formright {
   width: 46%;
   display: inline-block;
+}
+div.form div.formright .g-recaptcha {
+  margin-bottom: 15px;
+  background-color: #fff;
 }
 div.contact {
   width: 50%;
@@ -2821,6 +2828,7 @@ section.media div#container article.media-item {
   padding: 22px 2%;
   display: inline-block;
   vertical-align: top;
+  overflow: hidden;
 }
 section.media div#container article.media-item.photo img {
   margin-top: 17px;
@@ -3394,6 +3402,16 @@ section.staff a.staff-item img {
     right: 0;
     margin-bottom: 20px;
   }
+  nav > ul li ul.expanded {
+    height: auto;
+  }
+  section.headerComp .right,
+  section.headerComp .left {
+    width: 100%!important;
+  }
+  section.headerComp .right {
+    margin-left: 0;
+  }
 }
 @media screen and (max-width: 1100px) {
   html {
@@ -3440,17 +3458,8 @@ section.staff a.staff-item img {
   footer div.mapnstuff {
     width: 54%;
   }
-  .left,
-  .right {
-    display: block;
-    width: 100%!important;
-    margin: 0 auto;
-  }
   #rates article.column.left {
     width: 30%!important;
-  }
-  table.dark td {
-    text-indent: 200px;
   }
   nav > ul li.drop {
     margin-right: 0;
@@ -3629,6 +3638,12 @@ section.staff a.staff-item img {
   h2.multiple {
     padding-top: 25px;
   }
+  section#species article {
+    min-height: 191px;
+  }
+  section#species article div.fish h5 {
+    font-size: 1.43em;
+  }
 }
 @media screen and (max-width: 800px) {
   html {
@@ -3711,6 +3726,26 @@ section.staff a.staff-item img {
   section#testimonials {
     display: none;
   }
+  .right {
+    width: 100%;
+    margin-left: 0;
+  }
+  section#faq p.faquestion span {
+    display: none;
+  }
+  section#faq p.faqanswer {
+    padding-left: 0;
+  }
+  section.media aside ul li.heading {
+    display: block;
+  }
+  ul#filters {
+    padding: 15px 0 20px;
+  }
+  section#species article {
+    width: 31%;
+    min-height: 184px;
+  }
 }
 @media screen and (max-width: 700px) {
   html {
@@ -3745,9 +3780,6 @@ section.staff a.staff-item img {
   h4 {
     font-size: 2.1em;
   }
-  section#species div#slider-cont p.filters span {
-    display: none;
-  }
   ul#filters {
     padding: 0;
   }
@@ -3760,10 +3792,6 @@ section.staff a.staff-item img {
   }
   div.slider-right {
     margin: 0px 0 50px;
-  }
-  section#species article div.fish,
-  section#species article {
-    min-height: 285px;
   }
   section#social div.container div.instagram div.featured-fisherman {
     padding: 10px;
@@ -3787,6 +3815,9 @@ section.staff a.staff-item img {
   section#social div.container div.instagram {
     display: block;
     width: 100%;
+  }
+  .lodge .flex-direction-nav {
+    display: none;
   }
 }
 @media screen and (max-width: 600px) {
@@ -3834,14 +3865,11 @@ section.staff a.staff-item img {
   section.staff a.staff-item img {
     margin-top: 10px;
   }
-  section.media aside ul li.heading {
-    display: block;
-  }
-  ul#filters {
-    padding: 15px 0 20px;
-  }
   section.media div#container article.media-item {
     height: 325px;
+  }
+  section.media div#container article.media-item img {
+    max-height: 400px;
   }
   div.form div.formleft,
   div.form div.formright {
@@ -3850,6 +3878,13 @@ section.staff a.staff-item img {
   }
   header div.tag p {
     display: none;
+  }
+  #rates article.column {
+    width: 100%;
+    margin: 0 0 30px;
+  }
+  #rates article.column.left {
+    width: 100%!important;
   }
 }
 @media screen and (max-width: 500px) {
@@ -3911,10 +3946,6 @@ section.staff a.staff-item img {
   section#species article div.description {
     width: 100%;
   }
-  section#species article div.fish {
-    min-height: 235px;
-    padding-bottom: 25px;
-  }
   section#species article div.description {
     padding-bottom: 20px;
   }
@@ -3928,17 +3959,18 @@ section.staff a.staff-item img {
     float: none;
     padding: 5px 0 15px;
   }
+  section#species article {
+    width: 48%;
+  }
 }
 @media screen and (max-width: 400px) {
   h4 {
     font-size: 1.2em;
   }
-  #rates article.column.left,
-  #rates article.column {
-    width: 40%!important;
-    margin: 0 4% 30px;
-  }
   label {
     font-size: 1em;
+  }
+  div#product-reveal {
+    display: none;
   }
 }
