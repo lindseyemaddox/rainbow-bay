@@ -9,9 +9,9 @@
 
         <h2>Our Staff</h2>
 
-        <p>Angry Eagle Lodge & Outfitters is proud to have one of the finest teams of professional fishing guides in all of Alaska. With nearly 200 years of combined experience, our guides have been fishing for most of their lives and are more than familiar with Southwest Alaska’s rivers, streams, and lakes—which means they know exactly how and where to go to ensure a great catch.</p>
+        <h3 style="padding-bottom: 20px;">Angry Eagle Lodge & Outfitters is proud to have one of the finest teams of professional fishing guides in all of Alaska. With nearly 200 years of combined experience, our guides have been fishing for most of their lives and are more than familiar with Southwest Alaska’s rivers, streams, and lakes—which means they know exactly how and where to find a great catch.</h3>
 
-		<p>Whether it’s teaching the fundamentals of casting a line or focusing on the finer points of a particular technique, our expertise allows us to customize fishing experiences for anglers of all skill levels. We’re dedicated to making sure you have an extraordinary Alaskan fishing adventure.</p>
+		<p style="padding-bottom: 40px;">Whether it’s teaching the fundamentals of casting a line or focusing on the finer points of a particular technique, our expertise allows us to customize fishing experiences for anglers of all skill levels. We’re dedicated to making sure you have an extraordinary Alaskan fishing adventure.</p>
 
     </div><!--inner-->
 

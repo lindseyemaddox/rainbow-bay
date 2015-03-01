@@ -14,6 +14,8 @@
   </ul>
 
   <p>We strive to look out for your safety and, with your assistance, you should have a safe fishing trip. You will be required to sign a release and indemnity form at the lodge before your fishing trip begins.</p>
+  
+  <h3>Contact us for more information.</h3>
 
 </section><!--testimonials-->
 

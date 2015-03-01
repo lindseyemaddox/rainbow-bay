@@ -35,7 +35,7 @@
 
         <p class="faquestion"><span class="icon-question"></span> How much should i tip?</p>
 
-        <p class="faqanswer">While optional at Rainbow Bay Resort, tips are greatly appreciated. Typically, our guests each tip $500 per stay. You may leave your gratuity with any member of the lodge management, who will pool and divide it among all staff members.</p>
+        <p class="faqanswer">While optional at Angry Eagle, tips are greatly appreciated. Typically, our guests each tip $500 per stay. You may leave your gratuity with any member of the lodge management, who will pool and divide it among all staff members.</p>
 
 		<h3>Fishing & Gear</h3>
 

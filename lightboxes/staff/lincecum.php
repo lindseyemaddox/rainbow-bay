@@ -6,9 +6,9 @@
 
   <h2>Fishing Guide</h2>
 
-  <img src="/_assets/img/staff-lincecum.jpg" alt="Rainbow Bay fishing guide Lewis C. Lincecum">
+  <img src="/_assets/img/staff-lincecum.jpg" alt="Angry Eagle fishing guide Lewis C. Lincecum">
 
-  	<p>If you want to learn the art of fly fishing, Lewis Lincecum is your guy. Whether its helping clients land their first fish or working with more experienced anglers on a particular technique, Lewis has a natural ability when it comes to teaching clients how to reel in a great catch.</p>
+  	<p>If you want to learn the art of fly fishing, Lewis Lincecum is your man. Whether it's helping clients land their first fish or working with more experienced anglers on a particular technique, Lewis has a natural ability when it comes to teaching clients how to keep a tight line.</p>
 
 	<p>“I’ve been passionate about fishing since I was young,” said Lewis, who’s been guiding since 2011. “I want people to know that when they are with me, they can expect a safe, fun, and bountiful trip.”</p>
 

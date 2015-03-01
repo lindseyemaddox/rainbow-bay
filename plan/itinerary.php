@@ -10,7 +10,7 @@
 
 		<h2>Your Adventure Starts Here</h2>
 
-		<p>Get ready for the angler experience of a lifetime! While no Rainbow Bay adventure is the same, here’s a sample itinerary to help you get a better idea of what to expect.</p>
+		<h3>Get ready for the angler experience of a lifetime! While no Angry Eagle Lodge & Outfitters adventure is the same, here’s a sample itinerary to help you get a better idea of what to expect.</h3>
 
 	</div><!--inner-->
 
@@ -20,7 +20,7 @@
   
   <div class="inner">
 
-    <h2 class="alt">Sample Itinerary</h2>
+    <h2 class="alt subh2">Sample Itinerary</h2>
     
     <div class="slider">
     
@@ -115,7 +115,7 @@
                 </div><!--fish-icon-->
                 <div class="schedule">
                   <h6>Sunday - Friday</h6>
-                  <p>After an early wakeup call and hearty breakfast, you’ll suit up in waders and depart the lodge via boat or float plane to explore the natural beauty of Alaska’s rivers and lakes. Depending on the weather and your destination, you’ll enjoy a pre-made lunch or a shore lunch prepared by your guides. In the late afternoon, you’ll return to the lodge, where you can rest and clean up before you enjoy drinks, hors d’ourves, and dinner.</p>
+                  <p>After an early wakeup call and hearty breakfast, you’ll suit up in waders and depart the lodge via boat or float plane to explore the natural beauty of Alaska’s rivers and lakes. Your destinations can vary from the tributaries and lakes that feed Lake Iliamna and the Cook Inlet coast to the streams that feed the Bering Sea's Bristol Bay. Depending on the weather and your destination, you’ll enjoy a pre-made lunch or a shore lunch prepared by your guides. In the late afternoon, you’ll return to the lodge, where you can rest and clean up before you enjoy drinks, hors d’ourves, and dinner.</p>
                 </div><!--schedule-->
               </div><!--desc-->
               <div class="icons">

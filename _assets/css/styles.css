@@ -532,6 +532,9 @@ body {
   width: 80%;
   margin: 0 auto;
 }
+.clear {
+  clear: both;
+}
 h1 {
   font-family: 'Passion One', sans-serif;
   text-transform: uppercase;
@@ -570,6 +573,10 @@ h3.alt {
   color: #fff;
   text-align: center;
   padding-bottom: 0;
+}
+h3.alt a {
+  color: #fff;
+  text-decoration: none;
 }
 h4 {
   color: #fff;
@@ -611,6 +618,10 @@ p {
 }
 p.alt {
   color: #fff;
+}
+p.alt a {
+  color: #fff;
+  font-weight: bold;
 }
 p a {
   color: #b4aa5e;
@@ -1930,7 +1941,7 @@ html[xmlns] .slides {
 .flex-direction-nav {
   *height: 0;
 }
-.flex-direction-nav a {
+.fishslider .flex-direction-nav a {
   width: 38px;
   height: 73px;
   margin: -20px 0 0;
@@ -1944,6 +1955,9 @@ html[xmlns] .slides {
   opacity: 0;
   -webkit-transition: all .3s ease;
   overflow: hidden;
+}
+.fishslider .flex-direction-nav a.flex-next {
+  background-position: -38px 0px;
 }
 .fishslider a {
   text-decoration: none;
@@ -2100,7 +2114,7 @@ header .video-overlay {
 /*================  PAGE STYLES  ================*/
 /*==============================================*/
 section#intro {
-  padding: 77px 0 65px;
+  padding: 77px 0 0;
 }
 img.inset {
   float: left;
@@ -2127,7 +2141,7 @@ section#species div#slider-cont ul#filters li {
 section#species article {
   width: 17.5%;
   border: 1px solid #504e3c;
-  min-height: 200px;
+  min-height: 214px;
   margin: 22px 1% 0;
 }
 section#species article div.fish {
@@ -2201,16 +2215,16 @@ div.form div.formleft {
   display: inline-block;
   vertical-align: top;
 }
-div.form div.formright {
-  width: 46%;
-  display: inline-block;
-}
-div.form div.formright input {
+div.form div.formleft input {
   display: inline;
   width: 25px;
 }
-div.form div.formright label#opt-in {
+div.form div.formleft label#opt-in {
   display: inline;
+}
+div.form div.formright {
+  width: 46%;
+  display: inline-block;
 }
 div.contact {
   width: 50%;
@@ -2524,12 +2538,13 @@ section#social {
   background-size: cover;
   padding: 180px 0 148px;
 }
-section#social div.facebook {
+section#social div.container {
   background-color: #f2f3e4;
   padding: 40px 30px 30px;
+  display: table;
   position: relative;
 }
-section#social div.facebook:after {
+section#social div.container:after {
   width: 0;
   height: 0;
   border-left: 30px solid transparent;
@@ -2539,6 +2554,59 @@ section#social div.facebook:after {
   position: absolute;
   bottom: -20px;
   left: 100px;
+}
+section#social div.container div.facebook {
+  display: table-cell;
+  width: 12em;
+  vertical-align: top;
+}
+section#social div.container div.instagram {
+  float: right;
+  display: table-cell;
+  width: 96%;
+  vertical-align: top;
+}
+section#social div.container div.instagram div.featured-fisherman {
+  background: url(/_assets/img/pattern-dark.png) repeat left top transparent;
+  padding: 40px;
+  position: relative;
+}
+section#social div.container div.instagram div.featured-fisherman img {
+  width: 60%;
+  margin-bottom: 30px;
+}
+section#social div.container div.instagram div.featured-fisherman div.name {
+  background-color: #79877b;
+  opacity: .8;
+  padding: 18px 0px 0;
+  width: 60%;
+  position: absolute;
+  top: 30%;
+  right: 40px;
+}
+section#social div.container div.instagram div.featured-fisherman div.name h4 {
+  border-bottom: none;
+  padding-bottom: 10px;
+  letter-spacing: 3.5px;
+  font-size: 1.5em;
+  line-height: 1.2em;
+}
+section#social div.container div.instagram div.featured-fisherman div.name p {
+  text-align: center;
+  color: #fff;
+  font-family: 'Condiment', cursive;
+  font-size: 2em;
+  line-height: 1em;
+}
+section#social div.container div.instagram div.featured-fisherman h6 {
+  text-transform: none;
+  color: #fff;
+  font-weight: normal;
+  font-size: .9em;
+  padding-bottom: 12px;
+}
+section#social div.container div.instagram div.featured-fisherman h6 span {
+  font-weight: bold;
 }
 section#social div.bottom {
   margin-top: 40px;
@@ -2755,7 +2823,7 @@ section.media div#container article.media-item {
   vertical-align: top;
 }
 section.media div#container article.media-item.photo img {
-  margin-top: 10px;
+  margin-top: 17px;
 }
 section.media div#container article.media-item span {
   display: block;
@@ -2887,7 +2955,7 @@ ul.itinerary li div.desc div.schedule h6 {
   padding: 68px 0 10px;
 }
 ul.itinerary li div.desc div.schedule p {
-  font-size: 1em;
+  font-size: .9em;
   color: #504e3c !important;
 }
 ul.itinerary li div.icons {
@@ -3255,18 +3323,35 @@ section.staff a.staff-item img {
   color: #b4aa5e;
 }
 #bio.fish div.description p {
-  padding-bottom: 0;
+  padding-bottom: 10px;
 }
 /*======================================================*/
 /*================  RESPONSIVE STYLES  ================*/
 /*====================================================*/
 /*************RESPONSIVE CODE*****************/
+@media screen and (max-width: 1400px) {
+  section#social div.container div.instagram div.featured-fisherman div.name {
+    top: 25%;
+  }
+}
 @media screen and (max-width: 1300px) {
   html {
     font-size: 17.5px;
   }
   nav ul li {
     margin-right: 25px;
+  }
+  section#social div.container div.instagram div.featured-fisherman div.name {
+    right: 5%;
+    width: 90%;
+    padding-top: 5px;
+    top: 180px;
+  }
+  section#social div.container div.instagram div.featured-fisherman div.name p {
+    padding-bottom: 10px;
+  }
+  section#social div.container div.instagram div.featured-fisherman img {
+    width: 70%;
   }
 }
 @media screen and (max-width: 1200px) {
@@ -3297,6 +3382,17 @@ section.staff a.staff-item img {
   section.media div#container article.media-item {
     height: 400px;
     padding: 22px 1% 10px;
+  }
+  section#social div.container div.instagram div.featured-fisherman img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  section#social div.container div.instagram div.featured-fisherman div.name {
+    position: relative;
+    width: 100%;
+    top: 0;
+    right: 0;
+    margin-bottom: 20px;
   }
 }
 @media screen and (max-width: 1100px) {
@@ -3607,6 +3703,14 @@ section.staff a.staff-item img {
   section.media div#container article.media-item {
     height: 385px;
   }
+  section#social div.container div.instagram div.featured-fisherman {
+    padding: 20px;
+  }
+  section#bgFixed.mountains,
+  section#media-section,
+  section#testimonials {
+    display: none;
+  }
 }
 @media screen and (max-width: 700px) {
   html {
@@ -3660,6 +3764,29 @@ section.staff a.staff-item img {
   section#species article div.fish,
   section#species article {
     min-height: 285px;
+  }
+  section#social div.container div.instagram div.featured-fisherman {
+    padding: 10px;
+  }
+  section#social div.container div.instagram div.featured-fisherman div.name {
+    background-color: transparent;
+  }
+  section#social div.container div.instagram div.featured-fisherman img {
+    margin-bottom: 0;
+  }
+  section#social div.container div.instagram div.featured-fisherman div.name p {
+    padding-bottom: 0;
+  }
+  section#social div.container div.instagram div.featured-fisherman div.name h4 {
+    padding-top: 0;
+  }
+  section#social div.container div.facebook {
+    display: block;
+    width: 100%;
+  }
+  section#social div.container div.instagram {
+    display: block;
+    width: 100%;
   }
 }
 @media screen and (max-width: 600px) {
@@ -3720,6 +3847,9 @@ section.staff a.staff-item img {
   div.form div.formright {
     width: 100%;
     margin: 0;
+  }
+  header div.tag p {
+    display: none;
   }
 }
 @media screen and (max-width: 500px) {

@@ -12,13 +12,13 @@
     
     <span class="dontPrintThis">
 
-    <p>Rainbow Bay Resort has a complete inventory of fly, spinning, and bait-casting equipment featuring custom Temple Fork Outfitters (TFO) 6-wt. and 8-wt. fly rods, complemented with TFO fly reels and fly lines as well as light and heavy TFO spinning and bait rods. Quality Shimano spinning and bait casting reels are also furnished, as are the flies, spinners, and jigs during your fishing trip at no additional cost. </p>
+    <h3>Angry Eagle Lodge & Outfitters has a complete inventory of fly, spinning, and bait-casting equipment featuring custom Temple Fork Outfitters (TFO) 6-wt. and 8-wt. fly rods, complemented with TFO fly reels and fly lines as well as light and heavy TFO spinning and bait rods. Quality Shimano spinning and bait casting reels are also furnished, as are the flies, spinners, and jigs during your fishing trip at no additional cost. </h3>
 
-    <h2 class="multiple subh2">Our Wader Rental &amp; Purchase Program</h2>
+    <h2 class="subh2">Our Wader Rental &amp; Purchase Program</h2>
 
-    <p>Bringing a quality pair of waders and wading boots is a must, since you’ll be wearing them every day. If you don’t own a pair, we offer a rental program that allows you to rent high-quality Simms® G3 and Patagonia® waders and wading boots for $100 weekly. We’re also happy to order Simms or Patagonia waders and boots for you and have them waiting at the lodge upon your arrival. </p>
+    <p>Bringing a quality pair of waders and wading boots is a must, since you’ll be wearing them every day. If you don’t own a pair, we offer a rental program that allows you to rent high-quality Simms&reg; G3 and Patagonia&reg; waders and wading boots for $100 weekly. If you wish to purchase this equipment to take home after using them at Angry Eagle we will be happy to order Simms or Patagonia waders and boots for you and have them waiting at the lodge upon your arrival. </p>
 
-    <p>If you’d like to rent or purchase waders and boots, please <a href="/contact">let us know</a> at least 30 days prior to your arrival at Rainbow Bay.</p>
+    <p>If you’d like to rent or purchase waders and boots, please <a href="/contact">let us know</a> at least 30 days prior to your arrival at Angry Eagle.</p>
 
     <p>Remember, felt sole waders and wader boots are <a href="http://www.adfg.alaska.gov/static/species/nonnative/invasive/pdfs/felt_soled_waders_faq.pdf" target="_blank">Illegal in Alaska</a>.</p>
 

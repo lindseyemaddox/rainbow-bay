@@ -6,9 +6,9 @@
 
   <h2>Fishing Guide</h2>
 
-  <img src="/_assets/img/staff-baldwin.jpg" alt="Rainbow Bay fishing guide Ken Baldwin">
+  <img src="/_assets/img/staff-baldwin.jpg" alt="Angry Eagle fishing guide Ken Baldwin">
 
-  	<p>Ken Baldwin joined the Rainbow Bay family in 2003, when he was invited to visit for a summer. Since then, Ken has been returning every year to share his years of fishing and outdoor knowledge with guests.
+  	<p>Ken Baldwin joined the Angry Eagle family in 2003, when he was invited to visit for a summer. Since then, Ken has been returning every year to share his years of fishing and outdoor knowledge with guests.
 
 	<p>“I can’t even remember when I started fishing,” said Ken, who has enjoyed the sport from a young age. “I remember my first four-pound bass, though. I caught it on a black and yellow wooden Hula Popper with feathers. It was before the days of 'catch and release,' so I proudly carried the fish on a stringer to my dad’s Rod and Gun Club. One of the members slipped a $5 bill into my pocket, wanting to hear how I caught it. I was 10 years old and felt like I had just been accepted into the bass fraternity.”</p>
 

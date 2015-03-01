@@ -11,7 +11,7 @@
 
         <h2>Galleries</h2>
 
-        <p>Experience Alaskan fishing firsthand with Angry Eagle Lodge & Outfitters’ collection of videos, photos, and articles.</p>
+        <h3>Experience Alaskan fishing firsthand with Angry Eagle Lodge & Outfitters’ collection of videos, photos, and articles.</h3>
 
     </div><!--inner-->
 
@@ -37,10 +37,10 @@
                         <li><a href="#filter" data-option-value=".printable">Printables</a></li>
                         <li><a href="#filter" data-option-value=".photo">Photos</a></li>
                         <li class="heading">Topic</li>
-                        <li><a href="#filter" data-option-value=".wildlife">Wildlife</a></li>
                         <li><a href="#filter" data-option-value=".fish">Fish</a></li>
-                        <li><a href="#filter" data-option-value=".scenery">Scenery</a></li>
-                        <li><a href="#filter" data-option-value=".hiking">Hiking</a></li>
+                        <li><a href="#filter" data-option-value=".wildlife">Wildlife</a></li>
+                        <li><a href="#filter" data-option-value=".scenery">Scenery</a></li>	
+						<!--<li><a href="#filter" data-option-value=".hiking">Hiking</a></li> -->
                     </ul>
                 
                 </div>
@@ -51,59 +51,77 @@
 
         <div id="container" class="clearfix">
                 
-            <article class="media-item photo wildlife">
-              
-                <span class="icon-photo"></span>
+          <article class="media-item photo fish">
+            
+            <span class="icon-photo"></span>
 
-                <h4>Wildlife Photos</h4>
-                            
-				<a class="fancybox" href="/_assets/img/galleries/brown-bear.jpg"><img src="/_assets/img/galleries/brown-bear.jpg" alt="brown bear on the bank of lake iliamna" /></a>
-				
-				<div class="hidden">
-					<a class="fancybox" href="/_assets/img/galleries/brown-bear-with-fish.jpg"><img src="/_assets/img/galleries/brown-bear-with-fish.jpg" alt="brown bear with fish on the bank of lake iliamna" /></a>
-					<a class="fancybox" href="/_assets/img/galleries/black-bear.jpg"><img src="/_assets/img/galleries/black-bear.jpg" alt="black bear on the bank of lake iliamna" /></a>
-					<a class="fancybox" href="/_assets/img/galleries/bear-with-cubs.jpg"><img src="/_assets/img/galleries/bear-with-cubs.jpg" alt="brown bear with cubs on the bank of lake iliamna" /></a>
-					<a class="fancybox" href="/_assets/img/galleries/mink.jpg"><img src="/_assets/img/galleries/mink.jpg" alt="pet mink on deck at resort" /></a>
-					<a class="fancybox" href="/_assets/img/galleries/moose.jpg"><img src="/_assets/img/galleries/moose.jpg" alt="moose in water at lake iliamna" /></a>
-					<a class="fancybox" href="/_assets/img/galleries/mink-on-deck.jpg"><img src="/_assets/img/galleries/mink-on-deck.jpg" alt="mink on deck at Angry Eagle Lodge" /></a>
-					<a class="fancybox" href="/_assets/img/galleries/eagle.jpg"><img src="/_assets/img/galleries/eagle.jpg" alt="eagle in flight" /></a>
-					<a class="fancybox" href="/_assets/img/galleries/moose-with-young.jpg"><img src="/_assets/img/galleries/moose-with-young.jpg" alt="mother moose and baby moose walking on bank" /></a>
-					<a class="fancybox" href="/_assets/img/galleries/swim-bear.jpg"><img src="/_assets/img/galleries/swim-bear.jpg" alt="brown bear after a swim" /></a>
-					<a class="fancybox" href="/_assets/img/galleries/swim-mink.jpg"><img src="/_assets/img/galleries/swim-mink.jpg" alt="mink swimming at Angry Eagle Lodge" /></a>
-					<a class="fancybox" href="/_assets/img/galleries/eagle-perch.jpg"><img src="/_assets/img/galleries/eagle-perch.jpg" alt="eagle on perch at Eagle's Peak Lodge" /></a>
-					<a class="fancybox" href="/_assets/img/galleries/bear-two-cubs.jpg"><img src="/_assets/img/galleries/bear-two-cubs.jpg" alt="brown bear with two cubs" /></a>
-					<a class="fancybox" href="/_assets/img/galleries/young-bears.jpg"><img src="/_assets/img/galleries/young-bears.jpg" alt="three young bears swimming" /></a>
-					<a class="fancybox" href="/_assets/img/galleries/black-bear-in-grass.jpg"><img src="/_assets/img/galleries/black-bear-in-grass.jpg" alt="black bear standing in grass" /></a>
-					<a class="fancybox" href="/_assets/img/galleries/fox.jpg"><img src="/_assets/img/galleries/fox.jpg" alt="fox running across foreground" /></a>
-					<a class="fancybox" href="/_assets/img/galleries/bears-playing.jpg"><img src="/_assets/img/galleries/bears-playing.jpg" alt="bears playing in water at Pedro Bay" /></a>
-				</div>
+            <h4>Chum Salmon <br />Photos</h4>
 
+            <a class="fancybox" href="/_assets/img/galleries/chum-salmon-high.jpg"><img src="/_assets/img/galleries/chum-salmon-high.jpg" alt="chum salmon" /></a>
 
-            </article><!--media-item-->
+			<?php include($_SERVER['DOCUMENT_ROOT'].'/lightboxes/galleries/chum-salmon.php'); //chum salmon gallery?>
 
-            <article class="media-item video">
-              
-              <span class="icon-video"></span>
+          </article><!--media-item-->
 
-              <h4>Jet sledding down the Iliamna River</h4>
+          <article class="media-item video">
+            
+            <span class="icon-video"></span>
 
-              <p>The Iliamna River’s shallow areas are home to impressive rainbow trout and Arctic char!</p>
+            <h4>Jet sledding down the Iliamna River</h4>
 
-              <a href="/lightboxes/video/jet-sleding" class="video-link fancybox fancybox.iframe"><span class="icon-play"></span><img src="/_assets/img/video-jet-sleding.jpg" alt="Jet sleding down the Illiamna River video"></a>
+            <p>The Iliamna River’s shallow areas are home to impressive rainbow trout and Arctic char!</p>
 
-            </article><!--media-item-->
+            <a href="/lightboxes/video/jet-sleding" class="video-link fancybox fancybox.iframe"><span class="icon-play"></span><img src="/_assets/img/video-jet-sleding.jpg" alt="Jet sleding down the Illiamna River video"></a>
 
-            <article class="media-item video">
-              
-              <span class="icon-video"></span>
+          </article><!--media-item-->
 
-              <h4>Sockeye <br />Spawning</h4>
+          <article class="media-item video">
+            
+            <span class="icon-video"></span>
 
-              <p>Experience the rush of the sockeye salmon run in southwest Alaska from July to September!</p>
+            <h4>Sockeye <br />Spawning</h4>
 
-              <a href="/lightboxes/video/sockeye" class="video-link fancybox fancybox.iframe"><span class="icon-play"></span><img src="/_assets/img/video-sockeye.jpg" alt="Sockeye spawning in the Illiamna River video"></a>
+            <p>Experience the rush of the sockeye salmon run in southwest Alaska from July to September!</p>
 
-            </article><!--media-item-->
+            <a href="/lightboxes/video/sockeye" class="video-link fancybox fancybox.iframe"><span class="icon-play"></span><img src="/_assets/img/video-sockeye.jpg" alt="Sockeye spawning in the Illiamna River video"></a>
+
+          </article><!--media-item-->
+
+          <article class="media-item photo fish">
+            
+            <span class="icon-photo"></span>
+
+            <h4>Arctic Char <br />Photos</h4>
+
+            <a class="fancybox" href="/_assets/img/galleries/arctic-char.jpg"><img src="/_assets/img/galleries/arctic-char.jpg" alt="arctic char shown in shallow water" /></a>
+            
+			<?php include($_SERVER['DOCUMENT_ROOT'].'/lightboxes/galleries/arctic-char.php'); //artcic char gallery?>
+
+          </article><!--media-item-->
+
+          <article class="media-item photo wildlife">
+            
+            <span class="icon-photo"></span>
+
+            <h4>Wildlife <br />Photos</h4>
+
+            <a class="fancybox" href="/_assets/img/galleries/brown-bear.jpg"><img src="/_assets/img/galleries/brown-bear.jpg" alt="brown bear on the bank of lake iliamna" /></a>
+            
+			<?php include($_SERVER['DOCUMENT_ROOT'].'/lightboxes/galleries/wildlife.php'); //alaskan wildlife gallery?>
+
+          </article><!--media-item-->
+
+          <article class="media-item photo fish" id="king-salmon">
+            
+            <span class="icon-photo"></span>
+
+            <h4>King Salmon <br />Photos</h4>
+
+            <a class="fancybox" href="/_assets/img/galleries/king-salmon-grass.jpg"><img src="/_assets/img/galleries/king-salmon-grass.jpg" alt="king salmon" /></a>
+            
+			<?php include($_SERVER['DOCUMENT_ROOT'].'/lightboxes/galleries/king-salmon.php'); //king salmon gallery?>
+
+          </article><!--media-item-->
 
             <article class="media-item video">
               
@@ -116,6 +134,54 @@
               <a href="/lightboxes/video/bear" class="video-link fancybox fancybox.iframe"><span class="icon-play"></span><img src="/_assets/img/video-bear.jpg" alt="Fishing with Brown Bears Katami National Park"></a>
 
             </article><!--media-item-->
+
+          <article class="media-item photo scenery">
+            
+            <span class="icon-photo"></span>
+
+            <h4>Lake Clark <br />Photos</h4>
+
+            <a class="fancybox" href="/_assets/img/galleries/lake-clark-fishing.jpg"><img src="/_assets/img/galleries/lake-clark-fishing.jpg" alt="Lake Clark" /></a>
+            
+			      <?php include($_SERVER['DOCUMENT_ROOT'].'/lightboxes/galleries/lake-clark.php'); //lake clark gallery?>
+
+          </article><!--media-item-->
+
+          <article class="media-item photo fish">
+            
+            <span class="icon-photo"></span>
+
+            <h4>lake Trout <br />Photos</h4>
+
+            <a class="fancybox" href="/_assets/img/galleries/lake-trout-rocks.jpg"><img src="/_assets/img/galleries/lake-trout-rocks.jpg" alt="lake trout" /></a>
+            
+			      <?php include($_SERVER['DOCUMENT_ROOT'].'/lightboxes/galleries/lake-trout.php'); //lake trout gallery?>
+
+          </article><!--media-item-->
+
+          <article class="media-item photo fish">
+            
+            <span class="icon-photo"></span>
+
+            <h4>Northern Pike Photos</h4>
+
+            <a class="fancybox" href="/_assets/img/galleries/northern-pike-huge.jpg"><img src="/_assets/img/galleries/northern-pike-huge.jpg" alt="northern pike" /></a>
+            
+            <?php include($_SERVER['DOCUMENT_ROOT'].'/lightboxes/galleries/northern-pike.php'); //northern pike gallery?>
+
+          </article><!--media-item-->
+
+          <article class="media-item photo fish">
+            
+            <span class="icon-photo"></span>
+
+            <h4>Pink Salmon <br />Photos</h4>
+
+            <a class="fancybox" href="/_assets/img/galleries/pink-salmon-boy.jpg"><img src="/_assets/img/galleries/pink-salmon-boy.jpg" alt="pink salmon" /></a>
+            
+            <?php include($_SERVER['DOCUMENT_ROOT'].'/lightboxes/galleries/pink-salmon.php'); //pink salmon gallery?>
+
+          </article><!--media-item-->
 
             <article class="media-item video">
               
@@ -140,6 +206,30 @@
               <a href="/lightboxes/video/fishing" class="video-link fancybox fancybox.iframe"><span class="icon-play"></span><img src="/_assets/img/video-fishing.jpg" alt="King Salmon fishing on the Nushagak River in western Alaska"></a>
 
             </article><!--media-item-->
+
+          <article class="media-item photo fish">
+            
+            <span class="icon-photo"></span>
+
+            <h4>Rainbow Trout Photos</h4>
+
+            <a class="fancybox" href="/_assets/img/galleries/rainbow-trout-closeup.jpg"><img src="/_assets/img/galleries/rainbow-trout-closeup.jpg" alt="rainbow trout" /></a>
+            
+            <?php include($_SERVER['DOCUMENT_ROOT'].'/lightboxes/galleries/rainbow-trout.php'); //rainbow trout gallery?>
+
+          </article><!--media-item-->
+
+          <article class="media-item photo fish">
+            
+            <span class="icon-photo"></span>
+
+            <h4>Sliver Salmon Photos</h4>
+
+            <a class="fancybox" href="/_assets/img/galleries/silver-salmon-red.jpg"><img src="/_assets/img/galleries/silver-salmon-red.jpg" alt="silver salmon" /></a>
+            
+            <?php include($_SERVER['DOCUMENT_ROOT'].'/lightboxes/galleries/silver-salmon.php'); //silver salmon gallery?>
+
+          </article><!--media-item-->
 
             <article class="media-item video">
               
@@ -180,6 +270,18 @@
               <a href="/downloads/brochure.pdf" target="_blank"><img src="/_assets/img/media-brochure.jpg" alt="2015 Angry Eagle printable brochure"></a>
 
             </article><!--media-item-->
+
+          <article class="media-item photo fish">
+            
+            <span class="icon-photo"></span>
+
+            <h4>Sockeye Salmon Photos</h4>
+
+            <a class="fancybox" href="/_assets/img/galleries/sockeye-salmon-woman.jpg"><img src="/_assets/img/galleries/sockeye-salmon-woman.jpg" alt="sockeye salmon" /></a>
+            
+            <?php include($_SERVER['DOCUMENT_ROOT'].'/lightboxes/galleries/sockeye-salmon.php'); //sockeye salmon gallery?>
+
+          </article><!--media-item-->
 
             <article class="media-item printable">
               

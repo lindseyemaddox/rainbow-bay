@@ -10,7 +10,7 @@
 
 		<h2>Cast Us a Line</h2>
 
-		<p class="alt">Contact us to make your reservations, ask questions, and learn more about Angry Eagle Lodge & Outfitters. Or, <a href="/downloads/contact-form.pdf">download</a> a contact form to send via email, fax, or mail.</p>
+		<h3 class="alt" style="line-height:1.25em;">Contact us to make your reservations, ask questions, and learn more about Angry Eagle Lodge & Outfitters. Or, <a href="/downloads/contact-form.pdf">download</a> a contact form to send via email, fax, or mail.</h3>
 
 		<div class="form">
 	    
@@ -45,7 +45,7 @@
             $phone = $_REQUEST['phone'] ;
             $desc = $_REQUEST['desc'] ;
             if (isset($_POST['submit'])) {
-              $to = 'lindseyemaddox@gmail.com';
+              $to = 'info@angryeagle.com';
               $headers = "From: " . strip_tags($_POST['email']) . "\r\n";
               $headers .= "Reply-To: ". strip_tags($_POST['email']) . "\r\n";
               $headers .= "MIME-Version: 1.0\r\n";
@@ -74,12 +74,12 @@
                 <label for='name'>Name</label><input type='text' required name='name' id='name' size='10' placeholder='(required)'>
                 <label for='phone'>Phone</label><input type='text' required name='phone' id='phone' size='10' placeholder='(required)'>
                 <label for='email'>Email</label><input type='text' required name='email' id='email' size='10' placeholder='(required)'>
+                <label for='opt-in' id='opt-in'>I'd like to receive the e-newsletter.</label>
+                <input type='checkbox' value='1' id='opt-in' name='opt-in[]' checked />
           </div>
           <div class='formright'>
                 <label for='desc'>How May We Help You?</label>
                 <textarea name='desc' id='desc' size='10'></textarea>
-                <label for='opt-in' id='opt-in'>I'd like to receive the e-newsletter.</label>
-                <input type='checkbox' value='1' id='opt-in' name='opt-in[]' checked />
                 <div class='g-recaptcha' data-sitekey='6LfwmwITAAAAAH8SP9JGnFP15qdRQM5OtPX0ubVZ'></div>
                 <button class='submit' type='submit' name='submit'>Send</button>
           </div>

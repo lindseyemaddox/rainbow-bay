@@ -10,11 +10,11 @@ $('#faq p.faquestion').click(function(){
   });
 }
 
-function firstLoad() {
+function firstLoad2() {
 	initVars();
 	expandfaq();
 }
 
 $(function() {
-	firstLoad();
+	firstLoad2();
 });

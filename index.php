@@ -36,7 +36,7 @@
             		<div class="tag">
             			<p>Formerly Known As <span>Rainbow Bay Lodge</span></p>
             		</div>
-					<img src="/_assets/img/slide-change.jpg" alt="Rainbow Bay is now Angry Eagle Lodge and Outfitters" />
+					<img src="/_assets/img/slide-change.jpg" alt="Rainbow Bay is now Angry Eagle Lodge & Outfitters" />
 				</li>
 
             	<li>
@@ -64,21 +64,21 @@
             		<div class="tag">
             			<p>Ask About Our <span>Curbside Pickup</span></p>
             		</div>
-  	    	    	<img src="/_assets/img/slide-curbside.jpg" alt="Floater plane picking up fishermen at Rainbow Bay" />
+  	    	    	<img src="/_assets/img/slide-curbside.jpg" alt="Floater plane picking up fishermen at Angry Eagle" />
   	    		</li>
 
             	<li>
             		<div class="tag">
             			<p>Our Exercise Room Features <span>Powerlifting</span></p>
             		</div>
-  	    	    	<img src="/_assets/img/slide-powerlifting.jpg" alt="A young Rainbow Bay fisherman holding his catch" />
+  	    	    	<img src="/_assets/img/slide-powerlifting.jpg" alt="A young Angry Eagle fisherman holding his catch" />
   	    		</li>
 
             	<li>
             		<div class="tag">
             			<p>No Need to Order <span>Room Service</span></p>
             		</div>
-  	    	    	<img src="/_assets/img/slide-room.jpg" alt="Interior shot of the lodge at Rainbow Bay" />
+  	    	    	<img src="/_assets/img/slide-room.jpg" alt="Interior shot of the lodge at Angry Eagle" />
   	    		</li>
 
           	</ul><!--slides-->
@@ -107,7 +107,7 @@
 
 		<h1>Your Adventure Starts Here</h1>
 
-		<h3>Angry Eagle Lodge &amp; Outfitters is a full-service Alaskan fishing lodge in the heart of Southwest Alaska’s Bristol Bay. For the past 30 years, we’ve prided ourselves on offering the fishing adventures of a lifetime. Our knowledgeable guides offer assistance and insight to anglers of all experience levels. And our large fleet of planes, boats, and ATVs means you’ll always have a great place to cast a line regardless of the weather.</h3>
+		<h3>Angry Eagle Lodge &amp; Outfitters operates two full-service Alaskan fishing lodges in the heart of Southwest Alaska’s Bristol Bay region. For the past 30 years, we’ve prided ourselves on offering the fishing adventures of a lifetime. Our knowledgeable guides offer assistance and insight to fly and spinning anglers of all experience levels. And our large fleet of planes, boats, and ATVs means you’ll always have a great place to cast a line regardless of the weather.</h3>
 
 	</div><!--inner-->
 
@@ -171,9 +171,42 @@
 <section id="social">
   
   <div class="inner">
+	  
+	<div class="container">
     
-    <div class="facebook"><div class="fb-like-box" data-href="https://www.facebook.com/pages/Rainbow-Bay-Resort/110232285696450" data-width="228" data-height="600" data-colorscheme="light" data-show-faces="false" data-header="false" data-stream="true" data-show-border="false"></div></div><!--facebook-->
+	  <div class="facebook"><div class="fb-like-box" data-href="https://www.facebook.com/pages/Rainbow-Bay-Resort/110232285696450" data-width="228" data-height="600" data-colorscheme="light" data-show-faces="false" data-header="false" data-stream="true" data-show-border="false"></div></div><!--facebook-->
 
+	  <div class="instagram">
+		  
+		  <!-- <div id="instafeed"></div> -->
+
+      <div class="featured-fisherman">
+        
+        <img src="/_assets/img/featured-fisherman.jpg" alt="Angry Eagle's Featured Fisherman">
+
+        <div class="name">
+          <h4>Firstname M. Lastname</h4>
+          <p>Featured Fisherman</p>
+        </div><!--name-->
+
+        <h6><span>Where do you live?</span> I live in Honolulu, Hawaii, with my husbandand children, where I work as  a private investigator.</h6>
+
+        <h6><span>When did you start fishing?</span> My grandfather inspired my love of fishing when I was just 5 years old.</h6>
+
+        <h6><span>What’s your favorite fish to catch at Angry Eagle?</span> I enjoy catching them all, but rainbows and grayling are my favorite.</h6>
+
+        <h6><span>What’s your best catch?</span> I caught a 50-lb. king salmon on a fly rod at Angry Eagle last summer.</h6>
+
+        <h6><span>Where else do you fish?</span> Lake El Salto, Mexico; Rio Negro, Brazil; and Costa Rica.</h6>
+
+        <h6><span>Why do you love fishing?</span> I love being in nature. My focus is to catch fish and handle them with the utmost care. It’s a zen experience.</h6>
+
+      </div><!--featured-fisherman-->
+		  
+	  </div><!--instagram-->
+	      
+	</div><!--container-->
+    
     <div class="bottom">
       
       <a href="https://www.facebook.com/pages/Rainbow-Bay-Resort/110232285696450" target="_blank"><img src="/_assets/img/facebook.png" alt="Facebook logo"></a>
@@ -222,7 +255,7 @@
 
       <p>Jim Kern discusses fishing in Alaska with Gayne C. Young, editor of Dallas Safari Club's GameTrails Online.</p>
 
-      <a href="/lightboxes/video/interview" class="video-link fancybox fancybox.iframe"><span class="icon-play"></span><img src="/_assets/img/video-interview.jpg" alt="Dallas Safari Club Game Trails Online Editor Gayne C. Young talks to Jim Kern of Rainbow Bay Resort about fishing in Alaska."></a>
+      <a href="/lightboxes/video/interview" class="video-link fancybox fancybox.iframe"><span class="icon-play"></span><img src="/_assets/img/video-interview.jpg" alt="Dallas Safari Club Game Trails Online Editor Gayne C. Young talks to Jim Kern of Angry Eagle Lodge & Outfitters about fishing in Alaska."></a>
 
     </article><!--media-item-->
 
@@ -230,7 +263,7 @@
       
       <span class="icon-video"></span>
 
-      <h4>Jet sleding on the Illiamna</h4>
+      <h4>Jet sledding on the Iliamna</h4>
 
       <p>The Iliamna River’s shallow areas are home to impressive rainbow trout and Arctic char!</p>
 
@@ -269,6 +302,18 @@
   });
 </script>
 
+
+
+<script type="text/javascript" src="/_assets/js/instafeed.js"></script>
+
+<script type="text/javascript">
+    var userFeed = new Instafeed({
+        get: 'user',
+        userId: 1724220263,
+        accessToken: '1724220263.9fa67f7.42af906db54b441daa0cfa20bd367158'
+    });
+    userFeed.run();
+</script>
 
 <script src="/_assets/js/jquery.flexslider.js"></script>
 
