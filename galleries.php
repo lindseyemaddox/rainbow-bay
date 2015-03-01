@@ -40,7 +40,7 @@
                         <li><a href="#filter" data-option-value=".fish">Fish</a></li>
                         <li><a href="#filter" data-option-value=".wildlife">Wildlife</a></li>
                         <li><a href="#filter" data-option-value=".scenery">Scenery</a></li>	
-						<!--<li><a href="#filter" data-option-value=".hiking">Hiking</a></li> -->
+						            <!--<li><a href="#filter" data-option-value=".hiking">Hiking</a></li> -->
                     </ul>
                 
                 </div>
@@ -55,11 +55,23 @@
             
             <span class="icon-photo"></span>
 
-            <h4>Chum Salmon <br />Photos</h4>
+            <h4>Rainbow Trout Photos</h4>
 
-            <a class="fancybox" href="/_assets/img/galleries/chum-salmon-high.jpg"><img src="/_assets/img/galleries/chum-salmon-high.jpg" alt="chum salmon" /></a>
+            <a class="fancybox" href="/_assets/img/galleries/rainbow-trout-closeup.jpg"><img src="/_assets/img/galleries/rainbow-trout-closeup.jpg" alt="rainbow trout" /></a>
+            
+            <?php include($_SERVER['DOCUMENT_ROOT'].'/lightboxes/galleries/rainbow-trout.php'); //rainbow trout gallery?>
 
-			<?php include($_SERVER['DOCUMENT_ROOT'].'/lightboxes/galleries/chum-salmon.php'); //chum salmon gallery?>
+          </article><!--media-item-->
+
+          <article class="media-item photo fish" id="king-salmon">
+            
+            <span class="icon-photo"></span>
+
+            <h4>King Salmon <br />Photos</h4>
+
+            <a class="fancybox" href="/_assets/img/galleries/king-salmon-grass.jpg"><img src="/_assets/img/galleries/king-salmon-grass.jpg" alt="king salmon" /></a>
+            
+            <?php include($_SERVER['DOCUMENT_ROOT'].'/lightboxes/galleries/king-salmon.php'); //king salmon gallery?>
 
           </article><!--media-item-->
 
@@ -75,6 +87,30 @@
 
           </article><!--media-item-->
 
+          <article class="media-item photo fish">
+            
+            <span class="icon-photo"></span>
+
+            <h4>Arctic Char <br />Photos</h4>
+
+            <a class="fancybox" href="/_assets/img/galleries/arctic-char-lake.jpg"><img src="/_assets/img/galleries/arctic-char-lake.jpg" alt="arctic char shown in shallow water" /></a>
+            
+      <?php include($_SERVER['DOCUMENT_ROOT'].'/lightboxes/galleries/arctic-char.php'); //artcic char gallery?>
+
+          </article><!--media-item-->
+
+          <article class="media-item photo fish">
+            
+            <span class="icon-photo"></span>
+
+            <h4>Sliver Salmon Photos</h4>
+
+            <a class="fancybox" href="/_assets/img/galleries/silver-salmon-red.jpg"><img src="/_assets/img/galleries/silver-salmon-red.jpg" alt="silver salmon" /></a>
+            
+            <?php include($_SERVER['DOCUMENT_ROOT'].'/lightboxes/galleries/silver-salmon.php'); //silver salmon gallery?>
+
+          </article><!--media-item-->
+
           <article class="media-item video">
             
             <span class="icon-video"></span>
@@ -84,18 +120,6 @@
             <p>Experience the rush of the sockeye salmon run in southwest Alaska from July to September!</p>
 
             <a href="/lightboxes/video/sockeye" class="video-link fancybox fancybox.iframe"><span class="icon-play"></span><img src="/_assets/img/video-sockeye.jpg" alt="Sockeye spawning in the Illiamna River video"></a>
-
-          </article><!--media-item-->
-
-          <article class="media-item photo fish">
-            
-            <span class="icon-photo"></span>
-
-            <h4>Arctic Char <br />Photos</h4>
-
-            <a class="fancybox" href="/_assets/img/galleries/arctic-char.jpg"><img src="/_assets/img/galleries/arctic-char.jpg" alt="arctic char shown in shallow water" /></a>
-            
-			<?php include($_SERVER['DOCUMENT_ROOT'].'/lightboxes/galleries/arctic-char.php'); //artcic char gallery?>
 
           </article><!--media-item-->
 
@@ -111,17 +135,18 @@
 
           </article><!--media-item-->
 
-          <article class="media-item photo fish" id="king-salmon">
+          <article class="media-item photo fish">
             
             <span class="icon-photo"></span>
 
-            <h4>King Salmon <br />Photos</h4>
+            <h4>Grayling <br />Photos</h4>
 
-            <a class="fancybox" href="/_assets/img/galleries/king-salmon-grass.jpg"><img src="/_assets/img/galleries/king-salmon-grass.jpg" alt="king salmon" /></a>
+            <a class="fancybox" href="/_assets/img/galleries/grayling.jpg"><img src="/_assets/img/galleries/grayling.jpg" alt="grayling shown in shallow water" /></a>
             
-			<?php include($_SERVER['DOCUMENT_ROOT'].'/lightboxes/galleries/king-salmon.php'); //king salmon gallery?>
+      <?php include($_SERVER['DOCUMENT_ROOT'].'/lightboxes/galleries/grayling.php'); //grayling gallery?>
 
           </article><!--media-item-->
+
 
             <article class="media-item video">
               
@@ -151,35 +176,11 @@
             
             <span class="icon-photo"></span>
 
-            <h4>lake Trout <br />Photos</h4>
+            <h4>Sockeye Salmon Photos</h4>
 
-            <a class="fancybox" href="/_assets/img/galleries/lake-trout-rocks.jpg"><img src="/_assets/img/galleries/lake-trout-rocks.jpg" alt="lake trout" /></a>
+            <a class="fancybox" href="/_assets/img/galleries/sockeye-salmon-woman.jpg"><img src="/_assets/img/galleries/sockeye-salmon-woman.jpg" alt="sockeye salmon" /></a>
             
-			      <?php include($_SERVER['DOCUMENT_ROOT'].'/lightboxes/galleries/lake-trout.php'); //lake trout gallery?>
-
-          </article><!--media-item-->
-
-          <article class="media-item photo fish">
-            
-            <span class="icon-photo"></span>
-
-            <h4>Northern Pike Photos</h4>
-
-            <a class="fancybox" href="/_assets/img/galleries/northern-pike-huge.jpg"><img src="/_assets/img/galleries/northern-pike-huge.jpg" alt="northern pike" /></a>
-            
-            <?php include($_SERVER['DOCUMENT_ROOT'].'/lightboxes/galleries/northern-pike.php'); //northern pike gallery?>
-
-          </article><!--media-item-->
-
-          <article class="media-item photo fish">
-            
-            <span class="icon-photo"></span>
-
-            <h4>Pink Salmon <br />Photos</h4>
-
-            <a class="fancybox" href="/_assets/img/galleries/pink-salmon-boy.jpg"><img src="/_assets/img/galleries/pink-salmon-boy.jpg" alt="pink salmon" /></a>
-            
-            <?php include($_SERVER['DOCUMENT_ROOT'].'/lightboxes/galleries/pink-salmon.php'); //pink salmon gallery?>
+            <?php include($_SERVER['DOCUMENT_ROOT'].'/lightboxes/galleries/sockeye-salmon.php'); //sockeye salmon gallery?>
 
           </article><!--media-item-->
 
@@ -207,43 +208,7 @@
 
             </article><!--media-item-->
 
-          <article class="media-item photo fish">
-            
-            <span class="icon-photo"></span>
-
-            <h4>Rainbow Trout Photos</h4>
-
-            <a class="fancybox" href="/_assets/img/galleries/rainbow-trout-closeup.jpg"><img src="/_assets/img/galleries/rainbow-trout-closeup.jpg" alt="rainbow trout" /></a>
-            
-            <?php include($_SERVER['DOCUMENT_ROOT'].'/lightboxes/galleries/rainbow-trout.php'); //rainbow trout gallery?>
-
-          </article><!--media-item-->
-
-          <article class="media-item photo fish">
-            
-            <span class="icon-photo"></span>
-
-            <h4>Sliver Salmon Photos</h4>
-
-            <a class="fancybox" href="/_assets/img/galleries/silver-salmon-red.jpg"><img src="/_assets/img/galleries/silver-salmon-red.jpg" alt="silver salmon" /></a>
-            
-            <?php include($_SERVER['DOCUMENT_ROOT'].'/lightboxes/galleries/silver-salmon.php'); //silver salmon gallery?>
-
-          </article><!--media-item-->
-
-            <article class="media-item video">
-              
-              <span class="icon-video"></span>
-
-              <h4>Young Brown Bear Fishing</h4>
-
-              <p>Learn a thing or two about fishing from this self-taught pro.</p>
-
-              <a href="/lightboxes/video/fishing-bear" class="video-link fancybox fancybox.iframe"><span class="icon-play"></span><img src="/_assets/img/video-fishing-bear.jpg" alt=""></a>
-
-            </article><!--media-item-->
-
-            <article class="media-item article">
+             <article class="media-item article">
               
               <span class="icon-article"></span>
 
@@ -258,6 +223,54 @@
               <a href="/lightboxes/articles/igors-article.pdf" class="readmore" target="_blank">read more</a>
 
             </article><!--media-item-->
+
+         <article class="media-item photo fish">
+            
+            <span class="icon-photo"></span>
+
+            <h4>Northern Pike Photos</h4>
+
+            <a class="fancybox" href="/_assets/img/galleries/northern-pike-huge.jpg"><img src="/_assets/img/galleries/northern-pike-huge.jpg" alt="northern pike" /></a>
+            
+            <?php include($_SERVER['DOCUMENT_ROOT'].'/lightboxes/galleries/northern-pike.php'); //northern pike gallery?>
+
+          </article><!--media-item-->
+
+          <article class="media-item photo fish">
+            
+            <span class="icon-photo"></span>
+
+            <h4>Chum Salmon <br />Photos</h4>
+
+            <a class="fancybox" href="/_assets/img/galleries/chum-salmon-high.jpg"><img src="/_assets/img/galleries/chum-salmon-high.jpg" alt="chum salmon" /></a>
+
+            <?php include($_SERVER['DOCUMENT_ROOT'].'/lightboxes/galleries/chum-salmon.php'); //chum salmon gallery?>
+
+          </article><!--media-item-->
+
+             <article class="media-item video">
+              
+              <span class="icon-video"></span>
+
+              <h4>Young Brown Bear Fishing</h4>
+
+              <p>Learn a thing or two about fishing from this self-taught pro.</p>
+
+              <a href="/lightboxes/video/fishing-bear" class="video-link fancybox fancybox.iframe"><span class="icon-play"></span><img src="/_assets/img/video-fishing-bear.jpg" alt=""></a>
+
+            </article><!--media-item-->
+
+         <article class="media-item photo fish">
+            
+            <span class="icon-photo"></span>
+
+            <h4>Pink Salmon <br />Photos</h4>
+
+            <a class="fancybox" href="/_assets/img/galleries/pink-salmon-boy.jpg"><img src="/_assets/img/galleries/pink-salmon-boy.jpg" alt="pink salmon" /></a>
+            
+            <?php include($_SERVER['DOCUMENT_ROOT'].'/lightboxes/galleries/pink-salmon.php'); //pink salmon gallery?>
+
+          </article><!--media-item-->
 
             <article class="media-item printable">
               
@@ -275,16 +288,16 @@
             
             <span class="icon-photo"></span>
 
-            <h4>Sockeye Salmon Photos</h4>
+            <h4>lake Trout <br />Photos</h4>
 
-            <a class="fancybox" href="/_assets/img/galleries/sockeye-salmon-woman.jpg"><img src="/_assets/img/galleries/sockeye-salmon-woman.jpg" alt="sockeye salmon" /></a>
+            <a class="fancybox" href="/_assets/img/galleries/lake-trout-rocks.jpg"><img src="/_assets/img/galleries/lake-trout-rocks.jpg" alt="lake trout" /></a>
             
-            <?php include($_SERVER['DOCUMENT_ROOT'].'/lightboxes/galleries/sockeye-salmon.php'); //sockeye salmon gallery?>
+            <?php include($_SERVER['DOCUMENT_ROOT'].'/lightboxes/galleries/lake-trout.php'); //lake trout gallery?>
 
           </article><!--media-item-->
-
+             
             <article class="media-item printable">
-              
+
               <span class="icon-news"></span>
 
               <h4>Contact <br/>Form</h4>

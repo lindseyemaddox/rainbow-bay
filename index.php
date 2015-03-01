@@ -259,15 +259,17 @@
 
     </article><!--media-item-->
 
-    <article class="media-item video">
+    <article class="media-item photos">
       
       <span class="icon-video"></span>
 
-      <h4>Jet sledding on the Iliamna</h4>
+      <h4>Rainbow Trout Photos</h4>
 
-      <p>The Iliamna River’s shallow areas are home to impressive rainbow trout and Arctic char!</p>
+      <p>click image to view gallery</p>
 
-      <a href="/lightboxes/video/jet-sleding" class="video-link fancybox fancybox.iframe"><span class="icon-play"></span><img src="/_assets/img/video-jet-sleding.jpg" alt="Jet sleding down the Illiamna River video"></a>
+      <a class="fancybox" href="/_assets/img/galleries/rainbow-trout-closeup.jpg"><img src="/_assets/img/galleries/rainbow-trout-closeup.jpg" alt="rainbow trout" /></a>
+      
+      <?php include($_SERVER['DOCUMENT_ROOT'].'/lightboxes/galleries/rainbow-trout.php'); //rainbow trout gallery?>
 
     </article><!--media-item-->
 
@@ -319,7 +321,11 @@
 
 <script type="text/javascript">
   $(document).ready(function() {
-    $('.fancybox').fancybox();
+    $(".fancybox")
+        .attr('rel', 'gallery')
+        .fancybox({
+            padding : 0
+        });
   });
 </script>
 <script src="/_assets/js/jquery.fancybox.js"></script>

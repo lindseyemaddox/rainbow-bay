@@ -2141,7 +2141,7 @@ section#species div#slider-cont ul#filters li {
 section#species article {
   width: 17.5%;
   border: 1px solid #504e3c;
-  min-height: 214px;
+  min-height: 225px;
   margin: 22px 1% 0;
 }
 section#species article div.fish {
@@ -2588,7 +2588,7 @@ section#social div.container div.instagram div.featured-fisherman div.name {
   padding: 18px 0px 0;
   width: 60%;
   position: absolute;
-  top: 30%;
+  top: 200px;
   right: 40px;
 }
 section#social div.container div.instagram div.featured-fisherman div.name h4 {
@@ -3337,11 +3337,6 @@ section.staff a.staff-item img {
 /*================  RESPONSIVE STYLES  ================*/
 /*====================================================*/
 /*************RESPONSIVE CODE*****************/
-@media screen and (max-width: 1400px) {
-  section#social div.container div.instagram div.featured-fisherman div.name {
-    top: 25%;
-  }
-}
 @media screen and (max-width: 1300px) {
   html {
     font-size: 17.5px;
@@ -3350,10 +3345,7 @@ section.staff a.staff-item img {
     margin-right: 25px;
   }
   section#social div.container div.instagram div.featured-fisherman div.name {
-    right: 5%;
-    width: 90%;
-    padding-top: 5px;
-    top: 180px;
+    top: 240px;
   }
   section#social div.container div.instagram div.featured-fisherman div.name p {
     padding-bottom: 10px;
@@ -3644,6 +3636,13 @@ section.staff a.staff-item img {
   section#species article div.fish h5 {
     font-size: 1.43em;
   }
+  .left.fisherman {
+    width: 70%;
+  }
+  .right.table {
+    width: 100%;
+    margin-left: 0;
+  }
 }
 @media screen and (max-width: 800px) {
   html {
@@ -3838,9 +3837,6 @@ section.staff a.staff-item img {
   }
   div#product-reveal {
     min-height: 620px;
-  }
-  .left.fisherman {
-    width: 70%;
   }
   table.dark td {
     text-indent: 0;
