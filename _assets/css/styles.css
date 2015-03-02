@@ -581,6 +581,7 @@ h3.alt {
 h3.alt a {
   color: #fff;
   text-decoration: none;
+  font-weight: bold;
 }
 h4 {
   color: #fff;
@@ -2213,6 +2214,9 @@ section#contact {
 section#contact h2 {
   color: #fff;
 }
+div.form {
+  margin-top: 30px;
+}
 div.form div.formleft {
   width: 46%;
   margin-right: 7%;
@@ -2269,6 +2273,9 @@ label {
   line-height: 1.3em;
   display: block;
   text-transform: uppercase;
+}
+label a {
+  color: #504e3c;
 }
 input {
   width: 96%;
@@ -2979,7 +2986,7 @@ ul.itinerary li div.icons {
 ul.itinerary li div.icons div.clock-icon {
   border-bottom: 1px solid #b8c6bc;
   font-size: 5em;
-  padding: 33px 25% 13px;
+  padding: 41px 25%;
 }
 ul.itinerary li div.icons div.day-icon {
   font-size: 5em;

@@ -13,10 +13,15 @@
 		<h3 class="alt" style="line-height:1.25em;">Contact us to make your reservations, ask questions, and learn more about Angry Eagle Lodge & Outfitters. Or, <a href="/downloads/contact-form.pdf">download</a> a contact form to send via email, fax, or mail.</h3>
 
 		<div class="form">
-	    
-	    
 
-        <?php	        
+
+
+        <?php
+					    $year = date('Y');
+					    $today = date('Y-m-d H:i:s');
+					    $startDate = date('Y-m-d H:i:s', strtotime("June 1, '$year' 12:01am"));
+					    $endDate = date('Y-m-d H:i:s', strtotime("September 30, '$year' 12:00pm"));
+
 			$capSecret = '6LfwmwITAAAAAObS8RQRJ_jUWtW4tUt31ZQdBMOi'; // required
 			$capResponse = ($_REQUEST['g-recaptcha-response']) ? $_REQUEST['g-recaptcha-response'] : false; //required (value from google)
 			$userIP = $_SERVER['REMOTE_ADDR']; //optional // &remoteip=$userIP
@@ -34,17 +39,14 @@
 			  die('Error: "' . curl_error($curl) . '" - Code: ' . curl_errno($curl));
 			}
 			$checkResponse = strpos($response, 'success');
-			if($checkResponse !== false) {
-				echo"<div style='padding: 60px 20px; color: #fff; text-align: center;'><label> Thank you for using our form. We will be in contact with you as soon as possible.</label></div>";
-			}
-			//success response from google	        
-				        
-	        
+			//success response from google
+
+
             $name = $_REQUEST['name'] ;
             $email = $_REQUEST['email'] ;
             $phone = $_REQUEST['phone'] ;
             $desc = $_REQUEST['desc'] ;
-            if (isset($_POST['submit'])) {
+            if (isset($_POST['submit']) && $checkResponse !== false) {
               $to = 'info@angryeagle.com';
               $headers = "From: " . strip_tags($_POST['email']) . "\r\n";
               $headers .= "Reply-To: ". strip_tags($_POST['email']) . "\r\n";
@@ -65,7 +67,17 @@
         mail($to, $subject, $message, $headers);
           curl_close($curl);
 
-        echo "<div style='padding: 60px 20px; color: #fff; text-align: center;'><label> Thank you for using our form. We will be in contact with you as soon as possible.</label></div>";
+        echo "<div style='padding: 60px 20px; color: #fff; text-align: center;'><p> Thank you for using our form. We will be in contact with you as soon as possible.</p> <p>In the meantime, have a look at our <a style='text-align:center;color:#fff;text-decoration:none;' href='/galleries'>photo albums</a> or <a style='text-align:center;color:#fff;text-decoration:none;' href='/recreation/sportfishing'>see which fish are in season</a>. For immediate assistance, give us a ring.</p></div>";
+        
+		
+					    if($today >= $startDate && $today <= $endDate) {
+							echo "<p style='text-align:center;'><a style='color:#fff;text-decoration:none;' href='tel:19078502235'>(907) 850-2235</a></p>";
+					    }
+
+					    if($today >= $startDate) {
+					    	echo "<p style='text-align:center;'><a style='color:#fff;text-decoration:none;' href='tel:18179462479'>(817) 946-2479</a></p>";
+					    }
+        
       }
     else
       { echo "

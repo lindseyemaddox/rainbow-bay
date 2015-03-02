@@ -11,10 +11,12 @@
     <h2>Fishing Equipment</h2>
     
     <span class="dontPrintThis">
+    
+    <h3 style="padding-bottom: 20px;">Wondering what kind of Alaskan sport fishing equipment you’ll need during your stay at Angry Eagle Lodge & Outfitters? Here are our recommendations for everything from tackle and rods to waders and boots.</h3>
 
-    <h3>Angry Eagle Lodge & Outfitters has a complete inventory of fly, spinning, and bait-casting equipment featuring custom Temple Fork Outfitters (TFO) 6-wt. and 8-wt. fly rods, complemented with TFO fly reels and fly lines as well as light and heavy TFO spinning and bait rods. Quality Shimano spinning and bait casting reels are also furnished, as are the flies, spinners, and jigs during your fishing trip at no additional cost. </h3>
+    <p>Angry Eagle has a complete inventory of fly, spinning, and bait-casting equipment featuring custom Temple Fork Outfitters (TFO) 6-wt. and 8-wt. fly rods, complemented with TFO fly reels and fly lines as well as light and heavy TFO spinning and bait rods. Quality Shimano spinning and bait casting reels are also furnished, as are the flies, spinners, and jigs during your fishing trip at no additional cost. </p>
 
-    <h2 class="subh2">Our Wader Rental &amp; Purchase Program</h2>
+    <h2 class="subh2 multiple">Our Wader Rental &amp; Purchase Program</h2>
 
     <p>Bringing a quality pair of waders and wading boots is a must, since you’ll be wearing them every day. If you don’t own a pair, we offer a rental program that allows you to rent high-quality Simms&reg; G3 and Patagonia&reg; waders and wading boots for $100 weekly. If you wish to purchase this equipment to take home after using them at Angry Eagle we will be happy to order Simms or Patagonia waders and boots for you and have them waiting at the lodge upon your arrival. </p>
 
@@ -54,7 +56,7 @@
                 <td>Pixie spoons 3/8 – 5/8 oz.</td>
               </tr>
               <tr>
-                <td><a href="http://www.basspro.com/Eppinger-Original-Dardevle-Spoons/product/2918/" target="_blank">Dardevle spoons</a> 3/8 – 5/8 oz.</td>
+                <td>Dardevle spoons 3/8 – 5/8 oz.</td>
               </tr>
               <tr>
                 <td>Black crappie jigs 1/8 – 1/4 oz.</td>

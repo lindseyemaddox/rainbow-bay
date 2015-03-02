@@ -91,7 +91,7 @@
             <li>
               <div class="desc">
                 <div class="lake icon">
-                  <span class="icon-lake"></span>
+                  <span class="icon-vest"></span>
                 </div><!--fish-icon-->
                 <div class="schedule">
                   <h6>Saturday 9:30am</h6>

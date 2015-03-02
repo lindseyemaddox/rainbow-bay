@@ -17,24 +17,12 @@
 		
 		<h6>Katmai National Park & Preserve</h6>
 		
-		<p>We offer day trips to Brooks Falls, with its famous brown bear viewing platforms at the heart of the world's largest protected brown/grizzly bear population estimated to be around 2,200 bears. Katmai is home to the <a href="#">Valley of Ten Thousand Smokes</a> created by the largest volcanic eruption of the 20th century. On June 6th, 1912, a new volcano, later named Novarupta, sent ash into the sky as high as 3 cubic miles.</p>
+		<p>We offer day trips to Brooks Falls, with its famous brown bear viewing platforms at the heart of the world's largest protected brown/grizzly bear population estimated to be around 2,200 bears. Katmai is home to the <a href="http://www.nps.gov/katm/planyourvisit/exploring-the-valley-of-ten-thousand-smokes.htm">Valley of Ten Thousand Smokes</a> created by the largest volcanic eruption of the 20th century. On June 6th, 1912, a new volcano, later named Novarupta, sent ash into the sky as high as 3 cubic miles.</p>
 		
 		<h6>Lake Clark National Park & Preserve</h6>
 		
 		<p>This national park holds some of the largest and most remote glaciers, diamond blue glacial lakes, and remote mountain ranges in all of Alaska. It's home to dall sheep, brown bear, moose, and wolverine as well as <a href="http://www.nps.gov/lacl/naturescience/bird-list.htm" target="_blank">nearly 200 bird species</a>. A day flightseeing in Lake Clark National Park is a day you'll never forget.</p>
 		
-		<ul>
-			<li>Tanalian Trails</li>
-			<li>Tanalian Falls and Kontrashibuna Lake</li>
-			<li>Beaver Pond Trail</li>
-			<li>Tanalian Mountain</li>
-			<li>Coastal Beach Hike</li>
-		</ul>
-		
-		<h6>Alaska Magazine’s Top 30 Day Hikes</h6>
-		
-		<p>This article lists the magazine’s top picks for hiking across Alaska and includes Brooks Falls Trail, North End Park, Katmai National Park, and Kodiak Area State Parks.</p>
-
 	</div><!--inner-->
 
 </section><!--pattern-->
