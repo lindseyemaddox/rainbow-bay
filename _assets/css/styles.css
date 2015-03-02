@@ -568,6 +568,10 @@ h3 {
   color: #504e3c;
   padding-bottom: 65px;
 }
+h3 a {
+  color: #b4aa5e;
+  text-decoration: none;
+}
 h3.alt {
   line-height: 5em;
   color: #fff;
