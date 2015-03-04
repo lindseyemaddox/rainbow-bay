@@ -2641,17 +2641,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_assets\/img\/map.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 35429,
-		"inputAbbreviatedPath": "\/_assets\/img\/map.jpg",
-		"outputAbbreviatedPath": "\/_assets\/img\/map.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/_assets\/img\/map.png": {
 		"fileType": 32768,
 		"ignore": 0,
