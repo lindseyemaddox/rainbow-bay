@@ -50,7 +50,7 @@
 
 				<div class="mapnstuff">
 
-					<img src="/_assets/img/map.jpg" alt="map of Alaska with a closer view of Angry Eagle Lodge &amp; Outfitters">
+					<img src="/_assets/img/map.png" alt="map of Alaska with a closer view of Angry Eagle Lodge &amp; Outfitters">
 
 					<a href="#" class="icon-google-plus"></a>
 
