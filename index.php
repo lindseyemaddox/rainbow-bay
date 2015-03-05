@@ -48,7 +48,7 @@
 
             	<li>
             		<div class="tag">
-            			<p>The Char Have Been <span>Asking About You</span></p>
+            			<p>The 'Bows Have Been <span>Asking About You</span></p>
             		</div>
   	    	    	<img src="/_assets/img/slide-rainbow.jpg" alt="Close-up of Alaskan Rainbow Trout" />
   	    		</li>
