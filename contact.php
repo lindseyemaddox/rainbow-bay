@@ -45,6 +45,7 @@
             $name = $_REQUEST['name'] ;
             $email = $_REQUEST['email'] ;
             $phone = $_REQUEST['phone'] ;
+            $address = $_REQUEST['address'] ;
             $desc = $_REQUEST['desc'] ;
             if (isset($_POST['submit']) && $checkResponse !== false) {
               $to = 'info@angryeagle.com';
@@ -60,6 +61,7 @@
                 } else {
               }
               $message .= 'Phone: '.$phone.'<br>';
+              $message .= 'Address: '.$address.'<br>';
               $message .= 'How May We Help You: '.$desc.'<br>';
               $message .= '</body></html>';
               $subject = 'New form submission from angryeagle.com';
@@ -67,15 +69,15 @@
         mail($to, $subject, $message, $headers);
           curl_close($curl);
 
-        echo "<div style='padding: 60px 20px; color: #fff; text-align: center;'><p> Thank you for using our form. We will be in contact with you as soon as possible.</p> <p>In the meantime, have a look at our <a style='text-align:center;color:#fff;text-decoration:none;' href='/galleries'>photo albums</a> or <a style='text-align:center;color:#fff;text-decoration:none;' href='/recreation/sportfishing'>see which fish are in season</a>. For immediate assistance, give us a ring.</p></div>";
+        echo "<div style='padding: 30px 20px 0; color: #fff; text-align: center;font-size:1.3em;'><p> Thank you for using our form. We will be in contact with you as soon as possible.</p> <p>In the meantime, have a look at our <a style='text-align:center;color:#fff;text-decoration:none;' href='/galleries'>photo albums</a> or <a style='text-align:center;color:#fff;text-decoration:none;' href='/recreation/sportfishing'>see which fish are in season</a>. For immediate assistance, give us a ring.</p></div>";
         
 		
 					    if($today >= $startDate && $today <= $endDate) {
-							echo "<p style='text-align:center;'><a style='color:#fff;text-decoration:none;' href='tel:19078502235'>(907) 850-2235</a></p>";
+							echo "<p style='text-align:center;'><a style='color:#fff;text-decoration:none;font-size:1.5em;' href='tel:19078502235'>(907) 850-2235</a></p>";
 					    }
 
 					    if($today >= $startDate) {
-					    	echo "<p style='text-align:center;'><a style='color:#fff;text-decoration:none;' href='tel:18179462479'>(817) 946-2479</a></p>";
+					    	echo "<p style='text-align:center;'><a style='color:#fff;text-decoration:none;font-size:1.5em;' href='tel:18179462479'>(817) 946-2479</a></p>";
 					    }
         
       }
@@ -85,6 +87,7 @@
           <div class='formleft'>
                 <label for='name'>Name</label><input type='text' required name='name' id='name' size='10' placeholder='(required)'>
                 <label for='phone'>Phone</label><input type='text' required name='phone' id='phone' size='10' placeholder='(required)'>
+                <label for='address'>Address</label><input type='text' required name='address' id='address' size='10' placeholder='(required)'>
                 <label for='email'>Email</label><input type='text' required name='email' id='email' size='10' placeholder='(required)'>
                 <label for='opt-in' id='opt-in'>I'd like to receive the e-newsletter.</label>
                 <input class='opt-in' type='checkbox' value='1' id='opt-in' name='opt-in[]' checked />
