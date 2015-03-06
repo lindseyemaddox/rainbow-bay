@@ -3,9 +3,13 @@
 
 			<div class="inner">
 				
-				<h2 class="alt">Contact Angry Eagle Lodge & Outfitters</h3>
+				<h2 class="alt">How Remote Is Angry Eagle?</h3>
 
 				<div class="addresses">
+
+					<p class="remote"><span>We're so remote we don't even have an address. Seriously. </span><a href="/contact">Contact us for shipping details.</a></p>
+
+					<br/>
 
 					<?php
 					    $year = date('Y');
@@ -16,7 +20,7 @@
 					    if($today >= $startDate && $today <= $endDate)
 					    {
 					?>
-					      <p><span>In-Season</span> <a href="tel:19078502235">(907) 850-2235</a></p>
+					      <p><span>In-Season</span> <a href="tel:19078502235">(907) 850-2234</a></p>
 					<?php
 					    }
 
@@ -30,21 +34,21 @@
 
 					<br/>
 
-					<p><span>Mailing Address</span><br/>
-					Angry Eagle Lodge & Outfitters<br/>
-					P.O. Box 47011<br/>
-					Pedro Bay, AK USA 99647</p>
+					<a href="#" class="icon icon-google-plus"></a>
 
-					<p><span>Corporate Headquarters</span><br/>
-					Rainbow Bay Resorts, LLC<br/>
-					30 Burton Hills Blvd, Suite 325<br/>
-					Nashville, TN. 37215</p>
+					<a href="https://www.facebook.com/pages/Rainbow-Bay-Resort/110232285696450" target="_blank" class="icon icon-facebook"></a>
 
+					<a href="#" class="icon icon-twitter"></a>
+
+					<a href="#" class="icon icon-instagram"></a>
+
+					<a href="#" class="icon icon-youtube"></a>
+					
 					<br/>
 
-					<p><a href="/lightboxes/safety-information" class="fancybox fancybox.iframe">Safety Information</a></p>
+					<p class="copy"><a href="/client-photos/login" class="fancybox fancybox.iframe">Guest Login</a></p>
 
-					<p><a href="/client-photos/login" class="fancybox fancybox.iframe">Guest Login</a></p>
+					<p class="copy">&copy;<?php echo date("Y"); ?> Rainbow Bay Resorts, LLC</p>
 
 				</div><!--addresses-->
 
@@ -52,19 +56,7 @@
 
 					<img src="/_assets/img/map.png" alt="map of Alaska with a closer view of Angry Eagle Lodge &amp; Outfitters">
 
-					<a href="#" class="icon-google-plus"></a>
-
-					<a href="https://www.facebook.com/pages/Rainbow-Bay-Resort/110232285696450" target="_blank" class="icon-facebook"></a>
-
-					<a href="#" class="icon-twitter"></a>
-
-					<a href="#" class="icon-instagram"></a>
-
-					<a href="#" class="icon-youtube"></a>
-
 				</div><!--mapnstuff-->
-
-				<p class="copy">&copy;<?php echo date("Y"); ?> Rainbow Bay Resorts, LLC</p>
 
 			</div><!--inner-->
 

@@ -7,21 +7,19 @@
 
 	<div class="inner">
 
-		<h2>Hiking, Birding & Sightseeing</h2>
+		<h2>Exploring Southwest Alaska</h2>
 
-		<p>Nestled between Lake Clark National Park and Katmai National Park, Angry Eagle Lodge & Outfitters is ideally situated for exploring the natural beauty of Southwest Alaska. </p> 
+		<p>Nestled between Lake Clark National Park and Katmai National Park, Angry Eagle Lodge & Outfitters is ideally situated for exploring the natural beauty of Southwest Alaska.</p>
 
-		<p>We provide plane tours to Brooks Falls in Katmai National Park for bear viewing and to Twin Lakes in Lake Clark National Park to visit Richard Proenneke’s famous homestead featured in PBS’ “One Man’s Wilderness.” From breathtaking panoramic views and crystal-clear lakes to vast tundras and majestic volcanoes, the beauty and abundance of Southwest Alaska is unlike anything else you’ll ever experience. </p>
-
-		<p>Here are a few recommendations for exploring Southwest Alaska during your visit to Angry Eagle Lodge & Outfitters:</p>
+		<p>Enjoy a day flight seeing as you take in everything from breathtaking panoramic views and crystal-clear lakes to vast tundras and majestic volcanoes. The beauty and abundance of Southwest Alaska is unlike anything else you’ll ever experience. </p>
 		
-		<h6>Katmai National Park & Preserve</h6>
+		<h2 class="multiple subh2">Katmai National Park & Preserve</h2>
 		
-		<p>We offer day trips to Brooks Falls, with its famous brown bear viewing platforms at the heart of the world's largest protected brown/grizzly bear population estimated to be around 2,200 bears. Katmai is home to the <a href="http://www.nps.gov/katm/planyourvisit/exploring-the-valley-of-ten-thousand-smokes.htm">Valley of Ten Thousand Smokes</a> created by the largest volcanic eruption of the 20th century. On June 6th, 1912, a new volcano, later named Novarupta, sent ash into the sky as high as 3 cubic miles.</p>
+		<p>We provide plane tours to Brooks Falls in Katmai National Park for bear viewing. The park is famous for its brown bear viewing platforms in the heart of the world's largest protected brown/grizzly bear population that’s estimated to be around 2,200 bears.</p>
 		
-		<h6>Lake Clark National Park & Preserve</h6>
+		<h2 class="multiple subh2">Lake Clark National Park & Preserve</h2>
 		
-		<p>This national park holds some of the largest and most remote glaciers, diamond blue glacial lakes, and remote mountain ranges in all of Alaska. It's home to dall sheep, brown bear, moose, and wolverine as well as <a href="http://www.nps.gov/lacl/naturescience/bird-list.htm" target="_blank">nearly 200 bird species</a>. A day flightseeing in Lake Clark National Park is a day you'll never forget.</p>
+		<p>We also provide plane tours to Richard Proenneke’s famous Twin Lakes homestead featured in PBS’ “One Man’s Wilderness.” This national park holds striking diamond-blue glacial lakes and some of the largest and remotest glaciers and mountain ranges in all of Alaska. It's also home to dall sheep, brown bear, moose, and wolverine as well as <a href="www.nps.gov/lacl/naturescience/bird-list.htm" target="_blank" rel="nofollow">nearly 200 Alaska bird species</a>. A day flightseeing in Lake Clark National Park is a day you'll never forget.</p>
 		
 	</div><!--inner-->
 

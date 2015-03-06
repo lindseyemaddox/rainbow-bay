@@ -16,7 +16,7 @@
 
     <h2 class="subh2">Booking Your Airfare &amp; Hotel</h2>
       
-    <p>When booking your travel plans to Alaska, we recommend arriving at the <a href="http://www.dot.state.ak.us/anc/" target="_blank">Anchorage International Airport</a> the Friday before your adventure begins at Angry Eagle. After arriving in Anchorage, explore the <a href="https://www.travelalaska.com/Destinations/Communities/Anchorage/Services.aspx?cat=Things_To_Do" target="_blank">sights and sounds of the city</a> or head to your hotel to relax and unwind for the evening.</p>
+    <p>When booking your travel plans to Alaska, we recommend arriving at the Anchorage International Airport the Friday before your adventure begins at Angry Eagle. After arriving in Anchorage, explore the sights and sounds of the city or head to your hotel to relax and unwind for the evening.</p>
 
     <p>When scheduling your departing flight home from Anchorage, do NOT book anything earlier than 4 p.m. on the last Saturday of your trip. Inclement weather may delay your Lake Clark Air Charter flight arrival into Anchorage from Pedro Bay. </p>
 
@@ -67,7 +67,7 @@
 
     <h2 class="multiple subh2">Getting to Angry Eagle</h2>
 
-    <p>Have your camera ready for breathtaking views of the snow-covered Alaska Range and glaciers as you travel with <a href="http://www.lakeclarkair.com/" target="_blank">Lake Clark Air</a> (LCA), a private charter service that operates eight-passenger, twin-engine Navajo aircraft between Anchorage and Angry Eagle. We’ll schedule your reservations with LCA, so the only thing you need to do is take a cab to the LCA office at <a href="http://www.muni.org/departments/merrill_field/pages/default.aspx" target="_blank">Merrill Field</a>, a commercial service airport located on the north side of Anchorage, at 8 a.m.* on the morning of your charter flight. Typically, this one-hour, 180-mile flight departs Anchorage for Pedro Bay on Lake Iliamna at 9 a.m. Be sure to dress in warm clothes and have your raingear handy in case there’s rain upon your arrival at Pedro Bay. </p>
+    <p>Have your camera ready for breathtaking views of the snow-covered Alaska Range and glaciers as you travel with Lake Clark Air (LCA), a private charter service that operates eight-passenger, twin-engine Navajo aircraft between Anchorage and Angry Eagle. We’ll schedule your reservations with LCA, so the only thing you need to do is take a cab to the LCA office at Merrill Field, a commercial service airport located on the north side of Anchorage, at 8 a.m.* on the morning of your charter flight. Typically, this one-hour, 180-mile flight departs Anchorage for Pedro Bay on Lake Iliamna at 9 a.m. Be sure to dress in warm clothes and have your raingear handy in case there’s rain upon your arrival at Pedro Bay. </p>
 
     <p>Keep in mind, LCA has a 50-pound baggage limit per person and charges 75¢ per additional pound of baggage. LCA also charges $25 for each box of fish on your return flight to Anchorage. The round-trip charter flight costs about $465 per person and must be paid by clients upon arrival at the LCA office. LCA accepts cash and check as well as Visa, MasterCard, and American Express. </p>
 

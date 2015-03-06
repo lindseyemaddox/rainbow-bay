@@ -87,7 +87,7 @@
               </li>
               <li>
                 <img src="/_assets/img/gear-down-jacket.png">
-                <span>light down jacket</span>
+                <span>waders</span>
               </li>
               <li>
                 <img src="/_assets/img/gear-jeans.png">
@@ -99,7 +99,7 @@
               </li>
               <li>
                 <img src="/_assets/img/gear-rain-suit.png">
-                <span>rain suit (we recommend Gore-Tex)</span>
+                <span>rain jacket (we recommend Gore-Tex)</span>
               </li>
               <li>
                 <img src="/_assets/img/gear-shoes.png">
@@ -146,10 +146,10 @@
           <td>two pairs of wool pants or jeans</td>
         </tr>
         <tr>
-          <td>light down jacket</td>
+          <td>waders</td>
         </tr>
         <tr>
-          <td>rain suit (we recommend Gore-Tex)</td>
+          <td>rain jacket (we recommend Gore-Tex)</td>
         </tr>
         <tr>
           <td>tennis or deck shoes (for use at lodge)</td>

@@ -148,6 +148,16 @@
         </div><!--fish-->
       </article>
 
+      <article class="fish-item july3 july4 aug1 aug2 aug3 aug4 sept1 sept2">
+        <div class="fish">
+          <img src="/_assets/img/icon-lake-trout.svg" alt="Lake Trout" />
+          <h5>Lake Trout</h5>
+          <p><a href="/lightboxes/sportfishing/lake-trout" class="fancybox fancybox.iframe">details</a><br />
+          <a href="#" class="fancybox-galleries">view gallery</a></p>
+			<?php include($_SERVER['DOCUMENT_ROOT'].'/lightboxes/galleries/lake-trout'); //lake trout gallery?>
+        </div><!--fish-->
+      </article>
+
     </div><!--container-->
 
   </div><!--inner-->

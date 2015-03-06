@@ -8,10 +8,12 @@
     <div class="inner">
 
         <h2>Our Legacy</h2>
-
+        
         <h3 style="padding-bottom: 20px;">Ideally situated on the shores of Lake Iliamna, Angry Eagle Lodge & Outfitters is the perfect place to experience Alaskan fishing at its finest. </h3>
 
-		<p>Our story began in 1984, when Jerry and Karen Pippen founded Rainbow Bay Lodge. They quickly established it as one of Alaska’s premiere, full-service fishing lodges, which also led to it being named as one of “The Top 25 Fishing Lodges in North America” by Field & Stream magazine. The Pippens managed the resort for nearly 30 years before the lodge changed ownership and was renamed Angry Eagle Lodge & Outfitters in 2013. </p>
+        <img class="floater" src="/_assets/img/pippens.jpg" alt="Jerry and Karen Pippen, founders of Rainbow Bay Resort"/>
+
+		<p>Our story began in 1984, when Jerry and Karen Pippen founded Rainbow Bay Lodge. They quickly established it as one of Alaska’s premier, full-service fishing lodges, which also led to it being named as one of “The Top 25 Fishing Lodges in North America” by Field & Stream magazine. The Pippens managed the resort for nearly 30 years before the lodge changed ownership and was renamed Angry Eagle Lodge & Outfitters in 2013. </p>
 
 		<p>Although our name has changed, our longstanding tradition of providing the ultimate Alaskan fishing experience remains the same. In addition to expanding our fleet of planes, boats, and ATVs, we've added Eagle’s Peak Lodge—a spacious lodge that overlooks Lake Iliamna.</p>
 
@@ -22,46 +24,6 @@
     </div><!--inner-->
 
 </section><!--pattern-->
-
-<section id="bgFixed" class="subpage legacy">
-
-	<div class="inner">
-
-    <a class="legacy-item">
-      
-      <span class="icon-bio"></span>
-
-      <h4>Jerry Pippen <br />Owner</h4>
-
-      <img src="/_assets/img/staff-pippen-j.jpg" alt="Angry Eagle owner Jerry Pippen">
-
-    </a><!--legacy-item-->
-
-    <a class="legacy-item">
-      
-      <span class="icon-bio"></span>
-
-      <h4>Karen Pippen <br />Owner</h4>
-
-      <img src="/_assets/img/staff-pippen-k.jpg" alt="Angry Eagle owner Karen Pippen">
-
-    </a><!--legacy-item-->
-
-    <a href="/lightboxes/staff/kern" class="legacy-item fancybox fancybox.iframe">
-      
-      <span class="icon-bio"></span>
-
-      <h4>Jim Kern <br />Operations Manager</h4>
-
-      <img src="/_assets/img/staff-kern.jpg" alt="Angry Eagle general manager Jim Kern">
-
-    </a><!--legacy-item-->
-
-    <div class="clearfix"></div>
-
-	</div><!--inner-->
-
-</section><!--bgFixed-->
 
 <section class="pattern" id="links">
 

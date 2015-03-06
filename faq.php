@@ -9,14 +9,16 @@
 	<div class="inner">
 
 		<h2>Frequently Asked Questions</h2>
+		
+		<h3 style="padding-bottom: 20px;">Need help planning your trip to Angry Eagle? Simply click on the following questions to learn more.</h3>
 	
-		<h3>Angry Eagle Lodge & Outfitters</h3>
+		<h2 class="subh2">Angry Eagle Lodge & Outfitters</h2>
 
         <p class="faquestion"><span class="icon-question"></span> So, why is the eagle angry?</p>
 
         <p class="faqanswer show">Wouldn’t you be angry if someone was taking your fish? Of course, we practice catch and release with most of the fish we catch, but you try telling an eagle that.</p>
 
-	<p class="faquestion"><span class="icon-question"></span> Do you have phone service or internet access?</p>
+		<p class="faquestion"><span class="icon-question"></span> Do you have phone service or internet access?</p>
 
         <p class="faqanswer">We provide satellite phone service, but because there’s a charge for using this service, we recommend bringing prepaid calling cards to get the best rates. Each lodge includes complimentary satellite TV and Wi-Fi.<br /><br />
 		You’re welcome to use our computer to check email or transfer pictures from your camera to a flash drive or CD. Just make sure you know how to access your email from a computer other than yours.</p>
@@ -37,7 +39,7 @@
 
         <p class="faqanswer">While optional at Angry Eagle, tips are greatly appreciated. Typically, our guests each tip $500 per stay. You may leave your gratuity with any member of the lodge management, who will pool and divide it among all staff members.</p>
 
-		<h3>Fishing & Gear</h3>
+		<h2 class="subh2">Fishing & Gear</h2>
 
         <p class="faquestion"><span class="icon-question"></span> Do I need a fishing license?</p>
 

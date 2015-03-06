@@ -47,9 +47,9 @@
       
       <img src="/_assets/img/icon-kingfisher.png" alt="Habercraft KingFisher icon">
 
-      <h4>Habercraft KingFisher</h4>
+      <h4>KingFisher Harbercraft</h4>
 
-      <p>Our Habercraft KingFisher 2825 boats transport guests to streams and to the shallow waters of the Cook Inlet. One boat has twin 150 HP Honda outboards and the other has twin 200 HP outboards. Equipped with depth finders, radios, and radar.</p>
+      <p>Our KingFisher Harbercraft 2825 boats transport guests to streams and to the shallow waters of the Cook Inlet. One boat has twin 150 HP Honda outboards and the other has twin 200 HP outboards. Equipped with depth finders, radios, and radar.</p>
 
     </article><!--fleet-item-->
 

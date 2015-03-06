@@ -45,10 +45,6 @@
             <img src="/_assets/img/lodges-angry-eagle4.jpg" alt="Overhead view of the Eagle's Peak Lodge">
           </li>
 
-          <li>
-            <img src="/_assets/img/lodges-angry-eagle5.jpg" alt="Overhead view of the Eagle's Peak Lodge">
-          </li>
-
         </ul><!--slides-->
 
       </div><!--flexslider-->
@@ -74,11 +70,11 @@
           </li>
 
           <li>
-            <img src="/_assets/img/lodges-eagles-peak3.jpg" alt="dining room at the Eagle's Peak Lodge">
+            <img src="/_assets/img/lodges-eagles-peak4.jpg" alt="Overhead view of the Eagle's Peak Lodge">
           </li>
 
           <li>
-            <img src="/_assets/img/lodges-eagles-peak4.jpg" alt="Overhead view of the Eagle's Peak Lodge">
+            <img src="/_assets/img/lodges-eagles-peak3.jpg" alt="dining room at the Eagle's Peak Lodge">
           </li>
 
           <li>

@@ -766,7 +766,11 @@ nav span#nav {
 nav div.logo {
   margin-left: -84px;
   display: inline-block;
-  width: 30%;
+  width: 36%;
+  position: absolute;
+}
+nav div.logo img {
+  width: 100%;
 }
 nav > ul {
   height: 50px;
@@ -988,6 +992,20 @@ footer div.addresses {
   width: 30%;
   vertical-align: top;
 }
+footer div.addresses p.remote {
+  margin-top: 50px;
+}
+footer div.addresses a.icon {
+  display: inline-block;
+  vertical-align: top;
+  text-decoration: none;
+  color: #fff;
+  margin: 0 20px 0 0;
+  font-size: 2em;
+}
+footer div.addresses a.icon:hover {
+  color: #b4aa5e;
+}
 footer div.addresses p {
   font-size: 1em;
 }
@@ -1007,18 +1025,6 @@ footer div.mapnstuff {
   width: 59%;
   margin-left: 10%;
   vertical-align: top;
-}
-footer div.mapnstuff a {
-  display: inline-block;
-  vertical-align: top;
-  text-decoration: none;
-  color: #fff;
-  float: right;
-  margin: 0 0 0 30px;
-  font-size: 2em;
-}
-footer div.mapnstuff a:hover {
-  color: #b4aa5e;
 }
 footer div.mapnstuff img {
   margin-bottom: 50px;
@@ -1053,7 +1059,6 @@ footer p a:hover {
 }
 footer p.copy {
   font-size: .5em;
-  text-align: right;
   margin-top: 20px;
 }
 /* @group Base */
@@ -2341,8 +2346,9 @@ button:hover {
 section#faq {
   padding: 100px 0 60px;
 }
-section#faq h3 {
-  padding: 30px 0;
+section#faq h2 {
+  padding: 30px 0 40px;
+  text-align: center;
 }
 section#faq p.faquestion {
   cursor: pointer;
@@ -2761,6 +2767,11 @@ section.legacy a.legacy-item img {
 }
 section#legacy {
   padding: 77px 0px 65px;
+}
+img.floater {
+  float: left;
+  margin: 6px 20px 20px 0;
+  width: 20%;
 }
 img.lodge-logo {
   width: 30%;
