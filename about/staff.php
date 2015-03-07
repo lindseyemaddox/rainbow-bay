@@ -1,7 +1,7 @@
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/common.php'); //php framework and meta?>
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/head.php'); // HTTP head?>
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/subpage-header.php'); //video header?>
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/navigation.php'); //navigation?>
+<?php require_once('../_assets/inc/common.php'); //php framework and meta?>
+<?php require_once('../_assets/inc/head.php'); // HTTP head?>
+<?php require_once('../_assets/inc/subpage-header.php'); //video header?>
+<?php require_once('../_assets/inc/navigation.php'); //navigation?>
 
 <section class="pattern headerComp" id="intro">
 
@@ -22,7 +22,7 @@
 	<div class="inner">
 
     <a href="/lightboxes/staff/kern" class="staff-item fancybox fancybox.iframe">
-      
+
       <span class="icon-bio"></span>
 
       <h4>Jim Kern <br />General Manager</h4>
@@ -32,7 +32,7 @@
     </a><!--staff-item-->
 
     <a href="/lightboxes/staff/baldwin" class="staff-item fancybox fancybox.iframe">
-      
+
       <span class="icon-bio"></span>
 
       <h4>Ken Baldwin <br />Fishing <br />Guide</h4>
@@ -42,7 +42,7 @@
     </a><!--staff-item-->
 
     <a href="/lightboxes/staff/baker" class="staff-item fancybox fancybox.iframe">
-      
+
       <span class="icon-bio"></span>
 
       <h4>Jon Baker <br />Fishing <br />Guide</h4>
@@ -52,7 +52,7 @@
     </a><!--staff-item-->
 
     <a href="/lightboxes/staff/rogers" class="staff-item fancybox fancybox.iframe">
-      
+
       <span class="icon-bio"></span>
 
       <h4>Erin Rogers <br />Fishing <br />Guide</h4>
@@ -62,7 +62,7 @@
     </a><!--staff-item-->
 
     <a href="/lightboxes/staff/lincecum" class="staff-item fancybox fancybox.iframe">
-      
+
       <span class="icon-bio"></span>
 
       <h4>Lewis Lincecum <br />Fishing <br />Guide</h4>
@@ -72,7 +72,7 @@
     </a><!--staff-item-->
 
     <a href="/lightboxes/staff/cochran" class="staff-item fancybox fancybox.iframe">
-      
+
       <span class="icon-bio"></span>
 
       <h4>Mason Cochran <br />Fishing <br />Guide</h4>
@@ -100,4 +100,4 @@
   </div><!--inner-->
 
 </section>
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/footer.php'); // footer, close body and html?>
+<?php require_once('../_assets/inc/footer.php'); // footer, close body and html?>

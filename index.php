@@ -1,5 +1,5 @@
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/common.php'); //php framework and meta?>
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/head.php'); // HTTP head?>
+<?php require_once('_assets/inc/common.php'); //php framework and meta?>
+<?php require_once('_assets/inc/head.php'); // HTTP head?>
 
 <!--FB-->
 <script>
@@ -22,14 +22,14 @@
 <!--endFB-->
 
 <div class="index-nav">
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/navigation.php'); //navigation?>
-</div><!--index-nav-->	
+<?php require_once('_assets/inc/navigation.php'); //navigation?>
+</div><!--index-nav-->
 <header>
 
     <div class="slider">
-    
+
         <div class="flexslider">
-    
+
           <ul class="slides">
 
                 <li>
@@ -90,10 +90,10 @@
 	<div id="topLodge">
 
 		<div id="fullOpacity">
-		
+
 		    <h3 class="alt">"One of the top 25 fishing lodges in North America..."</h3>
 
-		    <a href="http://www.fieldandstream.com/articles/fishing/saltwater/where-fish/2007/02/greatest-fishing-lodges-world" target="_blank"><img src="/_assets/img/logo-field-stream.png" alt="Field &amp; Stream logo"></a>
+		    <a href="http://www.fieldandstream.com/articles/fishing/saltwater/where-fish/2007/02/greatest-fishing-lodges-world" target="_blank" rel="nofollow"><img src="/_assets/img/logo-field-stream.png" alt="Field &amp; Stream logo"></a>
 
 		</div><!--fullOpacity-->
 
@@ -120,7 +120,7 @@
   <div class="inner">
 
 	<h2>Our Daily Catch</h2>
-    
+
       <div class="slider">
         <div class="fishslider carousel">
           <ul class="slides">
@@ -165,23 +165,23 @@
       </div><!--slider-->
 
   </div><!--inner-->
-  
+
 </section><!--testimonials-->
 
 <section id="social">
-  
+
   <div class="inner">
-	  
+
 	<div class="container">
-    
+
 	  <div class="facebook"><div class="fb-like-box" data-href="https://www.facebook.com/pages/Rainbow-Bay-Resort/110232285696450" data-width="228" data-height="600" data-colorscheme="light" data-show-faces="false" data-header="false" data-stream="true" data-show-border="false"></div></div><!--facebook-->
 
 	  <div class="instagram">
-		  
+
 		  <!-- <div id="instafeed"></div> -->
 
       <div class="featured-fisherman">
-        
+
         <img src="/_assets/img/featured-fisherman.jpg" alt="Angry Eagle's Featured Fisherman">
 
         <div class="name">
@@ -202,13 +202,13 @@
         <h6><span>Why do you love fishing?</span> I love being in nature. My focus is to catch fish and handle them with the utmost care. It’s a zen experience.</h6>
 
       </div><!--featured-fisherman-->
-		  
+
 	  </div><!--instagram-->
-	      
+
 	</div><!--container-->
-    
+
     <div class="bottom">
-      
+
       <a href="https://www.facebook.com/pages/Rainbow-Bay-Resort/110232285696450" target="_blank"><img src="/_assets/img/facebook.png" alt="Facebook logo"></a>
 
       <div class="icons">
@@ -232,9 +232,9 @@
 <section class="pattern" id="media-section">
 
   <div class="inner">
-  
+
     <article class="media-item article">
-      
+
       <span class="icon-article"></span>
 
       <h4>Guides' <br />Report</h4>
@@ -248,7 +248,7 @@
     </article><!--media-item-->
 
     <article class="media-item video">
-      
+
       <span class="icon-video"></span>
 
       <h4>Dallas Safari Club Interview</h4>
@@ -260,7 +260,7 @@
     </article><!--media-item-->
 
     <article class="media-item photos">
-      
+
       <span class="icon-video"></span>
 
       <h4>Rainbow Trout Photos</h4>
@@ -268,8 +268,8 @@
       <p>click image to view gallery</p>
 
       <a class="fancybox" href="/_assets/img/galleries/rainbow-trout-closeup.jpg"><img src="/_assets/img/galleries/rainbow-trout-closeup.jpg" alt="rainbow trout" /></a>
-      
-      <?php include($_SERVER['DOCUMENT_ROOT'].'/lightboxes/galleries/rainbow-trout.php'); //rainbow trout gallery?>
+
+      <?php include('lightboxes/galleries/rainbow-trout.php'); //rainbow trout gallery?>
 
     </article><!--media-item-->
 
@@ -291,7 +291,7 @@
         animationLoop: true,
         itemMargin: 0,
         randomize: true,
-        slideshow: false, 
+        slideshow: false,
         start: function(slider){
           $('body').removeClass('loading');
         }
@@ -330,4 +330,4 @@
 </script>
 <script src="/_assets/js/jquery.fancybox.js"></script>
 
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/footer.php'); // footer, close body and html?>
+<?php require_once('_assets/inc/footer.php'); // footer, close body and html?>

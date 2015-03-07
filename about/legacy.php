@@ -1,14 +1,14 @@
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/common.php'); //php framework and meta?>
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/head.php'); // HTTP head?>
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/subpage-header.php'); //video header?>
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/navigation.php'); //navigation?>
+<?php require_once('../_assets/inc/common.php'); //php framework and meta?>
+<?php require_once('../_assets/inc/head.php'); // HTTP head?>
+<?php require_once('../_assets/inc/subpage-header.php'); //video header?>
+<?php require_once('../_assets/inc/navigation.php'); //navigation?>
 
 <section class="pattern headerComp" id="intro">
 
     <div class="inner">
 
         <h2>Our Legacy</h2>
-        
+
         <h3 style="padding-bottom: 20px;">Ideally situated on the shores of Lake Iliamna, Angry Eagle Lodge & Outfitters is the perfect place to experience Alaskan fishing at its finest. </h3>
 
         <img class="floater" src="/_assets/img/pippens.jpg" alt="Jerry and Karen Pippen, founders of Rainbow Bay Resort"/>
@@ -39,4 +39,4 @@
 
 </section>
 
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/footer.php'); // footer, close body and html?>
+<?php require_once('../_assets/inc/footer.php'); // footer, close body and html?>

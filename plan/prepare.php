@@ -1,10 +1,10 @@
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/common.php'); //php framework and meta?>
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/head.php'); // HTTP head?>
+<?php require_once('../_assets/inc/common.php'); //php framework and meta?>
+<?php require_once('../_assets/inc/head.php'); // HTTP head?>
 <link rel="stylesheet" type="text/css" media="print" href="/_assets/css/print.css" />
 <script src="//code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
 <script src="/_assets/js/prepare.js"></script>
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/subpage-header.php'); //video header?>
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/navigation.php'); //navigation?>
+<?php require_once('../_assets/inc/subpage-header.php'); //video header?>
+<?php require_once('../_assets/inc/navigation.php'); //navigation?>
 
 <section class="pattern headerComp dontPrintThis" id="intro">
 
@@ -21,13 +21,13 @@
 </section><!--pattern-->
 
 <section id="bgFixed" class="subpage plane">
-  
+
   <div class="inner">
 
     <div id="product-reveal" class="left fisherman">
 
       <div class="container dontPrintThis">
-    
+
       		<div class="reveal-parts-container fisherman">
       			<div id="revealParts" class="foreground">
       				<div class="image-c"><img src="/_assets/img/fisherman-over.png" alt=""></div>
@@ -185,4 +185,4 @@ function printTable() {
 }
 </script>
 
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/footer.php'); // footer, close body and html?>
+<?php require_once('../_assets/inc/footer.php'); // footer, close body and html?>

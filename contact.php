@@ -1,8 +1,8 @@
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/common.php'); //php framework and meta?>
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/head.php'); // HTTP head?>
-<script src="/_assets/js/jquery.maskedinput.js"></script>
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/subpage-header.php'); //video header?>
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/navigation.php'); //navigation?>
+<?php require_once('_assets/inc/common.php'); //php framework and meta?>
+<?php require_once('_assets/inc/head.php'); // HTTP head?>
+<script src="_assets/js/jquery.maskedinput.js"></script>
+<?php require_once('_assets/inc/subpage-header.php'); //video header?>
+<?php require_once('_assets/inc/navigation.php'); //navigation?>
 
 <section class="pattern dark" id="contact">
 
@@ -70,8 +70,8 @@
           curl_close($curl);
 
         echo "<div style='padding: 30px 20px 0; color: #fff; text-align: center;font-size:1.3em;'><p> Thank you for using our form. We will be in contact with you as soon as possible.</p> <p>In the meantime, have a look at our <a style='text-align:center;color:#fff;text-decoration:none;' href='/galleries'>photo albums</a> or <a style='text-align:center;color:#fff;text-decoration:none;' href='/recreation/sportfishing'>see which fish are in season</a>. For immediate assistance, give us a ring.</p></div>";
-        
-		
+
+
 					    if($today >= $startDate && $today <= $endDate) {
 							echo "<p style='text-align:center;'><a style='color:#fff;text-decoration:none;font-size:1.5em;' href='tel:19078502235'>(907) 850-2235</a></p>";
 					    }
@@ -79,7 +79,7 @@
 					    if($today >= $startDate) {
 					    	echo "<p style='text-align:center;'><a style='color:#fff;text-decoration:none;font-size:1.5em;' href='tel:18179462479'>(817) 946-2479</a></p>";
 					    }
-        
+
       }
     else
       { echo "
@@ -114,4 +114,4 @@
     });
 </script>
 
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/footer.php'); // footer, close body and html?>
+<?php require_once('_assets/inc/footer.php'); // footer, close body and html?>

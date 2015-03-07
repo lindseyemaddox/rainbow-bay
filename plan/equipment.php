@@ -1,17 +1,17 @@
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/common.php'); //php framework and meta?>
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/head.php'); // HTTP head?>
+<?php require_once('../_assets/inc/common.php'); //php framework and meta?>
+<?php require_once('../_assets/inc/head.php'); // HTTP head?>
 <link rel="stylesheet" type="text/css" media="print" href="/_assets/css/print.css" />
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/subpage-header.php'); //video header?>
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/navigation.php'); //navigation?>
+<?php require_once('../_assets/inc/subpage-header.php'); //video header?>
+<?php require_once('../_assets/inc/navigation.php'); //navigation?>
 
 <section class="pattern headerComp" id="species">
 
   <div class="inner">
 
     <h2>Fishing Equipment</h2>
-    
+
     <span class="dontPrintThis">
-    
+
     <h3 style="padding-bottom: 20px;">Wondering what kind of Alaskan sport fishing equipment you’ll need during your stay at Angry Eagle Lodge & Outfitters? Here are our recommendations for everything from tackle and rods to waders and boots.</h3>
 
     <p>Angry Eagle has a complete inventory of fly, spinning, and bait-casting equipment featuring custom Temple Fork Outfitters (TFO) 6-wt. and 8-wt. fly rods, complemented with TFO fly reels and fly lines as well as light and heavy TFO spinning and bait rods. Quality Shimano spinning and bait casting reels are also furnished, as are the flies, spinners, and jigs during your fishing trip at no additional cost. </p>
@@ -22,7 +22,7 @@
 
     <p>If you’d like to rent or purchase waders and boots, please <a href="/contact">let us know</a> at least 30 days prior to your arrival at Angry Eagle.</p>
 
-    <p>Remember, felt sole waders and wader boots are <a href="http://www.adfg.alaska.gov/static/species/nonnative/invasive/pdfs/felt_soled_waders_faq.pdf" target="_blank">Illegal in Alaska</a>.</p>
+    <p>Remember, felt sole waders and wader boots are <a href="http://www.adfg.alaska.gov/static/species/nonnative/invasive/pdfs/felt_soled_waders_faq.pdf" target="_blank" rel="nofollow">Illegal in Alaska</a>.</p>
 
     </span><!--dontPrintThis-->
 
@@ -114,7 +114,7 @@
       <button class="print" onclick="printTable()"><span class="icon-print"></span> Print</button>
 
   </div><!--inner-->
-  
+
 </section><!--testimonials-->
 
 <section class="pattern dontPrintThis" id="links">
@@ -137,4 +137,4 @@ function printTable() {
 }
 </script>
 
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/footer.php'); // footer, close body and html?>
+<?php require_once('../_assets/inc/footer.php'); // footer, close body and html?>

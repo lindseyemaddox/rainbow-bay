@@ -1,21 +1,21 @@
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/common.php'); //php framework and meta?>
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/head.php'); // HTTP head?>
+<?php require_once('../_assets/inc/common.php'); //php framework and meta?>
+<?php require_once('../_assets/inc/head.php'); // HTTP head?>
 <link rel="stylesheet" type="text/css" media="print" href="/_assets/css/print.css" />
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/subpage-header.php'); //video header?>
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/navigation.php'); //navigation?>
+<?php require_once('../_assets/inc/subpage-header.php'); //video header?>
+<?php require_once('../_assets/inc/navigation.php'); //navigation?>
 
 <section class="pattern headerComp" id="intro">
 
   <div class="inner">
-	  
+
 	  <span class="dontPrintThis">
 
-    <h2>Planning Your Trip to Angry Eagle Lodge &amp; Outfitters</h2>
+    <h2>Planning Your Trip</h2>
 
     <h3>We’re 180 miles from the nearest major road, which means getting to Angry Eagle Lodge &amp; Outfitters is part of your adventure! From booking airfare and hotels to traveling home with your catch, here’s everything you need to know to plan your trip:</h3>
 
     <h2 class="subh2">Booking Your Airfare &amp; Hotel</h2>
-      
+
     <p>When booking your travel plans to Alaska, we recommend arriving at the Anchorage International Airport the Friday before your adventure begins at Angry Eagle. After arriving in Anchorage, explore the sights and sounds of the city or head to your hotel to relax and unwind for the evening.</p>
 
     <p>When scheduling your departing flight home from Anchorage, do NOT book anything earlier than 4 p.m. on the last Saturday of your trip. Inclement weather may delay your Lake Clark Air Charter flight arrival into Anchorage from Pedro Bay. </p>
@@ -34,27 +34,27 @@
 
       <table>
         <tr>
-          <td><a href="http://www.captaincook.com" target="_blank">The Hotel Captain Cook</a></td>
+          <td><a href="http://www.captaincook.com" target="_blank" rel="nofollow">The Hotel Captain Cook</a></td>
           <td><a href="tel:19072766000">(907) 276-6000</a></td>
         </tr>
         <tr>
-          <td><a href="http://www.millenniumhotels.com/usa/millenniumanchorage" target="_blank">Millennium Alaskan Hotel Anchorage</a></td>
+          <td><a href="http://www.millenniumhotels.com/usa/millenniumanchorage" target="_blank" rel="nofollow">Millennium Alaskan Hotel Anchorage</a></td>
           <td><a href="tel:18005440553">(800) 544-0553</a></td>
         </tr>
         <tr>
-          <td><a href="http://www.ihg.com/holidayinnexpress/hotels/us/en/anchorage/ancsp/hoteldetail/directions" target="_blank">Holiday Inn Express</a></td>
+          <td><a href="http://www.ihg.com/holidayinnexpress/hotels/us/en/anchorage/ancsp/hoteldetail/directions" target="_blank" rel="nofollow">Holiday Inn Express</a></td>
           <td><a href="tel:19072488848">(907) 248-8848</a></td>
         </tr>
         <tr>
-          <td><a href="http://www.super8.com/hotels/alaska/anchorage/super-8-anchorage/hotel-overview" target="_blank">Super 8 Anchorage</a></td>
+          <td><a href="http://www.super8.com/hotels/alaska/anchorage/super-8-anchorage/hotel-overview" target="_blank" rel="nofollow">Super 8 Anchorage</a></td>
           <td><a href="tel:19072768884">(907) 276-8884</a></td>
         </tr>
         <tr>
-          <td><a href="http://www.puffininn.net/" target="_blank">Puffin Inn</a></td>
+          <td><a href="http://www.puffininn.net/" target="_blank" rel="nofollow">Puffin Inn</a></td>
           <td><a href="tel:18664944841">(866) 494-4841</a></td>
         </tr>
         <tr>
-          <td><a href="http://www.marriott.com/hotels/hotel-deals/anccy-courtyard-anchorage-airport/" target="_blank">Courtyard by Marriott</a></td>
+          <td><a href="http://www.marriott.com/hotels/hotel-deals/anccy-courtyard-anchorage-airport/" target="_blank" rel="nofollow">Courtyard by Marriott</a></td>
           <td><a href="tel:18002282800">(800) 228-2800</a></td>
         </tr>
       </table>
@@ -62,7 +62,7 @@
       <button class="print dontPrintThis" onclick="printTable()"><span class="icon-print"></span> Print</button>
 
     </div><!--right-->
-    
+
     <span class="dontPrintThis">
 
     <h2 class="multiple subh2">Getting to Angry Eagle</h2>
@@ -80,7 +80,7 @@
     </span><!--dontPrintThis-->
 
   </div><!--inner-->
-  
+
 </section><!--testimonials-->
 
 <section class="pattern dontPrintThis" id="links">
@@ -103,4 +103,4 @@ function printTable() {
 }
 </script>
 
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/footer.php'); // footer, close body and html?>
+<?php require_once('../_assets/inc/footer.php'); // footer, close body and html?>

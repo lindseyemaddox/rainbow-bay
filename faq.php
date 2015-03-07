@@ -1,17 +1,17 @@
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/common.php'); //php framework and meta?>
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/head.php'); // HTTP head?>
+<?php require_once('../_assets/inc/common.php'); //php framework and meta?>
+<?php require_once('../_assets/inc/head.php'); // HTTP head?>
 <script type="text/javascript" src="/_assets/js/faq.js"></script>
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/subpage-header.php'); //video header?>
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/navigation.php'); //navigation?>
+<?php require_once('../_assets/inc/subpage-header.php'); //video header?>
+<?php require_once('../_assets/inc/navigation.php'); //navigation?>
 
 <section class="pattern headerComp" id="faq">
 
 	<div class="inner">
 
 		<h2>Frequently Asked Questions</h2>
-		
+
 		<h3 style="padding-bottom: 20px;">Need help planning your trip to Angry Eagle? Simply click on the following questions to learn more.</h3>
-	
+
 		<h2 class="subh2">Angry Eagle Lodge & Outfitters</h2>
 
         <p class="faquestion"><span class="icon-question"></span> So, why is the eagle angry?</p>
@@ -77,4 +77,4 @@
 
 </section><!--pattern-->
 
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/footer.php'); // footer, close body and html?>
+<?php require_once('../_assets/inc/footer.php'); // footer, close body and html?>

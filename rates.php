@@ -1,12 +1,12 @@
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/common.php'); //php framework and meta?>
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/head.php'); // HTTP head?>
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/subpage-header.php'); //video header?>
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/navigation.php'); //navigation?>
+<?php require_once('../_assets/inc/common.php'); //php framework and meta?>
+<?php require_once('../_assets/inc/head.php'); // HTTP head?>
+<?php require_once('../_assets/inc/subpage-header.php'); //video header?>
+<?php require_once('../_assets/inc/navigation.php'); //navigation?>
 
 <section class="pattern headerComp" id="rates">
 
   <div class="inner">
-  
+
   <h1><?php echo date("Y"); ?> Rates</h1>
 
   <h3>$7250 per week<br />
@@ -22,8 +22,8 @@
     <p>fly, spinning, and bait casting <a href="/plan/equipment">equipment</a></p>
     <p>beverages</p>
     <p>daily maid and laundry service</p>
-    <p>the adventure of a lifetime</p>    
-    
+    <p>the adventure of a lifetime</p>
+
   </article>
 
   <article class="column">
@@ -36,10 +36,10 @@
     <p>airfare from Anchorage to lodge</p>
     <p>liquor</p>
     <p>gratuities</p>
-    <p>the daily grind</p>    
-        
+    <p>the daily grind</p>
+
   </article>
 
 </section><!--testimonials-->
 
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/footer.php'); // footer, close body and html?>
+<?php require_once('../_assets/inc/footer.php'); // footer, close body and html?>

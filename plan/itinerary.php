@@ -1,8 +1,8 @@
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/common.php'); //php framework and meta?>
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/head.php'); // HTTP head?>
+<?php require_once('../_assets/inc/common.php'); //php framework and meta?>
+<?php require_once('../_assets/inc/head.php'); // HTTP head?>
 <link rel="stylesheet" type="text/css" media="print" href="/_assets/css/print.css" />
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/subpage-header.php'); //video header?>
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/navigation.php'); //navigation?>
+<?php require_once('../_assets/inc/subpage-header.php'); //video header?>
+<?php require_once('../_assets/inc/navigation.php'); //navigation?>
 
 <section class="pattern headerComp" id="intro">
 
@@ -17,15 +17,15 @@
 </section><!--pattern-->
 
 <section id="bgFixed" class="subpage fish">
-  
+
   <div class="inner">
 
     <h2 class="alt subh2">Sample Itinerary</h2>
-    
+
     <div class="slider">
-    
+
         <div class="flexslider carousel">
-    
+
           <ul class="slides itinerary">
 
             <li>
@@ -153,7 +153,7 @@
         </div><!--flexslider-->
 
     </div><!--slider-->
-    
+
     <a class="fancybox fancybox.iframe readmore" href="/lightboxes/itinerary.php">View all</a>
 
   </div><!--inner-->
@@ -176,7 +176,7 @@
   $(window).load(function(){
       $('.flexslider').flexslider({
         animation: "slide",
-        slideshow: false, 
+        slideshow: false,
         directionNav: true,
         controlNav: false,
         pauseOnHover: true,
@@ -200,4 +200,4 @@ function print() {
     window.print();
 }
 </script>
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/footer.php'); // footer, close body and html?>
+<?php require_once('../_assets/inc/footer.php'); // footer, close body and html?>

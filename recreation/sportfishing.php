@@ -1,13 +1,13 @@
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/common.php'); //php framework and meta?>
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/head.php'); // HTTP head?>
+<?php require_once('../_assets/inc/common.php'); //php framework and meta?>
+<?php require_once('../_assets/inc/head.php'); // HTTP head?>
 
 <link rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
 <script src="//code.jquery.com/jquery-1.10.2.js"></script>
 <script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
 <script src="/_assets/js/jquery.isotope.min.js"></script>
 
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/subpage-header.php'); //video header?>
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/navigation.php'); //navigation?>
+<?php require_once('../_assets/inc/subpage-header.php'); //video header?>
+<?php require_once('../_assets/inc/navigation.php'); //navigation?>
 
 <section class="pattern headerComp" id="species">
 
@@ -18,9 +18,9 @@
     <h3>The Bristol Bay area in Southwest Alaska offers a wide variety of sportfishing, which means you're in for the angler experience of a lifetime. It isn't unusual for anglers to catch from five to eight species of fish during a week's fishing adventure. During the Alaskan fishing season, plan on casting your line for these finned beauties:</h3>
 
     <div id="slider-cont">
-      
+
       <div id="options" class="clearfix">
-        
+
         <ul id="filters" class="option-set clearfix" data-option-key="filter">
           <p class="filters"><span>slide to see what's in season or<br /> </span><a href="#filter" data-option-value="*" class="selected">show all</a></p>
           <li class="june"><a href="#filter" data-option-value=".june1">June 1</a></li>
@@ -54,17 +54,17 @@
 
       <div class="clearfix"></div>
 
-    </div><!--slider-->  
+    </div><!--slider-->
 
     <div id="container" class="clearfix">
-      
+
       <article class="fish-item aug1 aug2 aug3 aug4 sept1 sept2 sept3 sept4">
         <div class="fish silver">
           <img src="/_assets/img/icon-silver-salmon.svg" alt="Silver Salmon" />
           <h5>Silver Salmon</h5>
           <p><a href="/lightboxes/sportfishing/silver-salmon" class="fancybox fancybox.iframe">details</a><br />
           <a href="#" class="fancybox-galleries">view gallery</a></p>
-			<?php include($_SERVER['DOCUMENT_ROOT'].'/lightboxes/galleries/silver-salmon'); //silver salmon gallery?>
+			<?php include('../lightboxes/galleries/silver-salmon.php'); //silver salmon gallery?>
         </div><!--fish-->
       </article>
 
@@ -74,7 +74,7 @@
           <h5>Pink Salmon</h5>
           <p><a href="/lightboxes/sportfishing/pink-salmon" class="fancybox fancybox.iframe">details</a><br />
           <a href="#" class="fancybox-galleries">view gallery</a></p>
-			<?php include($_SERVER['DOCUMENT_ROOT'].'/lightboxes/galleries/pink-salmon'); //pink salmon gallery?>
+			<?php include('../lightboxes/galleries/pink-salmon.php'); //pink salmon gallery?>
         </div><!--fish-->
       </article>
 
@@ -84,7 +84,7 @@
           <h5>King Salmon</h5>
           <p><a href="/lightboxes/sportfishing/king-salmon" class="fancybox fancybox.iframe">details</a><br />
           <a href="#" class="fancybox-galleries">view gallery</a></p>
-			<?php include($_SERVER['DOCUMENT_ROOT'].'/lightboxes/galleries/king-salmon'); //king salmon gallery?>
+			<?php include('../lightboxes/galleries/king-salmon.php'); //king salmon gallery?>
         </div><!--fish-->
       </article>
 
@@ -94,7 +94,7 @@
           <h5>Sockeye Salmon</h5>
           <p><a href="/lightboxes/sportfishing/sockeye-salmon" class="fancybox fancybox.iframe">details</a><br />
           <a href="#" class="fancybox-galleries">view gallery</a></p>
-			<?php include($_SERVER['DOCUMENT_ROOT'].'/lightboxes/galleries/sockeye-salmon'); //sockeye salmon gallery?>
+			<?php include('../lightboxes/galleries/sockeye-salmon.php'); //sockeye salmon gallery?>
         </div><!--fish-->
       </article>
 
@@ -104,7 +104,7 @@
           <h5>Chum Salmon</h5>
           <p><a href="/lightboxes/sportfishing/chum-salmon" class="fancybox fancybox.iframe">details</a><br />
           <a href="/_assets/img/galleries/chum-salmon-high.jpg" class="fancybox-galleries">view gallery</a></p>
-			<?php include($_SERVER['DOCUMENT_ROOT'].'/lightboxes/galleries/chum-salmon'); //chum salmon gallery?>
+			<?php include('../lightboxes/galleries/chum-salmon.php'); //chum salmon gallery?>
         </div><!--fish-->
       </article>
 
@@ -114,7 +114,7 @@
           <h5>Northern Pike</h5>
           <p><a href="/lightboxes/sportfishing/northern-pike" class="fancybox fancybox.iframe">details</a><br />
           <a href="#" class="fancybox-galleries">view gallery</a></p>
-			<?php include($_SERVER['DOCUMENT_ROOT'].'/lightboxes/galleries/northern-pike'); //northern pike gallery?>
+			<?php include('../lightboxes/galleries/northern-pike.php'); //northern pike gallery?>
         </div><!--fish-->
       </article>
 
@@ -124,7 +124,7 @@
           <h5>Arctic <br />Char</h5>
           <p><a href="/lightboxes/sportfishing/arctic-char" class="fancybox fancybox.iframe">details</a><br />
           <a href="/_assets/img/galleries/arctic-char.jpg" class="fancybox-galleries">view gallery</a></p>
-			<?php include($_SERVER['DOCUMENT_ROOT'].'/lightboxes/galleries/arctic-char'); //arctic char gallery?>
+			<?php include('../lightboxes/galleries/arctic-char.php'); //arctic char gallery?>
         </div><!--fish-->
       </article>
 
@@ -134,7 +134,7 @@
           <h5>Rainbow Trout</h5>
           <p><a href="/lightboxes/sportfishing/rainbow-trout" class="fancybox fancybox.iframe">details</a><br />
           <a href="#" class="fancybox-galleries">view gallery</a></p>
-			<?php include($_SERVER['DOCUMENT_ROOT'].'/lightboxes/galleries/rainbow-trout'); //rainbow trout gallery?>
+			<?php include('../lightboxes/galleries/rainbow-trout.php'); //rainbow trout gallery?>
         </div><!--fish-->
       </article>
 
@@ -144,7 +144,7 @@
           <h5>Arctic Grayling</h5>
           <p><a href="/lightboxes/sportfishing/arctic-grayling" class="fancybox fancybox.iframe">details</a><br />
           <a href="#" class="fancybox-galleries">view gallery</a></p>
-			<?php include($_SERVER['DOCUMENT_ROOT'].'/lightboxes/galleries/arctic-grayling'); //arctic grayling gallery?>
+			<?php include('../lightboxes/galleries/grayling.php'); //arctic grayling gallery?>
         </div><!--fish-->
       </article>
 
@@ -154,14 +154,14 @@
           <h5>Lake Trout</h5>
           <p><a href="/lightboxes/sportfishing/lake-trout" class="fancybox fancybox.iframe">details</a><br />
           <a href="#" class="fancybox-galleries">view gallery</a></p>
-			<?php include($_SERVER['DOCUMENT_ROOT'].'/lightboxes/galleries/lake-trout'); //lake trout gallery?>
+			<?php include('../lightboxes/galleries/lake-trout.php'); //lake trout gallery?>
         </div><!--fish-->
       </article>
 
     </div><!--container-->
 
   </div><!--inner-->
-  
+
 </section><!--testimonials-->
 
 <section class="pattern" id="links">
@@ -170,7 +170,7 @@
 
     <p class="prev"><a href="/about/fleet"><img src="/_assets/img/prev.png"/> <span>Previous:</span> Our Fleet</a></p>
 
-    <p class="next"><a href="/recreation/hiking"><span>Next:</span> Hiking, Birding & Sightseeing <img src="/_assets/img/next.png"/></a></p>
+    <p class="next"><a href="/recreation/hiking"><span>Next:</span> Exploring Southwest Alaska <img src="/_assets/img/next.png"/></a></p>
 
     <div class="clearfix"></div>
 
@@ -187,8 +187,8 @@
       $container.isotope({
         itemSelector : '.fish-item'
       });
-      
-      
+
+
       var $optionSets = $('#options .option-set'),
           $optionLinks = $optionSets.find('a');
 
@@ -201,7 +201,7 @@
         var $optionSet = $this.parents('.option-set');
         $optionSet.find('.selected').removeClass('selected');
         $this.addClass('selected');
-  
+
         // make option object dynamically, i.e. { filter: '.my-filter-class' }
         var options = {},
             key = $optionSet.attr('data-option-key'),
@@ -216,30 +216,30 @@
           // otherwise, apply new options
           $container.isotope( options );
         }
-        
+
         return false;
       });
 
-      $( ".slider" ).slider({      
-        value:0,      
-        min: 0,      
-        max: 15,      
-        step: 1,      
-        slide: function( event, ui ) {        
-          var slideVal = ui.value;   
+      $( ".slider" ).slider({
+        value:0,
+        min: 0,
+        max: 15,
+        step: 1,
+        slide: function( event, ui ) {
+          var slideVal = ui.value;
           $('#filters li:eq('+ slideVal +') a').trigger('click');
           $('#filters li:eq('+ slideVal +') a').css('color','blue');
-        }    
+        }
       });
 
 
     });
-  
+
 $(".fancybox, .fancybox-galleries")
     .attr('rel', 'gallery')
     .fancybox({
         padding : 0
-    });  
+    });
 
 </script>
 
@@ -248,4 +248,4 @@ $(".fancybox, .fancybox-galleries")
 
 </script>
 
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/footer.php'); // footer, close body and html?>
+<?php require_once('../_assets/inc/footer.php'); // footer, close body and html?>

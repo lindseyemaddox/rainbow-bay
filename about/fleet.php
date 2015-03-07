@@ -1,7 +1,7 @@
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/common.php'); //php framework and meta?>
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/head.php'); // HTTP head?>
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/subpage-header.php'); //video header?>
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/navigation.php'); //navigation?>
+<?php require_once('../_assets/inc/common.php'); //php framework and meta?>
+<?php require_once('../_assets/inc/head.php'); // HTTP head?>
+<?php require_once('../_assets/inc/subpage-header.php'); //video header?>
+<?php require_once('../_assets/inc/navigation.php'); //navigation?>
 
 <section class="pattern headerComp" id="intro">
 
@@ -24,7 +24,7 @@
 	<div class="inner">
 
     <article class="fleet-item">
-      
+
       <img src="/_assets/img/icon-beaver.png" alt="DeHavilland Beaver icon">
 
       <h4>DeHavilland Beaver</h4>
@@ -34,7 +34,7 @@
     </article><!--fleet-item-->
 
     <article class="fleet-item">
-      
+
       <img src="/_assets/img/icon-cessna.png" alt="Cessna 185 icon">
 
       <h4>Cessna <br />185</h4>
@@ -44,7 +44,7 @@
     </article><!--fleet-item-->
 
     <article class="fleet-item">
-      
+
       <img src="/_assets/img/icon-kingfisher.png" alt="Habercraft KingFisher icon">
 
       <h4>KingFisher Harbercraft</h4>
@@ -54,7 +54,7 @@
     </article><!--fleet-item-->
 
     <article class="fleet-item">
-      
+
       <img src="/_assets/img/icon-jetboat.png" alt="G-3 Jet Boat icon">
 
       <h4>G-3 <br />Jet Boats</h4>
@@ -64,7 +64,7 @@
     </article><!--fleet-item-->
 
     <article class="fleet-item">
-      
+
       <img src="/_assets/img/icon-gator.png" alt="John Deere Gator icon">
 
       <h4>John Deere Gator</h4>
@@ -74,7 +74,7 @@
     </article><!--fleet-item-->
 
     <article class="fleet-item">
-      
+
       <img src="/_assets/img/icon-kubota.png" alt="Kubota 1140 icon">
 
       <h4>Kubota <br />1140</h4>
@@ -107,14 +107,14 @@
 $('#container').isotope({ layoutMode : 'fitRows' });
 
     $(function(){
-      
+
       var $container = $('#container');
 
       $container.isotope({
         itemSelector : '.media-item'
       });
-      
-      
+
+
       var $optionSets = $('#options .option-set'),
           $optionLinks = $optionSets.find('a');
 
@@ -127,7 +127,7 @@ $('#container').isotope({ layoutMode : 'fitRows' });
         var $optionSet = $this.parents('.option-set');
         $optionSet.find('.selected').removeClass('selected');
         $this.addClass('selected');
-  
+
         // make option object dynamically, i.e. { filter: '.my-filter-class' }
         var options = {},
             key = $optionSet.attr('data-option-key'),
@@ -142,17 +142,17 @@ $('#container').isotope({ layoutMode : 'fitRows' });
           // otherwise, apply new options
           $container.isotope( options );
         }
-        
+
         return false;
       });
 
-      
+
     });
-  
+
     $(function(){
-      
+
       var $container = $('#container');
-      
+
       $container.isotope({
         itemSelector : '.media-item',
         getSortData : {
@@ -173,8 +173,8 @@ $('#container').isotope({ layoutMode : 'fitRows' });
           }
         }
       });
-      
-      
+
+
       var $optionSets = $('#options .option-set'),
           $optionLinks = $optionSets.find('a');
 
@@ -187,7 +187,7 @@ $('#container').isotope({ layoutMode : 'fitRows' });
         var $optionSet = $this.parents('.option-set');
         $optionSet.find('.selected').removeClass('selected');
         $this.addClass('selected');
-  
+
         // make option object dynamically, i.e. { filter: '.my-filter-class' }
         var options = {},
             key = $optionSet.attr('data-option-key'),
@@ -202,12 +202,12 @@ $('#container').isotope({ layoutMode : 'fitRows' });
           // otherwise, apply new options
           $container.isotope( options );
         }
-        
+
         return false;
       });
 
-      
+
     });
 </script>
 
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/footer.php'); // footer, close body and html?>
+<?php require_once('../_assets/inc/footer.php'); // footer, close body and html?>

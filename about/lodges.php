@@ -1,7 +1,7 @@
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/common.php'); //php framework and meta?>
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/head.php'); // HTTP head?>
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/subpage-header.php'); //video header?>
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/navigation.php'); //navigation?>
+<?php require_once('../_assets/inc/common.php'); //php framework and meta?>
+<?php require_once('../_assets/inc/head.php'); // HTTP head?>
+<?php require_once('../_assets/inc/subpage-header.php'); //video header?>
+<?php require_once('../_assets/inc/navigation.php'); //navigation?>
 
 <section class="pattern headerComp" id="intro">
 
@@ -16,7 +16,7 @@
 </section><!--pattern-->
 
 <section id="bgFixed" class="subpage lodge">
-  
+
   <div class="inner">
 
     <h2 class="alt subh2">Angry Eagle Lodge</h2>
@@ -24,9 +24,9 @@
     <p>Originally named Rainbow Bay Resort when it was built in 1984, the Angry Eagle Lodge offers guests a rustic and comfortable setting that’s perfect for relaxing after a long day of fishing. Featured as one of the “Top 25 Fishing Lodges in North America” by Field and Stream Magazine, the lodge is constructed of cedar logs and features six private bedrooms—four of which have two queen beds, and the other two rooms each have a queen bed and two full beds. Each bedroom also has a private bathroom and shower. Angry Eagle Lodge accommodates groups of 12 to 14 people per week and includes satellite TV and Wi-Fi.</p>
 
     <div class="slider">
-    
+
       <div class="flexslider carousel">
-  
+
         <ul class="slides">
 
           <li>
@@ -56,9 +56,9 @@
     <p>Eagle’s Peak Lodge is our latest addition, featuring four spacious bedrooms that each have two queen beds and a private bathroom and shower. This 6,000-square-foot lodge boasts a picturesque great room that’s situated on a bluff overlooking Lake Iliamna—the ideal spot to enjoy hors ‘dourves and drinks followed by an upscale dinner. Eagle’s Peak Lodge accommodates groups of six to eight people per week and includes satellite TV and Wi-Fi.</p>
 
     <div class="slider">
-    
+
       <div class="flexslider carousel">
-  
+
         <ul class="slides">
 
           <li>
@@ -88,7 +88,7 @@
     </div><!--slider-->
 
   </div><!--inner-->
-  
+
 </section><!--testimonials-->
 
 <section class="pattern" id="links">
@@ -114,7 +114,7 @@
         minItems: 3,
         maxItems: 5,
         itemWidth: 340,
-        slideshow: false, 
+        slideshow: false,
         start: function(slider){
           $('body').removeClass('loading');
         }
@@ -123,4 +123,4 @@
 </script>
 <script src="/_assets/js/jquery.flexslider.js"></script>
 
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/footer.php'); // footer, close body and html?>
+<?php require_once('../_assets/inc/footer.php'); // footer, close body and html?>
