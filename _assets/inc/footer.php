@@ -34,15 +34,15 @@
 
 					<br/>
 
-					<a href="#" class="icon icon-google-plus"></a>
+					<a href="https://plus.google.com/113031869188624299064/videos" class="icon icon-google-plus" target="_blank" rel="nofollow"></a>
 
-					<a href="https://www.facebook.com/pages/Rainbow-Bay-Resort/110232285696450" target="_blank" class="icon icon-facebook"></a>
+					<a href="https://www.facebook.com/pages/Rainbow-Bay-Resort/110232285696450" target="_blank" rel="nofollow" class="icon icon-facebook"></a>
 
-					<a href="#" class="icon icon-twitter"></a>
+					<a href="https://twitter.com/AngryEagleLodge" class="icon icon-twitter" target="_blank" rel="nofollow"></a>
 
-					<a href="#" class="icon icon-instagram"></a>
+					<a href="https://instagram.com/angryeaglelodge/" class="icon icon-instagram" target="_blank" rel="nofollow"></a>
 
-					<a href="#" class="icon icon-youtube"></a>
+					<a href="https://www.youtube.com/channel/UCgo9ak4XpJIqw1pIIwSQ-1A" class="icon icon-youtube" target="_blank" rel="nofollow"></a>
 					
 					<br/>
 

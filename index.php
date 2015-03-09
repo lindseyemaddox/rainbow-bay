@@ -209,17 +209,17 @@
 
     <div class="bottom">
 
-      <a href="https://www.facebook.com/pages/Rainbow-Bay-Resort/110232285696450" target="_blank"><img src="/_assets/img/facebook.png" alt="Facebook logo"></a>
+      <a href="https://www.facebook.com/pages/Rainbow-Bay-Resort/110232285696450" target="_blank" rel="nofollow"><img src="/_assets/img/facebook.png" alt="Facebook logo"></a>
 
       <div class="icons">
 
-        <a href="#" target="_blank"><span class="icon-google-plus"></span></a>
+        <a href="https://plus.google.com/113031869188624299064/videos" target="_blank" rel="nofollow"><span class="icon-google-plus"></span></a>
 
-        <a href="#" target="_blank"><span class="icon-youtube"></span></a>
+        <a href="https://www.youtube.com/channel/UCgo9ak4XpJIqw1pIIwSQ-1A" target="_blank" rel="nofollow"><span class="icon-youtube"></span></a>
 
-        <a href="#" target="_blank"><span class="icon-twitter"></span></a>
+        <a href="https://twitter.com/AngryEagleLodge" target="_blank" rel="nofollow"><span class="icon-twitter"></span></a>
 
-        <a href="#" target="_blank"><span class="icon-instagram"></span></a>
+        <a href="https://instagram.com/angryeaglelodge/" target="_blank" rel="nofollow"><span class="icon-instagram"></span></a>
 
       </div><!--icons-->
 

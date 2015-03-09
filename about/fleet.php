@@ -25,7 +25,7 @@
 
     <article class="fleet-item">
 
-      <img src="/_assets/img/icon-beaver.png" alt="DeHavilland Beaver icon">
+      <img src="/_assets/img/fleet-beaver.jpg" alt="DeHavilland Beaver">
 
       <h4>DeHavilland Beaver</h4>
 
@@ -35,7 +35,7 @@
 
     <article class="fleet-item">
 
-      <img src="/_assets/img/icon-cessna.png" alt="Cessna 185 icon">
+      <img src="/_assets/img/fleet-cessna.jpg" alt="Cessna 185">
 
       <h4>Cessna <br />185</h4>
 
@@ -45,7 +45,7 @@
 
     <article class="fleet-item">
 
-      <img src="/_assets/img/icon-kingfisher.png" alt="Habercraft KingFisher icon">
+      <img src="/_assets/img/fleet-harbercraft.jpg" alt="KingFisher Habercraft">
 
       <h4>KingFisher Harbercraft</h4>
 
@@ -55,7 +55,7 @@
 
     <article class="fleet-item">
 
-      <img src="/_assets/img/icon-jetboat.png" alt="G-3 Jet Boat icon">
+      <img src="/_assets/img/fleet-jetboat.jpg" alt="G-3 Jet Boat">
 
       <h4>G-3 <br />Jet Boats</h4>
 
@@ -65,7 +65,7 @@
 
     <article class="fleet-item">
 
-      <img src="/_assets/img/icon-gator.png" alt="John Deere Gator icon">
+      <img src="/_assets/img/fleet-gator.jpg" alt="John Deere Gators">
 
       <h4>John Deere Gator</h4>
 
@@ -75,11 +75,11 @@
 
     <article class="fleet-item">
 
-      <img src="/_assets/img/icon-kubota.png" alt="Kubota 1140 icon">
+      <img src="/_assets/img/fleet-riverhawk.jpg" alt="River Hawk">
 
-      <h4>Kubota <br />1140</h4>
+      <h4>River <br />Hawks</h4>
 
-      <p>Our heavy-duty Kubota RTV1140CPX utility vehicle features 4WD and an impressive suspension system that allows us to transport our guests on a variety of terrain.</p>
+      <p>Our River Hawk boat provides the stability guests need to comfortably stand while casting fly rods.</p>
 
     </article><!--fleet-item-->
 

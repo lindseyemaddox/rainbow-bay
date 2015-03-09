@@ -11,7 +11,7 @@
 	<title>Angry Eagle Lodge & Outfitters</title>
 	<meta name="description" content="Alaska's premier fishing resort, Angry Eagle Lodge & Outfitters">
 	
-	<!--[if lt IE 8]>
+	<!--[if lt IE 9]>
 	    <p class="browsehappy">You are using an outdated browser. Please <a href="http://browsehappy.com/" target="_blank">upgrade your browser</a> to improve your experience.</p>
 	    <img class="browsehappyimg" src="/_assets/img/apple-touch-57.png"/>
 	<![endif]-->
@@ -33,3 +33,11 @@
 	
 	<!--google recaptcha-->
 	<script src='https://www.google.com/recaptcha/api.js'></script>
+	
+	<!--twitter card-->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@angryeaglelodge">
+	<meta name="twitter:creator" content="@lindseyemaddox">
+	<meta name="twitter:title" content="Angry Eagle Lodge & Outfitters">
+	<meta name="twitter:description" content="Angry Eagle Lodge & Outfitters operates two full-service fishing lodges in the heart of Southwest Alaska’s Bristol Bay region. For the past 30 years, we’ve prided ourselves on offering the fishing adventures of a lifetime.">
+	<meta name="twitter:image:src" content="http://www.angryeagle.com/emails/twitter-card.jpg">

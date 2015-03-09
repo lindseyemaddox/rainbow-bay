@@ -19,7 +19,7 @@
 			<li class="drop"><a href="#">About Us<span class="drop-icon collapsed"></span></a>
 				<ul>
 					<li><a href="/about/legacy">Our Legacy</a></li>
-					<li><a href="/about/staff">Our Staff</a></li>
+					<li><a href="/about/staff">Our Guides</a></li>
 					<li><a href="/about/lodges">The Lodges</a></li>
 					<li><a href="/about/fleet">Our Fleet</a></li>
 				</ul>

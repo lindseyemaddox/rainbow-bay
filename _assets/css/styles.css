@@ -2453,7 +2453,7 @@ section.fleet article.fleet-item a.video-link:hover span {
 }
 section.fleet article.fleet-item img {
   width: 76%;
-  margin: 20px 12% 0;
+  margin: 0 12%;
 }
 section.fleet article.fleet-item img.atv {
   width: 50%;

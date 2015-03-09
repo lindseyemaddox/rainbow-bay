@@ -133,8 +133,8 @@
           <img src="/_assets/img/icon-rainbow-trout.svg" alt="Rainbow Trout" />
           <h5>Rainbow Trout</h5>
           <p><a href="/lightboxes/sportfishing/rainbow-trout" class="fancybox fancybox.iframe">details</a><br />
-          <a href="#" class="fancybox-galleries">view gallery</a></p>
-			<?php include('../lightboxes/galleries/rainbow-trout.php'); //rainbow trout gallery?>
+          <a href="/_assets/img/galleries/rainbow-trout-closeup.jpg" class="fancybox-galleries">view gallery</a>
+          <?php include('../lightboxes/galleries/rainbow-trout.php'); //rainbow trout gallery?>
         </div><!--fish-->
       </article>
 

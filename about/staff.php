@@ -7,7 +7,7 @@
 
     <div class="inner">
 
-        <h2>Our Staff</h2>
+        <h2>Our Guides</h2>
 
         <h3 style="padding-bottom: 20px;">Angry Eagle Lodge & Outfitters is proud to have one of the finest teams of professional fishing guides in all of Alaska. With nearly 200 years of combined experience, our guides have been fishing for most of their lives and are more than familiar with Southwest Alaska’s rivers, streams, and lakes—which means they know exactly how and where to find a great catch.</h3>
 
@@ -68,16 +68,6 @@
       <h4>Lewis Lincecum <br />Fishing <br />Guide</h4>
 
       <img src="/_assets/img/staff-lincecum.jpg" alt="Angry Eagle fishing guide Lewis Lincecum">
-
-    </a><!--staff-item-->
-
-    <a href="/lightboxes/staff/cochran" class="staff-item fancybox fancybox.iframe">
-
-      <span class="icon-bio"></span>
-
-      <h4>Mason Cochran <br />Fishing <br />Guide</h4>
-
-      <img src="/_assets/img/staff-cochran.jpg" alt="Angry Eagle fishing guide Mason Cochran">
 
     </a><!--staff-item-->
 
