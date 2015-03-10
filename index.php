@@ -185,11 +185,11 @@
         <img src="/_assets/img/featured-fisherman.jpg" alt="Angry Eagle's Featured Fisherman">
 
         <div class="name">
-          <h4>Firstname M. Lastname</h4>
+          <h4>Johnny Parks</h4>
           <p>Featured Fisherman</p>
         </div><!--name-->
 
-        <h6><span>Where do you live?</span> I live in Honolulu, Hawaii, with my husbandand children, where I work as  a private investigator.</h6>
+        <h6><span>Where do you live?</span> I live in Honolulu, Hawaii, where I work as  a private investigator.</h6>
 
         <h6><span>When did you start fishing?</span> My grandfather inspired my love of fishing when I was just 5 years old.</h6>
 
