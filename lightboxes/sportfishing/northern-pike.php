@@ -1,9 +1,9 @@
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/head.php'); // HTTP head?>
+<?php require_once('../_assets/inc/head.php'); // HTTP head?>
 
 <section id="bio" class="fish">
 
-          <img src="/_assets/img/icon-northern-pike.svg" alt="Northern Pike" />
-  
+          <img src="/_assets/img/icon-northern-pike.png" alt="Northern Pike" />
+
   <h1>Northern Pike</h1>
 
         <div class="description">

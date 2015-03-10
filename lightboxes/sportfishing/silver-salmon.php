@@ -1,9 +1,9 @@
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/head.php'); // HTTP head?>
+<?php require_once('../_assets/inc/head.php'); // HTTP head?>
 
 <section id="bio" class="fish">
-	
-	<img src="/_assets/img/icon-silver-salmon.svg" alt="Silver Salmon" />
-  
+
+	<img src="/_assets/img/icon-silver-salmon.png" alt="Silver Salmon" />
+
 	<h1>Silver Salmon</h1>
 
         <div class="description">
@@ -12,7 +12,7 @@
           <p><span>How: </span>Whether you use a fly rod or spinning rod, this fish will live up to his fighting reputation. We fish freshwater streams within 200 yards of the ocean. In fact, the fish are so fresh from the ocean they still have sea lice.</p>
         </div><!--description-->
 
-        
+
 </section><!--testimonials-->
 
   </body>

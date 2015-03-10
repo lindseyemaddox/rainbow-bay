@@ -60,7 +60,7 @@
 
       <article class="fish-item aug1 aug2 aug3 aug4 sept1 sept2 sept3 sept4">
         <div class="fish silver">
-          <img src="/_assets/img/icon-silver-salmon.svg" alt="Silver Salmon" />
+          <img src="/_assets/img/icon-silver-salmon.png" alt="Silver Salmon" />
           <h5>Silver Salmon</h5>
           <p><a href="/lightboxes/sportfishing/silver-salmon" class="fancybox fancybox.iframe">details</a><br />
           <a href="#" class="fancybox-galleries">view gallery</a></p>
@@ -70,7 +70,7 @@
 
       <article class="fish-item july3 july4 aug1 aug2 aug3">
         <div class="fish">
-          <img src="/_assets/img/icon-pink-salmon.svg" alt="Pink Salmon" />
+          <img src="/_assets/img/icon-pink-salmon.png" alt="Pink Salmon" />
           <h5>Pink Salmon</h5>
           <p><a href="/lightboxes/sportfishing/pink-salmon" class="fancybox fancybox.iframe">details</a><br />
           <a href="#" class="fancybox-galleries">view gallery</a></p>
@@ -80,7 +80,7 @@
 
       <article class="fish-item june2 june3 june4 july1 july2 july3 july4 aug1">
         <div class="fish">
-          <img src="/_assets/img/icon-king-salmon.svg" alt="King Salmon" />
+          <img src="/_assets/img/icon-king-salmon.png" alt="King Salmon" />
           <h5>King Salmon</h5>
           <p><a href="/lightboxes/sportfishing/king-salmon" class="fancybox fancybox.iframe">details</a><br />
           <a href="#" class="fancybox-galleries">view gallery</a></p>
@@ -90,7 +90,7 @@
 
       <article class="fish-item july1 july2 july3 july4 aug1 aug2 aug3 aug4 sept1">
         <div class="fish">
-          <img src="/_assets/img/icon-sockeye-salmon.svg" alt="Sockeye Salmon" />
+          <img src="/_assets/img/icon-sockeye-salmon.png" alt="Sockeye Salmon" />
           <h5>Sockeye Salmon</h5>
           <p><a href="/lightboxes/sportfishing/sockeye-salmon" class="fancybox fancybox.iframe">details</a><br />
           <a href="#" class="fancybox-galleries">view gallery</a></p>
@@ -100,7 +100,7 @@
 
       <article class="fish-item july2 july3 july4 aug1 aug2 aug3 aug4 sept1 sept2 sept3">
         <div class="fish">
-          <img src="/_assets/img/icon-chum-salmon.svg" alt="Chum Salmon" />
+          <img src="/_assets/img/icon-chum-salmon.png" alt="Chum Salmon" />
           <h5>Chum Salmon</h5>
           <p><a href="/lightboxes/sportfishing/chum-salmon" class="fancybox fancybox.iframe">details</a><br />
           <a href="/_assets/img/galleries/chum-salmon-high.jpg" class="fancybox-galleries">view gallery</a></p>
@@ -110,7 +110,7 @@
 
       <article class="fish-item june1 june2 june3 june4 july1 july2 july3 july4 aug1 aug2 aug3 aug4 sept1 sept2 sept3 sept4">
         <div class="fish">
-          <img src="/_assets/img/icon-northern-pike.svg" alt="Northern Pike" />
+          <img src="/_assets/img/icon-northern-pike.png" alt="Northern Pike" />
           <h5>Northern Pike</h5>
           <p><a href="/lightboxes/sportfishing/northern-pike" class="fancybox fancybox.iframe">details</a><br />
           <a href="#" class="fancybox-galleries">view gallery</a></p>
@@ -120,7 +120,7 @@
 
       <article class="fish-item june2 june3 june4 july1 july2 july3 july4 aug1 aug2 aug3 aug4 sept1 sept2 sept3 sept4">
         <div class="fish">
-          <img src="/_assets/img/icon-arctic-char.svg" alt="Arctic Char" />
+          <img src="/_assets/img/icon-arctic-char.png" alt="Arctic Char" />
           <h5>Arctic <br />Char</h5>
           <p><a href="/lightboxes/sportfishing/arctic-char" class="fancybox fancybox.iframe">details</a><br />
           <a href="/_assets/img/galleries/arctic-char.jpg" class="fancybox-galleries">view gallery</a></p>
@@ -130,7 +130,7 @@
 
       <article class="fish-item june2 june3 june4 july1 july2 july3 july4 aug1 aug2 aug3 aug4 sept1 sept2 sept3 sept4">
         <div class="fish">
-          <img src="/_assets/img/icon-rainbow-trout.svg" alt="Rainbow Trout" />
+          <img src="/_assets/img/icon-rainbow-trout.png" alt="Rainbow Trout" />
           <h5>Rainbow Trout</h5>
           <p><a href="/lightboxes/sportfishing/rainbow-trout" class="fancybox fancybox.iframe">details</a><br />
           <a href="/_assets/img/galleries/rainbow-trout-closeup.jpg" class="fancybox-galleries">view gallery</a>
@@ -140,7 +140,7 @@
 
       <article class="fish-item june2 june3 june4 july1 july2 july3 july4 aug1 aug2 aug3 aug4 sept1 sept2 sept3 sept4">
         <div class="fish grayling">
-          <img src="/_assets/img/icon-arctic-grayling.svg" alt="Arctic Grayling" />
+          <img src="/_assets/img/icon-arctic-grayling.png" alt="Arctic Grayling" />
           <h5>Arctic Grayling</h5>
           <p><a href="/lightboxes/sportfishing/arctic-grayling" class="fancybox fancybox.iframe">details</a><br />
           <a href="#" class="fancybox-galleries">view gallery</a></p>
@@ -150,7 +150,7 @@
 
       <article class="fish-item july3 july4 aug1 aug2 aug3 aug4 sept1 sept2">
         <div class="fish">
-          <img src="/_assets/img/icon-lake-trout.svg" alt="Lake Trout" />
+          <img src="/_assets/img/icon-lake-trout.png" alt="Lake Trout" />
           <h5>Lake Trout</h5>
           <p><a href="/lightboxes/sportfishing/lake-trout" class="fancybox fancybox.iframe">details</a><br />
           <a href="#" class="fancybox-galleries">view gallery</a></p>
