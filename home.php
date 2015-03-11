@@ -251,7 +251,7 @@
         $title = strip_tags($blog->getSummary());
       ?>
 
-      <p class="author">by <a href="/lightboxes/staff/<?php echo $authorLastName; ?>" class="fancybox fancybox.iframe"><?php echo $author; ?></a>, <?php echo $title; ?></p>
+      <p class="author">by <a href="/lightboxes/staff/<?php echo $authorLastName; ?>" class="fancybox fancybox.iframe" rel="report"><?php echo $author; ?></a>, <?php echo $title; ?></p>
 
       <?php echo $summary; ?>
 
@@ -270,7 +270,7 @@
 
       <p>Jim Kern discusses fishing in Alaska with Gayne C. Young, editor of Dallas Safari Club's GameTrails Online.</p>
 
-      <a href="/lightboxes/video/interview" class="video-link fancybox fancybox.iframe"><span class="icon-play"></span><img src="/_assets/img/video-interview.jpg" alt="Dallas Safari Club Game Trails Online Editor Gayne C. Young talks to Jim Kern of Angry Eagle Lodge & Outfitters about fishing in Alaska."></a>
+      <a href="/lightboxes/video/interview" class="video-link fancybox fancybox.iframe" rel="video-interview"><span class="icon-play"></span><img src="/_assets/img/video-interview.jpg" alt="Dallas Safari Club Game Trails Online Editor Gayne C. Young talks to Jim Kern of Angry Eagle Lodge & Outfitters about fishing in Alaska."></a>
 
     </article><!--media-item-->
 
@@ -282,7 +282,7 @@
 
       <p>click image to view gallery</p>
 
-      <a class="fancybox" href="/_assets/img/galleries/rainbow-trout-closeup.jpg"><img src="/_assets/img/galleries/rainbow-trout-closeup.jpg" alt="rainbow trout" /></a>
+      <a class="fancybox" rel="rainbow-trout" href="/_assets/img/galleries/rainbow-trout-closeup.jpg"><img src="/_assets/img/galleries/rainbow-trout-closeup.jpg" alt="rainbow trout" /></a>
 
       <?php include('lightboxes/galleries/rainbow-trout.php'); //rainbow trout gallery?>
 
@@ -337,7 +337,6 @@
 <script type="text/javascript">
   $(document).ready(function() {
     $(".fancybox")
-        .attr('rel', 'gallery')
         .fancybox({
             padding : 0
         });
