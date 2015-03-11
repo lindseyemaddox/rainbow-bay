@@ -5,7 +5,7 @@
 
 <section class="pattern headerComp" id="intro">
 
-    <div class="inner">
+    <div class="inner" itemscope itemtype="http://schema.org/LodgingBusiness">
 
         <h2>Our Fleet</h2>
 
@@ -27,9 +27,9 @@
 
       <img src="/_assets/img/fleet-beaver.jpg" alt="DeHavilland Beaver">
 
-      <h4>DeHavilland Beaver</h4>
+      <h4 property="name">DeHavilland Beaver</h4>
 
-      <p>Completely rebuilt from prop to tail in 2013, our deHavilland Beaver sits on Aerocet 5850 composite floats and has custom cargo doors and cockpit extension modifications. It comfortably accommodates five passengers plus pilot.</p>
+      <p property="description">Completely rebuilt from prop to tail in 2013, our deHavilland Beaver sits on Aerocet 5850 composite floats and has custom cargo doors and cockpit extension modifications. It comfortably accommodates five passengers plus pilot.</p>
 
     </article><!--fleet-item-->
 
@@ -37,9 +37,9 @@
 
       <img src="/_assets/img/fleet-cessna.jpg" alt="Cessna 185">
 
-      <h4>Cessna <br />185</h4>
+      <h4 property="name">Cessna <br />185</h4>
 
-      <p>Our Cessna 185 utilizes either wheels or floats. This plane comfortably accommodates three passengers plus pilot.</p>
+      <p property="description">Our Cessna 185 utilizes either wheels or floats. This plane comfortably accommodates three passengers plus pilot.</p>
 
     </article><!--fleet-item-->
 
@@ -47,9 +47,9 @@
 
       <img src="/_assets/img/fleet-harbercraft.jpg" alt="KingFisher Habercraft">
 
-      <h4>KingFisher Harbercraft</h4>
+      <h4 property="name">KingFisher Harbercraft</h4>
 
-      <p>Our KingFisher Harbercraft 2825 boats transport guests to streams and to the shallow waters of the Cook Inlet. One boat has twin 150 HP Honda outboards and the other has twin 200 HP outboards. Equipped with depth finders, radios, and radar.</p>
+      <p property="description">Our KingFisher Harbercraft 2825 boats transport guests to streams and to the shallow waters of the Cook Inlet. One boat has twin 150 HP Honda outboards and the other has twin 200 HP outboards. Equipped with depth finders, radios, and radar.</p>
 
     </article><!--fleet-item-->
 
@@ -57,9 +57,9 @@
 
       <img src="/_assets/img/fleet-jetboat.jpg" alt="G-3 Jet Boat">
 
-      <h4>G-3 <br />Jet Boats</h4>
+      <h4 property="name">G-3 <br />Jet Boats</h4>
 
-      <p>We use our collection of G-3 jet boats on lakes and streams that we reach by airplane or our KingFishers. These boats run in a few inches of water, enabling our guides to access the upper reaches of prime Arctic char and rainbow trout of the remote rivers we fish.</p>
+      <p property="description">We use our collection of G-3 jet boats on lakes and streams that we reach by airplane or our KingFishers. These boats run in a few inches of water, enabling our guides to access the upper reaches of prime Arctic char and rainbow trout of the remote rivers we fish.</p>
 
     </article><!--fleet-item-->
 
@@ -67,9 +67,9 @@
 
       <img src="/_assets/img/fleet-gator.jpg" alt="John Deere Gators">
 
-      <h4>John Deere Gator</h4>
+      <h4 property="name">John Deere Gator</h4>
 
-      <p>Go pretty much anywhere in our John Deere Gator all-terrain utility vehicle that boasts 4WD, an impressive turn of speed, and a killer suspension.</p>
+      <p property="description">Go pretty much anywhere in our John Deere Gator all-terrain utility vehicle that boasts 4WD, an impressive turn of speed, and a killer suspension.</p>
 
     </article><!--fleet-item-->
 
@@ -77,9 +77,9 @@
 
       <img src="/_assets/img/fleet-riverhawk.jpg" alt="River Hawk">
 
-      <h4>River <br />Hawks</h4>
+      <h4 property="name">River <br />Hawks</h4>
 
-      <p>Our River Hawk boat provides the stability guests need to comfortably stand while casting fly rods.</p>
+      <p property="description">Our River Hawk boat provides the stability guests need to comfortably stand while casting fly rods.</p>
 
     </article><!--fleet-item-->
 

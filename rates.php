@@ -5,11 +5,11 @@
 
 <section class="pattern headerComp" id="rates">
 
-  <div class="inner">
+  <div class="inner" itemscope itemtype="http://schema.org/LodgingBusiness">
 
   <h1><?php echo date("Y"); ?> Rates</h1>
 
-  <h3>$7250 per week<br />
+  <h3><span property="priceRange">$7250</span> per week<br />
   7 days and 7 nights</h3>
 
   <article class="column left">

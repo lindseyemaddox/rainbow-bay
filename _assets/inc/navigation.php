@@ -1,11 +1,11 @@
 </head>
 <body>
 
-	<div class="inner">
+	<div class="inner" itemscope itemtype="http://schema.org/LodgingBusiness">
 
-	<nav>
+	<nav itemscope itemtype="http://schema.org/SiteNavigationElement">
 
-		<div class="logo"><a href="/"><img src="/_assets/img/logo-angry-eagle.png" alt="Angry Eagle Lodge &amp; Outfitters logo"></a></div>
+		<div class="logo"><a href="/"><img property="logo" src="/_assets/img/logo-angry-eagle.png" alt="Angry Eagle Lodge &amp; Outfitters logo"></a></div>
 		
 		<ul id="mainNav">
 			<li class="drop"><a href="#">Plan Your Adventure<span class="drop-icon collapsed"></span></a>

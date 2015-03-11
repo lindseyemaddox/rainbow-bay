@@ -26,7 +26,7 @@
 
     </span><!--dontPrintThis-->
 
-      <table class="pad">
+      <table class="pad" itemscope itemtype="http://schema.org/Table">
         <tr>
           <td class="table-left dontPrintThis"><p class="table-header">Spinning Equipment</p><p class="table-body">This list covers everything except for equipment needed to catch king salmon, which can weigh upward of 50 pounds and require heavy-duty bait casting equipment to land. We furnish this type of equipment at the lodge, but you’re welcome bring your own equipment. <a href="/contact">Contact us</a> so we can tell you more about what you’ll need.</p></td>
           <td class="no-padding">
@@ -68,7 +68,7 @@
 
       <button class="print dontPrintThis" onclick="printTable()"><span class="icon-print"></span> Print</button>
 
-      <table class="pad pad-more">
+      <table class="pad pad-more" itemscope itemtype="http://schema.org/Table">
         <tr>
           <td class="table-left dontPrintThis"><p class="table-header">Fly Fishing Equipment</p><p class="table-body">While our guests are welcome to use our Temple Fork Outfitters’ 6-wt. and 8-wt. fly rods, we suggest bringing your own rods if you have them. After all, if your gear is customized for your use, it will most likely increase your chances of hooking a fish worthy of bragging about for years to come. </p><p class="table-body">We also provide an assortment of flies and other terminal tackle, but keep your options open and bring as many flies as you’d like. Here are our other recommendations for bringing your own rods, reels, and terminal tackle:</p></td>
           <td class="no-padding">

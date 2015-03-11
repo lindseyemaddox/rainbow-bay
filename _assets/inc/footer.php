@@ -1,13 +1,13 @@
 
-		<footer>
+		<footer itemscope itemtype="http://schema.org/WPFooter">
 
-			<div class="inner">
-				
-				<h2 class="alt">How Remote Is Angry Eagle?</h3>
+			<div class="inner" itemscope itemtype="http://schema.org/LodgingBusiness">
+
+				<h2 class="alt">How Remote Is <span itemprop="name">Angry Eagle</span>?</h3>
 
 				<div class="addresses">
 
-					<p class="remote"><span>We're so remote we don't even have an address. Seriously. </span><a href="/contact">Contact us for shipping details.</a></p>
+					<p class="remote" property="description"><span>We're so remote we don't even have an address. Seriously. </span><a href="/contact">Contact us for shipping details.</a></p>
 
 					<br/>
 
@@ -20,17 +20,17 @@
 					    if($today >= $startDate && $today <= $endDate)
 					    {
 					?>
-					      <p><span>In-Season</span> <a href="tel:19078502235">(907) 850-2234</a></p>
+					      <p itemprop="telephone" content="+19078502235"><span>In-Season</span> <a href="tel:19078502235">(907) 850-2234</a></p>
 					<?php
 					    }
 
 					    if($today >= $startDate)
 					    {
 					?>
-					      <p><span>Off-Season</span> <a href="tel:18179462479">(817) 946-2479</a></p>
+					      <p itemprop="telephone" content="+18179462479"><span>Off-Season</span> <a href="tel:18179462479">(817) 946-2479</a></p>
 					<?php
 					    }
-					?>				
+					?>
 
 					<br/>
 
@@ -43,16 +43,16 @@
 					<a href="https://instagram.com/angryeaglelodge/" class="icon icon-instagram" target="_blank" rel="nofollow"></a>
 
 					<a href="https://www.youtube.com/channel/UCgo9ak4XpJIqw1pIIwSQ-1A" class="icon icon-youtube" target="_blank" rel="nofollow"></a>
-					
+
 					<br/>
 
-					<p class="copy"><a href="/client-photos/login" class="fancybox fancybox.iframe">Guest Login</a></p>
+					<p class="copy"><a href="/guests">Guest Login</a></p>
 
 					<p class="copy">&copy;<?php echo date("Y"); ?> Rainbow Bay Resorts, LLC</p>
 
 				</div><!--addresses-->
 
-				<div class="mapnstuff">
+				<div class="mapnstuff" itemscope itemtype="http://schema.org/Map">
 
 					<img src="/_assets/img/map.png" alt="map of Alaska with a closer view of Angry Eagle Lodge &amp; Outfitters">
 
@@ -69,6 +69,12 @@
 		</script>
 		<script src="/_assets/js/jquery.fancybox.js"></script>
 		<script src="/_assets/js/touchpunch.js"></script>
-
+		<?php if ($smCurrentFolder && $smCurrentFolder->getTitle() == 'Admin'): ?>
+		  <script src="/smTemplate/js/moment.js"></script>
+		  <script src="/smTemplate/js/pikaday.js"></script>
+		  <script src="/smTemplate/js/pikaday.jquery.js"></script>
+		  <script src="/smTemplate/js/chosen.jquery.min.js"></script>
+		  <script src="/smTemplate/js/admin.js"></script>
+		<?php endif; ?>
 	</body>
 </html>

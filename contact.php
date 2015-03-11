@@ -1,10 +1,10 @@
-<?php require_once('_assets/inc/common.php'); //php framework and meta?>
-<?php require_once('_assets/inc/head.php'); // HTTP head?>
-<script src="_assets/js/jquery.maskedinput.js"></script>
-<?php require_once('_assets/inc/subpage-header.php'); //video header?>
-<?php require_once('_assets/inc/navigation.php'); //navigation?>
+<?php require_once('../_assets/inc/common.php'); //php framework and meta?>
+<?php require_once('../_assets/inc/head.php'); // HTTP head?>
+<script src="/_assets/js/jquery.maskedinput.js"></script>
+<?php require_once('../_assets/inc/subpage-header.php'); //video header?>
+<?php require_once('../_assets/inc/navigation.php'); //navigation?>
 
-<section class="pattern dark" id="contact">
+<section class="pattern dark" id="contact" itemscope itemtype="http://schema.org/ContactPage">
 
 	<div class="inner">
 
@@ -30,7 +30,8 @@
 			// Set some options - we are passing in a useragent too here
 			curl_setopt_array($curl, array(
 			  CURLOPT_RETURNTRANSFER => 1,
-			  CURLOPT_URL => "https://www.google.com/recaptcha/api/siteverify?secret=$capSecret&response=$capResponse"
+			  CURLOPT_URL => "https://www.google.com/recaptcha/api/siteverify?secret=$capSecret&response=$capResponse",
+        CURLOPT_SSL_VERIFYPEER => 0
 			));
 			// Send the request & save response
 			$response = curl_exec($curl);
@@ -114,4 +115,4 @@
     });
 </script>
 
-<?php require_once('_assets/inc/footer.php'); // footer, close body and html?>
+<?php require_once('../_assets/inc/footer.php'); // footer, close body and html?>

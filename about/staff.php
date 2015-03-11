@@ -19,13 +19,13 @@
 
 <section id="bgFixed" class="subpage staff">
 
-	<div class="inner">
+	<div class="inner" itemscope itemtype="http://schema.org/LodgingBusiness">
 
     <a href="/lightboxes/staff/kern" class="staff-item fancybox fancybox.iframe">
 
       <span class="icon-bio"></span>
 
-      <h4>Jim Kern <br />General Manager</h4>
+      <h4 property="employee">Jim Kern <br />General Manager</h4>
 
       <img src="/_assets/img/staff-kern.jpg" alt="Angry Eagle staff member Jim Kern">
 
@@ -35,7 +35,7 @@
 
       <span class="icon-bio"></span>
 
-      <h4>Ken Baldwin <br />Fishing <br />Guide</h4>
+      <h4 property="employee">Ken Baldwin <br />Fishing <br />Guide</h4>
 
       <img src="/_assets/img/staff-baldwin.jpg" alt="Angry Eagle fishing guide Ken Baldwin">
 
@@ -45,7 +45,7 @@
 
       <span class="icon-bio"></span>
 
-      <h4>Jon Baker <br />Fishing <br />Guide</h4>
+      <h4 property="employee">Jon Baker <br />Fishing <br />Guide</h4>
 
       <img src="/_assets/img/staff-baker.jpg" alt="Angry Eagle fishing guide Jon Baker">
 
@@ -55,7 +55,7 @@
 
       <span class="icon-bio"></span>
 
-      <h4>Erin Rogers <br />Fishing <br />Guide</h4>
+      <h4 property="employee">Erin Rogers <br />Fishing <br />Guide</h4>
 
       <img src="/_assets/img/staff-rogers.jpg" alt="Angry Eagle fishing guide Erin Rogers">
 
@@ -65,7 +65,7 @@
 
       <span class="icon-bio"></span>
 
-      <h4>Lewis Lincecum <br />Fishing <br />Guide</h4>
+      <h4 property="employee">Lewis Lincecum <br />Fishing <br />Guide</h4>
 
       <img src="/_assets/img/staff-lincecum.jpg" alt="Angry Eagle fishing guide Lewis Lincecum">
 

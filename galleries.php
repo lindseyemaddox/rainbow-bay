@@ -49,7 +49,7 @@
 
         </aside>
 
-        <div id="container" class="clearfix">
+        <div id="container" class="clearfix" itemscope itemtype="http://schema.org/CreativeWork">
 
           <article class="media-item photo fish">
 

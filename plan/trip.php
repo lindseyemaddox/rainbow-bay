@@ -32,7 +32,7 @@
 
     <div class="right" style="width:60%;">
 
-      <table>
+      <table itemscope itemtype="http://schema.org/Table">
         <tr>
           <td><a href="http://www.captaincook.com" target="_blank" rel="nofollow">The Hotel Captain Cook</a></td>
           <td><a href="tel:19072766000">(907) 276-6000</a></td>

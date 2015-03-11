@@ -112,7 +112,7 @@
 
     </div>
 
-    <div class="right table">
+    <div class="right table" itemscope itemtype="http://schema.org/Table">
 
       <table class="dark">
         <tr>

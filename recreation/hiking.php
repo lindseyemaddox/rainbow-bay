@@ -5,17 +5,17 @@
 
 <section class="pattern headerComp" id="intro">
 
-	<div class="inner">
+	<div class="inner" itemscope itemtype="http://schema.org/LakeBodyOfWater">
 
 		<h2>Exploring Southwest Alaska</h2>
 
-		<p>Nestled between Lake Clark National Park and Katmai National Park, Angry Eagle Lodge & Outfitters is ideally situated for exploring the natural beauty of Southwest Alaska.</p>
+		<p>Nestled between <span property="name">Lake Clark</span> National Park and Katmai National Park, Angry Eagle Lodge & Outfitters is ideally situated for exploring the natural beauty of Southwest Alaska.</p>
 
 		<p>Enjoy a day flight seeing as you take in everything from breathtaking panoramic views and crystal-clear lakes to vast tundras and majestic volcanoes. This an adventure unlike anything you've ever experienced.</p>
 
 		<h2 class="multiple subh2">Katmai National Park & Preserve</h2>
 
-		<p>We provide plane tours to Brooks Falls in Katmai National Park for bear viewing. The park is famous for its brown bear viewing platforms in the heart of the world's largest protected brown/grizzly bear population that’s estimated to be around 2,200 bears.</p>
+		<p>We provide plane tours to <span property="name">Brooks Falls</span> in Katmai National Park for bear viewing. The park is famous for its brown bear viewing platforms in the heart of the world's largest protected brown/grizzly bear population that’s estimated to be around 2,200 bears.</p>
 
 		<h2 class="multiple subh2">Lake Clark National Park & Preserve</h2>
 

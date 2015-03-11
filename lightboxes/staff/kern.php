@@ -1,10 +1,10 @@
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/head.php'); // HTTP head?>
+<?php require_once('../_assets/inc/head.php'); // HTTP head?>
 
-<section id="bio">
-  
-  <h1>Jim Kern</h1>
+<section id="bio" itemscope itemtype="http://schema.org/Person">
 
-  <h2>Operations Manager</h2>
+  <h1 property="name">Jim Kern</h1>
+
+  <h2 property="jobTitle">Operations Manager</h2>
 
   <img src="/_assets/img/staff-kern.jpg" alt="Angry Eagle Operations Manager Jim Kern">
 
@@ -19,7 +19,7 @@
 	<p>Jim first came to Angry Eagle in 2007 and managed daily operations for nearly four years. He then reprised his role as operations manager in January 2014 and continues to enjoy showing guests the wonders of Southwest Alaska—including its remote fishing experiences, natural history nuances, and abundance of variety when it comes to fishing, wildlife, and photography opportunities. He also has a knack for going above and beyond for clients. In other words, if a client can dream it, Jim can make it happen.</p>
 
 	<p>When he isn’t in Alaska, you’ll find him spending time with his family in Texas, perfecting his award-winning photography skills, and organizing charity events to support area causes, just to name a few. </p>
-        
+
 </section><!--testimonials-->
 
   </body>

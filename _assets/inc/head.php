@@ -9,15 +9,23 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Angry Eagle Lodge & Outfitters</title>
-	<meta name="description" content="Alaska's premier fishing resort, Angry Eagle Lodge & Outfitters">
+	<meta name="description" content="Alaska's premier fishing resort, Angry Eagle Lodge &amp; Outfitters">
 
 	<!--twitter card-->
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:site" content="@angryeaglelodge">
 	<meta name="twitter:creator" content="@anngryeaglelodge">
-	<meta name="twitter:title" content="Angry Eagle Lodge & Outfitters">
-	<meta name="twitter:description" content="Angry Eagle Lodge & Outfitters operates two full-service fishing lodges in the heart of Southwest Alaska’s Bristol Bay region. For the past 30 years, we’ve prided ourselves on offering the fishing adventures of a lifetime.">
+	<meta name="twitter:title" content="Angry Eagle Lodge &amp; Outfitters">
+	<meta name="twitter:description" content="Angry Eagle Lodge &amp; Outfitters operates two full-service fishing lodges in the heart of Southwest Alaska’s Bristol Bay region. For the past 30 years, we’ve prided ourselves on offering the fishing adventures of a lifetime.">
 	<meta name="twitter:image:src" content="http://www.angryeagle.com/emails/twitter-card.jpg">
+
+	<!--open graph-->
+	<meta property="og:title" content="Alaska's Premier Fishing Resort"/>
+	<meta property="og:url" content="http://www.angryeagle.com" />
+	<meta property="og:image" content="http://www.angryeagle.com/emails/og-image.jpg"/>
+	<meta property="og:site_name" content="Angry Eagle Lodge &amp; Outfitters"/>
+	<meta property="og:description" content="Angry Eagle Lodge &amp; Outfitters operates two full-service fishing lodges in the heart of Southwest Alaska’s Bristol Bay region. For the past 30 years, we’ve prided ourselves on offering the fishing adventures of a lifetime."/>
+			
 	
 	<!--[if lt IE 9]>
 	    <p class="browsehappy">You are using an outdated browser. Please <a href="http://browsehappy.com/" target="_blank">upgrade your browser</a> to improve your experience.</p>

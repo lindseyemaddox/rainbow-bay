@@ -1,10 +1,10 @@
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/head.php'); // HTTP head?>
+<?php require_once('../_assets/inc/head.php'); // HTTP head?>
 
-<section id="bio">
-  
-  <h1>Ken Baldwin</h1>
+<section id="bio" itemscope itemtype="http://schema.org/Person">
 
-  <h2>Fishing Guide</h2>
+  <h1 property="name">Ken Baldwin</h1>
+
+  <h2 property="jobTitle">Fishing Guide</h2>
 
   <img src="/_assets/img/staff-baldwin.jpg" alt="Angry Eagle fishing guide Ken Baldwin">
 
@@ -23,7 +23,7 @@
 	<p>“It’s easy to get caught up in the pursuit of fish, but sometimes we need to stop and take in the beauty of Alaska,” Ken said. “It’s truly majestic country and should be fully experienced. There are moments out here that will touch your heart.”</p>
 
 	<p>Fishing isn’t Ken’s only talent. He’s happy to teach clients about photography—including how to take, edit, and enhance photos. And when he isn’t scouting his next big catch or capturing the great outdoors on film, you can find him hosting his TV show “Season on the Edge,” which focuses on traveling, fishing, and exploring interesting places near and far. </p>
-        
+
 </section><!--testimonials-->
 
   </body>

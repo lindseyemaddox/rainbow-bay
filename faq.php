@@ -6,7 +6,7 @@
 
 <section class="pattern headerComp" id="faq">
 
-	<div class="inner">
+	<div class="inner" itemscope itemtype="http://schema.org/QAPage">
 
 		<h2>Frequently Asked Questions</h2>
 
@@ -16,7 +16,7 @@
 
         <p class="faquestion"><span class="icon-question"></span> So, why is the eagle angry?</p>
 
-        <p class="faqanswer show">Wouldn’t you be angry if someone was taking your fish? Of course, we practice catch and release with most of the fish we catch, but you try telling an eagle that.</p>
+        <p class="faqanswer show" property="mainContentOfPage">Wouldn’t you be angry if someone was taking your fish? Of course, we practice catch and release with most of the fish we catch, but you try telling an eagle that.</p>
 
 		<p class="faquestion"><span class="icon-question"></span> Do you have phone service or internet access?</p>
 

@@ -28,7 +28,7 @@
 
     <div class="slider">
 
-        <div class="flexslider">
+        <div class="flexslider" itemscope itemtype="http://schema.org/WebPage">
 
           <ul class="slides">
 
@@ -43,7 +43,7 @@
             		<div class="tag">
             			<p>If You're Gonna Go, <span>Go Remote</span></p>
             		</div>
-  	    	    	<img src="/_assets/img/slide-remote.jpg" alt="Remote fishing on Lake Illiamna" />
+  	    	    	<img property="primaryImageOfPage" src="/_assets/img/slide-remote.jpg" alt="Remote fishing on Lake Illiamna" />
   	    		</li>
 
             	<li>
@@ -89,9 +89,9 @@
 
 	<div id="topLodge">
 
-		<div id="fullOpacity">
+		<div id="fullOpacity" itemscope itemtype="http://schema.org/WebPage">
 
-		    <h3 class="alt">"One of the top 25 fishing lodges in North America..."</h3>
+		    <h3 class="alt">"One of the top 25 <span property="specialty">fishing</span> lodges in North America..."</h3>
 
 		    <a href="http://www.fieldandstream.com/articles/fishing/saltwater/where-fish/2007/02/greatest-fishing-lodges-world" target="_blank" rel="nofollow"><img src="/_assets/img/logo-field-stream.png" alt="Field &amp; Stream logo"></a>
 
@@ -103,11 +103,11 @@
 
 <section class="pattern headerComp">
 
-	<div class="inner">
+	<div class="inner" itemscope itemtype="http://schema.org/WebPage">
 
 		<h1>Your Adventure Starts Here</h1>
 
-		<h3>Angry Eagle Lodge &amp; Outfitters operates two full-service Alaskan fishing lodges in the heart of Southwest Alaska’s Bristol Bay region. For the past 30 years, we’ve prided ourselves on offering the fishing adventures of a lifetime. Our knowledgeable guides offer assistance and insight to fly and spinning anglers of all experience levels. And our large fleet of planes, boats, and ATVs means you’ll always have a great place to cast a line regardless of the weather.</h3>
+		<h3 property="mainContentOfPage">Angry Eagle Lodge &amp; Outfitters operates two full-service Alaskan fishing lodges in the heart of Southwest Alaska’s Bristol Bay region. For the past 30 years, we’ve prided ourselves on offering the fishing adventures of a lifetime. Our knowledgeable guides offer assistance and insight to fly and spinning anglers of all experience levels. And our large fleet of planes, boats, and ATVs means you’ll always have a great place to cast a line regardless of the weather.</h3>
 
 	</div><!--inner-->
 

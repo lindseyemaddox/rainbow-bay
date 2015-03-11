@@ -1,10 +1,10 @@
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/head.php'); // HTTP head?>
+<?php require_once('../_assets/inc/head.php'); // HTTP head?>
 
-<section id="bio">
-  
-  <h1>Jon Baker</h1>
+<section id="bio" itemscope itemtype="http://schema.org/Person">
 
-  <h2>Fishing Guide</h2>
+  <h1 property="name">Jon Baker</h1>
+
+  <h2 property="jobTitle">Fishing Guide</h2>
 
   <img src="/_assets/img/staff-baker.jpg" alt="Angry Eagle fishing guide Jon Baker">
 
@@ -17,7 +17,7 @@
 	<p>And it’s safe to say he knows what he’s doing. His best catch is a tie between a 37.5-inch steelhead trout and a 50-lb. king salmon caught on a fly rod. Both fish took half an hour to land and went down river more 300 yards. In fact, many of his claims have earned a wide range of trophies for his impressive feats.</p>
 
 	<p>When he isn’t guiding Angry Eagle guests, he’s busy organizing hunting and fishing adventures in North America, South America, and Africa.</p>
-        
+
 </section><!--testimonials-->
 
   </body>
