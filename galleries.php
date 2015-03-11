@@ -1,7 +1,7 @@
 <?php require_once('_assets/inc/common.php'); //php framework and meta?>
 <?php require_once('_assets/inc/head.php'); // HTTP head?>
-<script type="text/javascript" src="_assets/js/jquery.isotope.min.js"></script>
-<link rel="stylesheet" type="text/css" media="print" href="_assets/css/print.css" />
+<script type="text/javascript" src="/_assets/js/jquery.isotope.min.js"></script>
+<link rel="stylesheet" type="text/css" media="print" href="/_assets/css/print.css" />
 <?php require_once('_assets/inc/subpage-header.php'); //video header?>
 <?php require_once('_assets/inc/navigation.php'); //navigation?>
 
@@ -293,6 +293,18 @@
             <a class="fancybox" href="/_assets/img/galleries/lake-trout-rocks.jpg"><img src="/_assets/img/galleries/lake-trout-rocks.jpg" alt="lake trout" /></a>
 
             <?php include('../lightboxes/galleries/lake-trout.php'); //lake trout gallery?>
+
+          </article><!--media-item-->
+
+          <article class="media-item photo scenery">
+
+            <span class="icon-photo"></span>
+
+            <h4>Lake Iliamna <br />Photos</h4>
+
+            <a class="fancybox" href="/_assets/img/galleries/lake-iliamna-clouds.jpg"><img src="/_assets/img/galleries/lake-iliamna-clouds.jpg" alt="Lake Iliamna Scenery" /></a>
+
+			<?php include('../lightboxes/galleries/lake-iliamna.php'); //lake iliamna gallery?>
 
           </article><!--media-item-->
 
