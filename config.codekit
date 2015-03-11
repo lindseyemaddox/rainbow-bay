@@ -1530,6 +1530,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_assets\/img\/galleries\/lake-iliamna-above.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 471466,
+		"inputAbbreviatedPath": "\/_assets\/img\/galleries\/lake-iliamna-above.jpg",
+		"outputAbbreviatedPath": "\/_assets\/img\/galleries\/lake-iliamna-above.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_assets\/img\/galleries\/lake-iliamna-aerial.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1713,6 +1724,17 @@
 		"initialSize": 619963,
 		"inputAbbreviatedPath": "\/_assets\/img\/galleries\/lake-iliamna-tributary.jpg",
 		"outputAbbreviatedPath": "\/_assets\/img\/galleries\/lake-iliamna-tributary.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/galleries\/lake-iliamna-volcano.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 221490,
+		"inputAbbreviatedPath": "\/_assets\/img\/galleries\/lake-iliamna-volcano.jpg",
+		"outputAbbreviatedPath": "\/_assets\/img\/galleries\/lake-iliamna-volcano.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4145,6 +4167,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/emails\/og-image.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 297927,
+		"inputAbbreviatedPath": "\/emails\/og-image.jpg",
+		"outputAbbreviatedPath": "\/emails\/og-image.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/emails\/twitter-card.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -4476,60 +4509,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/lightboxes\/staff\/rogers.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/lightboxes\/video\/bear.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/lightboxes\/video\/bear.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/lightboxes\/video\/fishing-bear.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/lightboxes\/video\/fishing-bear.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/lightboxes\/video\/fishing.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/lightboxes\/video\/fishing.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/lightboxes\/video\/interview.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/lightboxes\/video\/interview.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/lightboxes\/video\/jet-sleding.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/lightboxes\/video\/jet-sleding.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/lightboxes\/video\/sockeye.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/lightboxes\/video\/sockeye.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
