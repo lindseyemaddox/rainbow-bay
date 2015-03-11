@@ -63,7 +63,7 @@
           <img src="/_assets/img/icon-silver-salmon.png" alt="Silver Salmon" />
           <h5>Silver Salmon</h5>
           <p><a href="/lightboxes/sportfishing/silver-salmon" class="fancybox fancybox.iframe">details</a><br />
-          <a href="#" class="fancybox-galleries">view gallery</a></p>
+          <a href="/_assets/img/galleries/silver-salmon-red.jpg" class="fancybox" rel="silver-salmon">view gallery</a></p>
 			<?php include('../lightboxes/galleries/silver-salmon.php'); //silver salmon gallery?>
         </div><!--fish-->
       </article>
@@ -73,7 +73,7 @@
           <img src="/_assets/img/icon-pink-salmon.png" alt="Pink Salmon" />
           <h5>Pink Salmon</h5>
           <p><a href="/lightboxes/sportfishing/pink-salmon" class="fancybox fancybox.iframe">details</a><br />
-          <a href="#" class="fancybox-galleries">view gallery</a></p>
+          <a href="/_assets/img/galleries/pink-salmon-boy.jpg" class="fancybox" rel="pink-salmon">view gallery</a></p>
 			<?php include('../lightboxes/galleries/pink-salmon.php'); //pink salmon gallery?>
         </div><!--fish-->
       </article>
@@ -83,7 +83,7 @@
           <img src="/_assets/img/icon-king-salmon.png" alt="King Salmon" />
           <h5>King Salmon</h5>
           <p><a href="/lightboxes/sportfishing/king-salmon" class="fancybox fancybox.iframe">details</a><br />
-          <a href="#" class="fancybox-galleries">view gallery</a></p>
+          <a href="/_assets/img/galleries/king-salmon-grass.jpg" class="fancybox" rel="king-salmon">view gallery</a></p>
 			<?php include('../lightboxes/galleries/king-salmon.php'); //king salmon gallery?>
         </div><!--fish-->
       </article>
@@ -93,7 +93,7 @@
           <img src="/_assets/img/icon-sockeye-salmon.png" alt="Sockeye Salmon" />
           <h5>Sockeye Salmon</h5>
           <p><a href="/lightboxes/sportfishing/sockeye-salmon" class="fancybox fancybox.iframe">details</a><br />
-          <a href="#" class="fancybox-galleries">view gallery</a></p>
+          <a href="/_assets/img/galleries/sockeye-salmon-woman.jpg" class="fancybox" rel="silver-salmon">view gallery</a></p>
 			<?php include('../lightboxes/galleries/sockeye-salmon.php'); //sockeye salmon gallery?>
         </div><!--fish-->
       </article>
@@ -103,7 +103,7 @@
           <img src="/_assets/img/icon-chum-salmon.png" alt="Chum Salmon" />
           <h5>Chum Salmon</h5>
           <p><a href="/lightboxes/sportfishing/chum-salmon" class="fancybox fancybox.iframe">details</a><br />
-          <a href="/_assets/img/galleries/chum-salmon-high.jpg" class="fancybox-galleries">view gallery</a></p>
+          <a href="/_assets/img/galleries/chum-salmon-high.jpg" class="fancybox" rel="chum-salmon">view gallery</a></p>
 			<?php include('../lightboxes/galleries/chum-salmon.php'); //chum salmon gallery?>
         </div><!--fish-->
       </article>
@@ -113,7 +113,7 @@
           <img src="/_assets/img/icon-northern-pike.png" alt="Northern Pike" />
           <h5>Northern Pike</h5>
           <p><a href="/lightboxes/sportfishing/northern-pike" class="fancybox fancybox.iframe">details</a><br />
-          <a href="#" class="fancybox-galleries">view gallery</a></p>
+          <a href="/_assets/img/galleries/northern-pike-huge.jpg" class="fancybox" rel="northern-pike">view gallery</a></p>
 			<?php include('../lightboxes/galleries/northern-pike.php'); //northern pike gallery?>
         </div><!--fish-->
       </article>
@@ -123,7 +123,7 @@
           <img src="/_assets/img/icon-arctic-char.png" alt="Arctic Char" />
           <h5>Arctic <br />Char</h5>
           <p><a href="/lightboxes/sportfishing/arctic-char" class="fancybox fancybox.iframe">details</a><br />
-          <a href="/_assets/img/galleries/arctic-char.jpg" class="fancybox-galleries">view gallery</a></p>
+          <a href="/_assets/img/galleries/arctic-char-lake.jpg" class="fancybox" rel="arctic-char">view gallery</a></p>
 			<?php include('../lightboxes/galleries/arctic-char.php'); //arctic char gallery?>
         </div><!--fish-->
       </article>
@@ -133,7 +133,7 @@
           <img src="/_assets/img/icon-rainbow-trout.png" alt="Rainbow Trout" />
           <h5>Rainbow Trout</h5>
           <p><a href="/lightboxes/sportfishing/rainbow-trout" class="fancybox fancybox.iframe">details</a><br />
-          <a href="/_assets/img/galleries/rainbow-trout-closeup.jpg" class="fancybox-galleries">view gallery</a>
+          <a href="/_assets/img/galleries/rainbow-trout-closeup.jpg" class="fancybox" rel="rainbow-trout">view gallery</a>
           <?php include('../lightboxes/galleries/rainbow-trout.php'); //rainbow trout gallery?>
         </div><!--fish-->
       </article>
@@ -143,7 +143,7 @@
           <img src="/_assets/img/icon-arctic-grayling.png" alt="Arctic Grayling" />
           <h5>Arctic Grayling</h5>
           <p><a href="/lightboxes/sportfishing/arctic-grayling" class="fancybox fancybox.iframe">details</a><br />
-          <a href="#" class="fancybox-galleries">view gallery</a></p>
+          <a href="/_assets/img/galleries/grayling.jpg" class="fancybox" rel="grayling">view gallery</a></p>
 			<?php include('../lightboxes/galleries/grayling.php'); //arctic grayling gallery?>
         </div><!--fish-->
       </article>
@@ -153,7 +153,7 @@
           <img src="/_assets/img/icon-lake-trout.png" alt="Lake Trout" />
           <h5>Lake Trout</h5>
           <p><a href="/lightboxes/sportfishing/lake-trout" class="fancybox fancybox.iframe">details</a><br />
-          <a href="#" class="fancybox-galleries">view gallery</a></p>
+          <a href="/_assets/img/galleries/lake-trout-rocks.jpg" class="fancybox" rel="lake-trout">view gallery</a></p>
 			<?php include('../lightboxes/galleries/lake-trout.php'); //lake trout gallery?>
         </div><!--fish-->
       </article>
@@ -235,8 +235,7 @@
 
     });
 
-$(".fancybox, .fancybox-galleries")
-    .attr('rel', 'gallery')
+$(".fancybox")
     .fancybox({
         padding : 0
     });
