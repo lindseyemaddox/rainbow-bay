@@ -1,5 +1,7 @@
 <?php require_once('../_assets/inc/common.php'); //php framework and meta?>
 <?php require_once('../_assets/inc/head.php'); // HTTP head?>
+<title>Angry Eagle Lodge & Outfitters | The Lodges</title>
+<meta name="description" content="Our lodges are ideal for unwinding after a long day of fishing. Relax in style while you enjoy hors ‘dourves and drinks followed by a gourmet meal.">
 <?php require_once('../_assets/inc/subpage-header.php'); //video header?>
 <?php require_once('../_assets/inc/navigation.php'); //navigation?>
 

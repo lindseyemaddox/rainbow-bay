@@ -1,5 +1,7 @@
 <?php require_once('../_assets/inc/common.php'); //php framework and meta?>
 <?php require_once('../_assets/inc/head.php'); // HTTP head?>
+<title>Angry Eagle Lodge & Outfitters | Rates</title>
+<meta name="description" content="Spend seven unforgettable days sportfishing at Angry Eagle Lodge & Outfitters in Southwest Alaska's Bristol Bay area.">
 <?php require_once('../_assets/inc/subpage-header.php'); //video header?>
 <?php require_once('../_assets/inc/navigation.php'); //navigation?>
 

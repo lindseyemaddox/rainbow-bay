@@ -1,6 +1,7 @@
 <?php require_once('../_assets/inc/common.php'); //php framework and meta?>
 <?php require_once('../_assets/inc/head.php'); // HTTP head?>
-
+<title>Angry Eagle Lodge & Outfitters | Sportfishing</title>
+<meta name="description" content="Access Southwest Alaska's remote streams, lakes, and rivers while you hook some of the most impressive fish in the Northern Hemisphere.">
 <link rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
 <script src="//code.jquery.com/jquery-1.10.2.js"></script>
 <script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>

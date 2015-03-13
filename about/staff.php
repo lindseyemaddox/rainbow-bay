@@ -1,5 +1,7 @@
 <?php require_once('../_assets/inc/common.php'); //php framework and meta?>
 <?php require_once('../_assets/inc/head.php'); // HTTP head?>
+<title>Angry Eagle Lodge & Outfitters | Our Guides</title>
+<meta name="description" content="Our guides know Southwest Alaska’s rivers, streams, and lakes—which means they know exactly how and where to go to ensure a great catch.">
 <?php require_once('../_assets/inc/subpage-header.php'); //video header?>
 <?php require_once('../_assets/inc/navigation.php'); //navigation?>
 
@@ -68,6 +70,16 @@
       <h4 property="employee">Lewis Lincecum <br />Fishing <br />Guide</h4>
 
       <img src="/_assets/img/staff-lincecum.jpg" alt="Angry Eagle fishing guide Lewis Lincecum">
+
+    </a><!--staff-item-->
+
+    <a href="#" class="staff-item fancybox fancybox.iframe">
+
+      <span class="icon-bio"></span>
+
+      <h4 property="employee">Tom Yengo <br />Fishing <br />Guide</h4>
+
+      <img src="/_assets/img/staff-yengo.jpg" alt="Angry Eagle fishing guide Tom Yengo">
 
     </a><!--staff-item-->
 

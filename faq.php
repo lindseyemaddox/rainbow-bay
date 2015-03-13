@@ -1,5 +1,7 @@
 <?php require_once('../_assets/inc/common.php'); //php framework and meta?>
 <?php require_once('../_assets/inc/head.php'); // HTTP head?>
+<title>Angry Eagle Lodge & Outfitters | Frequently Asked Questions</title>
+<meta name="description" content="Have questions about Angry Eagle Lodge & Outfitters? Need help planning your trip to Southwest Alaska? We’ve got you covered.">
 <script type="text/javascript" src="/_assets/js/faq.js"></script>
 <?php require_once('../_assets/inc/subpage-header.php'); //video header?>
 <?php require_once('../_assets/inc/navigation.php'); //navigation?>

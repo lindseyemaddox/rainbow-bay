@@ -1,5 +1,7 @@
 <?php require_once('_assets/inc/common.php'); //php framework and meta?>
 <?php require_once('_assets/inc/head.php'); // HTTP head?>
+<title>Angry Eagle Lodge & Outfitters | Galleries</title>
+<meta name="description" content="Experience Alaskan fishing with Angry Eagle Lodge & Outfitters’ collection of interactive videos, photos, and articles.">
 <script type="text/javascript" src="/_assets/js/jquery.isotope.min.js"></script>
 <link rel="stylesheet" type="text/css" media="print" href="/_assets/css/print.css" />
 <?php require_once('_assets/inc/subpage-header.php'); //video header?>

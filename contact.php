@@ -1,5 +1,7 @@
 <?php require_once('../_assets/inc/common.php'); //php framework and meta?>
 <?php require_once('../_assets/inc/head.php'); // HTTP head?>
+<title>Angry Eagle Lodge & Outfitters | </title>
+<meta name="description" content="Cast us a line to learn more and plan your remote Alaskan fishing adventure at Angry Eagle Lodge & Outfitters.">
 <script src="/_assets/js/jquery.maskedinput.js"></script>
 <?php require_once('../_assets/inc/subpage-header.php'); //video header?>
 <?php require_once('../_assets/inc/navigation.php'); //navigation?>

@@ -1,5 +1,7 @@
 <?php require_once('../_assets/inc/common.php'); //php framework and meta?>
 <?php require_once('../_assets/inc/head.php'); // HTTP head?>
+	<title>Angry Eagle Lodge & Outfitters | Planning Your Trip</title>
+	<meta name="description" content="Angry Eagle Lodge & Outfitters is 180 miles from the nearest major road, which means getting here is part of your adventure. ">
 <link rel="stylesheet" type="text/css" media="print" href="/_assets/css/print.css" />
 <?php require_once('../_assets/inc/subpage-header.php'); //video header?>
 <?php require_once('../_assets/inc/navigation.php'); //navigation?>

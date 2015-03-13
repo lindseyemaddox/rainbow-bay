@@ -8,8 +8,6 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Angry Eagle Lodge & Outfitters</title>
-	<meta name="description" content="Alaska's premier fishing resort, Angry Eagle Lodge &amp; Outfitters">
 
 	<!--twitter card-->
 	<meta name="twitter:card" content="summary_large_image">

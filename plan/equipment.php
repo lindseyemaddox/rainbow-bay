@@ -1,5 +1,7 @@
 <?php require_once('../_assets/inc/common.php'); //php framework and meta?>
 <?php require_once('../_assets/inc/head.php'); // HTTP head?>
+<title>Angry Eagle Lodge & Outfitters | Fishing Equipment</title>
+<meta name="description" content="Learn more about the Alaskan sport fishing equipment that will come in handy during your stay at Angry Eagle Lodge & Outfitters.">
 <link rel="stylesheet" type="text/css" media="print" href="/_assets/css/print.css" />
 <?php require_once('../_assets/inc/subpage-header.php'); //video header?>
 <?php require_once('../_assets/inc/navigation.php'); //navigation?>

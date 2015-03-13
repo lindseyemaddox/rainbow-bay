@@ -1,5 +1,7 @@
 <?php require_once('../_assets/inc/common.php'); //php framework and meta?>
 <?php require_once('../_assets/inc/head.php'); // HTTP head?>
+	<title>Angry Eagle Lodge & Outfitters | Sample Itinerary</title>
+	<meta name="description" content="Ready for the angler adventure of a lifetime? Check out Angry Eagle Lodge & Outfitters’ sample itinerary to get an idea of what you can expect.">
 <link rel="stylesheet" type="text/css" media="print" href="/_assets/css/print.css" />
 <?php require_once('../_assets/inc/subpage-header.php'); //video header?>
 <?php require_once('../_assets/inc/navigation.php'); //navigation?>

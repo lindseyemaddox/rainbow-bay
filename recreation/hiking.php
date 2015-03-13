@@ -1,5 +1,7 @@
 <?php require_once('../_assets/inc/common.php'); //php framework and meta?>
 <?php require_once('../_assets/inc/head.php'); // HTTP head?>
+<title>Angry Eagle Lodge & Outfitters | Other Activities</title>
+<meta name="description" content="Breathtaking panoramic views. Crystal-clear lakes. Vast tundras. Majestic volcanoes. This an Alaskan adventure unlike any other.">
 <?php require_once('../_assets/inc/subpage-header.php'); //video header?>
 <?php require_once('../_assets/inc/navigation.php'); //navigation?>
 

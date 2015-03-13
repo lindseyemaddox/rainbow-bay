@@ -1,11 +1,13 @@
 <?php require_once('../_assets/inc/common.php'); //php framework and meta?>
 <?php require_once('../_assets/inc/head.php'); // HTTP head?>
+<title>Angry Eagle Lodge & Outfitters | Our Legacy</title>
+<meta name="description" content="For more than 30 years, Angry Eagle Lodge & Outfitters has been providing the fishing adventure of a lifetime in Southwest Alaska.">
 <?php require_once('../_assets/inc/subpage-header.php'); //video header?>
 <?php require_once('../_assets/inc/navigation.php'); //navigation?>
 
-<section class="pattern headerComp" id="intro">
+<section class="pattern headerComp" id="intro" itemscope itemtype="http://schema.org/AboutPage">
 
-    <div class="inner">
+    <div class="inner" property="mainContentOfPage">
 
         <h2>Our Legacy</h2>
 

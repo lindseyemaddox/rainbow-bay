@@ -1,5 +1,7 @@
 <?php require_once('../_assets/inc/common.php'); //php framework and meta?>
 <?php require_once('../_assets/inc/head.php'); // HTTP head?>
+<title>Angry Eagle Lodge & Outfitters | Our Fleet</title>
+<meta name="description" content="Our fleet of planes, boats and ATVs means you’ll have a place to fish regardless of the weather—a perk many other Southwest Alaskan lodges can’t offer.">
 <?php require_once('../_assets/inc/subpage-header.php'); //video header?>
 <?php require_once('../_assets/inc/navigation.php'); //navigation?>
 
