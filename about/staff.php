@@ -73,7 +73,7 @@
 
     </a><!--staff-item-->
 
-    <a href="#" class="staff-item fancybox fancybox.iframe">
+    <a href="/lightboxes/staff/yengo" class="staff-item fancybox fancybox.iframe">
 
       <span class="icon-bio"></span>
 

@@ -1,3 +1,5 @@
+Redirect 301 http://www.angryeagle.com/about/legacy http://www.angryeagle.com/about/legacy.php
+
 <IfModule mod_rewrite.c>
 
     RewriteEngine On
@@ -8,16 +10,30 @@
 
 # BEGIN DEFAULT RULE
 
-RewriteCond %{REQUEST_FILENAME}\.php -f
-RewriteCond %{REQUEST_FILENAME}\.php !-d
-RewriteRule ^([a-zA-Z0-9_-]+)$ /$1.php [QSA,NC,L]
-RewriteCond %{REQUEST_FILENAME}\.php -f
-RewriteCond %{REQUEST_FILENAME}\.php !-d
-RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)$ /$1/$2.php [QSA,NC,L]
-RewriteCond %{REQUEST_FILENAME}\.php -f
-RewriteCond %{REQUEST_FILENAME}\.php !-d
-RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)$ /$1/$2/$3.php [QSA,NC,L]
+# RewriteCond %{REQUEST_FILENAME}\.php -f
+# RewriteCond %{REQUEST_FILENAME}\.php !-d
+# RewriteRule ^([a-zA-Z0-9_-]+)$ /$1.php [QSA,NC,L]
+# RewriteCond %{REQUEST_FILENAME}\.php -f
+# RewriteCond %{REQUEST_FILENAME}\.php !-d
+# RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)$ /$1/$2.php [QSA,NC,L]
+# RewriteCond %{REQUEST_FILENAME}\.php -f
+# RewriteCond %{REQUEST_FILENAME}\.php !-d
+# RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)$ /$1/$2/$3.php [QSA,NC,L]
 
 # END DEFAULT RULE
 
+Redirect 301 /requestinfo.html http://www.angryeagle.com/contact
+Redirect 301 /sportfishing.html http://www.angryeagle.com/recreation/sportfishing
+Redirect 301 /photosframe.html http://www.angryeagle.com/galleries
+Redirect 301 /rates.html http://www.angryeagle.com/rates
+Redirect 301 /contact.html http://www.angryeagle.com/contact
+Redirect 301 /accommodations.html http://www.angryeagle.com/about/lodges
+Redirect 301 /planes_boats.html http://www.angryeagle.com/about/fleet
+Redirect 301 /species_seasons.html http://www.angryeagle.com/recreation/sportfishing
+Redirect 301 /resources.php http://www.angryeagle.com/plan/prepare
+Redirect 301 /images/lodg31.jpg http://www.angryeagle.com/galleries
+Redirect 301 /trips.html http://www.angryeagle.com/plan/trip
+Redirect 301 /index.html http://www.angryeagle.com/
+
 </IfModule>
+
