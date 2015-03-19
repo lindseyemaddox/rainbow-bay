@@ -275,6 +275,7 @@
 
           </article><!--media-item-->
 
+<!--
             <article class="media-item printable">
 
               <span class="icon-news"></span>
@@ -285,7 +286,8 @@
 
               <a href="/downloads/brochure.pdf" target="_blank"><img class="lazy" property="Photograph" src="/_assets/img/media-brochure.jpg" alt="2015 Angry Eagle printable brochure"></a>
 
-            </article><!--media-item-->
+            </article>
+--><!--media-item-->
 
           <article class="media-item photo fish">
 

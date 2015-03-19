@@ -95,7 +95,7 @@
 
   <div class="inner">
 
-    <p class="prev"><a href="/about/lodges"><img src="/_assets/img/prev.png"/> <span>Previous:</span> The Lodges</a></p>
+    <p class="prev"><a href="/about/lodges"><img src="/_assets/img/prev.png"/> <span>Previous:</span> Our Lodges</a></p>
 
     <p class="next"><a href="/recreation/sportfishing"><span>Next:</span> Sportfishing <img src="/_assets/img/next.png"/></a></p>
 

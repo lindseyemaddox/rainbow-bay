@@ -6,6 +6,5 @@
   <a class="fancybox" rel="lake-trout" href="/_assets/img/galleries/lake-trout-lake.jpg"><img class="lazy" property="Photograph" src="/_assets/img/galleries/lake-trout-lake.jpg" alt="teen holding lake trout on line" /></a>
   <a class="fancybox" rel="lake-trout" href="/_assets/img/galleries/lake-trout-line.jpg"><img class="lazy" property="Photograph" src="/_assets/img/galleries/lake-trout-line.jpg" alt="lake trout held by fisherman in Alaska" /></a>
   <a class="fancybox" rel="lake-trout" href="/_assets/img/galleries/lake-trout-mouth.jpg"><img class="lazy" property="Photograph" src="/_assets/img/galleries/lake-trout-mouth.jpg" alt="close up of lake trout on bank of Iliamna" /></a>
-  <a class="fancybox" rel="lake-trout" href="/_assets/img/galleries/lake-trout-shore.jpg"><img class="lazy" property="Photograph" src="/_assets/img/galleries/lake-trout-shore.jpg" alt="man holding lake trout in one hand" /></a>
   <a class="fancybox" rel="lake-trout" href="/_assets/img/galleries/lake-trout-waders.jpg"><img class="lazy" property="Photograph" src="/_assets/img/galleries/lake-trout-waders.jpg" alt="teen wearing waders holds lake trout in Alaska" /></a>
 </div>

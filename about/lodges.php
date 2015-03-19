@@ -9,7 +9,7 @@
 
 	<div class="inner">
 
-		<h2>The Lodges</h2>
+		<h2>Our Lodges</h2>
 
 		<h3>Step into a world of rustic charm coupled with modern convenience. Both the Angry Eagle Lodge and Eagle’s Peak Lodge are ideal for unwinding after a long day spent fishing. Relax in style as you enjoy a beer and appetizers while our chef prepares a gourmet meal of king crab, prime rib, or inch-thick pork chops, just to name a few. And with no one around for miles, count on some of the best sleep you’ll ever get.</h3>
 

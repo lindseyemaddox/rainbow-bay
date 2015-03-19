@@ -125,7 +125,7 @@
 
     <p class="prev"><a href="/plan/prepare"><img src="/_assets/img/prev.png"/> <span>Previous:</span> Prepare Yourself</a></p>
 
-    <p class="next"><a href="/about/legacy"><span>Next:</span> Our Legacy <img src="/_assets/img/next.png"/></a></p>
+    <p class="next"><a href="/about/legacy"><span>Next:</span> Our Owners <img src="/_assets/img/next.png"/></a></p>
 
     <div class="clearfix"></div>
 

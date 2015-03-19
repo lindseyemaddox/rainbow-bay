@@ -6,4 +6,6 @@
   <a class="fancybox" rel="grayling" href="/_assets/img/galleries/grayling-pole.jpg"><img class="lazy" property="Photograph" src="/_assets/img/galleries/grayling-pole.jpg" alt="grayling caught with fly rod on the river bank" /></a>
   <a class="fancybox" rel="grayling" href="/_assets/img/galleries/grayling-water.jpg"><img class="lazy" property="Photograph" src="/_assets/img/galleries/grayling-water.jpg" alt="grayling in shallow water" /></a>
   <a class="fancybox" rel="grayling" href="/_assets/img/galleries/grayling-woman.jpg"><img class="lazy" property="Photograph" src="/_assets/img/galleries/grayling-woman.jpg" alt="grayling catch on river bank of beautiful alaska" /></a>
+  <a class="fancybox" rel="grayling" href="/_assets/img/galleries/grayling-family.jpg"><img class="lazy" property="Photograph" src="/_assets/img/galleries/arctic-char-family.jpg" alt="Alaskan grayling caught under catch and release" /></a>
+
 </div>
