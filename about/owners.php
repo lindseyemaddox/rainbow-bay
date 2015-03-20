@@ -51,7 +51,7 @@
 
       <h4>Kevin Powers <br />Owner</h4>
 
-      <img src="/_assets/img/no-image.jpg" alt="Angry Eagle owner Kevin Powers">
+      <img src="/_assets/img/owner-powers.jpg" alt="Angry Eagle owner Kevin Powers">
 
     </a><!--legacy-item-->
 
@@ -61,7 +61,7 @@
 
       <h4>Brian Jenkins <br />Owner</h4>
 
-      <img src="/_assets/img/no-image.jpg" alt="Angry Eagle owner Brian Jenkins">
+      <img src="/_assets/img/owner-jenkins.jpg" alt="Angry Eagle owner Brian Jenkins">
 
     </a><!--legacy-item-->
 
