@@ -1,5 +1,12 @@
 Redirect 301 http://www.angryeagle.com/about/legacy http://www.angryeagle.com/about/legacy.php
 
+Redirect 301 /coppermine/index.php http://www.angryeagle.com/galleries/
+Redirect 301 /2012_fishermans_handbook.pdf http://www.angryeagle.com/faq
+Redirect 301 /coppermine/search.php http://www.angryeagle.com/galleries/
+RedirectMatch 301 /coppermine/index(.*)$  http://www.angryeagle.com/galleries/
+RedirectMatch 301 /coppermine/thumbnails(.*)$ http://www.angryeagle.com/galleries/
+RedirectMatch 301 /coppermine/displayimage(.*)$ http://www.angryeagle.com/galleries/
+
 <IfModule mod_rewrite.c>
 
     RewriteEngine On

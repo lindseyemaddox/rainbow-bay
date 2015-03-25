@@ -41,7 +41,7 @@
 
       <h4 property="name">Cessna <br />185</h4>
 
-      <p property="description">Our Cessna 185 utilizes either wheels or floats. This plane comfortably accommodates three passengers plus pilot.</p>
+      <p property="description">Our Cessna 185 utilizes either wheels or floats, accommodates three passengers plus pilot, and—unlike larger aircraft—can accesses small lakes and streams.</p>
 
     </article><!--fleet-item-->
 
@@ -71,7 +71,7 @@
 
       <h4 property="name">John Deere Gator</h4>
 
-      <p property="description">Go pretty much anywhere in our John Deere Gator all-terrain utility vehicle that boasts 4WD, an impressive turn of speed, and a killer suspension.</p>
+      <p property="description">Our fleet of John Deere Gator ATVs ensures clients are comfortably transported between Pedro Bay and Angry Eagle.</p>
 
     </article><!--fleet-item-->
 
@@ -79,9 +79,9 @@
 
       <img src="/_assets/img/fleet-riverhawk.jpg" alt="River Hawk">
 
-      <h4 property="name">River <br />Hawks</h4>
+      <h4 property="name">River <br />Hawk</h4>
 
-      <p property="description">Our River Hawk boat provides the stability guests need to comfortably stand while casting fly rods.</p>
+      <p property="description">Our River Hawk boat provides comfort and stability while back trolling, drift fishing, and fighting the powerful king salmon.</p>
 
     </article><!--fleet-item-->
 
