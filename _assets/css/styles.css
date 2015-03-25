@@ -2343,6 +2343,21 @@ button:hover {
   -ms-transition: all 400ms ease;
   transition: all 400ms ease;
 }
+section#fourohfour {
+  padding: 77px 0px 65px;
+}
+section#fourohfour h2 {
+  color: #fff;
+}
+section#fourohfour p {
+  text-align: center;
+}
+section#fourohfour p.first {
+  padding-top: 40px;
+}
+section#fourohfour p a {
+  color: #fff;
+}
 section#faq {
   padding: 100px 0 60px;
 }
