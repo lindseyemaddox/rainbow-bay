@@ -86,7 +86,7 @@
 
             <p>The Iliamna River’s shallow areas are home to impressive rainbow trout and Arctic char!</p>
 
-            <a href="/lightboxes/video/jet-sleding" class="video-link fancybox fancybox.iframe" rel="video-jet-sledding"><span class="icon-play"></span><img class="lazy" property="Photograph" src="/_assets/img/video-jet-sleding.jpg" alt="Jet sledding down the Illiamna River video"></a>
+            <a href="/lightboxes/video/jet-sleding/" class="video-link fancybox fancybox.iframe" rel="video-jet-sledding"><span class="icon-play"></span><img class="lazy" property="Photograph" src="/_assets/img/video-jet-sleding.jpg" alt="Jet sledding down the Illiamna River video"></a>
 
           </article><!--media-item-->
 
@@ -122,7 +122,7 @@
 
             <p>Experience the rush of the sockeye salmon run in southwest Alaska from July to September!</p>
 
-            <a href="/lightboxes/video/sockeye" class="video-link fancybox fancybox.iframe" rel="video-sockeye"><span class="icon-play"></span><img class="lazy" property="Photograph" src="/_assets/img/video-sockeye.jpg" alt="Sockeye spawning in the Illiamna River video"></a>
+            <a href="/lightboxes/video/sockeye/" class="video-link fancybox fancybox.iframe" rel="video-sockeye"><span class="icon-play"></span><img class="lazy" property="Photograph" src="/_assets/img/video-sockeye.jpg" alt="Sockeye spawning in the Illiamna River video"></a>
 
           </article><!--media-item-->
 
@@ -159,7 +159,7 @@
 
               <p>Bears are common, but our guides are pros and ensure guests have a safe and exciting experience.</p>
 
-              <a href="/lightboxes/video/bear" class="video-link fancybox fancybox.iframe" rel="video-bear"><span class="icon-play"></span><img class="lazy" property="Photograph" src="/_assets/img/video-bear.jpg" alt="Fishing with Brown Bears Katami National Park"></a>
+              <a href="/lightboxes/video/bear/" class="video-link fancybox fancybox.iframe" rel="video-bear"><span class="icon-play"></span><img class="lazy" property="Photograph" src="/_assets/img/video-bear.jpg" alt="Fishing with Brown Bears Katami National Park"></a>
 
             </article><!--media-item-->
 
@@ -195,7 +195,7 @@
 
               <p>Dallas Safari Club Game Trails Online Editor Gayne C. Young talks to Jim Kern about fishing in Alaska.</p>
 
-              <a href="/lightboxes/video/interview" class="video-link fancybox fancybox.iframe" rel="video-interview"><span class="icon-play"></span><img class="lazy" property="Photograph" src="/_assets/img/video-interview.jpg" alt="Dallas Safari Club Game Trails Online Editor Gayne C. Young talks to Jim Kern of Angry Eagle Resort about fishing in Alaska."></a>
+              <a href="/lightboxes/video/interview/" class="video-link fancybox fancybox.iframe" rel="video-interview"><span class="icon-play"></span><img class="lazy" property="Photograph" src="/_assets/img/video-interview.jpg" alt="Dallas Safari Club Game Trails Online Editor Gayne C. Young talks to Jim Kern of Angry Eagle Resort about fishing in Alaska."></a>
 
             </article><!--media-item-->
 
@@ -207,7 +207,7 @@
 
               <p>From June to July, find 50,000 to 120,000 king salmon in Alaska’s Nushagak River.</p>
 
-              <a href="/lightboxes/video/fishing" class="video-link fancybox fancybox.iframe" rel="video-fishing"><span class="icon-play"></span><img class="lazy" property="Photograph" src="/_assets/img/video-fishing.jpg" alt="King Salmon fishing on the Nushagak River in western Alaska"></a>
+              <a href="/lightboxes/video/fishing/" class="video-link fancybox fancybox.iframe" rel="video-fishing"><span class="icon-play"></span><img class="lazy" property="Photograph" src="/_assets/img/video-fishing.jpg" alt="King Salmon fishing on the Nushagak River in western Alaska"></a>
 
             </article><!--media-item-->
 
@@ -259,7 +259,7 @@
 
               <p>Learn a thing or two about fishing from this self-taught pro.</p>
 
-              <a href="/lightboxes/video/fishing-bear" class="video-link fancybox fancybox.iframe" rel="video-fishing-bear"><span class="icon-play"></span><img class="lazy" property="Photograph" src="/_assets/img/video-fishing-bear.jpg" alt=""></a>
+              <a href="/lightboxes/video/fishing-bear/" class="video-link fancybox fancybox.iframe" rel="video-fishing-bear"><span class="icon-play"></span><img class="lazy" property="Photograph" src="/_assets/img/video-fishing-bear.jpg" alt=""></a>
 
             </article><!--media-item-->
 

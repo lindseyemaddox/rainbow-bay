@@ -171,9 +171,9 @@
 
   <div class="inner">
 
-    <p class="prev"><a href="/plan/trip"><img src="/_assets/img/prev.png"/> <span>Previous:</span> Plan Your Trip</a></p>
+    <p class="prev"><a href="/plan/trip/"><img src="/_assets/img/prev.png"/> <span>Previous:</span> Plan Your Trip</a></p>
 
-    <p class="next"><a href="/plan/equipment"><span>Next:</span> Equipment <img src="/_assets/img/next.png"/></a></p>
+    <p class="next"><a href="/plan/equipment/"><span>Next:</span> Equipment <img src="/_assets/img/next.png"/></a></p>
 
     <div class="clearfix"></div>
 

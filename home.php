@@ -124,39 +124,39 @@
       <div class="slider">
         <div class="fishslider carousel">
           <ul class="slides">
-            <li><a href="/recreation/sportfishing">
+            <li><a href="/recreation/sportfishing/">
               <img src="/_assets/img/icon-rainbow-trout.png" alt="Rainbow Trout">
               <h4 class="alt">Rainbow <br />Trout</h4>
             </a></li>
-            <li><a href="/recreation/sportfishing">
+            <li><a href="/recreation/sportfishing/">
               <img src="/_assets/img/icon-king-salmon.png" alt="King Salmon">
               <h4 class="alt">King <br />Salmon</h4>
             </a></li>
-            <li><a href="/recreation/sportfishing">
+            <li><a href="/recreation/sportfishing/">
               <img src="/_assets/img/icon-arctic-char.png" alt="Arctic Char">
               <h4 class="alt">Arctic <br />Char</h4>
             </a></li>
-            <li><a href="/recreation/sportfishing">
+            <li><a href="/recreation/sportfishing/">
               <img src="/_assets/img/icon-arctic-grayling.png" alt="Arctic Grayling">
               <h4 class="alt">Arctic <br />Grayling</h4>
             </a></li>
-            <li><a href="/recreation/sportfishing">
+            <li><a href="/recreation/sportfishing/">
               <img src="/_assets/img/icon-chum-salmon.png" alt="Chum Salmon">
               <h4 class="alt">Chum <br />Salmon</h4>
             </a></li>
-            <li><a href="/recreation/sportfishing">
+            <li><a href="/recreation/sportfishing/">
               <img src="/_assets/img/icon-northern-pike.png" alt="Northern Pike">
               <h4 class="alt">Northern <br />Pike</h4>
             </a></li>
-            <li><a href="/recreation/sportfishing">
+            <li><a href="/recreation/sportfishing/">
               <img src="/_assets/img/icon-pink-salmon.png" alt="Pink Salmon">
               <h4 class="alt">Pink <br />Salmon</h4>
             </a></li>
-            <li><a href="/recreation/sportfishing">
+            <li><a href="/recreation/sportfishing/">
               <img src="/_assets/img/icon-silver-salmon.png" alt="Silver Salmon">
               <h4 class="alt">Silver <br />Salmon</h4>
             </a></li>
-            <li><a href="/recreation/sportfishing">
+            <li><a href="/recreation/sportfishing/">
               <img src="/_assets/img/icon-sockeye-salmon.png" alt="Sockeye Salmon">
               <h4 class="alt">Sockeye <br />Salmon</h4>
             </a></li>
@@ -270,7 +270,7 @@
 
       <p>Jim Kern discusses fishing in Alaska with Gayne C. Young, editor of Dallas Safari Club's GameTrails Online.</p>
 
-      <a href="/lightboxes/video/interview" class="video-link fancybox fancybox.iframe" rel="video-interview"><span class="icon-play"></span><img src="/_assets/img/video-interview.jpg" alt="Dallas Safari Club Game Trails Online Editor Gayne C. Young talks to Jim Kern of Angry Eagle Lodge & Outfitters about fishing in Alaska."></a>
+      <a href="/lightboxes/video/interview/" class="video-link fancybox fancybox.iframe" rel="video-interview"><span class="icon-play"></span><img src="/_assets/img/video-interview.jpg" alt="Dallas Safari Club Game Trails Online Editor Gayne C. Young talks to Jim Kern of Angry Eagle Lodge & Outfitters about fishing in Alaska."></a>
 
     </article><!--media-item-->
 

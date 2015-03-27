@@ -53,7 +53,7 @@
 
         <p class="faquestion"><span class="icon-question"></span> May I rent waders or order my own pair through Angry Eagle?</p>
 
-        <p class="faqanswer">Yes, you can rent high-quality Simms® G3 and Patagonia® waders and wading boots for $100 weekly. We’re also happy to purchase Simms or Patagonia waders and boots for you and have them waiting at the lodge upon your arrival. If you’d like to rent or purchase waders and boots, please <a href="/contact">let us know</a> at least 30 days prior to your arrival.</p>
+        <p class="faqanswer">Yes, you can rent high-quality Simms® G3 and Patagonia® waders and wading boots for $100 weekly. We’re also happy to purchase Simms or Patagonia waders and boots for you and have them waiting at the lodge upon your arrival. If you’d like to rent or purchase waders and boots, please <a href="/contact/">let us know</a> at least 30 days prior to your arrival.</p>
 
         <p class="faquestion"><span class="icon-question"></span> How many clients are placed per guide?</p>
 

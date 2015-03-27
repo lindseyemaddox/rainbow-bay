@@ -23,7 +23,7 @@
 
 	<div class="inner" itemscope itemtype="http://schema.org/LodgingBusiness">
 
-    <a href="/lightboxes/staff/kern" class="staff-item fancybox fancybox.iframe">
+    <a href="/lightboxes/staff/kern/" class="staff-item fancybox fancybox.iframe">
 
       <span class="icon-bio"></span>
 
@@ -33,7 +33,7 @@
 
     </a><!--staff-item-->
 
-    <a href="/lightboxes/staff/baldwin" class="staff-item fancybox fancybox.iframe">
+    <a href="/lightboxes/staff/baldwin/" class="staff-item fancybox fancybox.iframe">
 
       <span class="icon-bio"></span>
 
@@ -43,7 +43,7 @@
 
     </a><!--staff-item-->
 
-    <a href="/lightboxes/staff/baker" class="staff-item fancybox fancybox.iframe">
+    <a href="/lightboxes/staff/baker/" class="staff-item fancybox fancybox.iframe">
 
       <span class="icon-bio"></span>
 
@@ -53,7 +53,7 @@
 
     </a><!--staff-item-->
 
-    <a href="/lightboxes/staff/rogers" class="staff-item fancybox fancybox.iframe">
+    <a href="/lightboxes/staff/rogers/" class="staff-item fancybox fancybox.iframe">
 
       <span class="icon-bio"></span>
 
@@ -63,7 +63,7 @@
 
     </a><!--staff-item-->
 
-    <a href="/lightboxes/staff/lincecum" class="staff-item fancybox fancybox.iframe">
+    <a href="/lightboxes/staff/lincecum/" class="staff-item fancybox fancybox.iframe">
 
       <span class="icon-bio"></span>
 
@@ -73,7 +73,7 @@
 
     </a><!--staff-item-->
 
-    <a href="/lightboxes/staff/yengo" class="staff-item fancybox fancybox.iframe">
+    <a href="/lightboxes/staff/yengo/" class="staff-item fancybox fancybox.iframe">
 
       <span class="icon-bio"></span>
 
@@ -93,9 +93,9 @@
 
   <div class="inner">
 
-    <p class="prev"><a href="/about/legacy"><img src="/_assets/img/prev.png"/> <span>Previous:</span> Our Owners</a></p>
+    <p class="prev"><a href="/about/legacy/"><img src="/_assets/img/prev.png"/> <span>Previous:</span> Our Owners</a></p>
 
-    <p class="next"><a href="/about/lodges"><span>Next:</span> Our Lodges <img src="/_assets/img/next.png"/></a></p>
+    <p class="next"><a href="/about/lodges/"><span>Next:</span> Our Lodges <img src="/_assets/img/next.png"/></a></p>
 
     <div class="clearfix"></div>
 

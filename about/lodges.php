@@ -97,9 +97,9 @@
 
   <div class="inner">
 
-    <p class="prev"><a href="/about/staff"><img src="/_assets/img/prev.png"/> <span>Previous:</span> Our Guides</a></p>
+    <p class="prev"><a href="/about/staff/"><img src="/_assets/img/prev.png"/> <span>Previous:</span> Our Guides</a></p>
 
-    <p class="next"><a href="/about/fleet"><span>Next:</span> Our Fleet <img src="/_assets/img/next.png"/></a></p>
+    <p class="next"><a href="/about/fleet/"><span>Next:</span> Our Fleet <img src="/_assets/img/next.png"/></a></p>
 
     <div class="clearfix"></div>
 

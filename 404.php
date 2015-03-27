@@ -15,13 +15,13 @@
 		
 		<p class="first"><a href="/">Home</a></p>
 		
-		<p><a href="/about/owners">About Our Owners</a></p>
+		<p><a href="/about/owners/">About Our Owners</a></p>
 
-		<p><a href="/about/lodges">About Our Lodges</a></p>
+		<p><a href="/about/lodges/">About Our Lodges</a></p>
 
 		<p><a href="/galleries/">Pictures of Fish!</a></p>
 
-		<p><a href="/contact">I still haven't found what I'm looking for.</a></p>
+		<p><a href="/contact/">I still haven't found what I'm looking for.</a></p>
 
 	</div><!--inner-->
 

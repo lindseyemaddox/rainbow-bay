@@ -75,9 +75,9 @@
 
   <div class="inner">
 
-    <p class="prev"><a href="/plan/equipment"><img src="/_assets/img/prev.png"/> <span>Previous:</span> Equipment</a></p>
+    <p class="prev"><a href="/plan/equipment/"><img src="/_assets/img/prev.png"/> <span>Previous:</span> Equipment</a></p>
 
-    <p class="next"><a href="/about/staff"><span>Next:</span> Our Guides <img src="/_assets/img/next.png"/></a></p>
+    <p class="next"><a href="/about/staff/"><span>Next:</span> Our Guides <img src="/_assets/img/next.png"/></a></p>
 
     <div class="clearfix"></div>
 

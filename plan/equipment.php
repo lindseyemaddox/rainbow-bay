@@ -30,7 +30,7 @@
 
       <table class="pad" itemscope itemtype="http://schema.org/Table">
         <tr>
-          <td class="table-left dontPrintThis"><p class="table-header">Spinning Equipment</p><p class="table-body">This list covers everything except for equipment needed to catch king salmon, which can weigh upward of 50 pounds and require heavy-duty bait casting equipment to land. We furnish this type of equipment at the lodge, but you’re welcome bring your own equipment. <a href="/contact">Contact us</a> so we can tell you more about what you’ll need.</p></td>
+          <td class="table-left dontPrintThis"><p class="table-header">Spinning Equipment</p><p class="table-body">This list covers everything except for equipment needed to catch king salmon, which can weigh upward of 50 pounds and require heavy-duty bait casting equipment to land. We furnish this type of equipment at the lodge, but you’re welcome bring your own equipment. <a href="/contact/">Contact us</a> so we can tell you more about what you’ll need.</p></td>
           <td class="no-padding">
             <table>
               <tr>
@@ -123,9 +123,9 @@
 
   <div class="inner">
 
-    <p class="prev"><a href="/plan/prepare"><img src="/_assets/img/prev.png"/> <span>Previous:</span> Prepare Yourself</a></p>
+    <p class="prev"><a href="/plan/prepare/"><img src="/_assets/img/prev.png"/> <span>Previous:</span> Prepare Yourself</a></p>
 
-    <p class="next"><a href="/about/legacy"><span>Next:</span> Our Owners <img src="/_assets/img/next.png"/></a></p>
+    <p class="next"><a href="/about/legacy/"><span>Next:</span> Our Owners <img src="/_assets/img/next.png"/></a></p>
 
     <div class="clearfix"></div>
 

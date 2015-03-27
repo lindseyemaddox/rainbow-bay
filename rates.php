@@ -21,7 +21,7 @@
     <p>upscale food and lodging</p>
     <p>daily guided fishing trips</p>
     <p>fly-out fishing trips</p>
-    <p>fly, spinning, and bait casting <a href="/plan/equipment">equipment</a></p>
+    <p>fly, spinning, and bait casting <a href="/plan/equipment/">equipment</a></p>
     <p>beverages</p>
     <p>daily maid and laundry service</p>
     <p>the adventure of a lifetime</p>
