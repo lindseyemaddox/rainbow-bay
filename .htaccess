@@ -42,8 +42,5 @@ Redirect 301 /images/lodg31.jpg http://www.angryeagle.com/galleries
 Redirect 301 /trips.html http://www.angryeagle.com/plan/trip
 Redirect 301 /index.html http://www.angryeagle.com/
 
-Redirect 301 /about/ http://www.angryeagle.com/about/owners/
-
-
 </IfModule>
 
