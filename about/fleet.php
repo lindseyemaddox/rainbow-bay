@@ -1,7 +1,8 @@
 <?php require_once('../_assets/inc/common.php'); //php framework and meta?>
 <?php require_once('../_assets/inc/head.php'); // HTTP head?>
-<title>Angry Eagle Lodge & Outfitters | Our Fleet</title>
-<meta name="description" content="Our fleet of planes, boats and ATVs means you’ll have a place to fish regardless of the weather—a perk many other Southwest Alaskan lodges can’t offer.">
+<title>Angry Eagle Fleet | Fishing Boats, Watercrafts, and Vehicles</title>
+<meta name="description" content="We do more than lodges. During your stay, you'll have access to ATVs, fishing boats, we even have aircraft for transport. View our Alaskan fleet." />
+<link rel="canonical" href="http://www.angryeagle.com/about/fleet" />
 <?php require_once('../_assets/inc/subpage-header.php'); //video header?>
 <?php require_once('../_assets/inc/navigation.php'); //navigation?>
 
@@ -9,9 +10,9 @@
 
     <div class="inner" itemscope itemtype="http://schema.org/LodgingBusiness">
 
-        <h2>Our Fleet</h2>
+        <h1>Our Fleet</h1>
 
-        <h3 style="padding-bottom: 20px;">Angry Eagle’s collection of aircraft and boats allows us to access some of the best streams, lakes, and rivers in Lake Clark National Park, Katmai National Park, and the Nushagak River drainage of Southwestern Alaska's Bristol Bay region.</h3>
+        <h3 style="padding-bottom: 20px;">Angry Eagle’s collection of aircraft and boats allows us to access some of the best streams, lakes, and rivers in <a href="/recreation/hiking/">Lake Clark National Park</a>, Katmai National Park, and the Nushagak River drainage of Southwestern Alaska's Bristol Bay region.</h3>
 
         <p>We have riverboats throughout the Bristol Bay watershed that can be accessed by our lake boats or float planes. Our wide selection of boats also helps us ensure clients can comfortably and safely fish on days when fly-outs aren’t possible due to the weather (a perk that many other area lodges can’t give their clients).</p>
 

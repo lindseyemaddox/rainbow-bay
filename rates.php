@@ -1,7 +1,8 @@
 <?php require_once('../_assets/inc/common.php'); //php framework and meta?>
 <?php require_once('../_assets/inc/head.php'); // HTTP head?>
-<title>Angry Eagle Lodge & Outfitters | Rates</title>
-<meta name="description" content="Spend seven unforgettable days sportfishing at Angry Eagle Lodge & Outfitters in Southwest Alaska's Bristol Bay area.">
+<title>Angry Eagle 2015 Lodging Rate | Sportfishing Included!</title>
+<meta name="description" content="Want to know what is included in your lodging package with Angry Eagle? View the full details of our 2015 lodge and fishing packages." />
+<link rel="canonical" href="http://www.angryeagle.com/rates" />
 <?php require_once('../_assets/inc/subpage-header.php'); //video header?>
 <?php require_once('../_assets/inc/navigation.php'); //navigation?>
 
@@ -9,7 +10,7 @@
 
   <div class="inner" itemscope itemtype="http://schema.org/LodgingBusiness">
 
-  <h1><?php echo date("Y"); ?> Rates</h1>
+  <h1><?php echo date("Y"); ?> Lodge and Fishing Trip Rates</h1>
 
   <h3><span property="priceRange">$7250</span> per week<br />
   7 days and 7 nights</h3>

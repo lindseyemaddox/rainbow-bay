@@ -1,7 +1,8 @@
 <?php require_once('../_assets/inc/common.php'); //php framework and meta?>
 <?php require_once('../_assets/inc/head.php'); // HTTP head?>
-<title>Angry Eagle Lodge & Outfitters | Frequently Asked Questions</title>
-<meta name="description" content="Have questions about Angry Eagle Lodge & Outfitters? Need help planning your trip to Southwest Alaska? We’ve got you covered.">
+<title>Alaskan Fishing Trip & Angry Eagle FAQs</title>
+<meta name="description" content="You have questions, we have answers! Read commonly asked questions and answers about sportsfishing and lodging in Alaska." />
+<link rel="canonical" href="http://www.angryeagle.com/faq" />
 <script type="text/javascript" src="/_assets/js/faq.js"></script>
 <?php require_once('../_assets/inc/subpage-header.php'); //video header?>
 <?php require_once('../_assets/inc/navigation.php'); //navigation?>
@@ -10,11 +11,11 @@
 
 	<div class="inner" itemscope itemtype="http://schema.org/QAPage">
 
-		<h2>Frequently Asked Questions</h2>
+		<h1>Frequently Asked Questions</h1>
 
-		<h3 style="padding-bottom: 20px;">Need help planning your trip to Angry Eagle? Simply click on the following questions to learn more.</h3>
+		<h3 style="padding-bottom: 20px;">Need help <a href="/plan/trip/">planning your trip</a> to Angry Eagle? Simply click on the following questions to learn more.</h3>
 
-		<h2 class="subh2">Angry Eagle Lodge & Outfitters</h2>
+		<h2 class="subh2">Angry Eagle Alaskan Lodges & Outfitters</h2>
 
         <p class="faquestion"><span class="icon-question"></span> So, why is the eagle angry?</p>
 

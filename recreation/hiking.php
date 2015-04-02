@@ -1,7 +1,8 @@
 <?php require_once('../_assets/inc/common.php'); //php framework and meta?>
 <?php require_once('../_assets/inc/head.php'); // HTTP head?>
-<title>Angry Eagle Lodge & Outfitters | Other Activities</title>
-<meta name="description" content="Breathtaking panoramic views. Crystal-clear lakes. Vast tundras. Majestic volcanoes. This an Alaskan adventure unlike any other.">
+<title>Hiking in Southwest Alaska | Angry Eagle</title>
+<meta name="description" content="The Alaskan wilderness is one of the lasting treasures in North America. Join us to explore the beauty of Alaska." />
+<link rel="canonical" href="http://www.angryeagle.com/recreation/hiking" />
 <?php require_once('../_assets/inc/subpage-header.php'); //video header?>
 <?php require_once('../_assets/inc/navigation.php'); //navigation?>
 
@@ -9,9 +10,9 @@
 
 	<div class="inner" itemscope itemtype="http://schema.org/LakeBodyOfWater">
 
-		<h2>Exploring Southwest Alaska</h2>
+		<h1>Exploring Southwest Alaska</h1>
 
-		<p>Nestled between <span property="name">Lake Clark</span> National Park and Katmai National Park, Angry Eagle Lodge & Outfitters is ideally situated for exploring the natural beauty of Southwest Alaska.</p>
+		<p>Nestled between <span property="name">Lake Clark</span> National Park and Katmai National Park, Angry Eagle Lodge & Outfitters is ideally situated for <a href="/about/fleet/">exploring the natural beauty of Southwest Alaska</a>.</p>
 
 		<p>Enjoy a day flight seeing as you take in everything from breathtaking panoramic views and crystal-clear lakes to vast tundras and majestic volcanoes. This an adventure unlike anything you've ever experienced.</p>
 

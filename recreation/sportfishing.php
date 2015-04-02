@@ -1,7 +1,8 @@
 <?php require_once('../_assets/inc/common.php'); //php framework and meta?>
 <?php require_once('../_assets/inc/head.php'); // HTTP head?>
-<title>Angry Eagle Lodge & Outfitters | Sportfishing</title>
-<meta name="description" content="Access Southwest Alaska's remote streams, lakes, and rivers while you hook some of the most impressive fish in the Northern Hemisphere.">
+<title>Sportfishing In Alaska | Angry Eagle Lodges & Outfitters</title>
+<meta name="description" content="Bristol Bay area in Southwest Alaska offers a wide variety of sportfishing and we can help get you set for a great trip! Learn more about the fish and the seasons." />
+<link rel="canonical" href="http://www.angryeagle.com/recreation/sportfishing" />
 <link rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
 <script src="//code.jquery.com/jquery-1.10.2.js"></script>
 <script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
@@ -14,9 +15,9 @@
 
   <div class="inner">
 
-    <h2>Sportfishing</h2>
+    <h1>Alaskan Sportfishing</h1>
 
-    <h3>The Bristol Bay area in Southwest Alaska offers a wide variety of sportfishing, which means you're in for the angler experience of a lifetime. It isn't unusual for anglers to catch from five to eight species of fish during a week's fishing adventure. During the Alaskan fishing season, plan on casting your line for these finned beauties:</h3>
+    <h3>The Bristol Bay area in Southwest Alaska offers a wide variety of sportfishing, which means you're in for the angler experience of a lifetime. It isn't unusual for anglers to catch from five to eight species of fish during a week's fishing adventure. During the Alaskan fishing season, plan on <a href="/plan/equipment/">casting your line</a> for these finned beauties:</h3>
 
     <div id="slider-cont">
 

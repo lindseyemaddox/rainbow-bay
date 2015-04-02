@@ -1,7 +1,8 @@
 <?php require_once('../_assets/inc/common.php'); //php framework and meta?>
 <?php require_once('../_assets/inc/head.php'); // HTTP head?>
-<title>Angry Eagle Lodge & Outfitters | Prepare Yourself</title>
-<meta name="description" content="Headed to Angry Eagle Lodge & Outfitters? Prepare yourself for Southwest Alaska’s weather with this helpful packing list.">
+<title>Preparing for your Alaskan Vacation | Angry Eagle</title>
+<meta name="description" content="Temperatures in the wild north are often frigid. Preparing for it is key to enjoying the splendor of Alaska. See what our experts recommend." />
+<link rel="canonical" href="http://www.angryeagle.com/plan/prepare" />
 <link rel="stylesheet" type="text/css" media="print" href="/_assets/css/print.css" />
 <script src="//code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
 <script src="/_assets/js/prepare.js"></script>
@@ -12,9 +13,9 @@
 
 	<div class="inner">
 
-		<h2>Packing for Your Trip to Angry Eagle</h2>
+		<h1>Packing for Your Trip to Alaska</h1>
 
-		<h3 style="padding-bottom: 20px;">As the saying goes, “If you don’t like the weather, just wait a few minutes.” That couldn’t be truer than here in the Bristol Bay area of Southwest Alaska. Summer weather can vary from a sunny day in the mid-seventies to a cool, rainy day in the mid-forties. That’s why you should bring clothing that can be layered so you can add or subtract layers as the weather changes. </h3>
+		<h3 style="padding-bottom: 20px;">As the saying goes, “If you don’t like the weather, just wait a few minutes.” That couldn’t be truer than here in the <a href="/recreation/hiking/">Bristol Bay area of Southwest Alaska</a>. Summer weather can vary from a sunny day in the mid-seventies to a cool, rainy day in the mid-forties. That’s why you should bring clothing that can be layered so you can add or subtract layers as the weather changes. </h3>
 
     <p style="padding-bottom: 40px;">Drag the slider over the fisherman to see our entire list of packing recommendations.</p>
 

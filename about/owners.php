@@ -1,7 +1,8 @@
 <?php require_once('../_assets/inc/common.php'); //php framework and meta?>
 <?php require_once('../_assets/inc/head.php'); // HTTP head?>
-<title>Angry Eagle Lodge & Outfitters | Our Owners</title>
-<meta name="description" content="For more than 30 years, Angry Eagle Lodge & Outfitters has been providing the fishing adventure of a lifetime in Southwest Alaska.">
+<title>Meet The Owners | Angry Eagle Lodges & Outfitters</title>
+<meta name="description" content="Learn more about the owners and managers of Angry Eagle Lodges & Outfitters. We're not only business men, we're fishermen!">
+<link rel="canonical" href="http://www.angryeagle.com/about/owners" />
 <?php require_once('../_assets/inc/subpage-header.php'); //video header?>
 <?php require_once('../_assets/inc/navigation.php'); //navigation?>
 
@@ -9,9 +10,9 @@
 
     <div class="inner" property="mainContentOfPage">
 
-        <h2>Our Owners</h2>
+        <h1>Angry Eagle Owners</h1>
 
-        <h3 style="padding-bottom: 20px;">At Angry Eagle Lodge & Outfitters, we want to give you the Alaskan fishing adventure of a lifetime. In fact, our goal is for you to return after a long day of fishing and tell us you’ve had the best day of your life.</h3>
+        <h3 style="padding-bottom: 20px;">At Angry Eagle Lodge & Outfitters, we want to give you the <a href="/plan/itinerary/">Alaskan fishing adventure</a> of a lifetime. In fact, our goal is for you to return after a long day of fishing and tell us you’ve had the best day of your life.</h3>
 
 		<p>When Angry Eagle Lodge was built in 1984, it quickly became one of Alaska’s premier, full-service fishing lodges. And now, more than 20 years later, we remain committed to carrying on that same tradition by staying true to our core beliefs of living life to its fullest while respecting our neighbors and the land around us. We also pride ourselves on the amazing folks who work with us. From our fishing guides and pilots to our master chef and dedicated housekeeping staff, our team is simply the best.</p>
 

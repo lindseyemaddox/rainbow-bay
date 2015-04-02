@@ -1,7 +1,8 @@
 <?php require_once('../_assets/inc/common.php'); //php framework and meta?>
 <?php require_once('../_assets/inc/head.php'); // HTTP head?>
-	<title>Angry Eagle Lodge & Outfitters | Planning Your Trip</title>
-	<meta name="description" content="Angry Eagle Lodge & Outfitters is 180 miles from the nearest major road, which means getting here is part of your adventure. ">
+<title>Planning Your Alaskan Trip | Angry Eagle</title>
+<meta name="description" content="We are 180 miles from the nearest major road. Planning your adventure is part of the fun; let us help with your itinerary." />
+<link rel="canonical" href="http://www.angryeagle.com/plan/trip" />
 <link rel="stylesheet" type="text/css" media="print" href="/_assets/css/print.css" />
 <?php require_once('../_assets/inc/subpage-header.php'); //video header?>
 <?php require_once('../_assets/inc/navigation.php'); //navigation?>
@@ -12,9 +13,9 @@
 
 	  <span class="dontPrintThis">
 
-    <h2>Planning Your Trip</h2>
+    <h1>Planning Your Trip</h1>
 
-    <h3>We’re 180 miles from the nearest major road, which means getting to Angry Eagle Lodge &amp; Outfitters is part of your adventure! From booking airfare and hotels to traveling home with your catch, here’s everything you need to know to plan your trip:</h3>
+    <h3>We’re 180 miles from the nearest major road, which means getting to Angry Eagle Lodge &amp; Outfitters is <a href="/plan/prepare/">part of your adventure</a>! From booking airfare and hotels to traveling home with your catch, here’s everything you need to know to plan your trip:</h3>
 
     <h2 class="subh2">Booking Your Airfare &amp; Hotel</h2>
 

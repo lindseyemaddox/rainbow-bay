@@ -1,7 +1,8 @@
 <?php require_once('../_assets/inc/common.php'); //php framework and meta?>
 <?php require_once('../_assets/inc/head.php'); // HTTP head?>
-	<title>Angry Eagle Lodge & Outfitters | Sample Itinerary</title>
-	<meta name="description" content="Ready for the angler adventure of a lifetime? Check out Angry Eagle Lodge & Outfitters’ sample itinerary to get an idea of what you can expect.">
+<title>Sample Alaska Trip Itinerary | Angry Eagle</title>
+<meta name="description" content="View a sample itinerary for an Alaskan fishing trip. Ready to go? We can help you put together the right plan and get equipped!" />
+<link rel="canonical" href="http://www.angryeagle.com/plan/itinerary" />
 <link rel="stylesheet" type="text/css" media="print" href="/_assets/css/print.css" />
 <?php require_once('../_assets/inc/subpage-header.php'); //video header?>
 <?php require_once('../_assets/inc/navigation.php'); //navigation?>
@@ -10,9 +11,9 @@
 
 	<div class="inner">
 
-		<h2>Your Adventure Starts Here</h2>
+		<h1>Start Your Alaska Adventure With Us</h1>
 
-		<h3>Get ready for the angler experience of a lifetime! While no Angry Eagle Lodge & Outfitters adventure is the same, here’s a sample itinerary to help you get a better idea of what to expect.</h3>
+		<h3>Get ready for the <a href="/galleries/">angler experience of a lifetime</a>! While no Angry Eagle Lodge & Outfitters adventure is the same, here’s a sample itinerary to help you get a better idea of what to expect.</h3>
 
 	</div><!--inner-->
 

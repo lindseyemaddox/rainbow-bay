@@ -12,7 +12,7 @@
 
 		<h2>Cast Us a Line</h2>
 
-		<h3 class="alt" style="line-height:1.25em;">Contact us to make your reservations, ask questions, and learn more about Angry Eagle Lodge & Outfitters. Or, <a href="/downloads/contact-form.pdf">download</a> a contact form to send via email, fax, or mail.</h3>
+		<h3 class="alt" style="line-height:1.25em;">Contact us to make your reservations, ask questions, and learn more <a href="/about/owners/">about Angry Eagle Lodge & Outfitters</a>. Or, <a href="/downloads/contact-form.pdf">download</a> a contact form to send via email, fax, or mail.</h3>
 
 		<div class="form">
 

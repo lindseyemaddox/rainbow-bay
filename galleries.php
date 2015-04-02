@@ -1,7 +1,8 @@
 <?php require_once('_assets/inc/common.php'); //php framework and meta?>
 <?php require_once('_assets/inc/head.php'); // HTTP head?>
-<title>Angry Eagle Lodge & Outfitters | Galleries</title>
-<meta name="description" content="Experience Alaskan fishing with Angry Eagle Lodge & Outfitters’ collection of interactive videos, photos, and articles.">
+<title>Alaskan Wildlife & Nature Gallery | Angry Eagle</title>
+<meta name="description" content="From wildlife to landscapes; Alaska is full of beauty. Look at our image gallery to get a glimpse of what awaits you on your Angry Eagle trip!" />
+<link rel="canonical" href="http://www.angryeagle.com/galleries/" />
 <script type="text/javascript" src="/_assets/js/jquery.isotope.min.js"></script>
 <link rel="stylesheet" type="text/css" media="print" href="/_assets/css/print.css" />
 <script type="text/javascript" src="/_assets/js/jquery.lazyload.js"></script>
@@ -12,9 +13,9 @@
 
     <div class="inner">
 
-        <h2>Galleries</h2>
+        <h1>Alaskan Widlife & Nature Gallery</h1>
 
-        <h3>Experience Alaskan fishing firsthand with Angry Eagle Lodge & Outfitters’ collection of videos, photos, and articles.</h3>
+        <h3><a href="/plan/trip/">Experience Alaskan fishing</a> firsthand with Angry Eagle Lodge & Outfitters’ collection of videos, photos, and articles.</h3>
 
     </div><!--inner-->
 

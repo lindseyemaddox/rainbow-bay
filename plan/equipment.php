@@ -1,7 +1,8 @@
 <?php require_once('../_assets/inc/common.php'); //php framework and meta?>
 <?php require_once('../_assets/inc/head.php'); // HTTP head?>
-<title>Angry Eagle Lodge & Outfitters | Fishing Equipment</title>
-<meta name="description" content="Learn more about the Alaskan sport fishing equipment that will come in handy during your stay at Angry Eagle Lodge & Outfitters.">
+<title>Fishing Equipment & Rentals | Angry Eagle</title>
+<meta name="description" content="Looking to visit Alaska on a fishing trip, but need help selecting the right gear? Angry Eagle can help! Learn more about what to bring and what we offer." />
+<link rel="canonical" href="http://www.angryeagle.com/plan/equipment" />
 <link rel="stylesheet" type="text/css" media="print" href="/_assets/css/print.css" />
 <?php require_once('../_assets/inc/subpage-header.php'); //video header?>
 <?php require_once('../_assets/inc/navigation.php'); //navigation?>
@@ -10,11 +11,11 @@
 
   <div class="inner">
 
-    <h2>Fishing Equipment</h2>
+    <h1>Fishing Equipment</h1>
 
     <span class="dontPrintThis">
 
-    <h3 style="padding-bottom: 20px;">Wondering what kind of Alaskan sport fishing equipment you’ll need during your stay at Angry Eagle Lodge & Outfitters? Here are our recommendations for everything from tackle and rods to waders and boots.</h3>
+    <h3 style="padding-bottom: 20px;">Wondering what kind of <a href="/recreation/sportfishing/">Alaskan sport fishing</a> equipment you’ll need during your stay at Angry Eagle Lodge & Outfitters? Here are our recommendations for everything from tackle and rods to waders and boots.</h3>
 
     <p>Angry Eagle has a complete inventory of fly, spinning, and bait-casting equipment featuring custom Temple Fork Outfitters (TFO) 6-wt. and 8-wt. fly rods, complemented with TFO fly reels and fly lines as well as light and heavy TFO spinning and bait rods. Quality Shimano spinning and bait casting reels are also furnished, as are the flies, spinners, and jigs during your fishing trip at no additional cost. </p>
 

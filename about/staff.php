@@ -1,7 +1,8 @@
 <?php require_once('../_assets/inc/common.php'); //php framework and meta?>
 <?php require_once('../_assets/inc/head.php'); // HTTP head?>
-<title>Angry Eagle Lodge & Outfitters | Our Guides</title>
-<meta name="description" content="Our guides know Southwest Alaska’s rivers, streams, and lakes—which means they know exactly how and where to go to ensure a great catch.">
+<title>Your Alaskan Guides | Meet The Angry Eagle Staff</title>
+<meta name="description" content="Our guides and lodge staff are experienced Alaskans that love the Alaskan wilderness and helping others explore the area." />
+<link rel="canonical" href="http://www.angryeagle.com/about/staff" />
 <?php require_once('../_assets/inc/subpage-header.php'); //video header?>
 <?php require_once('../_assets/inc/navigation.php'); //navigation?>
 
@@ -9,9 +10,9 @@
 
     <div class="inner">
 
-        <h2>Our Guides</h2>
+        <h1>Angry Eagle Guides and Staff</h1>
 
-        <h3 style="padding-bottom: 20px;">Angry Eagle Lodge & Outfitters is proud to have one of the finest teams of professional fishing guides in all of Alaska. With nearly 200 years of combined experience, our guides have been fishing for most of their lives and are more than familiar with Southwest Alaska’s rivers, streams, and lakes—which means they know exactly how and where to find a great catch.</h3>
+        <h3 style="padding-bottom: 20px;">Angry Eagle Lodge & Outfitters is proud to have one of the finest teams of professional fishing guides in all of Alaska. With nearly 200 years of combined experience, our guides have been fishing for most of their lives and are more than familiar with Southwest Alaska’s rivers, streams, and lakes—which means they know exactly how and <a href="/recreation/sportfishing/">where to find a great catch</a>.</h3>
 
 		<p style="padding-bottom: 40px;">Whether it’s teaching the fundamentals of casting a line or focusing on the finer points of a particular technique, our expertise allows us to customize fishing experiences for anglers of all skill levels. We’re dedicated to making sure you have an extraordinary Alaskan fishing adventure.</p>
 

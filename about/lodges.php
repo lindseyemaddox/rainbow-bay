@@ -1,7 +1,8 @@
 <?php require_once('../_assets/inc/common.php'); //php framework and meta?>
 <?php require_once('../_assets/inc/head.php'); // HTTP head?>
-<title>Angry Eagle Lodge & Outfitters | The Lodges</title>
-<meta name="description" content="Our lodges are ideal for unwinding after a long day of fishing. Relax in style while you enjoy hors ‘dourves and drinks followed by a gourmet meal.">
+<title>Alaska Lodging | Angry Eagle Lodges | Southwest Alaska</title>
+<meta name="description" content="Rest in luxury at our Alaska lodges which feature gourmet meals from top-class chefs, rustic rooms, and amazing scenery. View the gallery from the lodges." />
+<link rel="canonical" href="http://www.angryeagle.com/about/lodges" />
 <?php require_once('../_assets/inc/subpage-header.php'); //video header?>
 <?php require_once('../_assets/inc/navigation.php'); //navigation?>
 
@@ -9,9 +10,9 @@
 
 	<div class="inner">
 
-		<h2>Our Lodges</h2>
+		<h1>Our Alaskan Lodges</h1>
 
-		<h3>Step into a world of rustic charm coupled with modern convenience. Both the Angry Eagle Lodge and Eagle’s Peak Lodge are ideal for unwinding after a long day spent fishing. Relax in style as you enjoy a beer and appetizers while our chef prepares a gourmet meal of king crab, prime rib, or inch-thick pork chops, just to name a few. And with no one around for miles, count on some of the best sleep you’ll ever get.</h3>
+		<h3>Step into a world of rustic charm coupled with modern convenience. Both the Angry Eagle Lodge and Eagle’s Peak Lodge are ideal for unwinding after <a href="/galleries/">a long day spent fishing</a>. Relax in style as you enjoy a beer and appetizers while our chef prepares a gourmet meal of king crab, prime rib, or inch-thick pork chops, just to name a few. And with no one around for miles, count on some of the best sleep you’ll ever get.</h3>
 
 	</div><!--inner-->
 
