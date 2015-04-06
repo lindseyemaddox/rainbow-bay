@@ -3864,6 +3864,9 @@ section.staff a.staff-item img {
   .lodge .flex-direction-nav {
     display: none;
   }
+  footer div.addresses a.icon.icon-google-plus {
+    margin-left: 30%;
+  }
 }
 @media screen and (max-width: 600px) {
   html {
@@ -4004,6 +4007,9 @@ section.staff a.staff-item img {
   section#species article {
     width: 48%;
   }
+  footer div.addresses a.icon.icon-google-plus {
+    margin-left: 25%;
+  }
 }
 @media screen and (max-width: 400px) {
   h4 {
@@ -4014,5 +4020,13 @@ section.staff a.staff-item img {
   }
   div#product-reveal {
     display: none;
+  }
+  footer div.addresses a.icon.icon-google-plus {
+    margin-left: 20%;
+  }
+}
+@media screen and (max-width: 320px) {
+  footer div.addresses a.icon.icon-google-plus {
+    margin-left: 10%;
   }
 }
