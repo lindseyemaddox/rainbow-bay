@@ -27,7 +27,11 @@
 
     <div class="left" style="width:30%;">
 
-      <p>Anchorage is home to nearly 100 hotels, so we’ve hand selected our top choices for the area’s best accommodations. Our favorite is The Hotel Captain Cook, which is located in the heart of downtown Anchorage and offers luxury accommodations to Angry Eagle guests at a special rate of $240/night. </p>
+      <p>Anchorage is home to nearly 100 hotels, so we’ve hand selected our top choices for the area’s best accommodations—including a few with discounted rates just for our guests.</p>
+
+	  <p>The Hotel Captain Cook, which is located in the heart of downtown Anchorage, offers Angry Eagle guests a special rate of $240/night. Simply tell them you’re our guest when reserving your room. </p>
+
+	  <p>Puffin Inn, which is located near Anchorage International Airport, offers Angry Eagle guests a special rate of $160/night. When booking your stay, ask them to use code AKAD15.</p>
 
     </div><!--left-->
 
@@ -37,8 +41,12 @@
 
       <table itemscope itemtype="http://schema.org/Table">
         <tr>
-          <td><a href="http://www.captaincook.com" target="_blank" rel="nofollow">The Hotel Captain Cook</a></td>
+          <td><a href="http://www.captaincook.com" target="_blank" rel="nofollow">The Hotel Captain Cook ($240/night)</a></td>
           <td><a href="tel:19072766000">(907) 276-6000</a></td>
+        </tr>
+        <tr>
+          <td><a href="http://www.puffininn.net/" target="_blank" rel="nofollow">Puffin Inn ($160/night)</a></td>
+          <td><a href="tel:18664944841">(866) 494-4841</a></td>
         </tr>
         <tr>
           <td><a href="http://www.millenniumhotels.com/usa/millenniumanchorage" target="_blank" rel="nofollow">Millennium Alaskan Hotel Anchorage</a></td>
@@ -51,10 +59,6 @@
         <tr>
           <td><a href="http://www.super8.com/hotels/alaska/anchorage/super-8-anchorage/hotel-overview" target="_blank" rel="nofollow">Super 8 Anchorage</a></td>
           <td><a href="tel:19072768884">(907) 276-8884</a></td>
-        </tr>
-        <tr>
-          <td><a href="http://www.puffininn.net/" target="_blank" rel="nofollow">Puffin Inn</a></td>
-          <td><a href="tel:18664944841">(866) 494-4841</a></td>
         </tr>
         <tr>
           <td><a href="http://www.marriott.com/hotels/hotel-deals/anccy-courtyard-anchorage-airport/" target="_blank" rel="nofollow">Courtyard by Marriott</a></td>
