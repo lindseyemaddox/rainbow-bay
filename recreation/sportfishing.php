@@ -95,7 +95,7 @@
           <img src="/_assets/img/icon-sockeye-salmon.png" alt="Sockeye Salmon" />
           <h5>Sockeye Salmon</h5>
           <p><a href="/lightboxes/sportfishing/sockeye-salmon/" class="fancybox fancybox.iframe">details</a><br />
-          <a href="/_assets/img/galleries/sockeye-salmon-woman.jpg" class="fancybox" rel="silver-salmon">view gallery</a></p>
+          <a href="/_assets/img/galleries/sockeye-salmon-woman.jpg" class="fancybox" rel="sockeye-salmon">view gallery</a></p>
 			<?php include('../lightboxes/galleries/sockeye-salmon.php'); //sockeye salmon gallery?>
         </div><!--fish-->
       </article>

@@ -25,7 +25,7 @@
 
     <h2 class="multiple subh2">Anchorage Hotels</h2>
 
-    <div class="left" style="width:30%;">
+    <div class="left" style="width:32%;">
 
       <p>Anchorage is home to nearly 100 hotels, so we’ve hand selected our top choices for the area’s best accommodations—including a few with discounted rates just for our guests.</p>
 
@@ -37,9 +37,9 @@
 
 	  </span><!--dontPrintThis-->
 
-    <div class="right" style="width:60%;">
+    <div class="right" style="width:58%;">
 
-      <table itemscope itemtype="http://schema.org/Table">
+      <table class="trip-table" itemscope itemtype="http://schema.org/Table">
         <tr>
           <td><a href="http://www.captaincook.com" target="_blank" rel="nofollow">The Hotel Captain Cook ($240/night)</a></td>
           <td><a href="tel:19072766000">(907) 276-6000</a></td>
