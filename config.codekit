@@ -3354,6 +3354,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_assets\/img\/staff-boschma.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24295,
+		"inputAbbreviatedPath": "\/_assets\/img\/staff-boschma.jpg",
+		"outputAbbreviatedPath": "\/_assets\/img\/staff-boschma.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_assets\/img\/staff-cochran.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3361,6 +3372,17 @@
 		"initialSize": 45751,
 		"inputAbbreviatedPath": "\/_assets\/img\/staff-cochran.jpg",
 		"outputAbbreviatedPath": "\/_assets\/img\/staff-cochran.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/staff-digger.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22609,
+		"inputAbbreviatedPath": "\/_assets\/img\/staff-digger.jpg",
+		"outputAbbreviatedPath": "\/_assets\/img\/staff-digger.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4656,11 +4678,29 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/lightboxes\/staff\/boschma.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/lightboxes\/staff\/boschma.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/lightboxes\/staff\/cochran.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/lightboxes\/staff\/cochran.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/lightboxes\/staff\/digger.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/lightboxes\/staff\/digger.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

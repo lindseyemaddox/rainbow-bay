@@ -34,6 +34,16 @@
 
     </a><!--staff-item-->
 
+    <a href="/lightboxes/staff/boschma/" class="staff-item fancybox fancybox.iframe">
+
+      <span class="icon-bio"></span>
+
+      <h4 property="employee">Derek Boschma <br />Fishing <br />Guide</h4>
+
+      <img src="/_assets/img/staff-boschma.jpg" alt="Angry Eagle fishing guide Derek Boschma">
+
+    </a><!--staff-item-->
+
     <a href="/lightboxes/staff/baldwin/" class="staff-item fancybox fancybox.iframe">
 
       <span class="icon-bio"></span>
@@ -81,6 +91,16 @@
       <h4 property="employee">Tom Yengo <br />Fishing <br />Guide</h4>
 
       <img src="/_assets/img/staff-yengo.jpg" alt="Angry Eagle fishing guide Tom Yengo">
+
+    </a><!--staff-item-->
+
+    <a href="/lightboxes/staff/digger/" class="staff-item fancybox fancybox.iframe">
+
+      <span class="icon-bio"></span>
+
+      <h4 property="employee">Digger Black <br />Executive<br/> Chef</h4>
+
+      <img src="/_assets/img/staff-digger.jpg" alt="Angry Eagle fishing guide Daniel 'Digger' Black">
 
     </a><!--staff-item-->
 
