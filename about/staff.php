@@ -54,16 +54,6 @@
 
     </a><!--staff-item-->
 
-    <a href="/lightboxes/staff/baker/" class="staff-item fancybox fancybox.iframe">
-
-      <span class="icon-bio"></span>
-
-      <h4 property="employee">Jon Baker <br />Fishing <br />Guide</h4>
-
-      <img src="/_assets/img/staff-baker.jpg" alt="Angry Eagle fishing guide Jon Baker">
-
-    </a><!--staff-item-->
-
     <a href="/lightboxes/staff/rogers/" class="staff-item fancybox fancybox.iframe">
 
       <span class="icon-bio"></span>
