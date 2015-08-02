@@ -12,7 +12,7 @@
 
   <h1><?php echo date("Y"); ?> Lodge and Fishing Trip Rates</h1>
 
-  <h3><span property="priceRange">$7250</span> per week<br />
+  <h3><span property="priceRange">$7850</span> per week<br />
   7 days and 7 nights</h3>
 
   <article class="column left">

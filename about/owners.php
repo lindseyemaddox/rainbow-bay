@@ -50,16 +50,6 @@
       
       <span class="icon-bio"></span>
 
-      <h4>Kevin Powers <br />Owner</h4>
-
-      <img src="/_assets/img/owner-powers.jpg" alt="Angry Eagle owner Kevin Powers">
-
-    </a><!--legacy-item-->
-
-    <a class="legacy-item fancybox fancybox.iframe">
-      
-      <span class="icon-bio"></span>
-
       <h4>Brian Jenkins <br />Owner</h4>
 
       <img src="/_assets/img/owner-jenkins.jpg" alt="Angry Eagle owner Brian Jenkins">
