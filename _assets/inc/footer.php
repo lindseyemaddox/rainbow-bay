@@ -34,7 +34,7 @@
 
 					<br/>
 
-					<a href="https://plus.google.com/113031869188624299064/videos" class="icon icon-google-plus" target="_blank" rel="nofollow"></a>
+					<a href="https://plus.google.com/102073266521304104835/videos" class="icon icon-google-plus" target="_blank" rel="nofollow"></a>
 
 					<a href="https://www.facebook.com/pages/Rainbow-Bay-Resort/110232285696450" target="_blank" rel="nofollow" class="icon icon-facebook"></a>
 
@@ -42,7 +42,7 @@
 
 					<a href="https://instagram.com/angryeaglelodge/" class="icon icon-instagram" target="_blank" rel="nofollow"></a>
 
-					<a href="https://www.youtube.com/channel/UCgo9ak4XpJIqw1pIIwSQ-1A" class="icon icon-youtube" target="_blank" rel="nofollow"></a>
+					<a href="https://www.youtube.com/channel/UCI8aOUNen1dcVNMCliUwqCA" class="icon icon-youtube" target="_blank" rel="nofollow"></a>
 
 					<br/>
 
@@ -69,7 +69,7 @@
 		</script>
 		<script src="/_assets/js/jquery.fancybox.js"></script>
 		<script src="/_assets/js/touchpunch.js"></script>
-		<?php if ($smCurrentFolder && $smCurrentFolder->getTitle() == 'Admin'): ?>
+		<?php if ($smCurrentFolder && ($smCurrentFolder->getTitle() == 'Admin' || $smCurrentFolder->getTitle() == 'Guests')): ?>
 		  <script src="/smTemplate/js/moment.js"></script>
 		  <script src="/smTemplate/js/pikaday.js"></script>
 		  <script src="/smTemplate/js/pikaday.jquery.js"></script>
