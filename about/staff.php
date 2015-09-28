@@ -24,13 +24,13 @@
 
 	<div class="inner" itemscope itemtype="http://schema.org/LodgingBusiness">
 
-    <a href="/lightboxes/staff/kern/" class="staff-item fancybox fancybox.iframe">
+    <a href="/lightboxes/staff/thurley/" class="staff-item fancybox fancybox.iframe">
 
       <span class="icon-bio"></span>
 
-      <h4 property="employee">Jim Kern <br />General Manager</h4>
+      <h4 property="employee">Rod Thurley <br />General Manager</h4>
 
-      <img src="/_assets/img/staff-kern.jpg" alt="Angry Eagle staff member Jim Kern">
+      <img src="/_assets/img/staff-thurley.jpg" alt="Angry Eagle staff member Rod Thurley">
 
     </a><!--staff-item-->
 

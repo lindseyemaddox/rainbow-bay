@@ -9,30 +9,13 @@
 
 					<p class="remote" property="description"><span>We're so remote we don't even have an address. Seriously. </span><a href="/contact">Contact us for shipping details.</a></p>
 
-					<br/>
+					<p style="padding-bottom:5px;color:#b4aa5e;"><span>Contact Rod Thurley</p>
 
-					<?php
-					    $year = date('Y');
-					    $today = date('Y-m-d H:i:s');
-					    $startDate = date('Y-m-d H:i:s', strtotime("June 1, '$year' 12:01am"));
-					    $endDate = date('Y-m-d H:i:s', strtotime("September 30, '$year' 12:00pm"));
+					<p style="padding-bottom:5px;" itemprop="telephone" content="+19078504153"><span>In-Season</span> <a href="tel:19078504153">(907) 850-4153</a><br/>May 15th - September 15th</p>
 
-					    if($today >= $startDate && $today <= $endDate)
-					    {
-					?>
-					      <p itemprop="telephone" content="+19078502235"><span>In-Season</span> <a href="tel:19078502235">(907) 850-2234</a></p>
-					<?php
-					    }
-
-					    if($today >= $startDate)
-					    {
-					?>
-					      <p itemprop="telephone" content="+18179462479"><span>Off-Season</span> <a href="tel:18179462479">(817) 946-2479</a></p>
-					<?php
-					    }
-					?>
-
-					<br/>
+					<p style="padding-bottom:5px;" itemprop="telephone" content="+16156047666"><span>Off-Season</span> <a href="tel:16156047666">(615) 604-7666</a><br/>September 16th - May 14th</p>
+					
+					<p>Or via email at <a href="mailto:rod@angryeagle.com">rod@angryeagle.com</a></p>
 
 					<a href="https://plus.google.com/102073266521304104835/videos" class="icon icon-google-plus" target="_blank" rel="nofollow"></a>
 
@@ -48,7 +31,7 @@
 
 					<p class="copy"><a href="/guests">Guest Login</a></p>
 
-					<p class="copy">&copy;<?php echo date("Y"); ?> Rainbow Bay Resorts, LLC</p>
+					<p style="margin-top:0;" class="copy">&copy;<?php echo date("Y"); ?> Rainbow Bay Resorts, LLC</p>
 
 				</div><!--addresses-->
 

@@ -51,7 +51,7 @@
             $address = $_REQUEST['address'] ;
             $desc = $_REQUEST['desc'] ;
             if (isset($_POST['submit']) && $checkResponse !== false) {
-              $to = 'info@angryeagle.com';
+              $to = 'rod@angryeagle.com';
               $headers = "From: " . strip_tags($_POST['email']) . "\r\n";
               $headers .= "Reply-To: ". strip_tags($_POST['email']) . "\r\n";
               $headers .= "MIME-Version: 1.0\r\n";
@@ -72,17 +72,7 @@
         mail($to, $subject, $message, $headers);
           curl_close($curl);
 
-        echo "<div style='padding: 30px 20px 0; color: #fff; text-align: center;font-size:1.3em;'><p> Thank you for using our form. We will be in contact with you as soon as possible.</p> <p>In the meantime, have a look at our <a style='text-align:center;color:#fff;text-decoration:none;' href='/galleries'>photo albums</a> or <a style='text-align:center;color:#fff;text-decoration:none;' href='/recreation/sportfishing'>see which fish are in season</a>. For immediate assistance, give us a ring.</p></div>";
-
-
-					    if($today >= $startDate && $today <= $endDate) {
-							echo "<p style='text-align:center;'><a style='color:#fff;text-decoration:none;font-size:1.5em;' href='tel:19078502235'>(907) 850-2235</a></p>";
-					    }
-
-					    if($today >= $startDate) {
-					    	echo "<p style='text-align:center;'><a style='color:#fff;text-decoration:none;font-size:1.5em;' href='tel:18179462479'>(817) 946-2479</a></p>";
-					    }
-
+        echo "<div style='padding: 30px 20px 0; color: #fff; text-align: center;font-size:1.3em;'><p> Thank you for using our form. We will be in contact with you as soon as possible.</p> <p>In the meantime, have a look at our <a style='text-align:center;color:#fff;text-decoration:none;' href='/galleries'>photo albums</a> or <a style='text-align:center;color:#fff;text-decoration:none;' href='/recreation/sportfishing'>see which fish are in season</a>. For immediate assistance, give us a ring at 907.850.4153 in season (May 15th - September 15th) or 615.604.7666 off season (September 16th - May 14th).</p></div>";
       }
     else
       { echo "
