@@ -1,8 +1,5 @@
 <?php require_once('_assets/inc/common.php'); //php framework and meta?>
 <?php require_once('_assets/inc/head.php'); // HTTP head?>
-<title>Angry Eagle Lodge & Outfitters | Sportfishing</title>
-<meta name="description" content="Alaska's premier fishing resort, Angry Eagle Lodge & Outfitters offers sportsfishing trips, lodging, and outdoor gear. Let us help plan your Alaskan adventure! " />
-<link rel="canonical" href="http://www.angryeagle.com/" />
 
 <!--FB-->
 <script>
@@ -34,13 +31,6 @@
         <div class="flexslider" itemscope itemtype="http://schema.org/WebPage">
 
           <ul class="slides">
-
-                <li>
-            		<div class="tag">
-            			<p>Formerly Known As <span>Rainbow Bay Lodge</span></p>
-            		</div>
-					<img src="/_assets/img/slide-change.jpg" alt="Rainbow Bay is now Angry Eagle Lodge & Outfitters" />
-				</li>
 
             	<li>
             		<div class="tag">
@@ -108,9 +98,9 @@
 
 	<div class="inner" itemscope itemtype="http://schema.org/WebPage">
 
-		<h1>Your Alaska Adventure Starts Here</h1>
+		<h1>Your Adventure Starts Here</h1>
 
-		<h3 property="mainContentOfPage">Angry Eagle Lodge &amp; Outfitters operates two full-service Alaskan fishing lodges in the heart of Southwest Alaska’s Bristol Bay region. For the past 30 years, we’ve prided ourselves on offering the fishing adventures of a lifetime. Our <a href="/about/staff/">knowledgeable guides</a> offer assistance and insight to fly and spinning anglers of all experience levels. And our large fleet of planes, boats, and ATVs means you’ll always have a great place to cast a line regardless of the weather.</h3>
+		<h3 property="mainContentOfPage">Angry Eagle Lodge &amp; Outfitters operates two full-service Alaskan fishing lodges in the heart of Southwest Alaska’s Bristol Bay region. For the past 30 years, we’ve prided ourselves on offering the fishing adventures of a lifetime. Our knowledgeable guides offer assistance and insight to fly and spinning anglers of all experience levels. And our large fleet of planes, boats, and ATVs means you’ll always have a great place to cast a line regardless of the weather.</h3>
 
 	</div><!--inner-->
 
@@ -243,11 +233,11 @@
       <h4>Guides' <br />Report</h4>
 
       <?php
-        $blog = $smCurrentSite->getToolWithSlug('blog')->getItems();
+        $blog = $smCurrentSite->getToolWithSlug('blog')->getItemsWithTagWithTitle('Approved');
         $blog = $blog[0];
         $summary = $blog->getBody();
-        $summary = explode('</p>', $summary);
-        $summary = $summary[0] . '</p>';
+        $summary = explode('.', $summary);
+        $summary = $summary[0] . '.';
         $author = $blog->getSubtitle();
         $authorLastName = explode(' ', $author);
         $authorLastName = strtolower($authorLastName[1]);
