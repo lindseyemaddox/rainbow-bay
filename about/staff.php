@@ -84,6 +84,16 @@
 
     </a><!--staff-item-->
 
+    <a href="/lightboxes/staff/cochran/" class="staff-item fancybox fancybox.iframe">
+
+      <span class="icon-bio"></span>
+
+      <h4 property="employee">Mason Cochran <br />Fishing <br />Guide</h4>
+
+      <img src="/_assets/img/staff-cochran.jpg" alt="Angry Eagle fishing guide Mason Cochran">
+
+    </a><!--staff-item-->
+
     <a href="/lightboxes/staff/digger/" class="staff-item fancybox fancybox.iframe">
 
       <span class="icon-bio"></span>

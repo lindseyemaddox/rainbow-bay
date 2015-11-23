@@ -26,7 +26,7 @@
 			<li>Recreational activities, such as fly fishing, plane tours, boating, and hiking</li>
 		</ul>
 
-		<h2 class="subh2">Incentive Travel Programs & Employee Incentive Plans</h2>
+		<h2 class="multiple subh2">Incentive Travel Programs & Employee Incentive Plans</h2>
 
 		<p>Looking for a way to reward staff members for their hard work and retain your most productive employees? Whether you want to motivate your sales team or reward your top performers, Angry Eagle offers a unique opportunity to recognize a job well done.</p>
 		

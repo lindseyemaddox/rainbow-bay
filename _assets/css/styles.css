@@ -963,6 +963,7 @@ header div#topLodge img {
 header img.temp-image {
   width: 100%;
 }
+/******** END MAIN HEADER AND NAVIGATION STYLES *********/
 section#links p {
   line-height: 3em;
   padding-bottom: 0;
@@ -1061,6 +1062,7 @@ footer p.copy {
   font-size: .5em;
   margin-top: 20px;
 }
+/******** END FOOTER STYLES *********/
 /* @group Base */
 .chosen-container {
   position: relative;
@@ -1483,6 +1485,7 @@ footer p.copy {
     background-repeat: no-repeat !important;
   }
 }
+/* @end */
 /*! fancyBox v2.1.5 fancyapps.com | fancyapps.com/fancybox/#license */
 .fancybox-wrap,
 .fancybox-skin,
@@ -2092,6 +2095,9 @@ div.videowrap {
   height: 100%;
   left: 0;
   top: -60px;
+}
+.videoHolder video {
+  width: 100%;
 }
 /* fixes for IE5/6 */
 * html .videoHolder {
@@ -3241,6 +3247,7 @@ div#product-reveal h1 {
   bottom: 0;
   z-index: 104;
 }
+/******** END Drag to Reveal module STYLES *********/
 #gallery {
   background: url(/_assets/img/rates.jpg) no-repeat center center transparent;
   background-size: cover;
@@ -3386,6 +3393,16 @@ section.staff a.staff-item img {
 /*================  RESPONSIVE STYLES  ================*/
 /*====================================================*/
 /*************RESPONSIVE CODE*****************/
+@media screen and (max-width: 2000px) {
+  .videoHolder {
+    margin-top: -600px;
+  }
+}
+@media screen and (max-width: 1600px) {
+  .videoHolder {
+    margin-top: -400px;
+  }
+}
 @media screen and (max-width: 1300px) {
   html {
     font-size: 17.5px;
@@ -3404,6 +3421,9 @@ section.staff a.staff-item img {
   }
 }
 @media screen and (max-width: 1200px) {
+  .videoHolder {
+    margin-top: -200px;
+  }
   html {
     font-size: 17px;
   }
