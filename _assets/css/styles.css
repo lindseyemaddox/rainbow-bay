@@ -635,6 +635,9 @@ p a {
 p a:hover {
   color: #b8c6bc;
 }
+p.last {
+  padding-bottom: 100px;
+}
 .italic {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 400;

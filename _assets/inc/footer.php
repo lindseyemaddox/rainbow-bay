@@ -39,6 +39,8 @@
 
 					<img src="/_assets/img/map.png" alt="map of Alaska with a closer view of Angry Eagle Lodge &amp; Outfitters">
 
+					<p style="text-align:right; padding-top:20px;"><a href="/careers/">Careers</a></p>
+
 				</div><!--mapnstuff-->
 
 			</div><!--inner-->
