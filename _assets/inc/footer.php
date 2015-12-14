@@ -17,7 +17,7 @@
 					
 					<p>Or via email at <a href="mailto:rod@angryeagle.com">rod@angryeagle.com</a></p>
 
-					<a href="https://plus.google.com/113031869188624299064/videos" class="icon icon-google-plus" target="_blank" rel="nofollow"></a>
+					<a href="https://plus.google.com/102073266521304104835/about" class="icon icon-google-plus" target="_blank" rel="nofollow"></a>
 
 					<a href="https://www.facebook.com/pages/Rainbow-Bay-Resort/110232285696450" target="_blank" rel="nofollow" class="icon icon-facebook"></a>
 
