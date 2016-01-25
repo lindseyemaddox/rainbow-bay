@@ -3508,6 +3508,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_assets\/img\/video-above-illiamna.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23635,
+		"inputAbbreviatedPath": "\/_assets\/img\/video-above-illiamna.jpg",
+		"outputAbbreviatedPath": "\/_assets\/img\/video-above-illiamna.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_assets\/img\/video-bear.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3559,6 +3570,17 @@
 		"initialSize": 18280,
 		"inputAbbreviatedPath": "\/_assets\/img\/video-jet-sleding.jpg",
 		"outputAbbreviatedPath": "\/_assets\/img\/video-jet-sleding.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/video-salmon-program.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26537,
+		"inputAbbreviatedPath": "\/_assets\/img\/video-salmon-program.jpg",
+		"outputAbbreviatedPath": "\/_assets\/img\/video-salmon-program.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4761,6 +4783,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/lightboxes\/video\/above-illiamna.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/lightboxes\/video\/above-illiamna.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/lightboxes\/video\/bear.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -4802,6 +4833,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/lightboxes\/video\/jet-sleding.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/lightboxes\/video\/salmon-program.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/lightboxes\/video\/salmon-program.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
