@@ -30,7 +30,7 @@
 
 				<div class="left-col">
 
-					<a href="https://plus.google.com/113031869188624299064/videos" class="icon icon-google-plus" target="_blank" rel="nofollow"></a>
+					<a href="https://plus.google.com/102073266521304104835/about" class="icon icon-google-plus" target="_blank" rel="nofollow"></a>
 
 					<a href="https://www.facebook.com/pages/Rainbow-Bay-Resort/110232285696450" target="_blank" rel="nofollow" class="icon icon-facebook"></a>
 
@@ -44,7 +44,7 @@
 
 				<div class="right-col">
 
-					<p class="copy"><a href="/guests">Guest Login</a></p>
+					<p class="copy"><a href="/guests">Guest Login</a> | <a href="/careers/">Careers</a></p>
 
 					<p class="copy">&copy;<?php echo date("Y"); ?> Rainbow Bay Resorts, LLC</p>
 
