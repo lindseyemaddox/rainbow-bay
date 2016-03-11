@@ -963,6 +963,7 @@ header div#topLodge img {
 header img.temp-image {
   width: 100%;
 }
+/******** END MAIN HEADER AND NAVIGATION STYLES *********/
 section#links p {
   line-height: 3em;
   padding-bottom: 0;
@@ -987,15 +988,12 @@ footer {
   background-color: #504e3c;
   padding: 100px 0 28px;
 }
-footer div.addresses {
+footer div.left-col {
   display: inline-block;
   width: 30%;
-  vertical-align: top;
+  vertical-align: middle;
 }
-footer div.addresses p.remote {
-  margin-top: 50px;
-}
-footer div.addresses a.icon {
+footer div.left-col a.icon {
   display: inline-block;
   vertical-align: top;
   text-decoration: none;
@@ -1003,39 +1001,48 @@ footer div.addresses a.icon {
   margin: 0 20px 0 0;
   font-size: 2em;
 }
-footer div.addresses a.icon:hover {
+footer div.left-col a.icon:hover {
   color: #b4aa5e;
 }
-footer div.addresses p {
-  font-size: 1em;
-}
-footer div.addresses p span {
-  font-size: 1.2em;
-  font-family: 'Source Sans Pro', sans-serif;
+footer p.remote {
+  font-size: 1.35em;
   font-weight: 700;
+  margin-bottom: 50px;
 }
-footer div.addresses p a {
-  font-size: 1.2em;
+footer p.remote a {
+  text-decoration: underline;
 }
-footer div.addresses p a:hover {
-  color: #fff;
+footer p.remote a:hover {
+  color: #f2f3e4;
+  -webkit-transition: all 400ms ease;
+  -moz-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+  -ms-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
-footer div.mapnstuff {
+footer p.seasons {
+  display: inline-block;
+}
+footer div.right-col {
   display: inline-block;
   width: 59%;
   margin-left: 10%;
-  vertical-align: top;
+  vertical-align: middle;
 }
-footer div.mapnstuff img {
+footer div.right-col img {
   margin-bottom: 50px;
   display: block;
   width: 100%;
 }
-footer div.mapnstuff iframe {
+footer div.right-col iframe {
   margin-bottom: 30px;
 }
 footer h2 {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+}
+footer .seasons-container {
+  text-align: center;
+  margin-bottom: 30px;
 }
 footer p {
   font-family: 'Source Sans Pro', sans-serif;
@@ -1044,13 +1051,35 @@ footer p {
   color: #fff;
   text-transform: uppercase;
 }
+footer p.contact {
+  font-size: 1.5em;
+  font-weight: 700;
+  text-align: center;
+  margin: 30px 0 5px;
+}
+footer p.seasons {
+  font-size: 1.2em;
+  font-style: italic;
+  text-transform: none;
+}
+footer p.seasons span {
+  color: #b4aa5e;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+}
+footer p.seasons a {
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+}
 footer p a {
   text-decoration: none;
   float: none;
   margin: 0 auto;
 }
 footer p a:hover {
-  color: #b4aa5e;
+  color: #f2f3e4;
   -webkit-transition: all 400ms ease;
   -moz-transition: all 400ms ease;
   -o-transition: all 400ms ease;
@@ -1058,9 +1087,12 @@ footer p a:hover {
   transition: all 400ms ease;
 }
 footer p.copy {
-  font-size: .5em;
-  margin-top: 20px;
+  font-size: 1em;
+  margin-top: 0;
+  padding-bottom: 5px;
+  text-align: right;
 }
+/******** END FOOTER STYLES *********/
 /* @group Base */
 .chosen-container {
   position: relative;
@@ -1483,6 +1515,7 @@ footer p.copy {
     background-repeat: no-repeat !important;
   }
 }
+/* @end */
 /*! fancyBox v2.1.5 fancyapps.com | fancyapps.com/fancybox/#license */
 .fancybox-wrap,
 .fancybox-skin,
@@ -3241,6 +3274,7 @@ div#product-reveal h1 {
   bottom: 0;
   z-index: 104;
 }
+/******** END Drag to Reveal module STYLES *********/
 #gallery {
   background: url(/_assets/img/rates.jpg) no-repeat center center transparent;
   background-size: cover;

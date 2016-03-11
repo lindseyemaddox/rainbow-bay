@@ -28,13 +28,10 @@ section#links {
 footer {
 	background-color: @brown;
 	padding: 100px 0 28px;
-	div.addresses {
+	div.left-col {
 		display: inline-block;
 		width: 30%;
-		vertical-align: top;
-		p.remote {
-			margin-top: 50px;
-		}
+		vertical-align: middle;
 		a.icon {
 			display: inline-block;
 			vertical-align: top;
@@ -46,25 +43,40 @@ footer {
 				color: @green;
 			}
 		}
-		p {
-			font-size: 1em;
-			span {
-				font-size: 1.2em;
-				.ssp-bold;
-			}
-			a {
-				font-size: 1.2em;
-				&:hover {
-					color: #fff;
-				}
+	}
+	// p {
+	// 	font-size: 1em;
+	// 	span {
+	// 		font-size: 1.2em;
+	// 		.ssp-bold;
+	// 	}
+	// 	a {
+	// 		font-size: 1.2em;
+	// 		&:hover {
+	// 			color: #fff;
+	// 		}
+	// 	}
+	// }
+	p.remote {
+		font-size: 1.35em;
+		font-weight: 700;
+		margin-bottom: 50px;
+		a {
+			text-decoration: underline;
+			&:hover {
+				color: @white;
+				.transition;
 			}
 		}
 	}
-	div.mapnstuff {
+	p.seasons {
+		display: inline-block;
+	}
+	div.right-col {
 		display: inline-block;
 		width: 59%;
 		margin-left: 10%;
-		vertical-align: top;
+		vertical-align: middle;
 		img {
 			margin-bottom: 50px;
 			display: block;
@@ -75,25 +87,53 @@ footer {
 		}
 	}
 	h2 {
-		margin-bottom: 20px;
+		margin-bottom: 10px;
+	}
+	.seasons-container {
+		text-align: center;
+		margin-bottom: 30px;
 	}
 	p {
 		.ssp-light;
 		font-size: 0.6571428571428571em;
 		color: #fff;
 		text-transform: uppercase;
+		&.contact {
+			font-size: 1.5em;
+			font-weight: 700;
+			text-align: center;
+			margin: 30px 0 5px;
+		}
+		&.seasons {
+			font-size: 1.2em;
+			font-style: italic;
+			text-transform: none;
+			span {
+				color: @green;
+				font-weight: 700;
+				font-style: normal;
+				text-transform: uppercase;
+			}
+			a {
+				font-weight: 700;
+				font-style: normal;
+				text-transform: uppercase;
+			}
+		}
 		a {
 			text-decoration: none;
 			float: none;
 			margin: 0 auto;
 			&:hover {
-				color: @green;
+				color: @white;
 				.transition;
 			}
 		}
 		&.copy {
-			font-size: .5em;
-			margin-top: 20px;
+			font-size: 1em;
+			margin-top: 0;
+			padding-bottom: 5px;
+			text-align: right;
 		}
 	}
 }

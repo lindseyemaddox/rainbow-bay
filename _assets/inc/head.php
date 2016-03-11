@@ -27,12 +27,6 @@
 	<meta property="og:site_name" content="Angry Eagle Lodge &amp; Outfitters"/>
 	<meta property="og:description" content="Angry Eagle Lodge &amp; Outfitters operates two full-service fishing lodges in the heart of Southwest Alaska’s Bristol Bay region. For the past 30 years, we’ve prided ourselves on offering the fishing adventures of a lifetime."/>
 
-
-	<!--[if lt IE 9]>
-	    <p class="browsehappy">You are using an outdated browser. Please <a href="http://browsehappy.com/" target="_blank">upgrade your browser</a> to improve your experience.</p>
-	    <img class="browsehappyimg" src="/_assets/img/apple-touch-57.png"/>
-	<![endif]-->
-
 	<!-- icons -->
 	<link rel="shortcut icon" href="/_assets/img/favicon.ico">
 	<link rel="apple-touch-icon" href="/_assets/img/apple-touch-57.png">

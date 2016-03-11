@@ -1,25 +1,5 @@
-<?php require_once('_assets/inc/common.php'); //php framework and meta?>
 <?php require_once('_assets/inc/head.php'); // HTTP head?>
-
-<!--FB-->
-<script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      appId      : '492097247594870',
-      xfbml      : true,
-      version    : 'v2.2'
-    });
-  };
-
-  (function(d, s, id){
-     var js, fjs = d.getElementsByTagName(s)[0];
-     if (d.getElementById(id)) {return;}
-     js = d.createElement(s); js.id = id;
-     js.src = "//connect.facebook.net/en_US/sdk.js";
-     fjs.parentNode.insertBefore(js, fjs);
-   }(document, 'script', 'facebook-jssdk'));
-</script>
-<!--endFB-->
+<title>Angry Eagle Lodge & Outfitters | Alaska's Premier Fishing</title>
 
 <div class="index-nav">
 <?php require_once('_assets/inc/navigation.php'); //navigation?>
@@ -259,25 +239,23 @@
 
       <span class="icon-video"></span>
 
-      <h4>Dallas Safari Club Interview</h4>
+      <h4 style="font-size:1.8em;">The Alaska Salmon Program</h4>
 
-      <p>Jim Kern discusses fishing in Alaska with Gayne C. Young, editor of Dallas Safari Club's GameTrails Online.</p>
+      <p>Follow the crew of the Alaska Salmon Program as they conduct sockeye salmon surveys during one of the largest migrations in recent history.</p>
 
-      <a href="/lightboxes/video/interview/" class="video-link fancybox fancybox.iframe" rel="video-interview"><span class="icon-play"></span><img src="/_assets/img/video-interview.jpg" alt="Dallas Safari Club Game Trails Online Editor Gayne C. Young talks to Jim Kern of Angry Eagle Lodge & Outfitters about fishing in Alaska."></a>
+      <a href="/lightboxes/video/salmon-program/" class="video-link fancybox fancybox.iframe" rel="video-salmon-program"><span class="icon-play"></span><img src="/_assets/img/video-salmon-program.jpg" alt="Follow the crew of the Alaska Salmon Program as they conduct sockeye salmon surveys during one of the largest migrations in recent history."></a>
 
     </article><!--media-item-->
 
-    <article class="media-item photos">
+    <article class="media-item video">
 
       <span class="icon-video"></span>
 
-      <h4>Rainbow Trout Photos</h4>
+      <h4 style="font-size:1.8em;">Above <br/>Iliamna</h4>
 
-      <p>click image to view gallery</p>
+      <p>Our neighbor, Jason Ching with The Alaska Salmon Program, highlights both the beauty of Bristol Bay and the opportunity for catching a wide variety of game fish.</p>
 
-      <a class="fancybox" rel="rainbow-trout" href="/_assets/img/galleries/rainbow-trout-closeup.jpg"><img src="/_assets/img/galleries/rainbow-trout-closeup.jpg" alt="rainbow trout" /></a>
-
-      <?php include('lightboxes/galleries/rainbow-trout.php'); //rainbow trout gallery?>
+      <a href="/lightboxes/video/above-illiamna/" class="video-link fancybox fancybox.iframe" rel="video-above-illiamna"><span class="icon-play"></span><img src="/_assets/img/video-above-illiamna.jpg" alt="Video highlights both the beauty of Bristol Bay and the opportunity for catching a wide variety of game fish."></a>
 
     </article><!--media-item-->
 
