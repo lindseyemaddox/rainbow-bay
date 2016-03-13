@@ -751,6 +751,24 @@ a.readmore:hover {
 span.temp {
   color: magenta;
 }
+.btn-container {
+  width: 100%;
+  text-align: center;
+}
+.btn {
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px 15px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  color: #fff;
+  background-color: #b4aa5e;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
 /*=================================================*/
 /*================ ORGANIC STYLES ================*/
 /*===============================================*/
@@ -2561,7 +2579,7 @@ section#bgFixed {
   background-attachment: fixed;
   background-size: cover;
   width: 100%;
-  height: 300px;
+  height: 200px;
 }
 section#bgFixed.subpage {
   height: auto;
@@ -2634,144 +2652,72 @@ section#testimonials div.testimonial h6 {
   width: 100%;
   text-align: right;
 }
-section#social {
-  background: url(/_assets/img/pink-salmon.jpg) no-repeat center center transparent;
-  background-size: cover;
-  padding: 180px 0 148px;
+section#three-group {
+  padding: 70px 0 100px;
 }
-section#social div.container {
-  background-color: #f2f3e4;
-  padding: 40px 30px 30px;
-  display: table;
-  position: relative;
-}
-section#social div.container:after {
-  width: 0;
-  height: 0;
-  border-left: 30px solid transparent;
-  border-right: 30px solid transparent;
-  border-top: 20px solid #f2f3e4;
-  content: "";
-  position: absolute;
-  bottom: -20px;
-  left: 100px;
-}
-section#social div.container div.facebook {
-  display: table-cell;
-  width: 12em;
-  vertical-align: top;
-}
-section#social div.container div.instagram {
-  float: right;
-  display: table-cell;
-  width: 96%;
-  vertical-align: top;
-}
-section#social div.container div.instagram div.featured-fisherman {
-  background: url(/_assets/img/pattern-dark.png) repeat left top transparent;
-  padding: 40px;
-  position: relative;
-}
-section#social div.container div.instagram div.featured-fisherman img {
-  width: 60%;
-  margin-bottom: 30px;
-}
-section#social div.container div.instagram div.featured-fisherman div.name {
-  background-color: #79877b;
-  opacity: .8;
-  padding: 18px 0px 0;
-  width: 60%;
-  position: absolute;
-  top: 200px;
-  right: 40px;
-}
-section#social div.container div.instagram div.featured-fisherman div.name h4 {
-  border-bottom: none;
-  padding-bottom: 10px;
-  letter-spacing: 3.5px;
-  font-size: 1.5em;
-  line-height: 1.2em;
-}
-section#social div.container div.instagram div.featured-fisherman div.name p {
-  text-align: center;
-  color: #fff;
-  font-family: 'Condiment', cursive;
-  font-size: 2em;
-  line-height: 1em;
-}
-section#social div.container div.instagram div.featured-fisherman h6 {
-  text-transform: none;
-  color: #fff;
-  font-weight: normal;
-  font-size: .9em;
-  padding-bottom: 12px;
-}
-section#social div.container div.instagram div.featured-fisherman h6 span {
-  font-weight: bold;
-}
-section#social div.bottom {
-  margin-top: 40px;
-}
-section#social div.bottom a img {
+section#three-group article {
   display: inline-block;
-  margin: 0 40px;
   vertical-align: top;
-}
-section#social div.bottom a img:hover {
-  opacity: .6;
-  -webkit-transition: all 400ms ease;
-  -moz-transition: all 400ms ease;
-  -o-transition: all 400ms ease;
-  -ms-transition: all 400ms ease;
-  transition: all 400ms ease;
-}
-section#social div.bottom div.icons {
-  float: right;
-}
-section#social div.bottom span {
-  display: inline-block;
-  color: #93a698;
-  font-size: 2em;
-  margin-left: 20px;
-}
-section#social div.bottom span:hover {
-  color: #fff;
-  -webkit-transition: all 400ms ease;
-  -moz-transition: all 400ms ease;
-  -o-transition: all 400ms ease;
-  -ms-transition: all 400ms ease;
-  transition: all 400ms ease;
-}
-section#media-section {
-  padding: 124px 0 170px;
-}
-section#media-section article.media-item {
   width: 30%;
+  margin: 0 1.3%;
+}
+section#three-group article [class^="icon-"],
+section#three-group article [class*=" icon-"] {
+  color: #504e3c;
+  font-size: 3em;
+  text-align: center;
+  display: block;
+  margin-bottom: 20px;
+}
+section#three-group article h3 {
+  font-family: 'Passion One', sans-serif;
+  padding-bottom: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+section#three-group article p {
+  text-align: center;
+  padding-bottom: 30px;
+}
+section#four-group {
+  padding: 70px 0 100px;
+}
+section#four-group .btn-container {
+  margin: 30px 0 10px;
+  bottom: 20px;
+  left: 0;
+  position: absolute;
+}
+section#four-group .btn-container .btn {
+  width: 80%;
+}
+section#four-group article.media-item {
+  height: 455px;
+  position: relative;
+  width: 22.5%;
   margin: 0 1%;
   background-color: #504e3c;
   padding: 22px 2%;
   display: inline-block;
   vertical-align: top;
-  min-height: 410px;
-  max-height: 411px;
-  overflow: hidden;
 }
-section#media-section article.media-item span {
+section#four-group article.media-item span {
   display: block;
   margin: 0 auto;
   color: #fff;
   width: 36px;
   font-size: 1.5em;
 }
-section#media-section article.media-item span.icon-play {
+section#four-group article.media-item span[class^="icon-"],
+section#four-group article.media-item span [class*=" icon-"] {
   position: absolute;
   top: 40%;
-  margin-top: -18px;
+  margin-top: -8px;
   left: 50%;
   margin-left: -18px;
   font-size: 2em;
 }
-section#media-section article.media-item p {
+section#four-group article.media-item p {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 300;
   font-size: 0.7777777777777777em;
@@ -2780,13 +2726,13 @@ section#media-section article.media-item p {
   text-align: center;
   padding: 20px 0 0;
 }
-section#media-section article.media-item a.video-link {
+section#four-group article.media-item a.video-link {
   position: relative;
 }
-section#media-section article.media-item a.video-link:hover img {
+section#four-group article.media-item a.video-link:hover img {
   opacity: .8;
 }
-section#media-section article.media-item a.video-link:hover span {
+section#four-group article.media-item a.video-link:hover span {
   color: #f2f3e4;
   -webkit-transition: all 400ms ease;
   -moz-transition: all 400ms ease;
@@ -2794,24 +2740,9 @@ section#media-section article.media-item a.video-link:hover span {
   -ms-transition: all 400ms ease;
   transition: all 400ms ease;
 }
-section#media-section article.media-item img {
+section#four-group article.media-item img {
   width: 100%;
   margin-top: 20px;
-}
-section#media-section article.media-item.article img {
-  float: left;
-  width: 42%;
-  padding-right: 5%;
-}
-section#media-section article.media-item.article p {
-  text-align: left;
-  padding-top: 0;
-}
-section#media-section article.media-item.article p.author {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 400;
-  font-style: italic;
-  padding-top: 20px;
 }
 section.legacy {
   padding: 124px 0 170px;
@@ -3596,6 +3527,9 @@ section.staff a.staff-item img {
   section.media div#container article.media-item {
     height: 372px;
   }
+  section#four-group article.media-item {
+    height: 425px;
+  }
 }
 @media screen and (max-width: 1000px) {
   html {
@@ -3700,6 +3634,9 @@ section.staff a.staff-item img {
   footer p.seasons span.divider {
     display: none;
   }
+  section#four-group article.media-item {
+    height: 405px;
+  }
 }
 @media screen and (max-width: 900px) {
   html {
@@ -3724,9 +3661,6 @@ section.staff a.staff-item img {
   }
   section#media-section {
     padding: 80px 0;
-  }
-  section#testimonials {
-    padding: 10px 0 50px;
   }
   .fish .inner {
     width: 80%;
@@ -3881,6 +3815,32 @@ section.staff a.staff-item img {
   }
   footer div.right-col.map {
     margin: 0 20%;
+  }
+  section#four-group {
+    background: url(/_assets/img/pattern.png) repeat left top transparent;
+  }
+  section#three-group article {
+    width: 100%;
+    margin: 0 auto 70px;
+  }
+  section#three-group {
+    padding-bottom: 0;
+  }
+  section#four-group article.media-item {
+    height: auto;
+    margin-bottom: 30px;
+    width: 100%;
+  }
+  section#four-group .btn-container {
+    position: relative;
+    bottom: 0;
+  }
+  section#four-group article.media-item span[class^="icon-"],
+  section#four-group article.media-item span [class*=" icon-"] {
+    display: none;
+  }
+  section#four-group {
+    padding: 70px 0 40px;
   }
 }
 @media screen and (max-width: 700px) {

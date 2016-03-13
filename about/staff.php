@@ -114,7 +114,7 @@
 
   <div class="inner">
 
-    <p class="prev"><a href="/about/legacy/"><img src="/_assets/img/prev.png"/> <span>Previous:</span> Our Owners</a></p>
+    <p class="prev"><a href="/about/owners/"><img src="/_assets/img/prev.png"/> <span>Previous:</span> Our Owners</a></p>
 
     <p class="next"><a href="/about/lodges/"><span>Next:</span> Our Lodges <img src="/_assets/img/next.png"/></a></p>
 

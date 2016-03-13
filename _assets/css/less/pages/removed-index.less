@@ -1,0 +1,103 @@
+
+
+section#social {
+	background: url(/_assets/img/pink-salmon.jpg) no-repeat center center transparent;
+	background-size: cover;
+	padding: 180px 0 148px;
+	div.container {
+		background-color: @white;
+		padding: 40px 30px 30px;
+		display: table;
+		position: relative;
+		&:after {
+			width: 0;
+			height: 0;
+			border-left: 30px solid transparent;
+			border-right: 30px solid transparent;
+			border-top: 20px solid @white;
+			content: "";
+			position: absolute;
+			bottom: -20px;
+			left: 100px;
+		}
+		div.facebook {
+    		display: table-cell;
+    		width: 12em;
+    		vertical-align: top;
+		}
+		div.instagram {
+    		float: right;
+    		display: table-cell;
+    		width: 96%;
+    		vertical-align: top;
+    		div.featured-fisherman {
+    			background: url(/_assets/img/pattern-dark.png) repeat left top transparent;
+    			padding: 40px;
+    			position: relative;
+    			img {
+    				width: 60%;
+    				margin-bottom: 30px;
+    			}
+    			div.name {
+    				background-color: #79877b;
+    				opacity: .8;
+    				padding: 18px 0px 0;
+    				width: 60%;
+    				position: absolute;
+    				top: 200px;
+    				right: 40px;
+    				h4 {
+    					border-bottom: none;
+    					padding-bottom: 10px;
+    					letter-spacing: 3.5px;
+    					font-size: 1.5em;
+    					line-height: 1.2em;
+    				}
+    				p {
+    					text-align: center;
+    					color: #fff;
+    					.condiment;
+    					font-size: 2em;
+    					line-height: 1em;
+    				}
+    			}
+    			h6 {
+    				text-transform: none;
+    				color: #fff;
+    				font-weight: normal;
+    				font-size: .9em;
+    				padding-bottom: 12px;
+    				span {
+    					font-weight: bold;
+    				}
+    			}
+    		}
+		}
+	}
+	div.bottom {
+		margin-top: 40px;
+		a img {
+			display: inline-block;
+			margin: 0 40px;
+			vertical-align: top;
+			&:hover {
+				opacity: .6;
+				.transition;
+			}
+		}
+		div.icons {
+			float: right;
+		}
+		span {
+			display: inline-block;
+			color: #93a698;
+			font-size: 2em;
+			margin-left: 20px;
+			&:hover {
+				color: #fff;
+				.transition;
+			}
+		}
+	}
+}
+

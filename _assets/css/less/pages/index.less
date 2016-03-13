@@ -11,7 +11,7 @@ section#bgFixed {
 	background-attachment: fixed;
 	background-size: cover;
 	width: 100%;
-	height: 300px;
+	height: 200px;
 	&.subpage {
 		height: auto;
 		padding: 77px 0 65px;
@@ -85,129 +85,64 @@ section#testimonials {
 	}
 }
 
-section#social {
-	background: url(/_assets/img/pink-salmon.jpg) no-repeat center center transparent;
-	background-size: cover;
-	padding: 180px 0 148px;
-	div.container {
-		background-color: @white;
-		padding: 40px 30px 30px;
-		display: table;
-		position: relative;
-		&:after {
-			width: 0;
-			height: 0;
-			border-left: 30px solid transparent;
-			border-right: 30px solid transparent;
-			border-top: 20px solid @white;
-			content: "";
-			position: absolute;
-			bottom: -20px;
-			left: 100px;
+section#three-group {
+	padding: 70px 0 100px;
+	article {
+		display: inline-block;
+		vertical-align: top;
+		width: 30%;
+		margin: 0 1.3%;
+		[class^="icon-"], [class*=" icon-"] {
+			color: @brown;
+			font-size: 3em;
+			text-align: center;
+			display: block;
+			margin-bottom: 20px;
 		}
-		div.facebook {
-    		display: table-cell;
-    		width: 12em;
-    		vertical-align: top;
+		h3 {
+			.passion;
+			padding-bottom: 20px;
+			text-align: center;
+			text-transform: uppercase;
 		}
-		div.instagram {
-    		float: right;
-    		display: table-cell;
-    		width: 96%;
-    		vertical-align: top;
-    		div.featured-fisherman {
-    			background: url(/_assets/img/pattern-dark.png) repeat left top transparent;
-    			padding: 40px;
-    			position: relative;
-    			img {
-    				width: 60%;
-    				margin-bottom: 30px;
-    			}
-    			div.name {
-    				background-color: #79877b;
-    				opacity: .8;
-    				padding: 18px 0px 0;
-    				width: 60%;
-    				position: absolute;
-    				top: 200px;
-    				right: 40px;
-    				h4 {
-    					border-bottom: none;
-    					padding-bottom: 10px;
-    					letter-spacing: 3.5px;
-    					font-size: 1.5em;
-    					line-height: 1.2em;
-    				}
-    				p {
-    					text-align: center;
-    					color: #fff;
-    					.condiment;
-    					font-size: 2em;
-    					line-height: 1em;
-    				}
-    			}
-    			h6 {
-    				text-transform: none;
-    				color: #fff;
-    				font-weight: normal;
-    				font-size: .9em;
-    				padding-bottom: 12px;
-    				span {
-    					font-weight: bold;
-    				}
-    			}
-    		}
-		}
-	}
-	div.bottom {
-		margin-top: 40px;
-		a img {
-			display: inline-block;
-			margin: 0 40px;
-			vertical-align: top;
-			&:hover {
-				opacity: .6;
-				.transition;
-			}
-		}
-		div.icons {
-			float: right;
-		}
-		span {
-			display: inline-block;
-			color: #93a698;
-			font-size: 2em;
-			margin-left: 20px;
-			&:hover {
-				color: #fff;
-				.transition;
-			}
+		p {
+			text-align: center;
+			padding-bottom: 30px;
 		}
 	}
 }
 
-section#media-section {
-	padding: 124px 0 170px;
+
+section#four-group {
+	padding: 70px 0 100px;
+	.btn-container {
+		margin: 30px 0 10px;
+		bottom: 20px;
+		left: 0;
+		position: absolute;
+		.btn {
+			width: 80%;
+		}
+	}
 	article.media-item {
-		width: 30%;
+		height: 455px;
+		position: relative;
+		width: 22.5%;
 		margin: 0 1%;
 		background-color: @brown;
 		padding: 22px 2%;
 		display: inline-block;
 		vertical-align: top;
-		min-height: 410px;
-		max-height: 411px;
-		overflow: hidden;
 		span {
 			display: block;
 			margin: 0 auto;
 			color: #fff;
 			width: 36px;
 			font-size: 1.5em;
-			&.icon-play {
+			&[class^="icon-"], [class*=" icon-"] {
 				position: absolute;
 				top: 40%;
-				margin-top: -18px;
+				margin-top: -8px;
 				left: 50%;
 				margin-left: -18px;
 				font-size: 2em;
@@ -237,27 +172,8 @@ section#media-section {
 			width: 100%;
 			margin-top: 20px;
 		}
-		&.article {
-			img {
-				float: left;
-				width: 42%;
-				padding-right: 5%;
-			}
-			p {
-				text-align: left;
-				padding-top: 0;
-				&.author {
-					.ssp-italic;
-					padding-top: 20px;
-				}
-			}
-		}
 	}
 }
-
-
-
-
 
 
 

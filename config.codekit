@@ -491,6 +491,26 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
+	"\/_assets\/css\/less\/pages\/removed-index.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_assets\/css\/less\/pages\/removed-index.less",
+		"outputAbbreviatedPath": "\/_assets\/css\/less\/css\/removed-index.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
 	"\/_assets\/css\/less\/pages\/staff.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
@@ -754,6 +774,17 @@
 		"initialSize": 47351,
 		"inputAbbreviatedPath": "\/_assets\/img\/fisherman-under.png",
 		"outputAbbreviatedPath": "\/_assets\/img\/fisherman-under.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/fishing.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 61471,
+		"inputAbbreviatedPath": "\/_assets\/img\/fishing.jpg",
+		"outputAbbreviatedPath": "\/_assets\/img\/fishing.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2991,6 +3022,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_assets\/img\/lodges.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 160929,
+		"inputAbbreviatedPath": "\/_assets\/img\/lodges.jpg",
+		"outputAbbreviatedPath": "\/_assets\/img\/lodges.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_assets\/img\/logo-angry-eagle.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -4959,6 +5001,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/removed-facebook-feed.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/removed-index-page.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/removed-index-page.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
