@@ -991,6 +991,13 @@ footer {
   background-color: #504e3c;
   padding: 100px 0 28px;
 }
+footer div.map {
+  width: 80%;
+  margin: 0 10% 80px;
+}
+footer div.map img {
+  width: 100%;
+}
 footer div.left-col {
   display: inline-block;
   width: 30%;
@@ -1013,9 +1020,10 @@ footer p.remote {
   margin-bottom: 50px;
 }
 footer p.remote a {
-  text-decoration: underline;
+  text-decoration: none;
 }
 footer p.remote a:hover {
+  text-decoration: underline;
   color: #f2f3e4;
   -webkit-transition: all 400ms ease;
   -moz-transition: all 400ms ease;
@@ -1059,6 +1067,12 @@ footer p.contact {
   font-weight: 700;
   text-align: center;
   margin: 30px 0 5px;
+}
+footer p.contact a {
+  text-decoration: none;
+}
+footer p.contact a:hover {
+  text-decoration: underline;
 }
 footer p.seasons {
   font-size: 1.2em;
@@ -2859,6 +2873,10 @@ img.lodge-logo.second-logo {
 .lodge .flex-direction-nav a {
   top: 25%;
 }
+section.media .facebook {
+  margin: 17px auto;
+  text-align: center;
+}
 section.media aside {
   background: url(/_assets/img/pattern.png) repeat left top transparent;
   width: 210px;
@@ -2866,9 +2884,6 @@ section.media aside {
   padding: 20px;
   display: inline-block;
   position: relative;
-}
-section.media aside #options {
-  /* 			width: 213px; */
 }
 section.media aside ul {
   padding-top: 10px;
@@ -3013,13 +3028,16 @@ ul.itinerary li {
   background: url(/_assets/img/pattern.png) repeat left top transparent;
   list-style-type: none;
 }
+ul.itinerary li:last-child {
+  padding-bottom: 80px;
+}
 ul.itinerary li div.desc {
   vertical-align: middle;
-  width: 81%;
+  width: 100%;
   display: inline-block;
 }
 ul.itinerary li div.desc div.icon {
-  width: 26%;
+  width: 15%;
   display: inline-block;
   padding: 5%;
   vertical-align: middle;
@@ -3032,17 +3050,15 @@ ul.itinerary li div.desc div.icon.pole {
 ul.itinerary li div.desc div.icon.plane-arrive,
 ul.itinerary li div.desc div.icon.plane-depart {
   font-size: 7.5em;
-  margin-top: 62px;
 }
 ul.itinerary li div.desc div.icon.cab {
   font-size: 6em;
-  margin-top: 70px;
 }
 ul.itinerary li div.desc div.icon.lake {
   font-size: 6em;
 }
 ul.itinerary li div.desc div.schedule {
-  width: 67%;
+  width: 75%;
   margin-left: 3%;
   display: inline-block;
   vertical-align: middle;
@@ -3072,6 +3088,7 @@ ul.itinerary li div.icons div.day-icon {
 ul.itinerary [class^="icon-"],
 ul.itinerary [class*=" icon-"] {
   color: #b8c6bc;
+  font-size: .5em;
 }
 ul.flex-direction-nav li {
   list-style-type: none;
@@ -3794,7 +3811,6 @@ section.staff a.staff-item img {
   }
   ul.itinerary li div.desc {
     width: 95%;
-    min-height: 245px;
   }
   ul.itinerary li div.desc div.schedule {
     width: 100%;
@@ -3819,6 +3835,7 @@ section.staff a.staff-item img {
     width: 100%;
     margin: 0 0 20px;
     padding: 0;
+    display: none;
   }
   section.media aside ul {
     padding: 0;
@@ -3886,9 +3903,6 @@ section.staff a.staff-item img {
   footer div.mapnstuff iframe {
     height: 220px!important;
   }
-  ul.itinerary li div.desc {
-    min-height: 205px;
-  }
   .left.fisherman {
     width: 41%;
   }
@@ -3954,9 +3968,6 @@ section.staff a.staff-item img {
   }
   section#bgFixed {
     height: 200px;
-  }
-  ul.itinerary li div.desc {
-    min-height: 225px;
   }
   div#product-reveal {
     min-height: 620px;
@@ -4041,9 +4052,6 @@ section.staff a.staff-item img {
   }
   section#media-section {
     padding-bottom: 50px 0;
-  }
-  ul.itinerary li div.desc {
-    min-height: 300px;
   }
   .left.fisherman {
     width: 80%;

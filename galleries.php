@@ -276,20 +276,6 @@
 
           </article><!--media-item-->
 
-<!--
-            <article class="media-item printable">
-
-              <span class="icon-news"></span>
-
-              <h4>2015 <br/>Brochure</h4>
-
-              <p>Learn more about Angry Eagle Lodge & Outfitters.</p>
-
-              <a href="/downloads/brochure.pdf" target="_blank"><img class="lazy" property="Photograph" src="/_assets/img/media-brochure.jpg" alt="2015 Angry Eagle printable brochure"></a>
-
-            </article>
---><!--media-item-->
-
           <article class="media-item photo fish">
 
             <span class="icon-photo"></span>

@@ -6,13 +6,7 @@
 
 				<p class="remote" property="description"><span>We're so remote we don't even have an address. Seriously. </span><a href="/contact">Contact us for shipping details.</a></p>
 
-				<div class="left-col">
-
-					<div class="facebook"><div class="fb-like-box" data-href="https://www.facebook.com/pages/Rainbow-Bay-Resort/110232285696450" data-width="270" data-height="355" data-colorscheme="light" data-show-faces="false" data-header="false" data-stream="true" data-show-border="false"></div></div><!--facebook-->
-
-				</div><!--left-col-->
-
-				<div class="right-col map" itemscope itemtype="http://schema.org/Map">
+				<div class="map" itemscope itemtype="http://schema.org/Map">
 
 					<img src="/_assets/img/map.png" alt="map of Alaska with a closer view of Angry Eagle Lodge &amp; Outfitters">
 
@@ -53,26 +47,6 @@
 			</div><!--inner-->
 
 		</footer>
-
-		<!--FB-->
-		<script>
-		  window.fbAsyncInit = function() {
-		    FB.init({
-		      appId      : '492097247594870',
-		      xfbml      : true,
-		      version    : 'v2.2'
-		    });
-		  };
-
-		  (function(d, s, id){
-		     var js, fjs = d.getElementsByTagName(s)[0];
-		     if (d.getElementById(id)) {return;}
-		     js = d.createElement(s); js.id = id;
-		     js.src = "//connect.facebook.net/en_US/sdk.js";
-		     fjs.parentNode.insertBefore(js, fjs);
-		   }(document, 'script', 'facebook-jssdk'));
-		</script>
-		<!--endFB-->
 
 		<script type="text/javascript">
 		  $(document).ready(function() {

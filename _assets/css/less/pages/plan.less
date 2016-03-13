@@ -25,12 +25,15 @@ ul.itinerary {
 	li {
 		background: url(/_assets/img/pattern.png) repeat left top transparent;
 		list-style-type: none;
+		&:last-child {
+			padding-bottom: 80px;
+		}
 		div.desc {
 			vertical-align: middle;
-			width: 81%;
+			width: 100%;
 			display: inline-block;
 			div.icon {
-				width: 26%;
+				width: 15%;
 				display: inline-block;
 				padding: 5%;
 				vertical-align: middle;
@@ -41,18 +44,16 @@ ul.itinerary {
 				}
 				&.plane-arrive, &.plane-depart {
 					font-size: 7.5em;
-					margin-top: 62px;
 				}
 				&.cab {
 					font-size: 6em;
-					margin-top: 70px;
 				}
 				&.lake {
 					font-size: 6em;
 				}
 			}
 			div.schedule {
-				width: 67%;
+				width: 75%;
 				margin-left: 3%;
 				display: inline-block;
 				vertical-align: middle;
@@ -83,6 +84,7 @@ ul.itinerary {
 	}
 	[class^="icon-"], [class*=" icon-"] {
 		color: @mint;
+		font-size: .5em;
 	}
 }
 ul.flex-direction-nav li {
