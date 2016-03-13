@@ -3506,6 +3506,15 @@ section.staff a.staff-item img {
   section.headerComp .right {
     margin-left: 0;
   }
+  footer div.left-col.footer-social {
+    width: 50%;
+  }
+  footer div.right-col.footer-links {
+    width: 39%;
+  }
+  footer p.remote {
+    text-align: center;
+  }
 }
 @media screen and (max-width: 1100px) {
   html {
@@ -3670,6 +3679,9 @@ section.staff a.staff-item img {
   }
   section.media div#container article.media-item {
     height: 362px;
+  }
+  footer p.seasons span.divider {
+    display: none;
   }
 }
 @media screen and (max-width: 900px) {
@@ -3846,6 +3858,12 @@ section.staff a.staff-item img {
   section#species article {
     width: 31%;
     min-height: 184px;
+  }
+  .facebook {
+    display: none;
+  }
+  footer div.right-col.map {
+    margin: 0 20%;
   }
 }
 @media screen and (max-width: 700px) {
@@ -4065,6 +4083,21 @@ section.staff a.staff-item img {
   }
   footer div.addresses a.icon.icon-google-plus {
     margin-left: 25%;
+  }
+  footer div.left-col.footer-social {
+    text-align: center;
+    width: 100%;
+  }
+  footer div.right-col.footer-links {
+    width: 100%;
+    margin: 30px auto 0;
+  }
+  footer div.right-col.footer-links p.copy {
+    text-align: center;
+  }
+  footer div.right-col.map {
+    width: 100%;
+    margin: 0 auto;
   }
 }
 @media screen and (max-width: 400px) {

@@ -12,7 +12,7 @@
 
 				</div><!--left-col-->
 
-				<div class="right-col" itemscope itemtype="http://schema.org/Map">
+				<div class="right-col map" itemscope itemtype="http://schema.org/Map">
 
 					<img src="/_assets/img/map.png" alt="map of Alaska with a closer view of Angry Eagle Lodge &amp; Outfitters">
 
@@ -22,13 +22,13 @@
 
 				<div class="seasons-container">
 
-					<p class="seasons" itemprop="telephone" content="+19078504153"><span>In-Season</span> May 15th - September 15th <a href="tel:19078504153">(907) 850-4153</a> &nbsp; | &nbsp; </p>
+					<p class="seasons" itemprop="telephone" content="+19078504153"><span>In-Season</span> May 15th - September 15th <a href="tel:19078504153">(907) 850-4153</a> <span class="divider">&nbsp; | &nbsp;</span> </p>
 
 					<p class="seasons" itemprop="telephone" content="+16156047666"><span>Off-Season</span> September 16th - May 14th <a href="tel:16156047666">(615) 604-7666</a></p>
 					
 				</div><!--seasons-container-->
 
-				<div class="left-col">
+				<div class="left-col footer-social">
 
 					<a href="https://plus.google.com/102073266521304104835/about" class="icon icon-google-plus" target="_blank" rel="nofollow"></a>
 
@@ -42,7 +42,7 @@
 
 				</div><!--left-col-->
 
-				<div class="right-col">
+				<div class="right-col footer-links">
 
 					<p class="copy"><a href="/guests">Guest Login</a> | <a href="/careers/">Careers</a></p>
 
