@@ -89,23 +89,23 @@
 <section id="bgFixed" class="mountains"></section>
 
 <section id="three-group">
-  
+
   <div class="inner">
-    
+
     <article>
-      
-      <span class="icon-photo"></span>
 
-      <h3>Photo Galleries</h3>
+      <span class="icon-pole"></span>
 
-      <p>View our collection of fishing photos, videos, and articles.</p>
+      <h3>Peak Fishing</h3>
 
-      <div class="btn-container"><a class="btn" href="/galleries">View our Galleries</a></div>
+      <p>Your catch will vary depending on the season.</p>
+
+      <div class="btn-container"><a class="btn" href="/recreation/sportfishing">See What's in Season</a></div>
 
     </article>
 
     <article>
-      
+
       <span class="icon-clock-8"></span>
 
       <h3>Sample Itinerary</h3>
@@ -117,7 +117,7 @@
     </article>
 
     <article>
-      
+
       <span class="icon-reel"></span>
 
       <h3><?php echo date("Y"); ?> Rates</h3>
@@ -195,7 +195,7 @@
 
       <p>Relax in style after a day spent fishing. We provide all the comforts of home—including spacious bedrooms, satellite TV, Wi-Fi, and even a private chef.</p>
 
-      <a href="/about/lodges" class="video-link"><span class="icon-photo"></span><img src="/_assets/img/lodges.jpg" alt="Relax in style after a day spent fishing. We provide all the comforts of home—including spacious bedrooms, satellite TV, Wi-Fi, and even a private chef."></a>
+      <a href="/about/lodges" class="video-link"><span class="icon-photo"></span><img src="/_assets/img/lodges.jpg" alt="We provide all the comforts of home—including spacious bedrooms, satellite TV, Wi-Fi, and even a private chef."></a>
 
       <div class="btn-container"><a class="btn" href="/about/lodges">Learn More</a></div>
 
@@ -227,13 +227,13 @@
 
     <article class="media-item video">
 
-      <h4>What’s In Season</h4>
+      <h4>Your Adventure Starts Here</h4>
 
-      <p>Depending on the season, your catch may include salmon, northern pike, arctic char, rainbow trout, arctic grayling, and/or lake trout.</p>
+      <p></p>
 
-      <a href="/recreation/sportfishing" class="video-link"><span class="icon-bobber"></span><img src="/_assets/img/fishing.jpg" alt="Depending on the season, your catch may include salmon, northern pike, arctic char, rainbow trout, arctic grayling, and/or lake trout."></a>
+      <a href="/lightboxes/video/adventure-starts-here/" class="video-link fancybox fancybox.iframe"><span class="icon-play"></span><img src="/_assets/img/adventure.jpg" alt=""></a>
 
-      <div class="btn-container"><a class="btn" href="/recreation/sportfishing">Learn More</a></div>
+      <div class="btn-container"><a href="/lightboxes/video/adventure-starts-here/" class="btn fancybox fancybox.iframe" rel="video">Watch Video</a></div>
 
     </article><!--media-item-->
 
