@@ -55,6 +55,18 @@
 
         <div id="container" class="clearfix" itemscope itemtype="http://schema.org/CreativeWork">
 
+    <article class="media-item video">
+
+      <span class="icon-video"></span>
+
+      <h4>Something for Everyone</h4>
+
+      <p>Whether you’re into fishing, kayaking, or hiking, Angry Eagle is ready to tailor an Alaskan adventure just for you.</p>
+
+      <a href="/lightboxes/video/adventure-starts-here/" class="video-link fancybox fancybox.iframe" rel="video"><span class="icon-play"></span><img class="lazy" property="photograph" src="/_assets/img/adventure.jpg" alt="Whether you want to cast a line in Lake Iliamna, spend the afternoon kayaking, or experience the Alaskan wilderness during a scenic plane tour, Angry Eagle is ready to tailor an unforgettable Alaskan adventure just for you."></a>
+
+    </article><!--media-item-->
+
           <article class="media-item photo fish">
 
             <span class="icon-photo"></span>
@@ -64,6 +76,18 @@
             <a class="fancybox" rel="rainbow-trout" href="/_assets/img/galleries/rainbow-trout-closeup.jpg"><img class="lazy" property="Photograph" src="/_assets/img/galleries/rainbow-trout-closeup.jpg" alt="rainbow trout" /></a>
 
             <?php include('../lightboxes/galleries/rainbow-trout.php'); //rainbow trout gallery?>
+
+          </article><!--media-item-->
+
+          <article class="media-item video">
+
+            <span class="icon-video"></span>
+
+            <h4>Above <br/>Iliamna</h4>
+
+            <p>Jason Ching with The Alaska Salmon Program, highlights both Bristol Bay and a variety of fish.</p>
+
+            <a href="/lightboxes/video/above-illiamna/" class="video-link fancybox fancybox.iframe" rel="video"><span class="icon-play"></span><img class="lazy" property="photograph" src="/_assets/img/video-above-illiamna.jpg" alt="Video highlights both the beauty of Bristol Bay and the opportunity for catching a wide variety of game fish."></a>
 
           </article><!--media-item-->
 
@@ -87,7 +111,7 @@
 
             <p>The Iliamna River’s shallow areas are home to impressive rainbow trout and Arctic char!</p>
 
-            <a href="/lightboxes/video/jet-sleding/" class="video-link fancybox fancybox.iframe" rel="video-jet-sledding"><span class="icon-play"></span><img class="lazy" property="Photograph" src="/_assets/img/video-jet-sleding.jpg" alt="Jet sledding down the Illiamna River video"></a>
+            <a href="/lightboxes/video/jet-sleding/" class="video-link fancybox fancybox.iframe" rel="video"><span class="icon-play"></span><img class="lazy" property="Photograph" src="/_assets/img/video-jet-sleding.jpg" alt="Jet sledding down the Illiamna River video"></a>
 
           </article><!--media-item-->
 
@@ -123,7 +147,7 @@
 
             <p>Experience the rush of the sockeye salmon run in southwest Alaska from July to September!</p>
 
-            <a href="/lightboxes/video/sockeye/" class="video-link fancybox fancybox.iframe" rel="video-sockeye"><span class="icon-play"></span><img class="lazy" property="Photograph" src="/_assets/img/video-sockeye.jpg" alt="Sockeye spawning in the Illiamna River video"></a>
+            <a href="/lightboxes/video/sockeye/" class="video-link fancybox fancybox.iframe" rel="video"><span class="icon-play"></span><img class="lazy" property="Photograph" src="/_assets/img/video-sockeye.jpg" alt="Sockeye spawning in the Illiamna River video"></a>
 
           </article><!--media-item-->
 
@@ -135,7 +159,19 @@
 
             <a class="fancybox" rel="wildlife" href="/_assets/img/galleries/brown-bear.jpg"><img class="lazy" property="Photograph" src="/_assets/img/galleries/brown-bear.jpg" alt="brown bear on the bank of lake iliamna" /></a>
 
-			<?php include('../lightboxes/galleries/wildlife.php'); //alaskan wildlife gallery?>
+			     <?php include('../lightboxes/galleries/wildlife.php'); //alaskan wildlife gallery?>
+
+          </article><!--media-item-->
+
+          <article class="media-item video">
+
+            <span class="icon-video"></span>
+
+            <h4>The Alaska Salmon Program</h4>
+
+            <p>Follow the crew as they conduct sockeye salmon surveys during one of the largest migrations in recent history.</p>
+
+            <a href="/lightboxes/video/salmon-program/" class="video-link fancybox fancybox.iframe" rel="video"><span class="icon-play"></span><img class="lazy" property="photograph" src="/_assets/img/video-salmon-program.jpg" alt="Follow the crew of the Alaska Salmon Program as they conduct sockeye salmon surveys during one of the largest migrations in recent history."></a>
 
           </article><!--media-item-->
 
@@ -147,12 +183,11 @@
 
             <a class="fancybox" rel="grayling" href="/_assets/img/galleries/grayling.jpg"><img class="lazy" property="Photograph" src="/_assets/img/galleries/grayling.jpg" alt="grayling shown in shallow water" /></a>
 
-      <?php include('../lightboxes/galleries/grayling.php'); //grayling gallery?>
+            <?php include('../lightboxes/galleries/grayling.php'); //grayling gallery?>
 
           </article><!--media-item-->
 
-
-            <article class="media-item video">
+          <article class="media-item video">
 
               <span class="icon-video"></span>
 
@@ -160,9 +195,9 @@
 
               <p>Bears are common, but our guides are pros and ensure guests have a safe and exciting experience.</p>
 
-              <a href="/lightboxes/video/bear/" class="video-link fancybox fancybox.iframe" rel="video-bear"><span class="icon-play"></span><img class="lazy" property="Photograph" src="/_assets/img/video-bear.jpg" alt="Fishing with Brown Bears Katami National Park"></a>
+              <a href="/lightboxes/video/bear/" class="video-link fancybox fancybox.iframe" rel="video"><span class="icon-play"></span><img class="lazy" property="Photograph" src="/_assets/img/video-bear.jpg" alt="Fishing with Brown Bears Katami National Park"></a>
 
-            </article><!--media-item-->
+          </article><!--media-item-->
 
           <article class="media-item photo scenery">
 
@@ -192,23 +227,11 @@
 
               <span class="icon-video"></span>
 
-              <h4>Dallas Safari Club Interview</h4>
-
-              <p>Dallas Safari Club Game Trails Online Editor Gayne C. Young talks to Jim Kern about fishing in Alaska.</p>
-
-              <a href="/lightboxes/video/interview/" class="video-link fancybox fancybox.iframe" rel="video-interview"><span class="icon-play"></span><img class="lazy" property="Photograph" src="/_assets/img/video-interview.jpg" alt="Dallas Safari Club Game Trails Online Editor Gayne C. Young talks to Jim Kern of Angry Eagle Resort about fishing in Alaska."></a>
-
-            </article><!--media-item-->
-
-            <article class="media-item video">
-
-              <span class="icon-video"></span>
-
               <h4>Salmon fishing on the Nushagak</h4>
 
               <p>From June to July, find 50,000 to 120,000 king salmon in Alaska’s Nushagak River.</p>
 
-              <a href="/lightboxes/video/fishing/" class="video-link fancybox fancybox.iframe" rel="video-fishing"><span class="icon-play"></span><img class="lazy" property="Photograph" src="/_assets/img/video-fishing.jpg" alt="King Salmon fishing on the Nushagak River in western Alaska"></a>
+              <a href="/lightboxes/video/fishing/" class="video-link fancybox fancybox.iframe" rel="video"><span class="icon-play"></span><img class="lazy" property="Photograph" src="/_assets/img/video-fishing.jpg" alt="King Salmon fishing on the Nushagak River in western Alaska"></a>
 
             </article><!--media-item-->
 
@@ -260,7 +283,7 @@
 
               <p>Learn a thing or two about fishing from this self-taught pro.</p>
 
-              <a href="/lightboxes/video/fishing-bear/" class="video-link fancybox fancybox.iframe" rel="video-fishing-bear"><span class="icon-play"></span><img class="lazy" property="Photograph" src="/_assets/img/video-fishing-bear.jpg" alt=""></a>
+              <a href="/lightboxes/video/fishing-bear/" class="video-link fancybox fancybox.iframe" rel="video"><span class="icon-play"></span><img class="lazy" property="Photograph" src="/_assets/img/video-fishing-bear.jpg" alt=""></a>
 
             </article><!--media-item-->
 

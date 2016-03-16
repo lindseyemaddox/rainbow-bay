@@ -191,13 +191,13 @@
 
     <article class="media-item video">
 
-      <h4>Our <br/>Lodges</h4>
+      <h4>Something for Everyone</h4>
 
-      <p>Relax in style after a day spent fishing. We provide all the comforts of home—including spacious bedrooms, satellite TV, Wi-Fi, and even a private chef.</p>
+      <p>Whether you’re into fishing, kayaking, or hiking, Angry Eagle is ready to tailor an Alaskan adventure just for you.</p>
 
-      <a href="/about/lodges" class="video-link"><span class="icon-photo"></span><img src="/_assets/img/lodges.jpg" alt="We provide all the comforts of home—including spacious bedrooms, satellite TV, Wi-Fi, and even a private chef."></a>
+      <a href="/lightboxes/video/adventure-starts-here/" class="video-link fancybox fancybox.iframe"><span class="icon-play"></span><img src="/_assets/img/adventure.jpg" alt="Whether you want to cast a line in Lake Iliamna, spend the afternoon kayaking, or experience the Alaskan wilderness during a scenic plane tour, Angry Eagle is ready to tailor an unforgettable Alaskan adventure just for you."></a>
 
-      <div class="btn-container"><a class="btn" href="/about/lodges">Learn More</a></div>
+      <div class="btn-container"><a href="/lightboxes/video/adventure-starts-here/" class="btn fancybox fancybox.iframe" rel="video">Watch Video</a></div>
 
     </article><!--media-item-->
 
@@ -215,25 +215,25 @@
 
     <article class="media-item video">
 
-      <h4>Above <br/>Iliamna</h4>
+      <h4>Our <br/>Lodges</h4>
 
-      <p>Our neighbor, Jason Ching with The Alaska Salmon Program, highlights both the beauty of Bristol Bay and the opportunity for catching a wide variety of game fish.</p>
+      <p>Relax in style after a day spent fishing. We provide all the comforts of home—including spacious bedrooms, satellite TV, Wi-Fi, and even a private chef.</p>
 
-      <a href="/lightboxes/video/above-illiamna/" class="video-link fancybox fancybox.iframe"><span class="icon-play"></span><img src="/_assets/img/video-above-illiamna.jpg" alt="Video highlights both the beauty of Bristol Bay and the opportunity for catching a wide variety of game fish."></a>
+      <a href="/about/lodges" class="video-link"><span class="icon-photo"></span><img src="/_assets/img/lodges.jpg" alt="We provide all the comforts of home—including spacious bedrooms, satellite TV, Wi-Fi, and even a private chef."></a>
 
-      <div class="btn-container"><a href="/lightboxes/video/above-illiamna/" class="btn fancybox fancybox.iframe" rel="video">Watch Video</a></div>
+      <div class="btn-container"><a class="btn" href="/about/lodges">Learn More</a></div>
 
     </article><!--media-item-->
 
     <article class="media-item video">
 
-      <h4>Your Adventure Starts Here</h4>
+      <h4>Above <br/>Iliamna</h4>
 
-      <p></p>
+      <p>Our neighbor, Jason Ching with The Alaska Salmon Program, highlights both the beauty of Bristol Bay and the opportunity for catching a variety of fish.</p>
 
-      <a href="/lightboxes/video/adventure-starts-here/" class="video-link fancybox fancybox.iframe"><span class="icon-play"></span><img src="/_assets/img/adventure.jpg" alt=""></a>
+      <a href="/lightboxes/video/above-illiamna/" class="video-link fancybox fancybox.iframe"><span class="icon-play"></span><img src="/_assets/img/video-above-illiamna.jpg" alt="Video highlights both the beauty of Bristol Bay and the opportunity for catching a wide variety of game fish."></a>
 
-      <div class="btn-container"><a href="/lightboxes/video/adventure-starts-here/" class="btn fancybox fancybox.iframe" rel="video">Watch Video</a></div>
+      <div class="btn-container"><a href="/lightboxes/video/above-illiamna/" class="btn fancybox fancybox.iframe" rel="video">Watch Video</a></div>
 
     </article><!--media-item-->
 
