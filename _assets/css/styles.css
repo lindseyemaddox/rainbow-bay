@@ -1011,10 +1011,12 @@ footer {
 }
 footer div.map {
   width: 80%;
-  margin: 0 10% 80px;
+  margin: 0 auto 80px;
+  text-align: center;
 }
 footer div.map img {
   width: 100%;
+  max-width: 559px;
 }
 footer div.left-col {
   display: inline-block;
@@ -2370,6 +2372,9 @@ input {
   color: #504e3c;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 400;
+}
+input:required {
+  box-shadow: none;
 }
 textarea {
   width: 96%;
