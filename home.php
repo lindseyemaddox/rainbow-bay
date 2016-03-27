@@ -13,46 +13,100 @@
           <ul class="slides">
 
             	<li>
+
             		<div class="tag">
             			<p>If You're Gonna Go, <span>Go Remote</span></p>
             		</div>
-  	    	    	<img property="primaryImageOfPage" src="/_assets/img/slide-remote.jpg" alt="Remote fishing on Lake Illiamna" />
-  	    		</li>
+
+                <picture class="picturefill">
+                  <!--[if IE 9]><video style="display: none;"><![endif]-->
+                  <source srcset="/_assets/img/slides/remote/remote-large.jpg, /_assets/img/slides/remote/remote-extralarge.jpg 2x" media="(min-width: 2500px)">
+                  <source srcset="/_assets/img/slides/remote/remote-medium.jpg, /_assets/img/slides/remote/remote-extramedium.jpg 2x" media="(min-width: 1000px)">
+                  <!--[if IE 9]></video><![endif]-->
+                  <img property="primaryImageOfPage" srcset="/_assets/img/slides/remote/remote-small.jpg, /_assets/img/slides/remote/remote-medium.jpg 2x" alt="Remote fishing on Lake Illiamna">
+                </picture>
+
+  	    		   </li>
 
             	<li>
+
             		<div class="tag">
             			<p>The 'Bows Have Been <span>Asking About You</span></p>
             		</div>
-  	    	    	<img src="/_assets/img/slide-rainbow.jpg" alt="Close-up of Alaskan Rainbow Trout" />
-  	    		</li>
+
+                <picture class="picturefill">
+                  <!--[if IE 9]><video style="display: none;"><![endif]-->
+                  <source srcset="/_assets/img/slides/bows/bows-large.jpg, /_assets/img/slides/bows/bows-extralarge.jpg 2x" media="(min-width: 2500px)">
+                  <source srcset="/_assets/img/slides/bows/bows-medium.jpg, /_assets/img/slides/bows/bows-extramedium.jpg 2x" media="(min-width: 1000px)">
+                  <!--[if IE 9]></video><![endif]-->
+                  <img srcset="/_assets/img/slides/bows/bows-small.jpg, /_assets/img/slides/bows/bows-medium.jpg 2x" alt="Close-up of Alaskan Rainbow Trout">
+                </picture>
+
+  	    		   </li>
 
             	<li>
+
             		<div class="tag">
             			<p>Meet the <span>Local Fishermen</span></p>
             		</div>
-  	    	    	<img src="/_assets/img/slide-local.jpg" alt="Eagle fishing on Lake Illiamna" />
-  	    		</li>
+
+                <picture class="picturefill">
+                  <!--[if IE 9]><video style="display: none;"><![endif]-->
+                  <source srcset="/_assets/img/slides/local/local-large.jpg, /_assets/img/slides/local/local-extralarge.jpg 2x" media="(min-width: 2500px)">
+                  <source srcset="/_assets/img/slides/local/local-medium.jpg, /_assets/img/slides/local/local-extramedium.jpg 2x" media="(min-width: 1000px)">
+                  <!--[if IE 9]></video><![endif]-->
+                  <img srcset="/_assets/img/slides/local/local-small.jpg, /_assets/img/slides/local/local-medium.jpg 2x" alt="Eagle fishing on Lake Illiamna">
+                </picture>
+
+  	    		   </li>
 
             	<li>
+
             		<div class="tag">
             			<p>Ask About Our <span>Curbside Pickup</span></p>
             		</div>
-  	    	    	<img src="/_assets/img/slide-curbside.jpg" alt="Floater plane picking up fishermen at Angry Eagle" />
-  	    		</li>
+
+                <picture class="picturefill">
+                  <!--[if IE 9]><video style="display: none;"><![endif]-->
+                  <source srcset="/_assets/img/slides/curbside/curbside-large.jpg, /_assets/img/slides/curbside/curbside-extralarge.jpg 2x" media="(min-width: 2500px)">
+                  <source srcset="/_assets/img/slides/curbside/curbside-medium.jpg, /_assets/img/slides/curbside/curbside-extramedium.jpg 2x" media="(min-width: 1000px)">
+                  <!--[if IE 9]></video><![endif]-->
+                  <img srcset="/_assets/img/slides/curbside/curbside-small.jpg, /_assets/img/slides/curbside/curbside-medium.jpg 2x" alt="Floater plane picking up fishermen at Angry Eagle">
+                </picture>
+
+  	    		   </li>
 
             	<li>
+
             		<div class="tag">
             			<p>Our Exercise Room Features <span>Powerlifting</span></p>
             		</div>
-  	    	    	<img src="/_assets/img/slide-powerlifting.jpg" alt="A young Angry Eagle fisherman holding his catch" />
-  	    		</li>
+
+                <picture class="picturefill">
+                  <!--[if IE 9]><video style="display: none;"><![endif]-->
+                  <source srcset="/_assets/img/slides/lifting/lifting-large.jpg, /_assets/img/slides/lifting/lifting-extralarge.jpg 2x" media="(min-width: 2500px)">
+                  <source srcset="/_assets/img/slides/lifting/lifting-medium.jpg, /_assets/img/slides/lifting/lifting-extramedium.jpg 2x" media="(min-width: 1000px)">
+                  <!--[if IE 9]></video><![endif]-->
+                  <img srcset="/_assets/img/slides/lifting/lifting-small.jpg, /_assets/img/slides/lifting/lifting-medium.jpg 2x" alt="A young Angry Eagle fisherman holding his catch">
+                </picture>
+
+  	    		   </li>
 
             	<li>
+
             		<div class="tag">
             			<p>No Need to Order <span>Room Service</span></p>
             		</div>
-  	    	    	<img src="/_assets/img/slide-room.jpg" alt="Interior shot of the lodge at Angry Eagle" />
-  	    		</li>
+  	    	    
+                <picture class="picturefill">
+                  <!--[if IE 9]><video style="display: none;"><![endif]-->
+                  <source srcset="/_assets/img/slides/room/room-large.jpg, /_assets/img/slides/room/room-extralarge.jpg 2x" media="(min-width: 2500px)">
+                  <source srcset="/_assets/img/slides/room/room-medium.jpg, /_assets/img/slides/room/room-extramedium.jpg 2x" media="(min-width: 1000px)">
+                  <!--[if IE 9]></video><![endif]-->
+                  <img srcset="/_assets/img/slides/room/room-small.jpg, /_assets/img/slides/room/room-medium.jpg 2x" alt="Interior shot of the lodge at Angry Eagle">
+                </picture>
+
+  	    		   </li>
 
           	</ul><!--slides-->
 
@@ -246,6 +300,11 @@
 
 <script type="text/javascript">
   $(window).load(function(){
+      $('.flexslider').flexslider({
+        randomize: false,
+        itemMargin: 0,
+        //slideshow: false
+      });
       $('.fishslider').flexslider({
         minItems:3,
         maxItems:3,
@@ -263,24 +322,8 @@
           $('body').removeClass('loading');
         }
       });
-      $('.flexslider').flexslider({
-        randomize: false,
-        itemMargin: 0,
-        //slideshow: false
-      });
   });
 </script>
-
-<!-- <script type="text/javascript" src="/_assets/js/instafeed.js"></script>
-
-<script type="text/javascript">
-    var userFeed = new Instafeed({
-        get: 'user',
-        userId: 1724220263,
-        accessToken: '1724220263.9fa67f7.42af906db54b441daa0cfa20bd367158'
-    });
-    userFeed.run();
-</script> -->
 
 <script src="/_assets/js/jquery.flexslider.js"></script>
 
