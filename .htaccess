@@ -42,19 +42,5 @@ Redirect 301 /images/lodg31.jpg http://www.angryeagle.com/galleries
 Redirect 301 /trips.html http://www.angryeagle.com/plan/trip
 Redirect 301 /index.html http://www.angryeagle.com/
 
-# Adaptive-Images -----------------------------------------------------------------------------------
-
-# Add any directories you wish to omit from the Adaptive-Images process on a new line, as follows:
-# RewriteCond %{REQUEST_URI} !some-directory
-# RewriteCond %{REQUEST_URI} !another-directory
-
-RewriteCond %{REQUEST_URI} !assets
-
-# Send any GIF, JPG, or PNG request that IS NOT stored inside one of the above directories
-# to adaptive-images.php so we can select appropriately sized versions
-RewriteRule \.(?:jpe?g|gif|png)$ adaptive-images.php
-
-# END Adaptive-Images -------------------------------------------------------------------------------
-
 </IfModule>
 
