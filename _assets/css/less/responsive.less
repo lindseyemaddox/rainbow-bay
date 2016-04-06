@@ -410,8 +410,11 @@
 	section#social div.container div.instagram div.featured-fisherman {
 		padding: 20px;
 	}
-	section#bgFixed.mountains, section#media-section, section#testimonials {
+	section#media-section, section#testimonials {
 		display: none;
+	}
+	section#bgFixed.mountains {
+		height: 100px;
 	}
 	.right {
 		width: 100%;
@@ -711,6 +714,122 @@
 		margin-left: 10%;
 	}
 }
+
+
+
+
+// BACKGROUND IMAGES
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-moz-min-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) { 
+	section#bgFixed.mountains {
+		background-image: url(/_assets/img/backgrounds/mountains/mountains-extralarge.jpg);
+	}
+}
+
+@media 
+not screen and (-webkit-min-device-pixel-ratio: 2),
+not screen and (min--moz-device-pixel-ratio: 2),
+not screen and (-moz-min-device-pixel-ratio: 2),
+not screen and (-o-min-device-pixel-ratio: 2/1),
+not screen and (min-device-pixel-ratio: 2),
+not screen and (min-resolution: 192dpi),
+not screen and (min-resolution: 2dppx) { 
+	section#bgFixed.mountains {
+		background-image: url(/_assets/img/backgrounds/mountains/mountains-large.jpg);
+	}
+}
+
+@media // up to 2000px retina
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-moz-min-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) { 
+	@media screen and (max-width: 1000px) {
+		section#bgFixed.mountains {
+			background-image: url(/_assets/img/backgrounds/mountains/mountains-extramedium.jpg);
+		}
+	}
+}
+
+@media 
+not screen and (-webkit-min-device-pixel-ratio: 2),
+not screen and (min--moz-device-pixel-ratio: 2),
+not screen and (-moz-min-device-pixel-ratio: 2),
+not screen and (-o-min-device-pixel-ratio: 2/1),
+not screen and (min-device-pixel-ratio: 2),
+not screen and (min-resolution: 192dpi),
+not screen and (min-resolution: 2dppx) { 
+	@media screen and (max-width: 1000px) {
+		section#bgFixed.mountains {
+			background-image: url(/_assets/img/backgrounds/mountains/mountains-medium.jpg);
+		}
+	}
+}
+
+@media 
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-moz-min-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) { 
+	@media screen and (max-width: 500px) {
+		section#bgFixed.mountains {
+			background-image: url(/_assets/img/backgrounds/mountains/mountains-medium.jpg);
+		}
+	}
+}
+
+@media 
+not screen and (-webkit-min-device-pixel-ratio: 2),
+not screen and (min--moz-device-pixel-ratio: 2),
+not screen and (-moz-min-device-pixel-ratio: 2),
+not screen and (-o-min-device-pixel-ratio: 2/1),
+not screen and (min-device-pixel-ratio: 2),
+not screen and (min-resolution: 192dpi),
+not screen and (min-resolution: 2dppx) { 
+	@media screen and (max-width: 500px) {
+		section#bgFixed.mountains {
+			background-image: url(/_assets/img/backgrounds/mountains/mountains-small.jpg);
+		}
+	}
+}
+
+@media 
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-moz-min-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) { 
+	@media screen and (max-width: 250px) {
+		section#bgFixed.mountains {
+			background-image: url(/_assets/img/backgrounds/mountains/mountains-small.jpg);
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
 
 
 

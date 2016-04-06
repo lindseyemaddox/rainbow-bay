@@ -140,7 +140,7 @@
 
 </section><!--pattern-->
 
-<section id="bgFixed" class="mountains"></section>
+<section id="bgFixed" class="mountains" role="img" aria-label="beautiful field with a stream and mountain in the background"></section>
 
 <section id="three-group">
 

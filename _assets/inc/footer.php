@@ -4,7 +4,7 @@
 
 				<h2 class="alt">How Remote Is <span itemprop="name">Angry Eagle</span>?</h3>
 
-				<p class="remote" property="description"><span>We're so remote we don't even have an address. Seriously. </span><a href="/contact">Contact us for shipping details.</a></p>
+				<p class="remote" property="description"><span>We're so remote we don't even have an address. Seriously. </span><br/><a href="/contact">Contact us for shipping details.</a></p>
 
 				<div class="map" itemscope itemtype="http://schema.org/Map">
 
@@ -16,7 +16,7 @@
 
 				<div class="seasons-container">
 
-					<p class="seasons" itemprop="telephone" content="+19078504153"><span>In-Season</span> May 15th - September 15th <a href="tel:19078504153">(907) 850-4153</a> <span class="divider">&nbsp; | &nbsp;</span> </p>
+					<p class="seasons" itemprop="telephone" content="+19078504153"><span>In-Season</span> May 15th - September 15th <a href="tel:19078504153">(907) 850-4153</a></p>
 
 					<p class="seasons" itemprop="telephone" content="+16156047666"><span>Off-Season</span> September 16th - May 14th <a href="tel:16156047666">(615) 604-7666</a></p>
 					
