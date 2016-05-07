@@ -4099,37 +4099,43 @@ section.staff a.staff-item img {
     margin-left: 10%;
   }
 }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  section#bgFixed.mountains {
-    background-image: url(/_assets/img/backgrounds/mountains/mountains-extralarge.jpg);
-  }
-}
-@media not screen and (-webkit-min-device-pixel-ratio: 2), not screen and (min--moz-device-pixel-ratio: 2), not screen and (-moz-min-device-pixel-ratio: 2), not screen and (-o-min-device-pixel-ratio: 2/1), not screen and (min-device-pixel-ratio: 2), not screen and (min-resolution: 192dpi), not screen and (min-resolution: 2dppx) {
+@media (max-width: 1250px) and (-webkit-min-device-pixel-ratio: 2), (max-width: 1250px) and (min-resolution: 192dpi) {
   section#bgFixed.mountains {
     background-image: url(/_assets/img/backgrounds/mountains/mountains-large.jpg);
   }
 }
-@media only screen and (-webkit-min-device-pixel-ratio: 2) and screen and (max-width: 1000px), only screen and (min--moz-device-pixel-ratio: 2) and screen and (max-width: 1000px), only screen and (-moz-min-device-pixel-ratio: 2) and screen and (max-width: 1000px), only screen and (-o-min-device-pixel-ratio: 2/1) and screen and (max-width: 1000px), only screen and (min-device-pixel-ratio: 2) and screen and (max-width: 1000px), only screen and (min-resolution: 192dpi) and screen and (max-width: 1000px), only screen and (min-resolution: 2dppx) and screen and (max-width: 1000px) {
+@media (max-width: 1000px) and (-webkit-min-device-pixel-ratio: 2), (max-width: 1000px) and (min-resolution: 192dpi) {
   section#bgFixed.mountains {
     background-image: url(/_assets/img/backgrounds/mountains/mountains-extramedium.jpg);
+    background-attachment: inherit;
   }
 }
-@media not screen and (-webkit-min-device-pixel-ratio: 2) and screen and (max-width: 1000px), not screen and (min--moz-device-pixel-ratio: 2) and screen and (max-width: 1000px), not screen and (-moz-min-device-pixel-ratio: 2) and screen and (max-width: 1000px), not screen and (-o-min-device-pixel-ratio: 2/1) and screen and (max-width: 1000px), not screen and (min-device-pixel-ratio: 2) and screen and (max-width: 1000px), not screen and (min-resolution: 192dpi) and screen and (max-width: 1000px), not screen and (min-resolution: 2dppx) and screen and (max-width: 1000px) {
+@media (max-width: 500px) and (-webkit-min-device-pixel-ratio: 2), (max-width: 500px) and (min-resolution: 192dpi) {
   section#bgFixed.mountains {
     background-image: url(/_assets/img/backgrounds/mountains/mountains-medium.jpg);
   }
 }
-@media only screen and (-webkit-min-device-pixel-ratio: 2) and screen and (max-width: 500px), only screen and (min--moz-device-pixel-ratio: 2) and screen and (max-width: 500px), only screen and (-moz-min-device-pixel-ratio: 2) and screen and (max-width: 500px), only screen and (-o-min-device-pixel-ratio: 2/1) and screen and (max-width: 500px), only screen and (min-device-pixel-ratio: 2) and screen and (max-width: 500px), only screen and (min-resolution: 192dpi) and screen and (max-width: 500px), only screen and (min-resolution: 2dppx) and screen and (max-width: 500px) {
-  section#bgFixed.mountains {
-    background-image: url(/_assets/img/backgrounds/mountains/mountains-medium.jpg);
-  }
-}
-@media not screen and (-webkit-min-device-pixel-ratio: 2) and screen and (max-width: 500px), not screen and (min--moz-device-pixel-ratio: 2) and screen and (max-width: 500px), not screen and (-moz-min-device-pixel-ratio: 2) and screen and (max-width: 500px), not screen and (-o-min-device-pixel-ratio: 2/1) and screen and (max-width: 500px), not screen and (min-device-pixel-ratio: 2) and screen and (max-width: 500px), not screen and (min-resolution: 192dpi) and screen and (max-width: 500px), not screen and (min-resolution: 2dppx) and screen and (max-width: 500px) {
+@media (max-width: 250px) and (-webkit-min-device-pixel-ratio: 2), (max-width: 250px) and (min-resolution: 192dpi) {
   section#bgFixed.mountains {
     background-image: url(/_assets/img/backgrounds/mountains/mountains-small.jpg);
   }
 }
-@media only screen and (-webkit-min-device-pixel-ratio: 2) and screen and (max-width: 250px), only screen and (min--moz-device-pixel-ratio: 2) and screen and (max-width: 250px), only screen and (-moz-min-device-pixel-ratio: 2) and screen and (max-width: 250px), only screen and (-o-min-device-pixel-ratio: 2/1) and screen and (max-width: 250px), only screen and (min-device-pixel-ratio: 2) and screen and (max-width: 250px), only screen and (min-resolution: 192dpi) and screen and (max-width: 250px), only screen and (min-resolution: 2dppx) and screen and (max-width: 250px) {
+@media (max-width: 2500px) and (-webkit-max-device-pixel-ratio: 1.5), (max-width: 2500px) and (max-resolution: 191dpi) {
+  section#bgFixed.mountains {
+    background-image: url(/_assets/img/backgrounds/mountains/mountains-large.jpg);
+  }
+}
+@media (max-width: 2000px) and (-webkit-max-device-pixel-ratio: 1.5), (max-width: 2000px) and (max-resolution: 191dpi) {
+  section#bgFixed.mountains {
+    background-image: url(/_assets/img/backgrounds/mountains/mountains-extramedium.jpg);
+  }
+}
+@media (max-width: 1000px) and (-webkit-max-device-pixel-ratio: 1.5), (max-width: 1000px) and (max-resolution: 191dpi) {
+  section#bgFixed.mountains {
+    background-image: url(/_assets/img/backgrounds/mountains/mountains-medium.jpg);
+  }
+}
+@media (max-width: 500px) and (-webkit-max-device-pixel-ratio: 1.5), (max-width: 500px) and (max-resolution: 191dpi) {
   section#bgFixed.mountains {
     background-image: url(/_assets/img/backgrounds/mountains/mountains-small.jpg);
   }
