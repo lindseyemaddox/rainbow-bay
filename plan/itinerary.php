@@ -19,7 +19,7 @@
 
 </section><!--pattern-->
 
-<section id="bgFixed" class="subpage fish">
+<section id="bgFixed" class="subpage cooler">
 
   <div class="inner">
 

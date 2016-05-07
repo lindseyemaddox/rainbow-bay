@@ -635,6 +635,61 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_assets\/img\/backgrounds\/cooler\/cooler-extralarge.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/_assets\/img\/backgrounds\/cooler\/cooler-extralarge.jpg",
+		"outputAbbreviatedPath": "\/_assets\/img\/backgrounds\/cooler\/cooler-extralarge.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/backgrounds\/cooler\/cooler-extramedium.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 308976,
+		"inputAbbreviatedPath": "\/_assets\/img\/backgrounds\/cooler\/cooler-extramedium.jpg",
+		"outputAbbreviatedPath": "\/_assets\/img\/backgrounds\/cooler\/cooler-extramedium.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/backgrounds\/cooler\/cooler-large.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 443583,
+		"inputAbbreviatedPath": "\/_assets\/img\/backgrounds\/cooler\/cooler-large.jpg",
+		"outputAbbreviatedPath": "\/_assets\/img\/backgrounds\/cooler\/cooler-large.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/backgrounds\/cooler\/cooler-medium.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 92610,
+		"inputAbbreviatedPath": "\/_assets\/img\/backgrounds\/cooler\/cooler-medium.jpg",
+		"outputAbbreviatedPath": "\/_assets\/img\/backgrounds\/cooler\/cooler-medium.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/backgrounds\/cooler\/cooler-small.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28200,
+		"inputAbbreviatedPath": "\/_assets\/img\/backgrounds\/cooler\/cooler-small.jpg",
+		"outputAbbreviatedPath": "\/_assets\/img\/backgrounds\/cooler\/cooler-small.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_assets\/img\/backgrounds\/fishing\/fishing-extralarge.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
