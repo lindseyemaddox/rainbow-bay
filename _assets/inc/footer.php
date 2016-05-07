@@ -8,7 +8,13 @@
 
 				<div class="map" itemscope itemtype="http://schema.org/Map">
 
-					<img src="/_assets/img/map.png" alt="map of Alaska with a closer view of Angry Eagle Lodge &amp; Outfitters">
+	                <picture class="picturefill">
+	                  <!--[if IE 9]><video style="display: none;"><![endif]-->
+	                  <source srcset="/_assets/img/map-large.png, /_assets/img/map-extralarge.png 2x" media="(min-width: 2500px)">
+	                  <source srcset="/_assets/img/map-medium.png, /_assets/img/map-extramedium.png 2x" media="(min-width: 1000px)">
+	                  <!--[if IE 9]></video><![endif]-->
+	                  <img srcset="/_assets/img/map-small.png, /_assets/img/map-medium.png 2x" alt="map of Alaska with a closer view of Angry Eagle Lodge &amp; Outfitters">
+	                </picture>
 
 				</div><!--right-col-->
 

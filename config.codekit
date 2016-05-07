@@ -3319,13 +3319,57 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_assets\/img\/map.png": {
+	"\/_assets\/img\/map-extralarge.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 60609,
-		"inputAbbreviatedPath": "\/_assets\/img\/map.png",
-		"outputAbbreviatedPath": "\/_assets\/img\/map.png",
+		"inputAbbreviatedPath": "\/_assets\/img\/map-extralarge.png",
+		"outputAbbreviatedPath": "\/_assets\/img\/map-extralarge.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/map-extramedium.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 146143,
+		"inputAbbreviatedPath": "\/_assets\/img\/map-extramedium.png",
+		"outputAbbreviatedPath": "\/_assets\/img\/map-extramedium.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/map-large.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 339685,
+		"inputAbbreviatedPath": "\/_assets\/img\/map-large.png",
+		"outputAbbreviatedPath": "\/_assets\/img\/map-large.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/map-medium.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 146143,
+		"inputAbbreviatedPath": "\/_assets\/img\/map-medium.png",
+		"outputAbbreviatedPath": "\/_assets\/img\/map-medium.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/map-small.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 60326,
+		"inputAbbreviatedPath": "\/_assets\/img\/map-small.png",
+		"outputAbbreviatedPath": "\/_assets\/img\/map-small.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
