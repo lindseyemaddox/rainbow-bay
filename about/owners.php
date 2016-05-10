@@ -22,7 +22,7 @@
 
 </section><!--pattern-->
 
-<section id="bgFixed" class="subpage legacy">
+<section id="bgFixed" class="subpage pole">
 
 	<div class="inner">
 

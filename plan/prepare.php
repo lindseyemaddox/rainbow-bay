@@ -23,7 +23,7 @@
 
 </section><!--pattern-->
 
-<section id="bgFixed" class="subpage plane">
+<section id="bgFixed" class="subpage basket">
 
   <div class="inner">
 

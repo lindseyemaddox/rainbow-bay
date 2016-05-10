@@ -2585,7 +2585,6 @@ section.pattern.dark {
   background: url(/_assets/img/pattern-dark.png) repeat left top transparent;
 }
 section#bgFixed {
-  background-attachment: fixed;
   background-size: cover;
   width: 100%;
   height: 200px;
@@ -2608,27 +2607,33 @@ section#bgFixed.bears {
 section#bgFixed.fish {
   background-image: url(/_assets/img/fixed-fish.jpg);
 }
-section#bgFixed.media {
-  background-image: url(/_assets/img/fixed-media.jpg);
-}
 section#bgFixed.plane {
   background-image: url(/_assets/img/fixed-plane.jpg);
 }
-section#bgFixed.lodge {
-  background-image: url(/_assets/img/fixed-lodge.jpg);
-  background-position: center;
-}
-section#bgFixed.fleet {
-  background-image: url(/_assets/img/fixed-fleet.jpg);
-}
-section#bgFixed.staff {
-  background-image: url(/_assets/img/fixed-fish2.jpg);
-}
-section#bgFixed.legacy {
-  background-image: url(/_assets/img/fixed-legacy.jpg);
+section#bgFixed.mountains {
+  background-image: url(/_assets/img/backgrounds/mountains/mountains-extralarge.jpg);
 }
 section#bgFixed.cooler {
   background-image: url(/_assets/img/backgrounds/cooler/cooler-extralarge.jpg);
+}
+section#bgFixed.basket {
+  background-image: url(/_assets/img/backgrounds/basket/basket-extralarge.jpg);
+}
+section#bgFixed.pole {
+  background-image: url(/_assets/img/backgrounds/pole/pole-extralarge.jpg);
+}
+section#bgFixed.staff {
+  background-image: url(/_assets/img/backgrounds/sunset/sunset-extralarge.jpg);
+}
+section#bgFixed.lodge {
+  background-image: url(/_assets/img/backgrounds/hats/hats-extralarge.jpg);
+}
+section#bgFixed.fleet {
+  background-image: url(/_assets/img/backgrounds/line/line-extralarge.jpg);
+  background-position: bottom;
+}
+section#bgFixed.media {
+  background-image: url(/_assets/img/backgrounds/wall/wall-extralarge.jpg);
 }
 section#testimonials {
   padding: 60px 0;
@@ -2756,10 +2761,10 @@ section#four-group article.media-item img {
   width: 100%;
   margin-top: 20px;
 }
-section.legacy {
+section.pole {
   padding: 124px 0 170px;
 }
-section.legacy a.legacy-item {
+section.pole a.legacy-item {
   width: 30%;
   margin: 0 1% 20px;
   background: url(/_assets/img/pattern.png) repeat left top transparent;
@@ -2768,20 +2773,20 @@ section.legacy a.legacy-item {
   vertical-align: top;
   text-decoration: none;
 }
-section.legacy a.legacy-item span {
+section.pole a.legacy-item span {
   display: block;
   margin: 0 auto;
   color: #b8c6bc;
   width: 30px;
   font-size: 2em;
 }
-section.legacy a.legacy-item h4 {
+section.pole a.legacy-item h4 {
   color: #504e3c;
   border-bottom-color: #b8c6bc;
   font-size: 1.8em;
   min-height: 115px;
 }
-section.legacy a.legacy-item img {
+section.pole a.legacy-item img {
   width: 100%;
   margin-top: 20px;
 }
@@ -3432,7 +3437,8 @@ section.staff a.staff-item img {
   nav ul li {
     margin-right: 10px;
   }
-  section.staff a.staff-item {
+  section.staff a.staff-item,
+  section.pole a.legacy-item {
     min-height: 0;
   }
   h4 {
@@ -3631,7 +3637,8 @@ section.staff a.staff-item img {
   h4 {
     font-size: 1.6em;
   }
-  section.staff a.staff-item {
+  section.staff a.staff-item,
+  section.pole a.legacy-item {
     padding: 20px 2%;
   }
   section#species article div.fish h5 {
@@ -3881,6 +3888,7 @@ section.staff a.staff-item img {
     width: 41%;
   }
   section.staff a.staff-item,
+  section.pole a.legacy-item,
   section.fleet article.fleet-item {
     width: 47%;
   }
@@ -3963,10 +3971,12 @@ section.staff a.staff-item img {
     font-size: 1.9em;
     padding-bottom: 10px;
   }
-  section.staff a.staff-item {
+  section.staff a.staff-item,
+  section.pole a.legacy-item {
     padding: 10px 2%;
   }
-  section.staff a.staff-item img {
+  section.staff a.staff-item img,
+  section.pole a.legacy-item img {
     margin-top: 10px;
   }
   section.media div#container article.media-item {
@@ -4095,6 +4105,11 @@ section.staff a.staff-item img {
   footer div.addresses a.icon.icon-google-plus {
     margin-left: 20%;
   }
+  section.staff a.staff-item,
+  section.pole a.legacy-item,
+  section.fleet article.fleet-item {
+    width: 100%;
+  }
 }
 @media screen and (max-width: 320px) {
   footer div.addresses a.icon.icon-google-plus {
@@ -4108,6 +4123,24 @@ section.staff a.staff-item img {
   section#bgFixed.cooler {
     background-image: url(/_assets/img/backgrounds/cooler/cooler-large.jpg);
   }
+  section#bgFixed.basket {
+    background-image: url(/_assets/img/backgrounds/basket/basket-large.jpg);
+  }
+  section#bgFixed.pole {
+    background-image: url(/_assets/img/backgrounds/pole/pole-large.jpg);
+  }
+  section#bgFixed.staff {
+    background-image: url(/_assets/img/backgrounds/sunset/sunset-large.jpg);
+  }
+  section#bgFixed.lodge {
+    background-image: url(/_assets/img/backgrounds/hats/hats-large.jpg);
+  }
+  section#bgFixed.fleet {
+    background-image: url(/_assets/img/backgrounds/line/line-large.jpg);
+  }
+  section#bgFixed.media {
+    background-image: url(/_assets/img/backgrounds/wall/wall-large.jpg);
+  }
 }
 @media (max-width: 1000px) and (-webkit-min-device-pixel-ratio: 2), (max-width: 1000px) and (min-resolution: 192dpi) {
   section#bgFixed.mountains {
@@ -4117,6 +4150,24 @@ section.staff a.staff-item img {
   section#bgFixed.cooler {
     background-image: url(/_assets/img/backgrounds/cooler/cooler-extramedium.jpg);
   }
+  section#bgFixed.basket {
+    background-image: url(/_assets/img/backgrounds/basket/basket-extramedium.jpg);
+  }
+  section#bgFixed.pole {
+    background-image: url(/_assets/img/backgrounds/pole/pole-extramedium.jpg);
+  }
+  section#bgFixed.staff {
+    background-image: url(/_assets/img/backgrounds/sunset/sunset-extramedium.jpg);
+  }
+  section#bgFixed.lodge {
+    background-image: url(/_assets/img/backgrounds/hats/hats-extramedium.jpg);
+  }
+  section#bgFixed.fleet {
+    background-image: url(/_assets/img/backgrounds/line/line-extramedium.jpg);
+  }
+  section#bgFixed.media {
+    background-image: url(/_assets/img/backgrounds/wall/wall-extramedium.jpg);
+  }
 }
 @media (max-width: 500px) and (-webkit-min-device-pixel-ratio: 2), (max-width: 500px) and (min-resolution: 192dpi) {
   section#bgFixed.mountains {
@@ -4124,6 +4175,24 @@ section.staff a.staff-item img {
   }
   section#bgFixed.cooler {
     background-image: url(/_assets/img/backgrounds/cooler/cooler-medium.jpg);
+  }
+  section#bgFixed.basket {
+    background-image: url(/_assets/img/backgrounds/basket/basket-medium.jpg);
+  }
+  section#bgFixed.pole {
+    background-image: url(/_assets/img/backgrounds/pole/pole-medium.jpg);
+  }
+  section#bgFixed.staff {
+    background-image: url(/_assets/img/backgrounds/sunset/sunset-medium.jpg);
+  }
+  section#bgFixed.lodge {
+    background-image: url(/_assets/img/backgrounds/hats/hats-medium.jpg);
+  }
+  section#bgFixed.fleet {
+    background-image: url(/_assets/img/backgrounds/line/line-medium.jpg);
+  }
+  section#bgFixed.media {
+    background-image: url(/_assets/img/backgrounds/wall/wall-medium.jpg);
   }
 }
 @media (max-width: 250px) and (-webkit-min-device-pixel-ratio: 2), (max-width: 250px) and (min-resolution: 192dpi) {
@@ -4133,6 +4202,24 @@ section.staff a.staff-item img {
   section#bgFixed.cooler {
     background-image: url(/_assets/img/backgrounds/cooler/cooler-small.jpg);
   }
+  section#bgFixed.basket {
+    background-image: url(/_assets/img/backgrounds/basket/basket-small.jpg);
+  }
+  section#bgFixed.pole {
+    background-image: url(/_assets/img/backgrounds/pole/pole-small.jpg);
+  }
+  section#bgFixed.staff {
+    background-image: url(/_assets/img/backgrounds/sunset/sunset-small.jpg);
+  }
+  section#bgFixed.lodge {
+    background-image: url(/_assets/img/backgrounds/hats/hats-small.jpg);
+  }
+  section#bgFixed.fleet {
+    background-image: url(/_assets/img/backgrounds/line/line-small.jpg);
+  }
+  section#bgFixed.media {
+    background-image: url(/_assets/img/backgrounds/wall/wall-small.jpg);
+  }
 }
 @media (max-width: 2500px) and (-webkit-max-device-pixel-ratio: 1.5), (max-width: 2500px) and (max-resolution: 191dpi) {
   section#bgFixed.mountains {
@@ -4140,6 +4227,24 @@ section.staff a.staff-item img {
   }
   section#bgFixed.cooler {
     background-image: url(/_assets/img/backgrounds/cooler/cooler-large.jpg);
+  }
+  section#bgFixed.basket {
+    background-image: url(/_assets/img/backgrounds/basket/basket-large.jpg);
+  }
+  section#bgFixed.pole {
+    background-image: url(/_assets/img/backgrounds/pole/pole-large.jpg);
+  }
+  section#bgFixed.staff {
+    background-image: url(/_assets/img/backgrounds/sunset/sunset-large.jpg);
+  }
+  section#bgFixed.lodge {
+    background-image: url(/_assets/img/backgrounds/hats/hats-large.jpg);
+  }
+  section#bgFixed.fleet {
+    background-image: url(/_assets/img/backgrounds/line/line-large.jpg);
+  }
+  section#bgFixed.media {
+    background-image: url(/_assets/img/backgrounds/wall/wall-large.jpg);
   }
 }
 @media (max-width: 2000px) and (-webkit-max-device-pixel-ratio: 1.5), (max-width: 2000px) and (max-resolution: 191dpi) {
@@ -4149,6 +4254,24 @@ section.staff a.staff-item img {
   section#bgFixed.cooler {
     background-image: url(/_assets/img/backgrounds/cooler/cooler-extramedium.jpg);
   }
+  section#bgFixed.basket {
+    background-image: url(/_assets/img/backgrounds/basket/basket-extramedium.jpg);
+  }
+  section#bgFixed.pole {
+    background-image: url(/_assets/img/backgrounds/pole/pole-extramedium.jpg);
+  }
+  section#bgFixed.staff {
+    background-image: url(/_assets/img/backgrounds/sunset/sunset-extramedium.jpg);
+  }
+  section#bgFixed.lodge {
+    background-image: url(/_assets/img/backgrounds/hats/hats-extramedium.jpg);
+  }
+  section#bgFixed.fleet {
+    background-image: url(/_assets/img/backgrounds/line/line-extramedium.jpg);
+  }
+  section#bgFixed.media {
+    background-image: url(/_assets/img/backgrounds/wall/wall-extramedium.jpg);
+  }
 }
 @media (max-width: 1000px) and (-webkit-max-device-pixel-ratio: 1.5), (max-width: 1000px) and (max-resolution: 191dpi) {
   section#bgFixed.mountains {
@@ -4157,6 +4280,24 @@ section.staff a.staff-item img {
   section#bgFixed.cooler {
     background-image: url(/_assets/img/backgrounds/cooler/cooler-medium.jpg);
   }
+  section#bgFixed.basket {
+    background-image: url(/_assets/img/backgrounds/basket/basket-medium.jpg);
+  }
+  section#bgFixed.pole {
+    background-image: url(/_assets/img/backgrounds/pole/pole-medium.jpg);
+  }
+  section#bgFixed.staff {
+    background-image: url(/_assets/img/backgrounds/sunset/sunset-medium.jpg);
+  }
+  section#bgFixed.lodge {
+    background-image: url(/_assets/img/backgrounds/hats/hats-medium.jpg);
+  }
+  section#bgFixed.fleet {
+    background-image: url(/_assets/img/backgrounds/line/line-medium.jpg);
+  }
+  section#bgFixed.media {
+    background-image: url(/_assets/img/backgrounds/wall/wall-medium.jpg);
+  }
 }
 @media (max-width: 500px) and (-webkit-max-device-pixel-ratio: 1.5), (max-width: 500px) and (max-resolution: 191dpi) {
   section#bgFixed.mountains {
@@ -4164,5 +4305,23 @@ section.staff a.staff-item img {
   }
   section#bgFixed.cooler {
     background-image: url(/_assets/img/backgrounds/cooler/cooler-small.jpg);
+  }
+  section#bgFixed.basket {
+    background-image: url(/_assets/img/backgrounds/basket/basket-small.jpg);
+  }
+  section#bgFixed.pole {
+    background-image: url(/_assets/img/backgrounds/pole/pole-small.jpg);
+  }
+  section#bgFixed.staff {
+    background-image: url(/_assets/img/backgrounds/sunset/sunset-small.jpg);
+  }
+  section#bgFixed.lodge {
+    background-image: url(/_assets/img/backgrounds/hats/hats-small.jpg);
+  }
+  section#bgFixed.fleet {
+    background-image: url(/_assets/img/backgrounds/line/line-small.jpg);
+  }
+  section#bgFixed.media {
+    background-image: url(/_assets/img/backgrounds/wall/wall-small.jpg);
   }
 }
